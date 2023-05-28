@@ -1,0 +1,4401 @@
+week,sku,weekly_sales,EV,color,price,vendor,functionality
+10/31/16,1,135,TRUE,white,10.16,6,Container
+11/7/16,1,102,TRUE,white,9.86,6,Container
+11/14/16,1,110,TRUE,white,10.24,6,Container
+11/21/16,1,127,TRUE,white,8.27,6,Container
+11/28/16,1,84,TRUE,white,8.83,6,Container
+12/5/16,1,87,TRUE,white,8.98,6,Container
+12/12/16,1,64,TRUE,white,10.4,6,Container
+12/19/16,1,128,TRUE,white,9.57,6,Container
+12/26/16,1,23,TRUE,white,10.49,6,Container
+1/2/17,1,154,TRUE,white,9.19,6,Container
+1/9/17,1,85,TRUE,white,11.91,6,Container
+1/16/17,1,11,FALSE,white,23.19,6,Container
+1/23/17,1,19,FALSE,white,20.59,6,Container
+1/30/17,1,17,FALSE,white,20.74,6,Container
+2/6/17,1,17,FALSE,white,21.94,6,Container
+2/13/17,1,17,FALSE,white,19.73,6,Container
+2/20/17,1,13,FALSE,white,23.88,6,Container
+2/27/17,1,8,FALSE,white,26.11,6,Container
+3/6/17,1,8,FALSE,white,27.5,6,Container
+3/13/17,1,5,FALSE,white,27.69,6,Container
+3/20/17,1,6,FALSE,white,28.69,6,Container
+3/27/17,1,9,FALSE,white,21.21,6,Container
+4/3/17,1,6,TRUE,white,27.69,6,Container
+4/10/17,1,4,FALSE,white,27.69,6,Container
+4/17/17,1,13,FALSE,white,29.69,6,Container
+4/24/17,1,7,FALSE,white,27.69,6,Container
+5/1/17,1,9,FALSE,white,23.79,6,Container
+5/8/17,1,4,FALSE,white,26.5,6,Container
+5/15/17,1,5,FALSE,white,28.69,6,Container
+5/22/17,1,9,FALSE,white,24.42,6,Container
+5/29/17,1,7,FALSE,white,28.69,6,Container
+6/5/17,1,8,FALSE,white,27.69,6,Container
+6/12/17,1,11,FALSE,white,22.35,6,Container
+6/19/17,1,5,FALSE,white,29.69,6,Container
+6/26/17,1,8,FALSE,white,27.69,6,Container
+7/3/17,1,7,FALSE,white,13.11,6,Container
+7/10/17,1,10,FALSE,white,28.31,6,Container
+7/17/17,1,7,FALSE,white,27.69,6,Container
+7/24/17,1,5,FALSE,white,28.74,6,Container
+7/31/17,1,5,FALSE,white,27.69,6,Container
+8/7/17,1,13,FALSE,white,27.69,6,Container
+8/14/17,1,4,FALSE,white,23.01,6,Container
+8/21/17,1,7,FALSE,white,22.64,6,Container
+8/28/17,1,10,FALSE,white,23.98,6,Container
+9/4/17,1,7,FALSE,white,21.4,6,Container
+9/11/17,1,5,FALSE,white,26.49,6,Container
+9/18/17,1,6,FALSE,white,25.49,6,Container
+9/25/17,1,11,FALSE,white,26.49,6,Container
+10/2/17,1,12,FALSE,white,25.98,6,Container
+10/9/17,1,4,FALSE,white,27.49,6,Container
+10/16/17,1,9,FALSE,white,25.49,6,Container
+10/23/17,1,11,FALSE,white,26.47,6,Container
+10/30/17,1,8,FALSE,white,21.33,6,Container
+11/6/17,1,8,FALSE,white,24.7,6,Container
+11/13/17,1,17,FALSE,white,26.89,6,Container
+11/20/17,1,8,FALSE,white,24.98,6,Container
+11/27/17,1,7,FALSE,white,26.49,6,Container
+12/4/17,1,7,FALSE,white,26.49,6,Container
+12/11/17,1,9,FALSE,white,23.04,6,Container
+12/18/17,1,3,FALSE,white,26.49,6,Container
+12/25/17,1,10,FALSE,white,27.49,6,Container
+1/1/18,1,7,FALSE,white,24.3,6,Container
+1/8/18,1,13,FALSE,white,25.49,6,Container
+1/15/18,1,11,FALSE,white,24.8,6,Container
+1/22/18,1,6,FALSE,white,26.49,6,Container
+1/29/18,1,5,FALSE,white,25.49,6,Container
+2/5/18,1,7,FALSE,white,26.49,6,Container
+2/12/18,1,8,TRUE,white,25.18,6,Container
+2/19/18,1,3,FALSE,white,25.43,6,Container
+2/26/18,1,10,FALSE,white,22,6,Container
+3/5/18,1,14,FALSE,white,27.49,6,Container
+3/12/18,1,29,TRUE,white,25.32,6,Container
+3/19/18,1,26,FALSE,white,25.49,6,Container
+3/26/18,1,16,FALSE,white,27.49,6,Container
+4/2/18,1,28,TRUE,white,27.49,6,Container
+4/9/18,1,13,FALSE,white,25.49,6,Container
+4/16/18,1,15,FALSE,white,25.49,6,Container
+4/23/18,1,27,TRUE,white,26.49,6,Container
+4/30/18,1,13,FALSE,white,27.49,6,Container
+5/7/18,1,26,TRUE,white,26.49,6,Container
+5/14/18,1,20,FALSE,white,25.49,6,Container
+5/21/18,1,23,FALSE,white,25.49,6,Container
+5/28/18,1,21,FALSE,white,27.49,6,Container
+6/4/18,1,21,FALSE,white,22.85,6,Container
+6/11/18,1,22,FALSE,white,22.85,6,Container
+6/18/18,1,21,FALSE,white,24.85,6,Container
+6/25/18,1,23,FALSE,white,24.85,6,Container
+7/2/18,1,28,TRUE,white,26.49,6,Container
+7/9/18,1,16,FALSE,white,25.49,6,Container
+7/16/18,1,32,TRUE,white,25.49,6,Container
+7/23/18,1,17,TRUE,white,21.42,6,Container
+7/30/18,1,15,FALSE,white,31.56,6,Container
+8/6/18,1,18,FALSE,white,31.56,6,Container
+8/13/18,1,10,FALSE,white,30.56,6,Container
+8/20/18,1,16,FALSE,white,30.56,6,Container
+8/27/18,1,16,FALSE,white,29.56,6,Container
+9/3/18,1,15,FALSE,white,31.56,6,Container
+9/10/18,1,21,FALSE,white,25.49,6,Container
+9/17/18,1,32,TRUE,white,22.05,6,Container
+9/24/18,1,19,FALSE,white,27.49,6,Container
+10/31/16,1,9,FALSE,grey,62.93,1,Colt Diesel Double
+11/7/16,1,6,FALSE,grey,64.99,1,Colt Diesel Double
+11/14/16,1,2,FALSE,grey,65.99,1,Colt Diesel Double
+11/21/16,1,2,FALSE,grey,63.99,1,Colt Diesel Double
+11/28/16,1,6,FALSE,grey,59.49,1,Colt Diesel Double
+12/5/16,1,2,FALSE,grey,64.99,1,Colt Diesel Double
+12/12/16,1,8,FALSE,grey,65.99,1,Colt Diesel Double
+12/19/16,1,3,FALSE,grey,64.99,1,Colt Diesel Double
+12/26/16,1,3,FALSE,grey,64.99,1,Colt Diesel Double
+1/2/17,1,1,FALSE,grey,64.99,1,Colt Diesel Double
+1/9/17,1,3,FALSE,grey,64.99,1,Colt Diesel Double
+1/16/17,1,3,FALSE,grey,64.99,1,Colt Diesel Double
+1/23/17,1,8,FALSE,grey,65.99,1,Colt Diesel Double
+1/30/17,1,2,FALSE,grey,63.99,1,Colt Diesel Double
+2/6/17,1,3,FALSE,grey,63.99,1,Colt Diesel Double
+2/13/17,1,7,FALSE,grey,64.99,1,Colt Diesel Double
+2/20/17,1,2,FALSE,grey,30.99,1,Colt Diesel Double
+2/27/17,1,4,TRUE,grey,63.24,1,Colt Diesel Double
+3/6/17,1,8,TRUE,grey,53.99,1,Colt Diesel Double
+3/13/17,1,8,FALSE,grey,52.05,1,Colt Diesel Double
+3/20/17,1,8,FALSE,grey,75.14,1,Colt Diesel Double
+3/27/17,1,2,FALSE,grey,71.49,1,Colt Diesel Double
+4/3/17,1,3,FALSE,grey,64.99,1,Colt Diesel Double
+4/10/17,1,6,FALSE,grey,75.99,1,Colt Diesel Double
+4/17/17,1,5,FALSE,grey,63.99,1,Colt Diesel Double
+4/24/17,1,4,TRUE,grey,54.99,1,Colt Diesel Double
+5/1/17,1,23,TRUE,grey,56.09,1,Colt Diesel Double
+5/8/17,1,3,FALSE,grey,64.99,1,Colt Diesel Double
+5/15/17,1,27,TRUE,grey,40.57,1,Colt Diesel Double
+5/22/17,1,7,TRUE,grey,47.66,1,Colt Diesel Double
+5/29/17,1,7,FALSE,grey,65.99,1,Colt Diesel Double
+6/5/17,1,7,FALSE,grey,64.99,1,Colt Diesel Double
+6/12/17,1,3,FALSE,grey,64.99,1,Colt Diesel Double
+6/19/17,1,1,FALSE,grey,64.99,1,Colt Diesel Double
+6/26/17,1,6,FALSE,grey,64.99,1,Colt Diesel Double
+7/3/17,1,5,FALSE,grey,65.99,1,Colt Diesel Double
+7/10/17,1,7,FALSE,grey,58.72,1,Colt Diesel Double
+7/17/17,1,6,FALSE,grey,63.99,1,Colt Diesel Double
+7/24/17,1,9,FALSE,grey,62.34,1,Colt Diesel Double
+7/31/17,1,3,FALSE,grey,64.99,1,Colt Diesel Double
+8/7/17,1,3,FALSE,grey,63.99,1,Colt Diesel Double
+8/14/17,1,9,FALSE,grey,61.19,1,Colt Diesel Double
+8/21/17,1,2,FALSE,grey,63.99,1,Colt Diesel Double
+8/28/17,1,6,FALSE,grey,50.21,1,Colt Diesel Double
+9/4/17,1,4,FALSE,grey,65.99,1,Colt Diesel Double
+9/11/17,1,5,FALSE,grey,56.73,1,Colt Diesel Double
+9/18/17,1,7,FALSE,grey,64.99,1,Colt Diesel Double
+9/25/17,1,13,FALSE,grey,65.99,1,Colt Diesel Double
+10/2/17,1,3,FALSE,grey,57.07,1,Colt Diesel Double
+10/9/17,1,6,FALSE,grey,57.07,1,Colt Diesel Double
+10/16/17,1,5,FALSE,grey,71.49,1,Colt Diesel Double
+10/23/17,1,1,FALSE,grey,71.49,1,Colt Diesel Double
+10/30/17,1,6,FALSE,grey,66.81,1,Colt Diesel Double
+11/6/17,1,6,FALSE,grey,65.13,1,Colt Diesel Double
+11/13/17,1,6,FALSE,grey,69.49,1,Colt Diesel Double
+11/20/17,1,2,FALSE,grey,70.49,1,Colt Diesel Double
+11/27/17,1,2,FALSE,grey,70.49,1,Colt Diesel Double
+12/4/17,1,3,FALSE,grey,69.49,1,Colt Diesel Double
+12/11/17,1,3,FALSE,grey,69.49,1,Colt Diesel Double
+12/18/17,1,5,FALSE,grey,70.49,1,Colt Diesel Double
+12/25/17,1,8,FALSE,grey,71.49,1,Colt Diesel Double
+1/1/18,1,2,FALSE,grey,71.49,1,Colt Diesel Double
+1/8/18,1,3,FALSE,grey,71.49,1,Colt Diesel Double
+1/15/18,1,6,FALSE,grey,70.49,1,Colt Diesel Double
+1/22/18,1,2,FALSE,grey,71.49,1,Colt Diesel Double
+1/29/18,1,9,FALSE,grey,65.36,1,Colt Diesel Double
+2/5/18,1,8,FALSE,grey,65.99,1,Colt Diesel Double
+2/12/18,1,8,FALSE,grey,75.42,1,Colt Diesel Double
+2/19/18,1,49,TRUE,grey,64.99,1,Colt Diesel Double
+2/26/18,1,48,FALSE,grey,61.97,1,Colt Diesel Double
+3/5/18,1,27,FALSE,grey,65.99,1,Colt Diesel Double
+3/12/18,1,52,FALSE,grey,63.99,1,Colt Diesel Double
+3/19/18,1,34,FALSE,grey,64.99,1,Colt Diesel Double
+3/26/18,1,9,FALSE,grey,64.99,1,Colt Diesel Double
+4/2/18,1,10,TRUE,grey,65.99,1,Colt Diesel Double
+4/9/18,1,9,FALSE,grey,63.99,1,Colt Diesel Double
+4/16/18,1,12,FALSE,grey,65.99,1,Colt Diesel Double
+4/23/18,1,10,FALSE,grey,64.99,1,Colt Diesel Double
+4/30/18,1,18,FALSE,grey,54.67,1,Colt Diesel Double
+5/7/18,1,16,FALSE,grey,50.79,1,Colt Diesel Double
+5/14/18,1,11,FALSE,grey,64.99,1,Colt Diesel Double
+5/21/18,1,12,FALSE,grey,64.99,1,Colt Diesel Double
+5/28/18,1,15,FALSE,grey,55.75,1,Colt Diesel Double
+6/4/18,1,17,FALSE,grey,53.99,1,Colt Diesel Double
+6/11/18,1,15,FALSE,grey,53.99,1,Colt Diesel Double
+6/18/18,1,12,FALSE,grey,64.99,1,Colt Diesel Double
+6/25/18,1,14,FALSE,grey,65.99,1,Colt Diesel Double
+7/2/18,1,2,FALSE,grey,73.89,1,Colt Diesel Double
+7/9/18,1,4,FALSE,grey,75.89,1,Colt Diesel Double
+7/16/18,1,5,FALSE,grey,75.89,1,Colt Diesel Double
+7/23/18,1,8,FALSE,grey,69.77,1,Colt Diesel Double
+7/30/18,1,7,FALSE,grey,71.09,1,Colt Diesel Double
+8/6/18,1,6,FALSE,grey,73.89,1,Colt Diesel Double
+8/13/18,1,5,FALSE,grey,70.09,1,Colt Diesel Double
+8/20/18,1,5,FALSE,grey,75.89,1,Colt Diesel Double
+8/27/18,1,4,FALSE,grey,75.89,1,Colt Diesel Double
+9/3/18,1,10,FALSE,grey,73.89,1,Colt Diesel Double
+9/10/18,1,9,FALSE,grey,59.37,1,Colt Diesel Double
+9/17/18,1,11,FALSE,grey,57.39,1,Colt Diesel Double
+9/24/18,1,11,FALSE,grey,63.99,1,Colt Diesel Double
+10/31/16,1,6,FALSE,silver,103.9,1,Colt Diesel Double
+11/7/16,1,3,FALSE,silver,109.99,1,Colt Diesel Double
+11/14/16,1,38,FALSE,silver,73.02,1,Colt Diesel Double
+11/21/16,1,18,FALSE,silver,77.25,1,Colt Diesel Double
+11/28/16,1,17,FALSE,silver,81.49,1,Colt Diesel Double
+12/5/16,1,8,FALSE,silver,84.78,1,Colt Diesel Double
+12/12/16,1,9,FALSE,silver,86.88,1,Colt Diesel Double
+12/19/16,1,12,FALSE,silver,81.1,1,Colt Diesel Double
+12/26/16,1,14,FALSE,silver,80.49,1,Colt Diesel Double
+1/2/17,1,5,FALSE,silver,91.66,1,Colt Diesel Double
+1/9/17,1,7,FALSE,silver,107.99,1,Colt Diesel Double
+1/16/17,1,3,FALSE,silver,108.99,1,Colt Diesel Double
+1/23/17,1,8,FALSE,silver,107.99,1,Colt Diesel Double
+1/30/17,1,3,FALSE,silver,109.99,1,Colt Diesel Double
+2/6/17,1,3,FALSE,silver,107.99,1,Colt Diesel Double
+2/13/17,1,8,FALSE,silver,102.94,1,Colt Diesel Double
+2/20/17,1,9,FALSE,silver,54.99,1,Colt Diesel Double
+2/27/17,1,7,FALSE,silver,109.99,1,Colt Diesel Double
+3/6/17,1,5,FALSE,silver,108.99,1,Colt Diesel Double
+3/13/17,1,6,FALSE,silver,108.99,1,Colt Diesel Double
+3/20/17,1,8,FALSE,silver,107.99,1,Colt Diesel Double
+3/27/17,1,11,FALSE,silver,108.99,1,Colt Diesel Double
+4/3/17,1,3,FALSE,silver,107.99,1,Colt Diesel Double
+4/10/17,1,10,FALSE,silver,109.99,1,Colt Diesel Double
+4/17/17,1,6,FALSE,silver,108.99,1,Colt Diesel Double
+4/24/17,1,9,FALSE,silver,62.97,1,Colt Diesel Double
+5/1/17,1,8,FALSE,silver,107.89,1,Colt Diesel Double
+5/8/17,1,5,FALSE,silver,107.99,1,Colt Diesel Double
+5/15/17,1,7,FALSE,silver,108.99,1,Colt Diesel Double
+5/22/17,1,9,TRUE,silver,100.27,1,Colt Diesel Double
+5/29/17,1,11,TRUE,silver,85.99,1,Colt Diesel Double
+6/5/17,1,3,FALSE,silver,109.99,1,Colt Diesel Double
+6/12/17,1,6,FALSE,silver,109.99,1,Colt Diesel Double
+6/19/17,1,5,FALSE,silver,108.99,1,Colt Diesel Double
+6/26/17,1,8,FALSE,silver,107.99,1,Colt Diesel Double
+7/3/17,1,7,FALSE,silver,109.99,1,Colt Diesel Double
+7/10/17,1,12,FALSE,silver,92.49,1,Colt Diesel Double
+7/17/17,1,6,TRUE,silver,86.07,1,Colt Diesel Double
+7/24/17,1,15,TRUE,silver,88.74,1,Colt Diesel Double
+7/31/17,1,11,FALSE,silver,109.99,1,Colt Diesel Double
+8/7/17,1,12,FALSE,silver,109.99,1,Colt Diesel Double
+8/14/17,1,4,FALSE,silver,108.99,1,Colt Diesel Double
+8/21/17,1,9,FALSE,silver,107.99,1,Colt Diesel Double
+8/28/17,1,6,FALSE,silver,107.99,1,Colt Diesel Double
+9/4/17,1,9,FALSE,silver,89.66,1,Colt Diesel Double
+9/11/17,1,3,FALSE,silver,108.99,1,Colt Diesel Double
+9/18/17,1,3,FALSE,silver,107.99,1,Colt Diesel Double
+9/25/17,1,10,FALSE,silver,98.36,1,Colt Diesel Double
+10/2/17,1,4,FALSE,silver,109.99,1,Colt Diesel Double
+10/9/17,1,10,FALSE,silver,107.99,1,Colt Diesel Double
+10/16/17,1,6,FALSE,silver,107.99,1,Colt Diesel Double
+10/23/17,1,10,FALSE,silver,106.01,1,Colt Diesel Double
+10/30/17,1,2,FALSE,silver,109.99,1,Colt Diesel Double
+11/6/17,1,6,FALSE,silver,102.31,1,Colt Diesel Double
+11/13/17,1,9,FALSE,silver,102.07,1,Colt Diesel Double
+11/20/17,1,7,FALSE,silver,108.1,1,Colt Diesel Double
+11/27/17,1,6,FALSE,silver,109.99,1,Colt Diesel Double
+12/4/17,1,5,FALSE,silver,105.59,1,Colt Diesel Double
+12/11/17,1,9,FALSE,silver,107.99,1,Colt Diesel Double
+12/18/17,1,7,FALSE,silver,104.59,1,Colt Diesel Double
+12/25/17,1,5,FALSE,silver,107.99,1,Colt Diesel Double
+1/1/18,1,6,FALSE,silver,101.39,1,Colt Diesel Double
+1/8/18,1,12,FALSE,silver,102.02,1,Colt Diesel Double
+1/15/18,1,6,FALSE,silver,105.35,1,Colt Diesel Double
+1/22/18,1,7,FALSE,silver,103.39,1,Colt Diesel Double
+1/29/18,1,5,FALSE,silver,104.69,1,Colt Diesel Double
+2/5/18,1,8,FALSE,silver,105.08,1,Colt Diesel Double
+2/12/18,1,16,FALSE,silver,109.99,1,Colt Diesel Double
+2/19/18,1,7,FALSE,silver,101.39,1,Colt Diesel Double
+2/26/18,1,8,FALSE,silver,104.03,1,Colt Diesel Double
+3/5/18,1,11,FALSE,silver,108.99,1,Colt Diesel Double
+3/12/18,1,13,FALSE,silver,104.59,1,Colt Diesel Double
+3/19/18,1,14,FALSE,silver,106.09,1,Colt Diesel Double
+3/26/18,1,16,FALSE,silver,107.3,1,Colt Diesel Double
+4/2/18,1,12,FALSE,silver,106.52,1,Colt Diesel Double
+4/9/18,1,6,FALSE,silver,108.99,1,Colt Diesel Double
+4/16/18,1,13,FALSE,silver,107.99,1,Colt Diesel Double
+4/23/18,1,8,FALSE,silver,108.99,1,Colt Diesel Double
+4/30/18,1,14,FALSE,silver,108.99,1,Colt Diesel Double
+5/7/18,1,18,FALSE,silver,94.28,1,Colt Diesel Double
+5/14/18,1,22,TRUE,silver,108.99,1,Colt Diesel Double
+5/21/18,1,13,FALSE,silver,108.99,1,Colt Diesel Double
+5/28/18,1,15,FALSE,silver,109.99,1,Colt Diesel Double
+6/4/18,1,20,TRUE,silver,109.25,1,Colt Diesel Double
+6/11/18,1,20,FALSE,silver,111.19,1,Colt Diesel Double
+6/18/18,1,14,FALSE,silver,110.19,1,Colt Diesel Double
+6/25/18,1,26,TRUE,silver,109.99,1,Colt Diesel Double
+7/2/18,1,16,TRUE,silver,108.99,1,Colt Diesel Double
+7/9/18,1,15,TRUE,silver,109.99,1,Colt Diesel Double
+7/16/18,1,35,TRUE,silver,107.99,1,Colt Diesel Double
+7/23/18,1,25,FALSE,silver,109.99,1,Colt Diesel Double
+7/30/18,1,20,TRUE,silver,108.99,1,Colt Diesel Double
+8/6/18,1,13,FALSE,silver,109.99,1,Colt Diesel Double
+8/13/18,1,22,FALSE,silver,108.99,1,Colt Diesel Double
+8/20/18,1,24,TRUE,silver,108.99,1,Colt Diesel Double
+8/27/18,1,15,TRUE,silver,109.99,1,Colt Diesel Double
+9/3/18,1,14,FALSE,silver,109.99,1,Colt Diesel Double
+9/10/18,1,18,TRUE,silver,107.16,1,Colt Diesel Double
+9/17/18,1,9,FALSE,silver,107.99,1,Colt Diesel Double
+9/24/18,1,11,FALSE,silver,107.99,1,Colt Diesel Double
+10/31/16,1,28,FALSE,red,13.2,6,Container
+11/7/16,1,19,TRUE,red,12.25,6,Container
+11/14/16,1,9,TRUE,red,14.29,6,Container
+11/21/16,1,14,TRUE,red,14.29,6,Container
+11/28/16,1,7,TRUE,red,12.29,6,Container
+12/5/16,1,10,TRUE,red,13.29,6,Container
+12/12/16,1,14,TRUE,red,13.88,6,Container
+12/19/16,1,23,TRUE,red,14.29,6,Container
+12/26/16,1,15,TRUE,red,13.29,6,Container
+1/2/17,1,9,TRUE,red,14.65,6,Container
+1/9/17,1,17,TRUE,red,14.29,6,Container
+1/16/17,1,5,TRUE,red,13.29,6,Container
+1/23/17,1,6,TRUE,red,12.29,6,Container
+1/30/17,1,10,TRUE,red,15.14,6,Container
+2/6/17,1,11,TRUE,red,12.29,6,Container
+2/13/17,1,4,TRUE,red,13.29,6,Container
+2/20/17,1,9,TRUE,red,13.29,6,Container
+2/27/17,1,7,FALSE,red,20.99,6,Container
+3/6/17,1,8,FALSE,red,20.99,6,Container
+3/13/17,1,10,TRUE,red,14.29,6,Container
+3/20/17,1,11,FALSE,red,18.63,6,Container
+3/27/17,1,7,TRUE,red,16.49,6,Container
+4/3/17,1,6,FALSE,red,18.45,6,Container
+4/10/17,1,9,TRUE,red,12.29,6,Container
+4/17/17,1,9,TRUE,red,12.29,6,Container
+4/24/17,1,7,FALSE,red,21.99,6,Container
+5/1/17,1,8,FALSE,red,19.99,6,Container
+5/8/17,1,3,FALSE,red,19.99,6,Container
+5/15/17,1,7,FALSE,red,19.71,6,Container
+5/22/17,1,9,TRUE,red,14.29,6,Container
+5/29/17,1,23,TRUE,red,13.96,6,Container
+6/5/17,1,9,FALSE,red,18.08,6,Container
+6/12/17,1,9,TRUE,red,15.49,6,Container
+6/19/17,1,3,FALSE,red,24.29,6,Container
+6/26/17,1,6,FALSE,red,22.53,6,Container
+7/3/17,1,7,FALSE,red,23.29,6,Container
+7/10/17,1,6,FALSE,red,25.29,6,Container
+7/17/17,1,4,FALSE,red,25.29,6,Container
+7/24/17,1,7,FALSE,red,23.29,6,Container
+7/31/17,1,1,FALSE,red,23.01,6,Container
+8/7/17,1,2,FALSE,red,25.29,6,Container
+8/14/17,1,5,TRUE,red,17.68,6,Container
+8/21/17,1,1,FALSE,red,25.29,6,Container
+8/28/17,1,7,FALSE,red,25.29,6,Container
+9/4/17,1,6,FALSE,red,25.29,6,Container
+9/11/17,1,5,FALSE,red,25.29,6,Container
+9/18/17,1,7,TRUE,red,19.89,6,Container
+9/25/17,1,4,FALSE,red,24.29,6,Container
+10/2/17,1,2,FALSE,red,18.89,6,Container
+10/9/17,1,5,TRUE,red,15.49,6,Container
+10/16/17,1,4,FALSE,red,23.29,6,Container
+10/23/17,1,5,FALSE,red,24.19,6,Container
+10/30/17,1,5,FALSE,red,22.72,6,Container
+11/6/17,1,5,TRUE,red,19.79,6,Container
+11/13/17,1,5,FALSE,red,22.19,6,Container
+11/20/17,1,6,FALSE,red,24.19,6,Container
+11/27/17,1,7,FALSE,red,12.19,6,Container
+12/4/17,1,14,TRUE,red,12.49,6,Container
+12/11/17,1,7,TRUE,red,14.49,6,Container
+12/18/17,1,2,FALSE,red,18.34,6,Container
+12/25/17,1,11,TRUE,red,13.7,6,Container
+1/1/18,1,7,FALSE,red,23.19,6,Container
+1/8/18,1,6,FALSE,red,24.19,6,Container
+1/15/18,1,7,FALSE,red,23.19,6,Container
+1/22/18,1,7,FALSE,red,23.19,6,Container
+1/29/18,1,7,FALSE,red,23.19,6,Container
+2/5/18,1,6,TRUE,red,24.19,6,Container
+2/12/18,1,4,FALSE,red,21.99,6,Container
+2/19/18,1,5,TRUE,red,19.99,6,Container
+2/26/18,1,7,TRUE,red,19.99,6,Container
+3/5/18,1,13,FALSE,red,19.99,6,Container
+3/12/18,1,11,FALSE,red,21.99,6,Container
+3/19/18,1,13,TRUE,red,19.99,6,Container
+3/26/18,1,14,FALSE,red,18.34,6,Container
+4/2/18,1,8,TRUE,red,19.79,6,Container
+4/9/18,1,8,FALSE,red,20.99,6,Container
+4/16/18,1,10,TRUE,red,20.99,6,Container
+4/23/18,1,9,TRUE,red,20.99,6,Container
+4/30/18,1,8,FALSE,red,19.79,6,Container
+5/7/18,1,17,TRUE,red,20.99,6,Container
+5/14/18,1,12,TRUE,red,21.99,6,Container
+5/21/18,1,15,TRUE,red,21.99,6,Container
+5/28/18,1,12,FALSE,red,19.79,6,Container
+6/4/18,1,10,FALSE,red,19.99,6,Container
+6/11/18,1,17,FALSE,red,17.79,6,Container
+6/18/18,1,14,FALSE,red,17.79,6,Container
+6/25/18,1,18,TRUE,red,18.79,6,Container
+7/2/18,1,13,TRUE,red,17.79,6,Container
+7/9/18,1,10,TRUE,red,19.79,6,Container
+7/16/18,1,4,FALSE,red,26.49,6,Container
+7/23/18,1,14,TRUE,red,22.54,6,Container
+7/30/18,1,4,TRUE,red,26.49,6,Container
+8/6/18,1,11,TRUE,red,26.72,6,Container
+8/13/18,1,11,TRUE,red,25.49,6,Container
+8/20/18,1,7,FALSE,red,19.79,6,Container
+8/27/18,1,6,FALSE,red,18.79,6,Container
+9/3/18,1,12,TRUE,red,27.49,6,Container
+9/10/18,1,14,FALSE,red,15.32,6,Container
+9/17/18,1,10,TRUE,red,21.99,6,Container
+9/24/18,1,9,TRUE,red,27.49,6,Container
+10/31/16,1,9,TRUE,red,8.77,10,Container
+11/7/16,1,22,TRUE,red,7.16,10,Container
+11/14/16,1,23,TRUE,red,8.08,10,Container
+11/21/16,1,16,TRUE,red,8.99,10,Container
+11/28/16,1,36,TRUE,red,8.1,10,Container
+12/5/16,1,18,TRUE,red,6.18,10,Container
+12/12/16,1,15,TRUE,red,8.06,10,Container
+12/19/16,1,11,TRUE,red,8.41,10,Container
+12/26/16,1,11,TRUE,red,3.88,10,Container
+1/2/17,1,5,FALSE,red,8.24,10,Container
+1/9/17,1,8,FALSE,red,7.42,10,Container
+1/16/17,1,1,FALSE,red,15.49,10,Container
+1/23/17,1,3,FALSE,red,16.49,10,Container
+1/30/17,1,1,FALSE,red,16.49,10,Container
+2/6/17,1,4,TRUE,red,9.99,10,Container
+2/13/17,1,2,TRUE,red,9.99,10,Container
+2/20/17,1,12,TRUE,red,8.99,10,Container
+2/27/17,1,7,TRUE,red,9.68,10,Container
+3/6/17,1,5,FALSE,red,8.99,10,Container
+3/13/17,1,6,TRUE,red,8.99,10,Container
+3/20/17,1,3,TRUE,red,9.99,10,Container
+3/27/17,1,2,FALSE,red,16.49,10,Container
+4/3/17,1,9,TRUE,red,9.99,10,Container
+4/10/17,1,5,FALSE,red,10.99,10,Container
+4/17/17,1,7,TRUE,red,10.99,10,Container
+4/24/17,1,5,FALSE,red,10.99,10,Container
+5/1/17,1,13,TRUE,red,10.99,10,Container
+5/8/17,1,8,FALSE,red,15.49,10,Container
+5/15/17,1,13,TRUE,red,9.99,10,Container
+5/22/17,1,4,TRUE,red,8.99,10,Container
+5/29/17,1,7,TRUE,red,8.99,10,Container
+6/5/17,1,2,TRUE,red,9.99,10,Container
+6/12/17,1,6,TRUE,red,8.99,10,Container
+6/19/17,1,14,TRUE,red,9.99,10,Container
+6/26/17,1,7,TRUE,red,9.99,10,Container
+7/3/17,1,9,TRUE,red,9.99,10,Container
+7/10/17,1,6,TRUE,red,10.99,10,Container
+7/17/17,1,5,FALSE,red,16.49,10,Container
+7/24/17,1,6,TRUE,red,8.99,10,Container
+7/31/17,1,4,FALSE,red,16.49,10,Container
+8/7/17,1,5,TRUE,red,10.99,10,Container
+8/14/17,1,3,TRUE,red,8.99,10,Container
+8/21/17,1,4,TRUE,red,9.99,10,Container
+8/28/17,1,3,FALSE,red,16.49,10,Container
+9/4/17,1,3,TRUE,red,10.99,10,Container
+9/11/17,1,9,TRUE,red,8.99,10,Container
+9/18/17,1,5,TRUE,red,8.99,10,Container
+9/25/17,1,3,TRUE,red,8.99,10,Container
+10/2/17,1,1,FALSE,red,16.49,10,Container
+10/9/17,1,2,TRUE,red,9.99,10,Container
+10/16/17,1,5,TRUE,red,10.99,10,Container
+10/23/17,1,6,FALSE,red,15.49,10,Container
+10/30/17,1,1,FALSE,red,15.49,10,Container
+11/6/17,1,5,TRUE,red,10.99,10,Container
+11/13/17,1,14,TRUE,red,8.99,10,Container
+11/20/17,1,5,FALSE,red,16.49,10,Container
+11/27/17,1,8,FALSE,red,13.66,10,Container
+12/4/17,1,11,TRUE,red,10.45,10,Container
+12/11/17,1,16,TRUE,red,9.62,10,Container
+12/18/17,1,2,FALSE,red,8.99,10,Container
+12/25/17,1,3,TRUE,red,9.99,10,Container
+1/1/18,1,8,FALSE,red,11.74,10,Container
+1/8/18,1,7,TRUE,red,11.77,10,Container
+1/15/18,1,7,FALSE,red,13.66,10,Container
+1/22/18,1,11,TRUE,red,8.99,10,Container
+1/29/18,1,7,TRUE,red,10.99,10,Container
+2/5/18,1,11,TRUE,red,10.99,10,Container
+2/12/18,1,10,TRUE,red,9.99,10,Container
+2/19/18,1,5,TRUE,red,11.36,10,Container
+2/26/18,1,9,TRUE,red,15.39,10,Container
+3/5/18,1,13,TRUE,red,8.99,10,Container
+3/12/18,1,15,TRUE,red,8.99,10,Container
+3/19/18,1,27,TRUE,red,10.99,10,Container
+3/26/18,1,9,TRUE,red,14.49,10,Container
+4/2/18,1,12,TRUE,red,8.99,10,Container
+4/9/18,1,10,TRUE,red,10.99,10,Container
+4/16/18,1,16,TRUE,red,9.89,10,Container
+4/23/18,1,13,TRUE,red,8.89,10,Container
+4/30/18,1,16,FALSE,red,12.02,10,Container
+5/7/18,1,14,TRUE,red,8.99,10,Container
+5/14/18,1,12,TRUE,red,11.74,10,Container
+5/21/18,1,18,TRUE,red,10.99,10,Container
+5/28/18,1,24,FALSE,red,10.38,10,Container
+6/4/18,1,12,FALSE,red,10.99,10,Container
+6/11/18,1,21,FALSE,red,10.99,10,Container
+6/18/18,1,17,TRUE,red,15.49,10,Container
+6/25/18,1,19,TRUE,red,15.27,10,Container
+7/2/18,1,11,TRUE,red,9.99,10,Container
+7/9/18,1,9,TRUE,red,10.99,10,Container
+7/16/18,1,5,FALSE,red,16.49,10,Container
+7/23/18,1,7,TRUE,red,16.49,10,Container
+7/30/18,1,7,TRUE,red,9.99,10,Container
+8/6/18,1,17,TRUE,red,8.99,10,Container
+8/13/18,1,13,TRUE,red,8.99,10,Container
+8/20/18,1,10,TRUE,red,11.74,10,Container
+8/27/18,1,11,TRUE,red,10.09,10,Container
+9/3/18,1,13,TRUE,red,10.99,10,Container
+9/10/18,1,10,TRUE,red,8.99,10,Container
+9/17/18,1,8,FALSE,red,8.99,10,Container
+9/24/18,1,7,FALSE,red,10.99,10,Container
+10/31/16,1,12,FALSE,grey,30.79,3,Fuso
+11/7/16,1,28,FALSE,grey,27.18,3,Fuso
+11/14/16,1,20,TRUE,grey,20.99,3,Fuso
+11/21/16,1,18,TRUE,grey,34.18,3,Fuso
+11/28/16,1,59,TRUE,grey,20.94,3,Fuso
+12/5/16,1,41,TRUE,grey,19.86,3,Fuso
+12/12/16,1,119,TRUE,grey,17.1,3,Fuso
+12/19/16,1,60,TRUE,grey,16.91,3,Fuso
+12/26/16,1,60,TRUE,grey,20.99,3,Fuso
+1/2/17,1,38,TRUE,grey,20.41,3,Fuso
+1/9/17,1,11,FALSE,grey,28.79,3,Fuso
+1/16/17,1,8,FALSE,grey,28.79,3,Fuso
+1/23/17,1,10,FALSE,grey,30.79,3,Fuso
+1/30/17,1,17,FALSE,grey,30.79,3,Fuso
+2/6/17,1,9,FALSE,grey,28.79,3,Fuso
+2/13/17,1,5,FALSE,grey,30.79,3,Fuso
+2/20/17,1,8,FALSE,grey,30.79,3,Fuso
+2/27/17,1,9,FALSE,grey,26.86,3,Fuso
+3/6/17,1,7,FALSE,grey,29.79,3,Fuso
+3/13/17,1,9,FALSE,grey,29.79,3,Fuso
+3/20/17,1,9,FALSE,grey,28.53,3,Fuso
+3/27/17,1,15,FALSE,grey,28.79,3,Fuso
+4/3/17,1,11,FALSE,grey,30.79,3,Fuso
+4/10/17,1,15,FALSE,grey,30.79,3,Fuso
+4/17/17,1,10,FALSE,grey,33.21,3,Fuso
+4/24/17,1,17,FALSE,grey,27.17,3,Fuso
+5/1/17,1,17,FALSE,grey,29.66,3,Fuso
+5/8/17,1,27,FALSE,grey,29.58,3,Fuso
+5/15/17,1,23,FALSE,grey,30.7,3,Fuso
+5/22/17,1,14,FALSE,grey,28.79,3,Fuso
+5/29/17,1,39,FALSE,grey,30.71,3,Fuso
+6/5/17,1,10,FALSE,grey,30.79,3,Fuso
+6/12/17,1,15,FALSE,grey,30.79,3,Fuso
+6/19/17,1,13,FALSE,grey,29.79,3,Fuso
+6/26/17,1,15,FALSE,grey,30.79,3,Fuso
+7/3/17,1,18,FALSE,grey,28.79,3,Fuso
+7/10/17,1,7,FALSE,grey,29.79,3,Fuso
+7/17/17,1,11,FALSE,grey,30.79,3,Fuso
+7/24/17,1,10,FALSE,grey,28.79,3,Fuso
+7/31/17,1,28,FALSE,grey,28.13,3,Fuso
+8/7/17,1,3,FALSE,grey,29.79,3,Fuso
+8/14/17,1,4,FALSE,grey,56.19,3,Fuso
+8/21/17,1,5,FALSE,grey,56.19,3,Fuso
+8/28/17,1,7,FALSE,grey,55.19,3,Fuso
+9/4/17,1,4,FALSE,grey,57.19,3,Fuso
+9/11/17,1,9,FALSE,grey,57.19,3,Fuso
+9/18/17,1,7,FALSE,grey,44.2,3,Fuso
+9/25/17,1,18,FALSE,grey,35.69,3,Fuso
+10/2/17,1,15,FALSE,grey,30.44,3,Fuso
+10/9/17,1,8,FALSE,grey,29.36,3,Fuso
+10/16/17,1,19,FALSE,grey,32.44,3,Fuso
+10/23/17,1,25,FALSE,grey,31.44,3,Fuso
+10/30/17,1,21,FALSE,grey,31.44,3,Fuso
+11/6/17,1,9,FALSE,grey,32.44,3,Fuso
+11/13/17,1,17,FALSE,grey,32.44,3,Fuso
+11/20/17,1,11,FALSE,grey,32.44,3,Fuso
+11/27/17,1,22,FALSE,grey,47.43,3,Fuso
+12/4/17,1,10,FALSE,grey,31.01,3,Fuso
+12/11/17,1,23,FALSE,grey,30.19,3,Fuso
+12/18/17,1,7,FALSE,grey,31.44,3,Fuso
+12/25/17,1,10,FALSE,grey,32.44,3,Fuso
+1/1/18,1,9,FALSE,grey,31.44,3,Fuso
+1/8/18,1,10,FALSE,grey,31.44,3,Fuso
+1/15/18,1,5,FALSE,grey,31.44,3,Fuso
+1/22/18,1,11,FALSE,grey,32.44,3,Fuso
+1/29/18,1,4,FALSE,grey,31.44,3,Fuso
+2/5/18,1,6,FALSE,grey,40.56,3,Fuso
+2/12/18,1,5,FALSE,grey,42.56,3,Fuso
+2/19/18,1,4,FALSE,grey,40.56,3,Fuso
+2/26/18,1,11,FALSE,grey,41.56,3,Fuso
+3/5/18,1,13,FALSE,grey,41.56,3,Fuso
+3/12/18,1,13,FALSE,grey,41.56,3,Fuso
+3/19/18,1,33,TRUE,grey,42.56,3,Fuso
+3/26/18,1,16,FALSE,grey,41.56,3,Fuso
+4/2/18,1,20,FALSE,grey,40.56,3,Fuso
+4/9/18,1,30,FALSE,grey,42.56,3,Fuso
+4/16/18,1,18,FALSE,grey,41.56,3,Fuso
+4/23/18,1,23,FALSE,grey,40.56,3,Fuso
+4/30/18,1,11,FALSE,grey,42.76,3,Fuso
+5/7/18,1,14,FALSE,grey,41.99,3,Fuso
+5/14/18,1,16,FALSE,grey,43.99,3,Fuso
+5/21/18,1,14,FALSE,grey,40.56,3,Fuso
+5/28/18,1,15,FALSE,grey,43.27,3,Fuso
+6/4/18,1,16,FALSE,grey,43.99,3,Fuso
+6/11/18,1,19,FALSE,grey,41.99,3,Fuso
+6/18/18,1,18,FALSE,grey,42.99,3,Fuso
+6/25/18,1,22,FALSE,grey,43.99,3,Fuso
+7/2/18,1,11,FALSE,grey,43.99,3,Fuso
+7/9/18,1,10,FALSE,grey,41.99,3,Fuso
+7/16/18,1,7,FALSE,grey,42.99,3,Fuso
+7/23/18,1,9,FALSE,grey,63.99,3,Fuso
+7/30/18,1,20,TRUE,grey,64.99,3,Fuso
+8/6/18,1,15,FALSE,grey,43.99,3,Fuso
+8/13/18,1,12,FALSE,grey,43.99,3,Fuso
+8/20/18,1,10,FALSE,grey,65.99,3,Fuso
+8/27/18,1,9,FALSE,grey,41.99,3,Fuso
+9/3/18,1,10,FALSE,grey,41.99,3,Fuso
+9/10/18,1,23,FALSE,grey,35.22,3,Fuso
+9/17/18,1,12,FALSE,grey,63.99,3,Fuso
+9/24/18,1,15,FALSE,grey,43.99,3,Fuso
+10/31/16,1,78,TRUE,grey,9.04,3,Fuso
+11/7/16,1,34,FALSE,grey,8.89,3,Fuso
+11/14/16,1,32,FALSE,grey,7.89,3,Fuso
+11/21/16,1,46,FALSE,grey,8.89,3,Fuso
+11/28/16,1,37,FALSE,grey,9.89,3,Fuso
+12/5/16,1,48,FALSE,grey,7.88,3,Fuso
+12/12/16,1,61,FALSE,grey,8.03,3,Fuso
+12/19/16,1,63,FALSE,grey,7.79,3,Fuso
+12/26/16,1,48,FALSE,grey,7.86,3,Fuso
+1/2/17,1,38,FALSE,grey,7.89,3,Fuso
+1/9/17,1,111,FALSE,grey,8.64,3,Fuso
+1/16/17,1,45,FALSE,grey,8.8,3,Fuso
+1/23/17,1,119,FALSE,grey,9.73,3,Fuso
+1/30/17,1,63,FALSE,grey,7.84,3,Fuso
+2/6/17,1,102,FALSE,grey,9.79,3,Fuso
+2/13/17,1,50,FALSE,grey,7.86,3,Fuso
+2/20/17,1,98,FALSE,grey,9.87,3,Fuso
+2/27/17,1,48,FALSE,grey,7.88,3,Fuso
+3/6/17,1,39,FALSE,grey,9.87,3,Fuso
+3/13/17,1,68,FALSE,grey,7.53,3,Fuso
+3/20/17,1,70,FALSE,grey,8.82,3,Fuso
+3/27/17,1,72,FALSE,grey,7.82,3,Fuso
+4/3/17,1,100,FALSE,grey,8.88,3,Fuso
+4/10/17,1,107,FALSE,grey,9.89,3,Fuso
+4/17/17,1,56,FALSE,grey,9.85,3,Fuso
+4/24/17,1,66,FALSE,grey,9.75,3,Fuso
+5/1/17,1,86,FALSE,grey,8.88,3,Fuso
+5/8/17,1,21,FALSE,grey,7.89,3,Fuso
+5/15/17,1,32,FALSE,grey,10.07,3,Fuso
+5/22/17,1,21,FALSE,grey,10.26,3,Fuso
+5/29/17,1,48,FALSE,grey,8.62,3,Fuso
+6/5/17,1,85,FALSE,grey,9.44,3,Fuso
+6/12/17,1,12,FALSE,grey,8.44,3,Fuso
+6/19/17,1,44,FALSE,grey,10.44,3,Fuso
+6/26/17,1,51,FALSE,grey,9.44,3,Fuso
+7/3/17,1,54,FALSE,grey,10.44,3,Fuso
+7/10/17,1,72,FALSE,grey,8.75,3,Fuso
+7/17/17,1,77,FALSE,grey,10.4,3,Fuso
+7/24/17,1,48,FALSE,grey,10.24,3,Fuso
+7/31/17,1,83,FALSE,grey,9.44,3,Fuso
+8/7/17,1,77,FALSE,grey,8.44,3,Fuso
+8/14/17,1,69,FALSE,grey,9.05,3,Fuso
+8/21/17,1,108,FALSE,grey,9.44,3,Fuso
+8/28/17,1,81,FALSE,grey,9.99,3,Fuso
+9/4/17,1,146,FALSE,grey,8.94,3,Fuso
+9/11/17,1,86,FALSE,grey,10.37,3,Fuso
+9/18/17,1,70,TRUE,grey,6.29,3,Fuso
+9/25/17,1,180,TRUE,grey,7.88,3,Fuso
+10/2/17,1,141,FALSE,grey,8.89,3,Fuso
+10/9/17,1,87,FALSE,grey,8.89,3,Fuso
+10/16/17,1,274,FALSE,grey,7.89,3,Fuso
+10/23/17,1,141,FALSE,grey,9.89,3,Fuso
+10/30/17,1,102,FALSE,grey,9.89,3,Fuso
+11/6/17,1,94,FALSE,grey,9.89,3,Fuso
+11/13/17,1,59,FALSE,grey,7.89,3,Fuso
+11/20/17,1,114,FALSE,grey,7.89,3,Fuso
+11/27/17,1,77,FALSE,grey,7.89,3,Fuso
+12/4/17,1,61,FALSE,grey,9.75,3,Fuso
+12/11/17,1,13,FALSE,grey,21.77,3,Fuso
+12/18/17,1,18,FALSE,grey,19.77,3,Fuso
+12/25/17,1,5,FALSE,grey,20.77,3,Fuso
+1/1/18,1,6,FALSE,grey,13.29,3,Fuso
+1/8/18,1,3,FALSE,grey,19.77,3,Fuso
+1/15/18,1,6,FALSE,grey,21.77,3,Fuso
+1/22/18,1,3,FALSE,grey,20.77,3,Fuso
+1/29/18,1,7,FALSE,grey,19.77,3,Fuso
+2/5/18,1,3,FALSE,grey,19.77,3,Fuso
+2/12/18,1,13,TRUE,grey,21.77,3,Fuso
+2/19/18,1,2,TRUE,grey,19.77,3,Fuso
+2/26/18,1,6,FALSE,grey,21.77,3,Fuso
+3/5/18,1,21,FALSE,grey,20.77,3,Fuso
+3/12/18,1,22,FALSE,grey,19.77,3,Fuso
+3/19/18,1,24,FALSE,grey,20.77,3,Fuso
+3/26/18,1,24,FALSE,grey,23.46,3,Fuso
+4/2/18,1,21,FALSE,grey,15.52,3,Fuso
+4/9/18,1,44,FALSE,grey,10.99,3,Fuso
+4/16/18,1,42,FALSE,grey,9.99,3,Fuso
+4/23/18,1,97,FALSE,grey,8.99,3,Fuso
+4/30/18,1,25,FALSE,grey,17.79,3,Fuso
+5/7/18,1,45,FALSE,grey,12.08,3,Fuso
+5/14/18,1,148,FALSE,grey,8.84,3,Fuso
+5/21/18,1,239,FALSE,grey,9.82,3,Fuso
+5/28/18,1,137,FALSE,grey,7.79,3,Fuso
+6/4/18,1,45,FALSE,grey,7.79,3,Fuso
+6/11/18,1,31,FALSE,grey,7.79,3,Fuso
+6/18/18,1,226,FALSE,grey,6.83,3,Fuso
+6/25/18,1,631,FALSE,grey,7.8,3,Fuso
+7/2/18,1,35,FALSE,grey,15.18,3,Fuso
+7/9/18,1,68,FALSE,grey,8.85,3,Fuso
+7/16/18,1,321,FALSE,grey,6.75,3,Fuso
+7/23/18,1,511,FALSE,grey,7.79,3,Fuso
+7/30/18,1,30,FALSE,grey,14.11,3,Fuso
+8/6/18,1,34,TRUE,grey,17.79,3,Fuso
+8/13/18,1,25,FALSE,grey,17.61,3,Fuso
+8/20/18,1,42,FALSE,grey,16.76,3,Fuso
+8/27/18,1,56,FALSE,grey,10.79,3,Fuso
+9/3/18,1,134,FALSE,grey,6.78,3,Fuso
+9/10/18,1,200,FALSE,grey,8.16,3,Fuso
+9/17/18,1,28,FALSE,grey,13.73,3,Fuso
+9/24/18,1,724,FALSE,grey,6.26,3,Fuso
+10/31/16,1,31,TRUE,white,106.24,10,Heavy Tipper
+11/7/16,1,25,TRUE,white,107.99,10,Heavy Tipper
+11/14/16,1,26,TRUE,white,116.75,10,Heavy Tipper
+11/21/16,1,24,TRUE,white,109.99,10,Heavy Tipper
+11/28/16,1,38,TRUE,white,103.35,10,Heavy Tipper
+12/5/16,1,30,TRUE,white,112.92,10,Heavy Tipper
+12/12/16,1,33,TRUE,white,108.7,10,Heavy Tipper
+12/19/16,1,27,TRUE,white,113.05,10,Heavy Tipper
+12/26/16,1,33,TRUE,white,108.47,10,Heavy Tipper
+1/2/17,1,37,TRUE,white,113.66,10,Heavy Tipper
+1/9/17,1,31,TRUE,white,104.04,10,Heavy Tipper
+1/16/17,1,45,TRUE,white,110,10,Heavy Tipper
+1/23/17,1,29,TRUE,white,106.16,10,Heavy Tipper
+1/30/17,1,22,TRUE,white,111.97,10,Heavy Tipper
+2/6/17,1,14,FALSE,white,118.57,10,Heavy Tipper
+2/13/17,1,32,TRUE,white,108.71,10,Heavy Tipper
+2/20/17,1,14,FALSE,white,150.15,10,Heavy Tipper
+2/27/17,1,23,TRUE,white,105.36,10,Heavy Tipper
+3/6/17,1,15,FALSE,white,130.26,10,Heavy Tipper
+3/13/17,1,26,FALSE,white,130.65,10,Heavy Tipper
+3/20/17,1,37,TRUE,white,110.17,10,Heavy Tipper
+3/27/17,1,43,TRUE,white,111.93,10,Heavy Tipper
+4/3/17,1,48,TRUE,white,105.86,10,Heavy Tipper
+4/10/17,1,18,FALSE,white,143.47,10,Heavy Tipper
+4/17/17,1,37,TRUE,white,108.99,10,Heavy Tipper
+4/24/17,1,23,FALSE,white,135.8,10,Heavy Tipper
+5/1/17,1,60,TRUE,white,109.04,10,Heavy Tipper
+5/8/17,1,37,FALSE,white,130.78,10,Heavy Tipper
+5/15/17,1,55,TRUE,white,111.69,10,Heavy Tipper
+5/22/17,1,20,FALSE,white,120.61,10,Heavy Tipper
+5/29/17,1,57,TRUE,white,110.56,10,Heavy Tipper
+6/5/17,1,42,TRUE,white,112.72,10,Heavy Tipper
+6/12/17,1,59,TRUE,white,109.74,10,Heavy Tipper
+6/19/17,1,47,TRUE,white,111.24,10,Heavy Tipper
+6/26/17,1,46,TRUE,white,102.97,10,Heavy Tipper
+7/3/17,1,41,TRUE,white,108.34,10,Heavy Tipper
+7/10/17,1,39,TRUE,white,104.51,10,Heavy Tipper
+7/17/17,1,51,TRUE,white,99.62,10,Heavy Tipper
+7/24/17,1,27,TRUE,white,95.16,10,Heavy Tipper
+7/31/17,1,13,FALSE,white,129.99,10,Heavy Tipper
+8/7/17,1,32,FALSE,white,117.9,10,Heavy Tipper
+8/14/17,1,73,TRUE,white,75.97,10,Heavy Tipper
+8/21/17,1,65,TRUE,white,80.73,10,Heavy Tipper
+8/28/17,1,14,FALSE,white,137.06,10,Heavy Tipper
+9/4/17,1,22,TRUE,white,86.47,10,Heavy Tipper
+9/11/17,1,15,TRUE,white,82.86,10,Heavy Tipper
+9/18/17,1,32,TRUE,white,98.22,10,Heavy Tipper
+9/25/17,1,26,TRUE,white,97.58,10,Heavy Tipper
+10/2/17,1,44,TRUE,white,88.41,10,Heavy Tipper
+10/9/17,1,46,TRUE,white,86.77,10,Heavy Tipper
+10/16/17,1,52,TRUE,white,82.85,10,Heavy Tipper
+10/23/17,1,31,TRUE,white,107.79,10,Heavy Tipper
+10/30/17,1,20,FALSE,white,118.24,10,Heavy Tipper
+11/6/17,1,24,FALSE,white,105.59,10,Heavy Tipper
+11/13/17,1,15,FALSE,white,127.34,10,Heavy Tipper
+11/20/17,1,12,FALSE,white,141.99,10,Heavy Tipper
+11/27/17,1,23,FALSE,white,109.2,10,Heavy Tipper
+12/4/17,1,29,FALSE,white,122.72,10,Heavy Tipper
+12/11/17,1,28,FALSE,white,106.54,10,Heavy Tipper
+12/18/17,1,18,FALSE,white,118.25,10,Heavy Tipper
+12/25/17,1,24,FALSE,white,109.31,10,Heavy Tipper
+1/1/18,1,16,FALSE,white,133.97,10,Heavy Tipper
+1/8/18,1,32,FALSE,white,114.94,10,Heavy Tipper
+1/15/18,1,21,FALSE,white,105.64,10,Heavy Tipper
+1/22/18,1,24,FALSE,white,122.95,10,Heavy Tipper
+1/29/18,1,16,TRUE,white,107.99,10,Heavy Tipper
+2/5/18,1,31,TRUE,white,110.58,10,Heavy Tipper
+2/12/18,1,21,TRUE,white,141.49,10,Heavy Tipper
+2/19/18,1,17,TRUE,white,106.55,10,Heavy Tipper
+2/26/18,1,13,FALSE,white,169.57,10,Heavy Tipper
+3/5/18,1,19,TRUE,white,134.74,10,Heavy Tipper
+3/12/18,1,32,TRUE,white,103.41,10,Heavy Tipper
+3/19/18,1,39,FALSE,white,105.93,10,Heavy Tipper
+3/26/18,1,39,FALSE,white,106.95,10,Heavy Tipper
+4/2/18,1,40,TRUE,white,104.27,10,Heavy Tipper
+4/9/18,1,22,FALSE,white,111.74,10,Heavy Tipper
+4/16/18,1,38,TRUE,white,107.39,10,Heavy Tipper
+4/23/18,1,29,TRUE,white,115.05,10,Heavy Tipper
+4/30/18,1,44,TRUE,white,102.2,10,Heavy Tipper
+5/7/18,1,24,FALSE,white,114.64,10,Heavy Tipper
+5/14/18,1,25,TRUE,white,147.37,10,Heavy Tipper
+5/21/18,1,42,FALSE,white,103.46,10,Heavy Tipper
+5/28/18,1,22,FALSE,white,138.84,10,Heavy Tipper
+6/4/18,1,26,FALSE,white,121.94,10,Heavy Tipper
+6/11/18,1,42,FALSE,white,108.49,10,Heavy Tipper
+6/18/18,1,33,FALSE,white,120.97,10,Heavy Tipper
+6/25/18,1,49,TRUE,white,109.97,10,Heavy Tipper
+7/2/18,1,47,TRUE,white,107.3,10,Heavy Tipper
+7/9/18,1,32,FALSE,white,107.99,10,Heavy Tipper
+7/16/18,1,30,FALSE,white,119.21,10,Heavy Tipper
+7/23/18,1,37,TRUE,white,108.49,10,Heavy Tipper
+7/30/18,1,34,TRUE,white,108.39,10,Heavy Tipper
+8/6/18,1,15,FALSE,white,127.55,10,Heavy Tipper
+8/13/18,1,37,TRUE,white,107.47,10,Heavy Tipper
+8/20/18,1,24,TRUE,white,107.03,10,Heavy Tipper
+8/27/18,1,16,TRUE,white,122.22,10,Heavy Tipper
+9/3/18,1,13,FALSE,white,140.99,10,Heavy Tipper
+9/10/18,1,22,TRUE,white,109.99,10,Heavy Tipper
+9/17/18,1,25,TRUE,white,101.8,10,Heavy Tipper
+9/24/18,1,27,TRUE,white,109.19,10,Heavy Tipper
+10/31/16,1,94,TRUE,white,141.41,9,Colt Diesel Double
+11/7/16,1,60,TRUE,white,143.56,9,Colt Diesel Double
+11/14/16,1,54,TRUE,,139.44,9,Colt Diesel Double
+11/21/16,1,71,TRUE,,141.16,9,Colt Diesel Double
+11/28/16,1,55,TRUE,white,138.72,9,Colt Diesel Double
+12/5/16,1,56,TRUE,white,139.52,9,Colt Diesel Double
+12/12/16,1,49,TRUE,white,143.83,9,Colt Diesel Double
+12/19/16,1,42,TRUE,white,141.3,9,Colt Diesel Double
+12/26/16,1,54,TRUE,white,140.21,9,Colt Diesel Double
+1/2/17,1,44,TRUE,white,128.82,9,Colt Diesel Double
+1/9/17,1,62,TRUE,white,143.06,9,Colt Diesel Double
+1/16/17,1,51,TRUE,white,142.13,9,Colt Diesel Double
+1/23/17,1,73,TRUE,white,140.25,9,Colt Diesel Double
+1/30/17,1,39,TRUE,white,139.74,9,Colt Diesel Double
+2/6/17,1,40,TRUE,white,137.74,9,Colt Diesel Double
+2/13/17,1,74,TRUE,white,138.05,9,Colt Diesel Double
+2/20/17,1,47,TRUE,white,146.58,9,Colt Diesel Double
+2/27/17,1,77,TRUE,white,139.91,9,Colt Diesel Double
+3/6/17,1,73,TRUE,white,140.69,9,Colt Diesel Double
+3/13/17,1,82,TRUE,white,141.42,9,Colt Diesel Double
+3/20/17,1,53,TRUE,white,156.97,9,Colt Diesel Double
+3/27/17,1,74,TRUE,white,140.37,9,Colt Diesel Double
+4/3/17,1,107,TRUE,white,141.98,9,Colt Diesel Double
+4/10/17,1,56,TRUE,white,153.43,9,Colt Diesel Double
+4/17/17,1,36,TRUE,white,158.81,9,Colt Diesel Double
+4/24/17,1,27,TRUE,white,156.91,9,Colt Diesel Double
+5/1/17,1,61,TRUE,white,155.83,9,Colt Diesel Double
+5/8/17,1,56,TRUE,white,152.99,9,Colt Diesel Double
+5/15/17,1,57,TRUE,white,153.82,9,Colt Diesel Double
+5/22/17,1,74,TRUE,white,150.49,9,Colt Diesel Double
+5/29/17,1,54,TRUE,white,154.64,9,Colt Diesel Double
+6/5/17,1,45,TRUE,white,149.71,9,Colt Diesel Double
+6/12/17,1,63,TRUE,white,151.79,9,Colt Diesel Double
+6/19/17,1,96,TRUE,white,153.99,9,Colt Diesel Double
+6/26/17,1,82,TRUE,white,154.61,9,Colt Diesel Double
+7/3/17,1,141,TRUE,white,149.24,9,Colt Diesel Double
+7/10/17,1,193,TRUE,white,150.01,9,Colt Diesel Double
+7/17/17,1,137,TRUE,white,153.22,9,Colt Diesel Double
+7/24/17,1,48,FALSE,white,168.93,9,Colt Diesel Double
+7/31/17,1,104,TRUE,white,152.51,9,Colt Diesel Double
+8/7/17,1,106,TRUE,white,153.54,9,Colt Diesel Double
+8/14/17,1,75,TRUE,white,153.47,9,Colt Diesel Double
+8/21/17,1,126,TRUE,white,150.61,9,Colt Diesel Double
+8/28/17,1,116,TRUE,white,152.99,9,Colt Diesel Double
+9/4/17,1,108,TRUE,white,154.42,9,Colt Diesel Double
+9/11/17,1,77,TRUE,white,155.44,9,Colt Diesel Double
+9/18/17,1,141,TRUE,white,153.51,9,Colt Diesel Double
+9/25/17,1,175,TRUE,white,153,9,Colt Diesel Double
+10/2/17,1,214,TRUE,white,151.91,9,Colt Diesel Double
+10/9/17,1,233,TRUE,white,154.39,9,Colt Diesel Double
+10/16/17,1,106,TRUE,white,164.15,9,Colt Diesel Double
+10/23/17,1,85,TRUE,white,162.82,9,Colt Diesel Double
+10/30/17,1,108,TRUE,white,162.09,9,Colt Diesel Double
+11/6/17,1,85,FALSE,white,167.49,9,Colt Diesel Double
+11/13/17,1,46,FALSE,white,184.37,9,Colt Diesel Double
+11/20/17,1,61,FALSE,white,177.61,9,Colt Diesel Double
+11/27/17,1,78,FALSE,white,160.21,9,Colt Diesel Double
+12/4/17,1,83,FALSE,white,165.08,9,Colt Diesel Double
+12/11/17,1,59,FALSE,white,182.9,9,Colt Diesel Double
+12/18/17,1,87,FALSE,white,166.72,9,Colt Diesel Double
+12/25/17,1,104,FALSE,white,160.28,9,Colt Diesel Double
+1/1/18,1,48,FALSE,white,168.5,9,Colt Diesel Double
+1/8/18,1,110,FALSE,white,163.54,9,Colt Diesel Double
+1/15/18,1,94,FALSE,white,161.78,9,Colt Diesel Double
+1/22/18,1,98,FALSE,white,162.63,9,Colt Diesel Double
+1/29/18,1,60,TRUE,white,168.2,9,Colt Diesel Double
+2/5/18,1,59,TRUE,white,184.63,9,Colt Diesel Double
+2/12/18,1,88,TRUE,white,162.56,9,Colt Diesel Double
+2/19/18,1,74,FALSE,white,167.05,9,Colt Diesel Double
+2/26/18,1,42,TRUE,white,186.79,9,Colt Diesel Double
+3/5/18,1,35,TRUE,white,204.46,9,Colt Diesel Double
+3/12/18,1,85,TRUE,white,174.53,9,Colt Diesel Double
+3/19/18,1,113,FALSE,white,163.7,9,Colt Diesel Double
+3/26/18,1,81,TRUE,white,168.03,9,Colt Diesel Double
+4/2/18,1,75,TRUE,white,182.45,9,Colt Diesel Double
+4/9/18,1,118,TRUE,white,165.4,9,Colt Diesel Double
+4/16/18,1,60,FALSE,white,174.99,9,Colt Diesel Double
+4/23/18,1,32,TRUE,white,178.73,9,Colt Diesel Double
+4/30/18,1,40,TRUE,white,203.15,9,Colt Diesel Double
+5/7/18,1,98,TRUE,white,172.83,9,Colt Diesel Double
+5/14/18,1,80,FALSE,white,173.57,9,Colt Diesel Double
+5/21/18,1,43,TRUE,white,174.99,9,Colt Diesel Double
+5/28/18,1,76,TRUE,white,170.1,9,Colt Diesel Double
+6/4/18,1,87,TRUE,white,174.86,9,Colt Diesel Double
+6/11/18,1,60,TRUE,white,181.21,9,Colt Diesel Double
+6/18/18,1,89,FALSE,white,175.41,9,Colt Diesel Double
+6/25/18,1,58,TRUE,white,177.19,9,Colt Diesel Double
+7/2/18,1,19,TRUE,white,196.99,9,Colt Diesel Double
+7/9/18,1,16,TRUE,white,227.72,9,Colt Diesel Double
+7/16/18,1,42,TRUE,white,171.04,9,Colt Diesel Double
+7/23/18,1,64,TRUE,white,171.95,9,Colt Diesel Double
+7/30/18,1,19,FALSE,white,190.59,9,Colt Diesel Double
+8/6/18,1,27,TRUE,white,190.73,9,Colt Diesel Double
+8/13/18,1,29,TRUE,white,174.99,9,Colt Diesel Double
+8/20/18,1,37,TRUE,white,192.82,9,Colt Diesel Double
+8/27/18,1,31,TRUE,white,173.99,9,Colt Diesel Double
+9/3/18,1,50,FALSE,white,168.81,9,Colt Diesel Double
+9/10/18,1,26,TRUE,white,175.99,9,Colt Diesel Double
+9/17/18,1,20,FALSE,white,173.83,9,Colt Diesel Double
+9/24/18,1,48,TRUE,white,174.17,9,Colt Diesel Double
+10/31/16,1,8,TRUE,,186.99,9,Heavy Tipper
+11/7/16,1,7,TRUE,,189.33,9,Heavy Tipper
+11/14/16,1,3,TRUE,,186.99,9,Heavy Tipper
+11/21/16,1,8,TRUE,,186.99,9,Heavy Tipper
+11/28/16,1,8,TRUE,,185.99,9,Heavy Tipper
+12/5/16,1,11,TRUE,,181.57,9,Heavy Tipper
+12/12/16,1,5,TRUE,,185.99,9,Heavy Tipper
+12/19/16,1,8,TRUE,,184.99,9,Heavy Tipper
+12/26/16,1,9,TRUE,,184.99,9,Heavy Tipper
+1/2/17,1,10,TRUE,,178.61,9,Heavy Tipper
+1/9/17,1,7,TRUE,,184.99,9,Heavy Tipper
+1/16/17,1,8,TRUE,,186.99,9,Heavy Tipper
+1/23/17,1,6,TRUE,,186.99,9,Heavy Tipper
+1/30/17,1,10,TRUE,,186.99,9,Heavy Tipper
+2/6/17,1,10,TRUE,,183.41,9,Heavy Tipper
+2/13/17,1,8,TRUE,,186.16,9,Heavy Tipper
+2/20/17,1,5,TRUE,,185.32,9,Heavy Tipper
+2/27/17,1,4,TRUE,,184.99,9,Heavy Tipper
+3/6/17,1,6,TRUE,,186.99,9,Heavy Tipper
+3/13/17,1,11,TRUE,,182.49,9,Heavy Tipper
+3/20/17,1,7,TRUE,,185.99,9,Heavy Tipper
+3/27/17,1,10,TRUE,,182.14,9,Heavy Tipper
+4/3/17,1,17,TRUE,,184.27,9,Heavy Tipper
+4/10/17,1,13,TRUE,,184.99,9,Heavy Tipper
+4/17/17,1,11,TRUE,,189.13,9,Heavy Tipper
+4/24/17,1,8,TRUE,,184.99,9,Heavy Tipper
+5/1/17,1,15,TRUE,,140.24,9,Heavy Tipper
+5/8/17,1,9,TRUE,,130.89,9,Heavy Tipper
+5/15/17,1,15,TRUE,,152.99,9,Heavy Tipper
+5/22/17,1,13,TRUE,,143.06,9,Heavy Tipper
+5/29/17,1,12,TRUE,,185.99,9,Heavy Tipper
+6/5/17,1,8,TRUE,,188.19,9,Heavy Tipper
+6/12/17,1,8,TRUE,,188.62,9,Heavy Tipper
+6/19/17,1,12,TRUE,,187.46,9,Heavy Tipper
+6/26/17,1,7,FALSE,,189.39,9,Heavy Tipper
+7/3/17,1,29,TRUE,,178.76,9,Heavy Tipper
+7/10/17,1,16,TRUE,,188.68,9,Heavy Tipper
+7/17/17,1,8,TRUE,,191.49,9,Heavy Tipper
+7/24/17,1,16,TRUE,,184.27,9,Heavy Tipper
+7/31/17,1,21,TRUE,,186.88,9,Heavy Tipper
+8/7/17,1,16,TRUE,,185.99,9,Heavy Tipper
+8/14/17,1,15,TRUE,,185.99,9,Heavy Tipper
+8/21/17,1,15,TRUE,,183.95,9,Heavy Tipper
+8/28/17,1,14,TRUE,,187.84,9,Heavy Tipper
+9/4/17,1,16,TRUE,,180.31,9,Heavy Tipper
+9/11/17,1,15,TRUE,,181.94,9,Heavy Tipper
+9/18/17,1,24,TRUE,,192.33,9,Heavy Tipper
+9/25/17,1,18,TRUE,,187.36,9,Heavy Tipper
+10/2/17,1,6,TRUE,,197.99,9,Heavy Tipper
+10/9/17,1,13,TRUE,,197.99,9,Heavy Tipper
+10/16/17,1,5,TRUE,,196.99,9,Heavy Tipper
+10/23/17,1,7,FALSE,,197.99,9,Heavy Tipper
+10/30/17,1,10,FALSE,,196.99,9,Heavy Tipper
+11/6/17,1,12,FALSE,,196.99,9,Heavy Tipper
+11/13/17,1,15,FALSE,,195.99,9,Heavy Tipper
+11/20/17,1,11,FALSE,,195.99,9,Heavy Tipper
+11/27/17,1,5,FALSE,,196.99,9,Heavy Tipper
+12/4/17,1,8,FALSE,,197.99,9,Heavy Tipper
+12/11/17,1,16,FALSE,,196.99,9,Heavy Tipper
+12/18/17,1,13,FALSE,,195.99,9,Heavy Tipper
+12/25/17,1,12,FALSE,,195.99,9,Heavy Tipper
+1/1/18,1,7,FALSE,,197.99,9,Heavy Tipper
+1/8/18,1,16,FALSE,,196.99,9,Heavy Tipper
+1/15/18,1,10,FALSE,,196.99,9,Heavy Tipper
+1/22/18,1,7,FALSE,,195.99,9,Heavy Tipper
+1/29/18,1,14,TRUE,,197.99,9,Heavy Tipper
+2/5/18,1,12,FALSE,,168.7,9,Heavy Tipper
+2/12/18,1,11,TRUE,,195.99,9,Heavy Tipper
+2/19/18,1,18,TRUE,,196.94,9,Heavy Tipper
+2/26/18,1,12,TRUE,,197.99,9,Heavy Tipper
+3/5/18,1,13,TRUE,,195.99,9,Heavy Tipper
+3/12/18,1,14,TRUE,,194.41,9,Heavy Tipper
+3/19/18,1,13,TRUE,,197.99,9,Heavy Tipper
+3/26/18,1,16,TRUE,,195.99,9,Heavy Tipper
+4/2/18,1,15,TRUE,,195.99,9,Heavy Tipper
+4/9/18,1,10,TRUE,,197.99,9,Heavy Tipper
+4/16/18,1,13,TRUE,,195.42,9,Heavy Tipper
+4/23/18,1,11,TRUE,,196.99,9,Heavy Tipper
+4/30/18,1,14,TRUE,,195.99,9,Heavy Tipper
+5/7/18,1,21,TRUE,,196.99,9,Heavy Tipper
+5/14/18,1,20,TRUE,,195.99,9,Heavy Tipper
+5/21/18,1,12,FALSE,,195.99,9,Heavy Tipper
+5/28/18,1,16,TRUE,,196.99,9,Heavy Tipper
+6/4/18,1,16,FALSE,,195.99,9,Heavy Tipper
+6/11/18,1,15,FALSE,,197.99,9,Heavy Tipper
+6/18/18,1,18,TRUE,,196.77,9,Heavy Tipper
+6/25/18,1,33,TRUE,,197.58,9,Heavy Tipper
+7/2/18,1,12,TRUE,,197.99,9,Heavy Tipper
+7/9/18,1,16,FALSE,,191.67,9,Heavy Tipper
+7/16/18,1,29,TRUE,,187.11,9,Heavy Tipper
+7/23/18,1,37,FALSE,,187.58,9,Heavy Tipper
+7/30/18,1,75,TRUE,,189.7,9,Heavy Tipper
+8/6/18,1,29,TRUE,,196.3,9,Heavy Tipper
+8/13/18,1,25,TRUE,,195.06,9,Heavy Tipper
+8/20/18,1,20,FALSE,,195.52,9,Heavy Tipper
+8/27/18,1,26,TRUE,,195.99,9,Heavy Tipper
+9/3/18,1,18,TRUE,,192.57,9,Heavy Tipper
+9/10/18,1,43,FALSE,,183.26,9,Heavy Tipper
+9/17/18,1,41,FALSE,,179.82,9,Heavy Tipper
+9/24/18,1,42,FALSE,,192.13,9,Heavy Tipper
+10/31/16,1,28,FALSE,white,32.99,10,Colt Diesel
+11/7/16,1,24,FALSE,white,32.99,10,Colt Diesel
+11/14/16,1,17,FALSE,white,31.99,10,Colt Diesel
+11/21/16,1,17,FALSE,white,30.99,10,Colt Diesel
+11/28/16,1,31,FALSE,white,30.99,10,Colt Diesel
+12/5/16,1,19,FALSE,white,30.99,10,Colt Diesel
+12/12/16,1,19,FALSE,white,29.31,10,Colt Diesel
+12/19/16,1,21,FALSE,white,32.35,10,Colt Diesel
+12/26/16,1,16,FALSE,white,30.05,10,Colt Diesel
+1/2/17,1,17,FALSE,white,31.99,10,Colt Diesel
+1/9/17,1,31,FALSE,white,30.79,10,Colt Diesel
+1/16/17,1,39,FALSE,white,32.99,10,Colt Diesel
+1/23/17,1,19,FALSE,white,30.99,10,Colt Diesel
+1/30/17,1,11,FALSE,white,32.99,10,Colt Diesel
+2/6/17,1,18,FALSE,white,31.99,10,Colt Diesel
+2/13/17,1,18,FALSE,white,31.99,10,Colt Diesel
+2/20/17,1,28,FALSE,white,31.99,10,Colt Diesel
+2/27/17,1,10,FALSE,white,31.85,10,Colt Diesel
+3/6/17,1,8,FALSE,white,32.99,10,Colt Diesel
+3/13/17,1,11,FALSE,white,32.43,10,Colt Diesel
+3/20/17,1,18,FALSE,white,30.99,10,Colt Diesel
+3/27/17,1,16,FALSE,white,32.99,10,Colt Diesel
+4/3/17,1,8,FALSE,white,31.99,10,Colt Diesel
+4/10/17,1,23,FALSE,white,31.99,10,Colt Diesel
+4/17/17,1,27,FALSE,white,30.99,10,Colt Diesel
+4/24/17,1,14,FALSE,white,30.99,10,Colt Diesel
+5/1/17,1,273,FALSE,white,30.99,10,Colt Diesel
+5/8/17,1,14,FALSE,white,32.99,10,Colt Diesel
+5/15/17,1,19,FALSE,white,30.99,10,Colt Diesel
+5/22/17,1,14,FALSE,white,31.99,10,Colt Diesel
+5/29/17,1,25,FALSE,white,31.99,10,Colt Diesel
+6/5/17,1,21,FALSE,white,31.99,10,Colt Diesel
+6/12/17,1,114,FALSE,white,32.99,10,Colt Diesel
+6/19/17,1,12,FALSE,white,31.4,10,Colt Diesel
+6/26/17,1,18,FALSE,white,30.99,10,Colt Diesel
+7/3/17,1,14,FALSE,white,30.99,10,Colt Diesel
+7/10/17,1,121,FALSE,white,27.86,10,Colt Diesel
+7/17/17,1,174,FALSE,white,27.49,10,Colt Diesel
+7/24/17,1,93,FALSE,white,27.49,10,Colt Diesel
+7/31/17,1,31,FALSE,white,26.49,10,Colt Diesel
+8/7/17,1,114,TRUE,white,26.49,10,Colt Diesel
+8/14/17,1,132,FALSE,white,22.54,10,Colt Diesel
+8/21/17,1,27,FALSE,white,27.25,10,Colt Diesel
+8/28/17,1,23,FALSE,white,29.25,10,Colt Diesel
+9/4/17,1,7,FALSE,white,29.25,10,Colt Diesel
+9/11/17,1,68,FALSE,white,27.25,10,Colt Diesel
+9/18/17,1,27,FALSE,white,27.25,10,Colt Diesel
+9/25/17,1,28,FALSE,white,28.12,10,Colt Diesel
+10/2/17,1,13,FALSE,white,30.17,10,Colt Diesel
+10/9/17,1,20,FALSE,white,28.44,10,Colt Diesel
+10/16/17,1,79,FALSE,white,29.29,10,Colt Diesel
+10/23/17,1,102,FALSE,white,32.37,10,Colt Diesel
+10/30/17,1,13,FALSE,white,31.66,10,Colt Diesel
+11/6/17,1,51,FALSE,white,28.69,10,Colt Diesel
+11/13/17,1,87,FALSE,white,27.69,10,Colt Diesel
+11/20/17,1,36,FALSE,white,27.86,10,Colt Diesel
+11/27/17,1,53,FALSE,white,28.69,10,Colt Diesel
+12/4/17,1,11,FALSE,white,25.98,10,Colt Diesel
+12/11/17,1,41,FALSE,white,27.69,10,Colt Diesel
+12/18/17,1,155,FALSE,white,29.69,10,Colt Diesel
+12/25/17,1,67,FALSE,white,27.69,10,Colt Diesel
+1/1/18,1,22,FALSE,white,29.69,10,Colt Diesel
+1/8/18,1,93,FALSE,white,28.74,10,Colt Diesel
+1/15/18,1,61,FALSE,white,30.45,10,Colt Diesel
+1/22/18,1,20,FALSE,white,29.45,10,Colt Diesel
+1/29/18,1,18,FALSE,white,31.45,10,Colt Diesel
+2/5/18,1,77,FALSE,white,30.45,10,Colt Diesel
+2/12/18,1,22,FALSE,white,30.45,10,Colt Diesel
+2/19/18,1,27,FALSE,white,30.45,10,Colt Diesel
+2/26/18,1,24,FALSE,white,31.08,10,Colt Diesel
+3/5/18,1,30,FALSE,white,29.45,10,Colt Diesel
+3/12/18,1,35,FALSE,white,31.45,10,Colt Diesel
+3/19/18,1,24,FALSE,white,30.29,10,Colt Diesel
+3/26/18,1,304,FALSE,white,23.23,10,Colt Diesel
+4/2/18,1,208,FALSE,white,17.91,10,Colt Diesel
+4/9/18,1,109,FALSE,white,28.17,10,Colt Diesel
+4/16/18,1,26,FALSE,white,29.45,10,Colt Diesel
+4/23/18,1,32,FALSE,white,30.45,10,Colt Diesel
+4/30/18,1,34,FALSE,white,31.37,10,Colt Diesel
+5/7/18,1,140,FALSE,white,30.45,10,Colt Diesel
+5/14/18,1,30,FALSE,white,30.34,10,Colt Diesel
+5/21/18,1,28,FALSE,white,30.45,10,Colt Diesel
+5/28/18,1,106,FALSE,white,30.45,10,Colt Diesel
+6/4/18,1,41,FALSE,white,23.9,10,Colt Diesel
+6/11/18,1,34,FALSE,white,37.56,10,Colt Diesel
+6/18/18,1,26,FALSE,white,30.55,10,Colt Diesel
+6/25/18,1,168,FALSE,white,17.64,10,Colt Diesel
+7/2/18,1,231,FALSE,white,20.45,10,Colt Diesel
+7/9/18,1,37,FALSE,white,27.92,10,Colt Diesel
+7/16/18,1,34,FALSE,white,30.14,10,Colt Diesel
+7/23/18,1,39,FALSE,white,21.37,10,Colt Diesel
+7/30/18,1,167,FALSE,white,20.05,10,Colt Diesel
+8/6/18,1,114,FALSE,white,19,10,Colt Diesel
+8/13/18,1,95,FALSE,white,18.1,10,Colt Diesel
+8/20/18,1,156,FALSE,white,21.46,10,Colt Diesel
+8/27/18,1,42,FALSE,white,21.99,10,Colt Diesel
+9/3/18,1,55,FALSE,white,19.28,10,Colt Diesel
+9/10/18,1,54,FALSE,white,19.61,10,Colt Diesel
+9/17/18,1,179,FALSE,white,19.04,10,Colt Diesel
+9/24/18,1,135,FALSE,white,21.76,10,Colt Diesel
+10/31/16,1,11,FALSE,white,63.99,6,Colt Diesel
+11/7/16,1,9,FALSE,white,63.99,6,Colt Diesel
+11/14/16,1,8,FALSE,white,63.99,6,Colt Diesel
+11/21/16,1,51,TRUE,white,41.59,6,Colt Diesel
+11/28/16,1,23,TRUE,white,45.31,6,Colt Diesel
+12/5/16,1,8,FALSE,white,135.91,6,Colt Diesel
+12/12/16,1,37,TRUE,white,42.99,6,Colt Diesel
+12/19/16,1,27,TRUE,white,53.55,6,Colt Diesel
+12/26/16,1,8,FALSE,white,88.74,6,Colt Diesel
+1/2/17,1,178,TRUE,white,30.99,6,Colt Diesel
+1/9/17,1,750,TRUE,white,32.01,6,Colt Diesel
+1/16/17,1,16,TRUE,white,50.79,6,Colt Diesel
+1/23/17,1,26,TRUE,white,44.26,6,Colt Diesel
+1/30/17,1,13,TRUE,white,61.68,6,Colt Diesel
+2/6/17,1,12,FALSE,white,65.99,6,Colt Diesel
+2/13/17,1,18,FALSE,white,63.49,6,Colt Diesel
+2/20/17,1,13,FALSE,white,59.1,6,Colt Diesel
+2/27/17,1,32,TRUE,white,43.99,6,Colt Diesel
+3/6/17,1,11,FALSE,white,63.99,6,Colt Diesel
+3/13/17,1,23,TRUE,white,43.99,6,Colt Diesel
+3/20/17,1,20,TRUE,white,41.99,6,Colt Diesel
+3/27/17,1,9,FALSE,white,60.7,6,Colt Diesel
+4/3/17,1,13,FALSE,white,63.83,6,Colt Diesel
+4/10/17,1,14,FALSE,white,63.02,6,Colt Diesel
+4/17/17,1,11,FALSE,white,65.13,6,Colt Diesel
+4/24/17,1,6,FALSE,white,59.92,6,Colt Diesel
+5/1/17,1,15,FALSE,white,57.28,6,Colt Diesel
+5/8/17,1,7,FALSE,white,56.75,6,Colt Diesel
+5/15/17,1,14,FALSE,white,54.37,6,Colt Diesel
+5/22/17,1,13,FALSE,white,57.49,6,Colt Diesel
+5/29/17,1,5,FALSE,white,63.99,6,Colt Diesel
+6/5/17,1,12,FALSE,white,63.26,6,Colt Diesel
+6/12/17,1,13,FALSE,white,65.99,6,Colt Diesel
+6/19/17,1,12,FALSE,white,63.81,6,Colt Diesel
+6/26/17,1,13,FALSE,white,62.67,6,Colt Diesel
+7/3/17,1,10,FALSE,white,62.76,6,Colt Diesel
+7/10/17,1,13,FALSE,white,61.68,6,Colt Diesel
+7/17/17,1,14,FALSE,white,63.82,6,Colt Diesel
+7/24/17,1,14,FALSE,white,64.61,6,Colt Diesel
+7/31/17,1,6,FALSE,white,53.96,6,Colt Diesel
+8/7/17,1,13,FALSE,white,60.79,6,Colt Diesel
+8/14/17,1,16,FALSE,white,59.43,6,Colt Diesel
+8/21/17,1,19,FALSE,white,62.39,6,Colt Diesel
+8/28/17,1,11,FALSE,white,61.27,6,Colt Diesel
+9/4/17,1,21,FALSE,white,33.49,6,Colt Diesel
+9/11/17,1,579,TRUE,white,31.96,6,Colt Diesel
+9/18/17,1,14,FALSE,white,51.24,6,Colt Diesel
+9/25/17,1,16,TRUE,white,51.2,6,Colt Diesel
+10/2/17,1,12,TRUE,white,46.92,6,Colt Diesel
+10/9/17,1,10,FALSE,white,63.5,6,Colt Diesel
+10/16/17,1,19,FALSE,white,62.4,6,Colt Diesel
+10/23/17,1,12,FALSE,white,64.92,6,Colt Diesel
+10/30/17,1,5,FALSE,white,65.99,6,Colt Diesel
+11/6/17,1,14,FALSE,white,54.99,6,Colt Diesel
+11/13/17,1,10,FALSE,white,43.99,6,Colt Diesel
+11/20/17,1,69,FALSE,white,46.66,6,Colt Diesel
+11/27/17,1,34,FALSE,white,44.13,6,Colt Diesel
+12/4/17,1,10,FALSE,white,60.61,6,Colt Diesel
+12/11/17,1,10,FALSE,white,64.56,6,Colt Diesel
+12/18/17,1,8,FALSE,white,66.97,6,Colt Diesel
+12/25/17,1,9,FALSE,white,64.13,6,Colt Diesel
+1/1/18,1,31,FALSE,white,46.94,6,Colt Diesel
+1/8/18,1,86,FALSE,white,34.03,6,Colt Diesel
+1/15/18,1,18,FALSE,white,53.99,6,Colt Diesel
+1/22/18,1,9,FALSE,white,65.99,6,Colt Diesel
+1/29/18,1,17,FALSE,white,60.28,6,Colt Diesel
+2/5/18,1,22,FALSE,white,54.3,6,Colt Diesel
+2/12/18,1,11,FALSE,white,53.99,6,Colt Diesel
+2/19/18,1,33,FALSE,white,41.99,6,Colt Diesel
+2/26/18,1,38,FALSE,white,41.99,6,Colt Diesel
+3/5/18,1,31,TRUE,white,67.13,6,Colt Diesel
+3/12/18,1,24,FALSE,white,64.99,6,Colt Diesel
+3/19/18,1,30,FALSE,white,65.99,6,Colt Diesel
+3/26/18,1,45,TRUE,white,62.52,6,Colt Diesel
+4/2/18,1,44,FALSE,white,41.99,6,Colt Diesel
+4/9/18,1,37,FALSE,white,44.72,6,Colt Diesel
+4/16/18,1,16,FALSE,white,64.99,6,Colt Diesel
+4/23/18,1,20,FALSE,white,65.99,6,Colt Diesel
+4/30/18,1,23,FALSE,white,65.89,6,Colt Diesel
+5/7/18,1,33,FALSE,white,65.37,6,Colt Diesel
+5/14/18,1,28,FALSE,white,63.68,6,Colt Diesel
+5/21/18,1,29,FALSE,white,67.53,6,Colt Diesel
+5/28/18,1,107,FALSE,white,32.11,6,Colt Diesel
+6/4/18,1,249,TRUE,white,31.99,6,Colt Diesel
+6/11/18,1,58,FALSE,white,43.65,6,Colt Diesel
+6/18/18,1,42,TRUE,white,43.65,6,Colt Diesel
+6/25/18,1,40,FALSE,white,44.65,6,Colt Diesel
+7/2/18,1,25,FALSE,white,44.65,6,Colt Diesel
+7/9/18,1,25,FALSE,white,50.1,6,Colt Diesel
+7/16/18,1,43,FALSE,white,44.43,6,Colt Diesel
+7/23/18,1,31,FALSE,white,42.99,6,Colt Diesel
+7/30/18,1,31,TRUE,white,64.45,6,Colt Diesel
+8/6/18,1,19,FALSE,white,61.89,6,Colt Diesel
+8/13/18,1,35,TRUE,white,65.26,6,Colt Diesel
+8/20/18,1,19,FALSE,white,63.99,6,Colt Diesel
+8/27/18,1,23,FALSE,white,64.99,6,Colt Diesel
+9/3/18,1,23,FALSE,white,39.59,6,Colt Diesel
+9/10/18,1,115,FALSE,white,30.97,6,Colt Diesel
+9/17/18,1,19,FALSE,white,64.26,6,Colt Diesel
+9/24/18,1,12,FALSE,white,65.99,6,Colt Diesel
+10/31/16,1,10,FALSE,white,27.69,10,Trailer
+11/7/16,1,10,FALSE,white,29.69,10,Trailer
+11/14/16,1,11,FALSE,white,29.69,10,Trailer
+11/21/16,1,14,FALSE,white,27.79,10,Trailer
+11/28/16,1,9,FALSE,white,24.8,10,Trailer
+12/5/16,1,13,FALSE,white,27.06,10,Trailer
+12/12/16,1,18,FALSE,white,25.79,10,Trailer
+12/19/16,1,7,FALSE,white,27.81,10,Trailer
+12/26/16,1,17,FALSE,white,25.43,10,Trailer
+1/2/17,1,10,FALSE,white,28.69,10,Trailer
+1/9/17,1,12,FALSE,white,24.79,10,Trailer
+1/16/17,1,14,FALSE,white,27.54,10,Trailer
+1/23/17,1,20,FALSE,white,25.98,10,Trailer
+1/30/17,1,30,TRUE,white,22.09,10,Trailer
+2/6/17,1,25,FALSE,white,28.2,10,Trailer
+2/13/17,1,15,FALSE,white,29.14,10,Trailer
+2/20/17,1,17,FALSE,white,27.29,10,Trailer
+2/27/17,1,10,FALSE,white,26.59,10,Trailer
+3/6/17,1,28,TRUE,white,22.78,10,Trailer
+3/13/17,1,23,FALSE,white,28.15,10,Trailer
+3/20/17,1,15,FALSE,white,27.18,10,Trailer
+3/27/17,1,10,FALSE,white,26.59,10,Trailer
+4/3/17,1,17,TRUE,white,20.99,10,Trailer
+4/10/17,1,10,FALSE,white,29.69,10,Trailer
+4/17/17,1,38,FALSE,white,28.69,10,Trailer
+4/24/17,1,5,FALSE,white,28.69,10,Trailer
+5/1/17,1,7,FALSE,white,29.69,10,Trailer
+5/8/17,1,11,FALSE,white,27.63,10,Trailer
+5/15/17,1,24,TRUE,white,20.74,10,Trailer
+5/22/17,1,9,FALSE,white,26.73,10,Trailer
+5/29/17,1,45,TRUE,white,20.99,10,Trailer
+6/5/17,1,13,FALSE,white,29.69,10,Trailer
+6/12/17,1,19,FALSE,white,28.07,10,Trailer
+6/19/17,1,63,TRUE,white,20.99,10,Trailer
+6/26/17,1,5,FALSE,white,29.69,10,Trailer
+7/3/17,1,20,FALSE,white,27.69,10,Trailer
+7/10/17,1,3,FALSE,white,28.69,10,Trailer
+7/17/17,1,12,FALSE,white,28.69,10,Trailer
+7/24/17,1,14,FALSE,white,29.69,10,Trailer
+7/31/17,1,25,FALSE,white,28.69,10,Trailer
+8/7/17,1,19,FALSE,white,27.69,10,Trailer
+8/14/17,1,15,FALSE,white,28.25,10,Trailer
+8/21/17,1,13,FALSE,white,27.49,10,Trailer
+8/28/17,1,7,FALSE,white,26.49,10,Trailer
+9/4/17,1,6,FALSE,white,26.49,10,Trailer
+9/11/17,1,15,FALSE,white,27.49,10,Trailer
+9/18/17,1,14,FALSE,white,23.77,10,Trailer
+9/25/17,1,19,FALSE,white,26.49,10,Trailer
+10/2/17,1,14,FALSE,white,27.49,10,Trailer
+10/9/17,1,18,FALSE,white,25.66,10,Trailer
+10/16/17,1,16,FALSE,white,27.49,10,Trailer
+10/23/17,1,26,FALSE,white,26.49,10,Trailer
+10/30/17,1,20,FALSE,white,27.49,10,Trailer
+11/6/17,1,8,FALSE,white,25.49,10,Trailer
+11/13/17,1,4,FALSE,white,26.49,10,Trailer
+11/20/17,1,15,FALSE,white,27.49,10,Trailer
+11/27/17,1,10,FALSE,white,26.49,10,Trailer
+12/4/17,1,12,FALSE,white,27.49,10,Trailer
+12/11/17,1,8,FALSE,white,27.49,10,Trailer
+12/18/17,1,16,FALSE,white,26.49,10,Trailer
+12/25/17,1,7,FALSE,white,24.11,10,Trailer
+1/1/18,1,11,FALSE,white,26.49,10,Trailer
+1/8/18,1,9,FALSE,white,26.49,10,Trailer
+1/15/18,1,16,FALSE,white,27.49,10,Trailer
+1/22/18,1,12,FALSE,white,27.49,10,Trailer
+1/29/18,1,26,FALSE,white,23.48,10,Trailer
+2/5/18,1,17,FALSE,white,27.49,10,Trailer
+2/12/18,1,15,TRUE,white,25.49,10,Trailer
+2/19/18,1,11,FALSE,white,25.49,10,Trailer
+2/26/18,1,11,FALSE,white,26.49,10,Trailer
+3/5/18,1,17,FALSE,white,28,10,Trailer
+3/12/18,1,18,FALSE,white,29.67,10,Trailer
+3/19/18,1,18,FALSE,white,27.33,10,Trailer
+3/26/18,1,17,FALSE,white,27.49,10,Trailer
+4/2/18,1,13,FALSE,white,26.49,10,Trailer
+4/9/18,1,12,FALSE,white,26.49,10,Trailer
+4/16/18,1,18,FALSE,white,25.49,10,Trailer
+4/23/18,1,16,FALSE,white,26.49,10,Trailer
+4/30/18,1,19,FALSE,white,27.49,10,Trailer
+5/7/18,1,19,FALSE,white,27.49,10,Trailer
+5/14/18,1,23,FALSE,white,25.21,10,Trailer
+5/21/18,1,29,FALSE,white,26.79,10,Trailer
+5/28/18,1,17,FALSE,white,25.49,10,Trailer
+6/4/18,1,18,FALSE,white,25.32,10,Trailer
+6/11/18,1,31,TRUE,white,24.96,10,Trailer
+6/18/18,1,28,FALSE,white,19.78,10,Trailer
+6/25/18,1,28,FALSE,white,18.78,10,Trailer
+7/2/18,1,17,FALSE,white,18.78,10,Trailer
+7/9/18,1,24,FALSE,white,18.54,10,Trailer
+7/16/18,1,28,FALSE,white,18.69,10,Trailer
+7/23/18,1,14,FALSE,white,21.46,10,Trailer
+7/30/18,1,19,FALSE,white,27.18,10,Trailer
+8/6/18,1,22,FALSE,white,26.3,10,Trailer
+8/13/18,1,15,FALSE,white,24.9,10,Trailer
+8/20/18,1,21,FALSE,white,26.49,10,Trailer
+8/27/18,1,17,FALSE,white,25.49,10,Trailer
+9/3/18,1,16,FALSE,white,25.49,10,Trailer
+9/10/18,1,14,FALSE,white,25.57,10,Trailer
+9/17/18,1,24,FALSE,white,25.47,10,Trailer
+9/24/18,1,27,TRUE,white,26.2,10,Trailer
+10/31/16,1,47,TRUE,white,31.89,10,Trailer
+11/7/16,1,49,TRUE,white,27.78,10,Trailer
+11/14/16,1,49,TRUE,white,31.3,10,Trailer
+11/21/16,1,43,TRUE,white,27.08,10,Trailer
+11/28/16,1,64,TRUE,white,25.8,10,Trailer
+12/5/16,1,51,TRUE,white,27.48,10,Trailer
+12/12/16,1,49,TRUE,white,26.54,10,Trailer
+12/19/16,1,34,TRUE,white,26.49,10,Trailer
+12/26/16,1,54,TRUE,white,27.78,10,Trailer
+1/2/17,1,47,TRUE,white,27.01,10,Trailer
+1/9/17,1,42,TRUE,white,27.18,10,Trailer
+1/16/17,1,64,TRUE,white,26.17,10,Trailer
+1/23/17,1,48,TRUE,white,25.59,10,Trailer
+1/30/17,1,49,FALSE,white,31.31,10,Trailer
+2/6/17,1,37,FALSE,white,31.43,10,Trailer
+2/13/17,1,43,TRUE,white,21.21,10,Trailer
+2/20/17,1,48,FALSE,white,30.54,10,Trailer
+2/27/17,1,36,FALSE,white,28.96,10,Trailer
+3/6/17,1,13,FALSE,white,29.97,10,Trailer
+3/13/17,1,20,FALSE,white,31.73,10,Trailer
+3/20/17,1,17,FALSE,white,32.99,10,Trailer
+3/27/17,1,21,FALSE,white,32.1,10,Trailer
+4/3/17,1,38,FALSE,white,32.12,10,Trailer
+4/10/17,1,34,TRUE,white,19.79,10,Trailer
+4/17/17,1,22,FALSE,white,42.2,10,Trailer
+4/24/17,1,47,TRUE,white,18.76,10,Trailer
+5/1/17,1,42,FALSE,white,27.08,10,Trailer
+5/8/17,1,74,TRUE,white,20.34,10,Trailer
+5/15/17,1,26,FALSE,white,31.81,10,Trailer
+5/22/17,1,91,TRUE,white,18.44,10,Trailer
+5/29/17,1,36,FALSE,white,35.14,10,Trailer
+6/5/17,1,142,TRUE,white,18.73,10,Trailer
+6/12/17,1,160,TRUE,white,18.94,10,Trailer
+6/19/17,1,72,FALSE,white,35.24,10,Trailer
+6/26/17,1,219,TRUE,white,19.03,10,Trailer
+7/3/17,1,63,FALSE,white,36.25,10,Trailer
+7/10/17,1,160,TRUE,white,19.67,10,Trailer
+7/17/17,1,176,TRUE,white,18.65,10,Trailer
+7/24/17,1,168,TRUE,white,18.05,10,Trailer
+7/31/17,1,56,FALSE,white,33.09,10,Trailer
+8/7/17,1,136,TRUE,white,18.91,10,Trailer
+8/14/17,1,189,TRUE,white,19.93,10,Trailer
+8/21/17,1,177,TRUE,white,17.91,10,Trailer
+8/28/17,1,79,TRUE,white,17.56,10,Trailer
+9/4/17,1,20,FALSE,white,31.13,10,Trailer
+9/11/17,1,104,TRUE,white,19.65,10,Trailer
+9/18/17,1,93,TRUE,white,20.18,10,Trailer
+9/25/17,1,30,FALSE,white,40.1,10,Trailer
+10/2/17,1,19,FALSE,white,33.4,10,Trailer
+10/9/17,1,116,TRUE,white,18.09,10,Trailer
+10/16/17,1,26,FALSE,white,41.64,10,Trailer
+10/23/17,1,31,FALSE,white,41.63,10,Trailer
+10/30/17,1,36,FALSE,white,36.55,10,Trailer
+11/6/17,1,76,FALSE,white,20.24,10,Trailer
+11/13/17,1,69,FALSE,white,17.31,10,Trailer
+11/20/17,1,37,FALSE,white,40.1,10,Trailer
+11/27/17,1,109,FALSE,white,21.79,10,Trailer
+12/4/17,1,82,FALSE,white,18.84,10,Trailer
+12/11/17,1,77,FALSE,white,20.79,10,Trailer
+12/18/17,1,15,FALSE,white,39.7,10,Trailer
+12/25/17,1,49,FALSE,white,22.31,10,Trailer
+1/1/18,1,44,FALSE,white,19.52,10,Trailer
+1/8/18,1,53,FALSE,white,21.15,10,Trailer
+1/15/18,1,16,FALSE,white,42.1,10,Trailer
+1/22/18,1,11,FALSE,white,40.1,10,Trailer
+1/29/18,1,14,FALSE,white,41.1,10,Trailer
+2/5/18,1,13,TRUE,white,42.1,10,Trailer
+2/12/18,1,14,FALSE,white,45.34,10,Trailer
+2/19/18,1,10,FALSE,white,35.42,10,Trailer
+2/26/18,1,13,FALSE,white,40.1,10,Trailer
+3/5/18,1,27,TRUE,white,55.13,10,Trailer
+3/12/18,1,27,FALSE,white,35.89,10,Trailer
+3/19/18,1,30,FALSE,white,42.1,10,Trailer
+3/26/18,1,41,TRUE,white,37.32,10,Trailer
+4/2/18,1,24,FALSE,white,31.57,10,Trailer
+4/9/18,1,35,TRUE,white,32.99,10,Trailer
+4/16/18,1,40,TRUE,white,31.21,10,Trailer
+4/23/18,1,74,FALSE,white,21.34,10,Trailer
+4/30/18,1,40,FALSE,white,27.71,10,Trailer
+5/7/18,1,78,FALSE,white,20.06,10,Trailer
+5/14/18,1,60,FALSE,white,31.19,10,Trailer
+5/21/18,1,40,FALSE,white,30.51,10,Trailer
+5/28/18,1,81,TRUE,white,21.59,10,Trailer
+6/4/18,1,75,FALSE,white,22.13,10,Trailer
+6/11/18,1,63,TRUE,white,20.7,10,Trailer
+6/18/18,1,49,TRUE,white,20.99,10,Trailer
+6/25/18,1,66,FALSE,white,19.91,10,Trailer
+7/2/18,1,86,TRUE,white,22.1,10,Trailer
+7/9/18,1,91,TRUE,white,22.39,10,Trailer
+7/16/18,1,79,FALSE,white,21.43,10,Trailer
+7/23/18,1,71,TRUE,white,20.84,10,Trailer
+7/30/18,1,90,TRUE,white,23.44,10,Trailer
+8/6/18,1,61,TRUE,white,21.23,10,Trailer
+8/13/18,1,34,TRUE,white,27.52,10,Trailer
+8/20/18,1,36,FALSE,white,32.63,10,Trailer
+8/27/18,1,28,TRUE,white,31.69,10,Trailer
+9/3/18,1,58,FALSE,white,21.99,10,Trailer
+9/10/18,1,62,FALSE,white,20.17,10,Trailer
+9/17/18,1,114,FALSE,white,21,10,Trailer
+9/24/18,1,36,TRUE,white,30.85,10,Trailer
+10/31/16,1,46,TRUE,red,14.8,6,Container
+11/7/16,1,34,TRUE,red,14.87,6,Container
+11/14/16,1,72,TRUE,red,15.27,6,Container
+11/21/16,1,29,TRUE,red,21.41,6,Container
+11/28/16,1,76,TRUE,red,14.75,6,Container
+12/5/16,1,42,TRUE,red,17.56,6,Container
+12/12/16,1,56,TRUE,red,12.93,6,Container
+12/19/16,1,25,TRUE,red,15.12,6,Container
+12/26/16,1,77,TRUE,red,7.26,6,Container
+1/2/17,1,2167,TRUE,red,14.29,6,Container
+1/9/17,1,47,TRUE,red,14.45,6,Container
+1/16/17,1,81,TRUE,red,15.58,6,Container
+1/23/17,1,72,TRUE,red,22.52,6,Container
+1/30/17,1,35,TRUE,red,19.76,6,Container
+2/6/17,1,41,TRUE,red,19.75,6,Container
+2/13/17,1,68,TRUE,red,16.82,6,Container
+2/20/17,1,42,TRUE,red,21.7,6,Container
+2/27/17,1,68,TRUE,red,9.89,6,Container
+3/6/17,1,1367,TRUE,red,8.89,6,Container
+3/13/17,1,660,TRUE,red,14.38,6,Container
+3/20/17,1,44,TRUE,red,21.27,6,Container
+3/27/17,1,151,TRUE,red,14.98,6,Container
+4/3/17,1,878,TRUE,red,14.36,6,Container
+4/10/17,1,88,TRUE,red,19.42,6,Container
+4/17/17,1,70,TRUE,red,16.92,6,Container
+4/24/17,1,76,TRUE,red,16.49,6,Container
+5/1/17,1,137,TRUE,red,14.67,6,Container
+5/8/17,1,73,TRUE,red,14.86,6,Container
+5/15/17,1,136,TRUE,red,20.78,6,Container
+5/22/17,1,93,TRUE,red,16.66,6,Container
+5/29/17,1,202,TRUE,red,19.25,6,Container
+6/5/17,1,144,TRUE,red,19.83,6,Container
+6/12/17,1,1783,TRUE,red,10.25,6,Container
+6/19/17,1,82,TRUE,red,20.59,6,Container
+6/26/17,1,131,TRUE,red,14.63,6,Container
+7/3/17,1,118,TRUE,red,16.07,6,Container
+7/10/17,1,144,TRUE,red,14.33,6,Container
+7/17/17,1,74,TRUE,red,15.45,6,Container
+7/24/17,1,61,TRUE,red,20.08,6,Container
+7/31/17,1,108,TRUE,red,15.35,6,Container
+8/7/17,1,74,TRUE,red,15.34,6,Container
+8/14/17,1,187,TRUE,red,13.72,6,Container
+8/21/17,1,120,TRUE,red,19.48,6,Container
+8/28/17,1,81,TRUE,red,14.32,6,Container
+9/4/17,1,70,TRUE,red,14.29,6,Container
+9/11/17,1,400,TRUE,red,11.62,6,Container
+9/18/17,1,2130,TRUE,red,9,6,Container
+9/25/17,1,348,TRUE,red,13.64,6,Container
+10/2/17,1,186,TRUE,red,14.43,6,Container
+10/9/17,1,74,TRUE,red,20.64,6,Container
+10/16/17,1,77,TRUE,red,21.57,6,Container
+10/23/17,1,196,TRUE,red,15.03,6,Container
+10/30/17,1,90,FALSE,red,27.17,6,Container
+11/6/17,1,99,FALSE,red,20.27,6,Container
+11/13/17,1,2698,FALSE,red,12.27,6,Container
+11/20/17,1,30,FALSE,red,20.21,6,Container
+11/27/17,1,28,FALSE,red,20.99,6,Container
+12/4/17,1,43,FALSE,red,21.99,6,Container
+12/11/17,1,36,FALSE,red,21.17,6,Container
+12/18/17,1,128,FALSE,red,15.33,6,Container
+12/25/17,1,71,FALSE,red,18.23,6,Container
+1/1/18,1,549,FALSE,red,13.31,6,Container
+1/8/18,1,66,FALSE,red,15.68,6,Container
+1/15/18,1,53,FALSE,red,16.75,6,Container
+1/22/18,1,57,FALSE,red,15.07,6,Container
+1/29/18,1,52,TRUE,red,16.83,6,Container
+2/5/18,1,27,TRUE,red,20.99,6,Container
+2/12/18,1,53,TRUE,red,21.11,6,Container
+2/19/18,1,63,TRUE,red,19.99,6,Container
+2/26/18,1,33,TRUE,red,23.48,6,Container
+3/5/18,1,167,TRUE,red,34.65,6,Container
+3/12/18,1,182,TRUE,red,15.32,6,Container
+3/19/18,1,467,TRUE,red,14.31,6,Container
+3/26/18,1,246,TRUE,red,12.94,6,Container
+4/2/18,1,16,FALSE,red,20.14,6,Container
+4/9/18,1,40,FALSE,red,21.99,6,Container
+4/16/18,1,110,TRUE,red,31.26,6,Container
+4/23/18,1,197,TRUE,red,16.8,6,Container
+4/30/18,1,235,TRUE,red,21.57,6,Container
+5/7/18,1,215,FALSE,red,15.13,6,Container
+5/14/18,1,301,TRUE,red,14.12,6,Container
+5/21/18,1,2860,TRUE,red,7.51,6,Container
+5/28/18,1,15,TRUE,red,21.48,6,Container
+6/4/18,1,194,TRUE,red,27.78,6,Container
+6/11/18,1,37,FALSE,red,21.99,6,Container
+6/18/18,1,168,TRUE,red,20.51,6,Container
+6/25/18,1,79,TRUE,red,21.99,6,Container
+7/2/18,1,100,TRUE,red,20.83,6,Container
+7/9/18,1,233,TRUE,red,14.55,6,Container
+7/16/18,1,111,TRUE,red,20.98,6,Container
+7/23/18,1,109,FALSE,red,16.61,6,Container
+7/30/18,1,249,TRUE,red,15.43,6,Container
+8/6/18,1,225,TRUE,red,14.53,6,Container
+8/13/18,1,91,TRUE,red,17.08,6,Container
+8/20/18,1,215,TRUE,red,15.35,6,Container
+8/27/18,1,171,TRUE,red,15.48,6,Container
+9/3/18,1,59,TRUE,red,24.11,6,Container
+9/10/18,1,131,FALSE,red,13.87,6,Container
+9/17/18,1,2489,FALSE,red,11.34,6,Container
+9/24/18,1,237,TRUE,red,14.8,6,Container
+10/31/16,2,92,TRUE,grey,19.99,8,Pick Up
+11/7/16,2,95,TRUE,grey,19.99,8,Pick Up
+11/14/16,2,88,FALSE,grey,21.99,8,Pick Up
+11/21/16,2,82,TRUE,grey,19.88,8,Pick Up
+11/28/16,2,76,TRUE,grey,20.81,8,Pick Up
+12/5/16,2,86,TRUE,grey,21.49,8,Pick Up
+12/12/16,2,121,TRUE,grey,20.44,8,Pick Up
+12/19/16,2,94,TRUE,grey,19.53,8,Pick Up
+12/26/16,2,122,TRUE,grey,20.68,8,Pick Up
+1/2/17,2,101,TRUE,grey,20.73,8,Pick Up
+1/9/17,2,89,TRUE,grey,20.23,8,Pick Up
+1/16/17,2,62,TRUE,grey,26.64,8,Pick Up
+1/23/17,2,66,TRUE,grey,24.11,8,Pick Up
+1/30/17,2,41,TRUE,grey,27.4,8,Pick Up
+2/6/17,2,64,TRUE,grey,26.71,8,Pick Up
+2/13/17,2,47,TRUE,grey,26.44,8,Pick Up
+2/20/17,2,68,TRUE,grey,28.41,8,Pick Up
+2/27/17,2,114,TRUE,grey,24.12,8,Pick Up
+3/6/17,2,146,TRUE,grey,19.97,8,Pick Up
+3/13/17,2,128,TRUE,grey,21.74,8,Pick Up
+3/20/17,2,122,TRUE,grey,20.07,8,Pick Up
+3/27/17,2,62,TRUE,grey,32.8,8,Pick Up
+4/3/17,2,54,TRUE,grey,31.57,8,Pick Up
+4/10/17,2,65,TRUE,grey,26.74,8,Pick Up
+4/17/17,2,55,TRUE,grey,28.27,8,Pick Up
+4/24/17,2,69,TRUE,grey,21.41,8,Pick Up
+5/1/17,2,59,TRUE,grey,33.85,8,Pick Up
+5/8/17,2,83,TRUE,grey,26.91,8,Pick Up
+5/15/17,2,38,TRUE,grey,31.36,8,Pick Up
+5/22/17,2,64,TRUE,grey,29.69,8,Pick Up
+5/29/17,2,128,TRUE,grey,23,8,Pick Up
+6/5/17,2,124,TRUE,grey,22.01,8,Pick Up
+6/12/17,2,113,TRUE,grey,22.22,8,Pick Up
+6/19/17,2,78,TRUE,grey,24.21,8,Pick Up
+6/26/17,2,103,TRUE,grey,22.36,8,Pick Up
+7/3/17,2,124,TRUE,grey,20.99,8,Pick Up
+7/10/17,2,70,TRUE,grey,19.96,8,Pick Up
+7/17/17,2,57,TRUE,grey,19.55,8,Pick Up
+7/24/17,2,98,TRUE,grey,21.77,8,Pick Up
+7/31/17,2,60,TRUE,grey,20.14,8,Pick Up
+8/7/17,2,30,TRUE,grey,25.29,8,Pick Up
+8/14/17,2,65,TRUE,grey,23.62,8,Pick Up
+8/21/17,2,45,TRUE,grey,27.56,8,Pick Up
+8/28/17,2,36,TRUE,grey,24.45,8,Pick Up
+9/4/17,2,53,TRUE,grey,25.23,8,Pick Up
+9/11/17,2,43,TRUE,grey,24.05,8,Pick Up
+9/18/17,2,40,TRUE,grey,24.22,8,Pick Up
+9/25/17,2,166,TRUE,grey,11.39,8,Pick Up
+10/2/17,2,1027,TRUE,grey,11.1,8,Pick Up
+10/9/17,2,93,TRUE,grey,17.64,8,Pick Up
+10/16/17,2,214,TRUE,grey,11.26,8,Pick Up
+10/23/17,2,30,TRUE,grey,29.82,8,Pick Up
+10/30/17,2,34,FALSE,grey,30.99,8,Pick Up
+11/6/17,2,37,FALSE,grey,31.49,8,Pick Up
+11/13/17,2,94,FALSE,grey,19.08,8,Pick Up
+11/20/17,2,41,FALSE,grey,24.83,8,Pick Up
+11/27/17,2,25,FALSE,grey,29.77,8,Pick Up
+12/4/17,2,48,FALSE,grey,30.99,8,Pick Up
+12/11/17,2,49,FALSE,grey,32.99,8,Pick Up
+12/18/17,2,36,FALSE,grey,32.99,8,Pick Up
+12/25/17,2,29,FALSE,grey,31.99,8,Pick Up
+1/1/18,2,37,FALSE,grey,30.99,8,Pick Up
+1/8/18,2,46,FALSE,grey,31.99,8,Pick Up
+1/15/18,2,59,FALSE,grey,31.74,8,Pick Up
+1/22/18,2,40,FALSE,grey,31.24,8,Pick Up
+1/29/18,2,46,FALSE,grey,31.99,8,Pick Up
+2/5/18,2,33,TRUE,grey,32.99,8,Pick Up
+2/12/18,2,26,FALSE,grey,30.99,8,Pick Up
+2/19/18,2,29,FALSE,grey,32.99,8,Pick Up
+2/26/18,2,31,TRUE,grey,32.99,8,Pick Up
+3/5/18,2,54,TRUE,grey,31.18,8,Pick Up
+3/12/18,2,60,TRUE,grey,27.88,8,Pick Up
+3/19/18,2,49,TRUE,grey,30.1,8,Pick Up
+3/26/18,2,51,FALSE,grey,30.99,8,Pick Up
+4/2/18,2,26,FALSE,grey,30.99,8,Pick Up
+4/9/18,2,38,TRUE,grey,30.99,8,Pick Up
+4/16/18,2,82,TRUE,grey,25.2,8,Pick Up
+4/23/18,2,44,FALSE,grey,31.99,8,Pick Up
+4/30/18,2,134,TRUE,grey,21.45,8,Pick Up
+5/7/18,2,52,TRUE,grey,32.99,8,Pick Up
+5/14/18,2,37,TRUE,grey,31.99,8,Pick Up
+5/21/18,2,50,TRUE,grey,30.38,8,Pick Up
+5/28/18,2,56,TRUE,grey,31.02,8,Pick Up
+6/4/18,2,59,TRUE,grey,32.99,8,Pick Up
+6/11/18,2,46,TRUE,grey,30.74,8,Pick Up
+6/18/18,2,62,TRUE,grey,30.02,8,Pick Up
+6/25/18,2,64,TRUE,grey,30.99,8,Pick Up
+7/2/18,2,70,TRUE,grey,30.99,8,Pick Up
+7/9/18,2,71,TRUE,grey,31.76,8,Pick Up
+7/16/18,2,67,TRUE,grey,28.81,8,Pick Up
+7/23/18,2,53,TRUE,grey,29.79,8,Pick Up
+7/30/18,2,48,TRUE,grey,29.79,8,Pick Up
+8/6/18,2,60,TRUE,grey,29.74,8,Pick Up
+8/13/18,2,81,TRUE,grey,26.56,8,Pick Up
+8/20/18,2,46,FALSE,grey,28.48,8,Pick Up
+8/27/18,2,48,TRUE,grey,29.69,8,Pick Up
+9/3/18,2,37,TRUE,grey,29.69,8,Pick Up
+9/10/18,2,57,TRUE,grey,27.52,8,Pick Up
+9/17/18,2,68,TRUE,grey,28.42,8,Pick Up
+9/24/18,2,364,FALSE,grey,23.34,8,Pick Up
+10/31/16,2,10,TRUE,grey,26.49,6,Container
+11/7/16,2,15,FALSE,grey,39.06,6,Container
+11/14/16,2,32,TRUE,grey,19.46,6,Container
+11/21/16,2,20,TRUE,grey,25.92,6,Container
+11/28/16,2,15,TRUE,grey,28.07,6,Container
+12/5/16,2,33,TRUE,grey,31.13,6,Container
+12/12/16,2,34,TRUE,grey,19.68,6,Container
+12/19/16,2,210,TRUE,grey,20.13,6,Container
+12/26/16,2,12,TRUE,grey,31.99,6,Container
+1/2/17,2,21,TRUE,grey,31.61,6,Container
+1/9/17,2,23,TRUE,grey,28.57,6,Container
+1/16/17,2,14,FALSE,grey,34.99,6,Container
+1/23/17,2,21,TRUE,grey,27.49,6,Container
+1/30/17,2,8,FALSE,grey,39.32,6,Container
+2/6/17,2,33,TRUE,grey,26.49,6,Container
+2/13/17,2,13,TRUE,grey,32.99,6,Container
+2/20/17,2,16,TRUE,grey,31.41,6,Container
+2/27/17,2,8,FALSE,grey,41.11,6,Container
+3/6/17,2,7,FALSE,grey,28.27,6,Container
+3/13/17,2,169,TRUE,grey,21.13,6,Container
+3/20/17,2,24,FALSE,grey,43.16,6,Container
+3/27/17,2,17,FALSE,grey,40.84,6,Container
+4/3/17,2,24,FALSE,grey,33.89,6,Container
+4/10/17,2,318,TRUE,grey,20.04,6,Container
+4/17/17,2,13,FALSE,grey,49.89,6,Container
+4/24/17,2,28,TRUE,grey,32.99,6,Container
+5/1/17,2,30,TRUE,grey,29.4,6,Container
+5/8/17,2,6,FALSE,grey,51.03,6,Container
+5/15/17,2,16,FALSE,grey,49.03,6,Container
+5/22/17,2,16,TRUE,grey,27.49,6,Container
+5/29/17,2,6,FALSE,grey,50.03,6,Container
+6/5/17,2,11,FALSE,grey,47.96,6,Container
+6/12/17,2,4,FALSE,grey,50.03,6,Container
+6/19/17,2,7,FALSE,grey,50.03,6,Container
+6/26/17,2,10,FALSE,grey,44.61,6,Container
+7/3/17,2,18,TRUE,grey,26.79,6,Container
+7/10/17,2,16,TRUE,grey,31.99,6,Container
+7/17/17,2,10,FALSE,grey,51.03,6,Container
+7/24/17,2,6,FALSE,grey,51.03,6,Container
+7/31/17,2,11,FALSE,grey,51.03,6,Container
+8/7/17,2,18,TRUE,grey,28.26,6,Container
+8/14/17,2,12,FALSE,grey,49.22,6,Container
+8/21/17,2,15,FALSE,grey,48.39,6,Container
+8/28/17,2,6,FALSE,grey,36.51,6,Container
+9/4/17,2,69,TRUE,grey,18.36,6,Container
+9/11/17,2,36,TRUE,grey,19.85,6,Container
+9/18/17,2,9,FALSE,grey,49.03,6,Container
+9/25/17,2,36,TRUE,grey,28.27,6,Container
+10/2/17,2,44,TRUE,grey,20.22,6,Container
+10/9/17,2,10,FALSE,grey,41.2,6,Container
+10/16/17,2,13,TRUE,grey,25.49,6,Container
+10/23/17,2,22,TRUE,grey,26.49,6,Container
+10/30/17,2,21,FALSE,grey,28.57,6,Container
+11/6/17,2,10,FALSE,grey,51.03,6,Container
+11/13/17,2,14,FALSE,grey,51.03,6,Container
+11/20/17,2,8,FALSE,grey,49.03,6,Container
+11/27/17,2,4,FALSE,grey,49.03,6,Container
+12/4/17,2,1,FALSE,grey,49.03,6,Container
+12/11/17,2,10,FALSE,grey,36.05,6,Container
+12/18/17,2,18,FALSE,grey,25.53,6,Container
+12/25/17,2,14,FALSE,grey,15.51,6,Container
+1/1/18,2,25,FALSE,grey,19.07,6,Container
+1/8/18,2,5,FALSE,grey,42.18,6,Container
+1/15/18,2,17,FALSE,grey,26.49,6,Container
+1/22/18,2,8,FALSE,grey,48.19,6,Container
+1/29/18,2,8,FALSE,grey,50.03,6,Container
+2/5/18,2,9,TRUE,grey,50.03,6,Container
+2/12/18,2,2,TRUE,grey,51.03,6,Container
+2/19/18,2,7,FALSE,grey,51.03,6,Container
+2/26/18,2,16,FALSE,grey,38.41,6,Container
+3/5/18,2,121,FALSE,grey,20.99,6,Container
+3/12/18,2,12,FALSE,grey,51.28,6,Container
+3/19/18,2,10,FALSE,grey,49.03,6,Container
+3/26/18,2,17,FALSE,grey,26.49,6,Container
+4/2/18,2,11,FALSE,grey,48.95,6,Container
+4/9/18,2,25,TRUE,grey,43.53,6,Container
+4/16/18,2,15,FALSE,grey,31.99,6,Container
+4/23/18,2,26,TRUE,grey,37.8,6,Container
+4/30/18,2,15,FALSE,grey,27.9,6,Container
+5/7/18,2,33,TRUE,grey,40.61,6,Container
+5/14/18,2,16,FALSE,grey,43.99,6,Container
+5/21/18,2,27,TRUE,grey,41.99,6,Container
+5/28/18,2,29,TRUE,grey,32.99,6,Container
+6/4/18,2,30,TRUE,grey,36.04,6,Container
+6/11/18,2,32,TRUE,grey,32.2,6,Container
+6/18/18,2,33,TRUE,grey,31.69,6,Container
+6/25/18,2,28,TRUE,grey,34.2,6,Container
+7/2/18,2,7,FALSE,grey,29.76,6,Container
+7/9/18,2,85,TRUE,grey,19.37,6,Container
+7/16/18,2,30,TRUE,grey,33.15,6,Container
+7/23/18,2,30,TRUE,grey,37.44,6,Container
+7/30/18,2,7,FALSE,grey,38.25,6,Container
+8/6/18,2,25,TRUE,grey,41.03,6,Container
+8/13/18,2,51,TRUE,grey,26.66,6,Container
+8/20/18,2,40,FALSE,grey,25.94,6,Container
+8/27/18,2,12,FALSE,grey,43.99,6,Container
+9/3/18,2,11,FALSE,grey,26.49,6,Container
+9/10/18,2,50,FALSE,grey,21.75,6,Container
+9/17/18,2,31,TRUE,grey,35.39,6,Container
+9/24/18,2,99,FALSE,grey,21.06,6,Container
+10/31/16,2,12,FALSE,white,109.99,6,Flatbed
+11/7/16,2,6,FALSE,white,109.99,6,Flatbed
+11/14/16,2,8,FALSE,white,109.99,6,Flatbed
+11/21/16,2,17,FALSE,white,108.99,6,Flatbed
+11/28/16,2,9,FALSE,white,109.99,6,Flatbed
+12/5/16,2,7,FALSE,white,108.99,6,Flatbed
+12/12/16,2,8,FALSE,white,95.24,6,Flatbed
+12/19/16,2,17,TRUE,white,81.49,6,Flatbed
+12/26/16,2,9,FALSE,white,100.19,6,Flatbed
+1/2/17,2,9,FALSE,white,105.63,6,Flatbed
+1/9/17,2,11,TRUE,white,86.26,6,Flatbed
+1/16/17,2,9,FALSE,white,101.29,6,Flatbed
+1/23/17,2,8,FALSE,white,101.83,6,Flatbed
+1/30/17,2,9,FALSE,white,105.32,6,Flatbed
+2/6/17,2,16,TRUE,white,85.28,6,Flatbed
+2/13/17,2,22,TRUE,white,85.99,6,Flatbed
+2/20/17,2,12,FALSE,white,101.45,6,Flatbed
+2/27/17,2,8,FALSE,white,123.83,6,Flatbed
+3/6/17,2,13,FALSE,white,96.81,6,Flatbed
+3/13/17,2,12,FALSE,white,95.71,6,Flatbed
+3/20/17,2,5,TRUE,white,103.61,6,Flatbed
+3/27/17,2,9,FALSE,white,98.6,6,Flatbed
+4/3/17,2,51,TRUE,white,93.71,6,Flatbed
+4/10/17,2,41,TRUE,white,92.11,6,Flatbed
+4/17/17,2,23,FALSE,white,103.05,6,Flatbed
+4/24/17,2,4,FALSE,white,106.51,6,Flatbed
+5/1/17,2,11,FALSE,white,104.49,6,Flatbed
+5/8/17,2,6,FALSE,white,104.87,6,Flatbed
+5/15/17,2,3,FALSE,white,100.09,6,Flatbed
+5/22/17,2,10,FALSE,white,101.29,6,Flatbed
+5/29/17,2,8,TRUE,white,102.65,6,Flatbed
+6/5/17,2,19,FALSE,white,103.46,6,Flatbed
+6/12/17,2,11,FALSE,white,106.85,6,Flatbed
+6/19/17,2,16,TRUE,white,85.72,6,Flatbed
+6/26/17,2,16,FALSE,white,107.65,6,Flatbed
+7/3/17,2,8,FALSE,white,105.93,6,Flatbed
+7/10/17,2,7,TRUE,white,99.97,6,Flatbed
+7/17/17,2,18,FALSE,white,101.15,6,Flatbed
+7/24/17,2,12,FALSE,white,105.91,6,Flatbed
+7/31/17,2,6,FALSE,white,105.25,6,Flatbed
+8/7/17,2,11,FALSE,white,101.53,6,Flatbed
+8/14/17,2,25,TRUE,white,86.91,6,Flatbed
+8/21/17,2,11,FALSE,white,100.62,6,Flatbed
+8/28/17,2,19,FALSE,white,103.04,6,Flatbed
+9/4/17,2,8,FALSE,white,104.67,6,Flatbed
+9/11/17,2,11,FALSE,white,99.99,6,Flatbed
+9/18/17,2,9,FALSE,white,102.98,6,Flatbed
+9/25/17,2,14,FALSE,white,98.88,6,Flatbed
+10/2/17,2,16,TRUE,white,85.99,6,Flatbed
+10/9/17,2,23,TRUE,white,89.09,6,Flatbed
+10/16/17,2,5,FALSE,white,98.64,6,Flatbed
+10/23/17,2,13,FALSE,white,97.97,6,Flatbed
+10/30/17,2,16,TRUE,white,85.89,6,Flatbed
+11/6/17,2,20,TRUE,white,85.82,6,Flatbed
+11/13/17,2,12,FALSE,white,87.09,6,Flatbed
+11/20/17,2,10,FALSE,white,87.99,6,Flatbed
+11/27/17,2,8,FALSE,white,104.87,6,Flatbed
+12/4/17,2,8,FALSE,white,103.27,6,Flatbed
+12/11/17,2,8,FALSE,white,97.13,6,Flatbed
+12/18/17,2,6,FALSE,white,107.61,6,Flatbed
+12/25/17,2,7,FALSE,white,98.78,6,Flatbed
+1/1/18,2,9,FALSE,white,109.99,6,Flatbed
+1/8/18,2,14,FALSE,white,107.29,6,Flatbed
+1/15/18,2,9,FALSE,white,98.54,6,Flatbed
+1/22/18,2,17,FALSE,white,99.77,6,Flatbed
+1/29/18,2,11,FALSE,white,95.99,6,Flatbed
+2/5/18,2,6,FALSE,white,84.89,6,Flatbed
+2/12/18,2,6,TRUE,white,70.12,6,Flatbed
+2/19/18,2,7,FALSE,white,103.66,6,Flatbed
+2/26/18,2,10,FALSE,white,84.99,6,Flatbed
+3/5/18,2,14,FALSE,white,86.99,6,Flatbed
+3/12/18,2,17,TRUE,white,85.99,6,Flatbed
+3/19/18,2,14,TRUE,white,109.99,6,Flatbed
+3/26/18,2,13,TRUE,white,106.16,6,Flatbed
+4/2/18,2,11,FALSE,white,107.99,6,Flatbed
+4/9/18,2,13,FALSE,white,85.99,6,Flatbed
+4/16/18,2,9,FALSE,white,85.99,6,Flatbed
+4/23/18,2,8,FALSE,white,106.34,6,Flatbed
+4/30/18,2,7,FALSE,white,107.99,6,Flatbed
+5/7/18,2,21,FALSE,white,89.66,6,Flatbed
+5/14/18,2,11,FALSE,white,107.99,6,Flatbed
+5/21/18,2,18,TRUE,white,96.52,6,Flatbed
+5/28/18,2,18,FALSE,white,105.32,6,Flatbed
+6/4/18,2,18,FALSE,white,105.32,6,Flatbed
+6/11/18,2,15,FALSE,white,104.91,6,Flatbed
+6/18/18,2,20,FALSE,white,106.85,6,Flatbed
+6/25/18,2,24,FALSE,white,79.19,6,Flatbed
+7/2/18,2,5,FALSE,white,109.99,6,Flatbed
+7/9/18,2,8,FALSE,white,107.99,6,Flatbed
+7/16/18,2,10,FALSE,white,95.23,6,Flatbed
+7/23/18,2,8,FALSE,white,87.99,6,Flatbed
+7/30/18,2,13,FALSE,white,103.57,6,Flatbed
+8/6/18,2,24,FALSE,white,82.3,6,Flatbed
+8/13/18,2,17,FALSE,white,107.96,6,Flatbed
+8/20/18,2,13,FALSE,white,101.71,6,Flatbed
+8/27/18,2,5,FALSE,white,126.49,6,Flatbed
+9/3/18,2,7,FALSE,white,124.49,6,Flatbed
+9/10/18,2,16,FALSE,white,103.7,6,Flatbed
+9/17/18,2,15,FALSE,white,93.49,6,Flatbed
+9/24/18,2,12,TRUE,white,107.99,6,Flatbed
+10/31/16,2,14,FALSE,white,107.93,6,Colt Diesel
+11/7/16,2,19,FALSE,white,104.59,6,Colt Diesel
+11/14/16,2,29,TRUE,white,86.36,6,Colt Diesel
+11/21/16,2,24,TRUE,white,87.41,6,Colt Diesel
+11/28/16,2,26,TRUE,white,87.82,6,Colt Diesel
+12/5/16,2,14,FALSE,white,107.1,6,Colt Diesel
+12/12/16,2,12,FALSE,white,98.98,6,Colt Diesel
+12/19/16,2,16,FALSE,white,90.84,6,Colt Diesel
+12/26/16,2,27,TRUE,white,87.34,6,Colt Diesel
+1/2/17,2,46,TRUE,white,88.46,6,Colt Diesel
+1/9/17,2,28,FALSE,white,101.84,6,Colt Diesel
+1/16/17,2,19,FALSE,white,106.48,6,Colt Diesel
+1/23/17,2,32,TRUE,white,86.99,6,Colt Diesel
+1/30/17,2,22,TRUE,white,88.51,6,Colt Diesel
+2/6/17,2,17,FALSE,white,105.17,6,Colt Diesel
+2/13/17,2,22,TRUE,white,85.17,6,Colt Diesel
+2/20/17,2,16,TRUE,white,89.21,6,Colt Diesel
+2/27/17,2,24,FALSE,white,107.98,6,Colt Diesel
+3/6/17,2,22,TRUE,white,86.57,6,Colt Diesel
+3/13/17,2,38,TRUE,white,76.99,6,Colt Diesel
+3/20/17,2,70,TRUE,white,79.37,6,Colt Diesel
+3/27/17,2,38,TRUE,white,83.75,6,Colt Diesel
+4/3/17,2,11,FALSE,white,104.22,6,Colt Diesel
+4/10/17,2,16,FALSE,white,109.34,6,Colt Diesel
+4/17/17,2,17,FALSE,white,98.84,6,Colt Diesel
+4/24/17,2,19,FALSE,white,102.92,6,Colt Diesel
+5/1/17,2,14,FALSE,white,106.91,6,Colt Diesel
+5/8/17,2,18,FALSE,white,98.07,6,Colt Diesel
+5/15/17,2,24,TRUE,white,87.36,6,Colt Diesel
+5/22/17,2,13,FALSE,white,107.05,6,Colt Diesel
+5/29/17,2,29,FALSE,white,94.54,6,Colt Diesel
+6/5/17,2,50,TRUE,white,78.27,6,Colt Diesel
+6/12/17,2,18,FALSE,white,101.76,6,Colt Diesel
+6/19/17,2,26,FALSE,white,99.36,6,Colt Diesel
+6/26/17,2,39,TRUE,white,82.4,6,Colt Diesel
+7/3/17,2,18,FALSE,white,107.5,6,Colt Diesel
+7/10/17,2,18,FALSE,white,108.99,6,Colt Diesel
+7/17/17,2,22,FALSE,white,107.27,6,Colt Diesel
+7/24/17,2,23,FALSE,white,97.08,6,Colt Diesel
+7/31/17,2,92,TRUE,white,75.99,6,Colt Diesel
+8/7/17,2,11,FALSE,white,112.99,6,Colt Diesel
+8/14/17,2,24,FALSE,white,108.47,6,Colt Diesel
+8/21/17,2,5,FALSE,white,109.47,6,Colt Diesel
+8/28/17,2,459,TRUE,white,75.99,6,Colt Diesel
+9/4/17,2,63,TRUE,white,75.46,6,Colt Diesel
+9/11/17,2,27,FALSE,white,85.97,6,Colt Diesel
+9/18/17,2,41,FALSE,white,81.07,6,Colt Diesel
+9/25/17,2,306,TRUE,white,66.88,6,Colt Diesel
+10/2/17,2,17,FALSE,white,107.99,6,Colt Diesel
+10/9/17,2,28,FALSE,white,103.2,6,Colt Diesel
+10/16/17,2,24,FALSE,white,107.49,6,Colt Diesel
+10/23/17,2,33,TRUE,white,87.11,6,Colt Diesel
+10/30/17,2,40,FALSE,white,88.35,6,Colt Diesel
+11/6/17,2,49,FALSE,white,89.59,6,Colt Diesel
+11/13/17,2,8,FALSE,white,108.99,6,Colt Diesel
+11/20/17,2,23,FALSE,white,105.8,6,Colt Diesel
+11/27/17,2,25,FALSE,white,105.27,6,Colt Diesel
+12/4/17,2,21,FALSE,white,104.15,6,Colt Diesel
+12/11/17,2,11,FALSE,white,107.52,6,Colt Diesel
+12/18/17,2,32,FALSE,white,104.27,6,Colt Diesel
+12/25/17,2,51,FALSE,white,75.4,6,Colt Diesel
+1/1/18,2,24,FALSE,white,102.75,6,Colt Diesel
+1/8/18,2,24,FALSE,white,109.99,6,Colt Diesel
+1/15/18,2,27,FALSE,white,94.45,6,Colt Diesel
+1/22/18,2,25,FALSE,white,85.24,6,Colt Diesel
+1/29/18,2,18,TRUE,white,87.99,6,Colt Diesel
+2/5/18,2,14,FALSE,white,100.89,6,Colt Diesel
+2/12/18,2,24,TRUE,white,85.99,6,Colt Diesel
+2/19/18,2,22,FALSE,white,88.51,6,Colt Diesel
+2/26/18,2,19,FALSE,white,106.84,6,Colt Diesel
+3/5/18,2,19,FALSE,white,107.99,6,Colt Diesel
+3/12/18,2,36,TRUE,white,107.99,6,Colt Diesel
+3/19/18,2,36,TRUE,white,108.99,6,Colt Diesel
+3/26/18,2,30,FALSE,white,75.16,6,Colt Diesel
+4/2/18,2,12,FALSE,white,119.47,6,Colt Diesel
+4/9/18,2,12,FALSE,white,107.99,6,Colt Diesel
+4/16/18,2,18,TRUE,white,109.99,6,Colt Diesel
+4/23/18,2,853,TRUE,white,64.99,6,Colt Diesel
+4/30/18,2,12,FALSE,white,112.07,6,Colt Diesel
+5/7/18,2,22,FALSE,white,109.99,6,Colt Diesel
+5/14/18,2,35,TRUE,white,96.61,6,Colt Diesel
+5/21/18,2,65,FALSE,white,76.18,6,Colt Diesel
+5/28/18,2,69,FALSE,white,75.54,6,Colt Diesel
+6/4/18,2,64,FALSE,white,79.92,6,Colt Diesel
+6/11/18,2,53,FALSE,white,79.99,6,Colt Diesel
+6/18/18,2,67,FALSE,white,78.49,6,Colt Diesel
+6/25/18,2,43,FALSE,white,76.75,6,Colt Diesel
+7/2/18,2,52,FALSE,white,79.52,6,Colt Diesel
+7/9/18,2,31,FALSE,white,77.29,6,Colt Diesel
+7/16/18,2,33,FALSE,white,80.22,6,Colt Diesel
+7/23/18,2,107,TRUE,white,65.02,6,Colt Diesel
+7/30/18,2,295,TRUE,white,66.44,6,Colt Diesel
+8/6/18,2,7,FALSE,white,113.56,6,Colt Diesel
+8/13/18,2,13,FALSE,white,96.87,6,Colt Diesel
+8/20/18,2,21,TRUE,white,107.01,6,Colt Diesel
+8/27/18,2,4,FALSE,white,115.39,6,Colt Diesel
+9/3/18,2,21,TRUE,white,97.99,6,Colt Diesel
+9/10/18,2,18,FALSE,white,100.35,6,Colt Diesel
+9/17/18,2,51,FALSE,white,63.51,6,Colt Diesel
+9/24/18,2,445,FALSE,white,54.5,6,Colt Diesel
+10/31/16,2,67,FALSE,silver,14.39,5,12.Flash drives
+11/7/16,2,76,FALSE,silver,14.39,5,12.Flash drives
+11/14/16,2,90,FALSE,silver,15.39,5,12.Flash drives
+11/21/16,2,72,FALSE,silver,13.29,5,12.Flash drives
+11/28/16,2,127,FALSE,silver,14.27,5,12.Flash drives
+12/5/16,2,101,FALSE,silver,14.64,5,12.Flash drives
+12/12/16,2,110,FALSE,silver,14.2,5,12.Flash drives
+12/19/16,2,74,FALSE,silver,15.25,5,12.Flash drives
+12/26/16,2,104,FALSE,silver,14.66,5,12.Flash drives
+1/2/17,2,81,FALSE,silver,14.3,5,12.Flash drives
+1/9/17,2,100,FALSE,silver,15.19,5,12.Flash drives
+1/16/17,2,75,FALSE,silver,15.05,5,12.Flash drives
+1/23/17,2,114,FALSE,silver,13.24,5,12.Flash drives
+1/30/17,2,102,FALSE,silver,14.19,5,12.Flash drives
+2/6/17,2,138,FALSE,silver,13.32,5,12.Flash drives
+2/13/17,2,115,FALSE,silver,12.91,5,12.Flash drives
+2/20/17,2,119,FALSE,silver,13.17,5,12.Flash drives
+2/27/17,2,93,FALSE,silver,14.95,5,12.Flash drives
+3/6/17,2,108,FALSE,silver,13.1,5,12.Flash drives
+3/13/17,2,112,FALSE,silver,14.18,5,12.Flash drives
+3/20/17,2,135,FALSE,silver,13.92,5,12.Flash drives
+3/27/17,2,139,FALSE,silver,13.33,5,12.Flash drives
+4/3/17,2,100,FALSE,silver,13.15,5,12.Flash drives
+4/10/17,2,117,FALSE,silver,14.39,5,12.Flash drives
+4/17/17,2,126,FALSE,silver,13.25,5,12.Flash drives
+4/24/17,2,82,FALSE,silver,15.16,5,12.Flash drives
+5/1/17,2,106,FALSE,silver,12.95,5,12.Flash drives
+5/8/17,2,82,FALSE,silver,15.2,5,12.Flash drives
+5/15/17,2,63,FALSE,silver,13.3,5,12.Flash drives
+5/22/17,2,87,FALSE,silver,13.28,5,12.Flash drives
+5/29/17,2,67,FALSE,silver,14.39,5,12.Flash drives
+6/5/17,2,79,FALSE,silver,15.39,5,12.Flash drives
+6/12/17,2,89,TRUE,silver,18.4,5,12.Flash drives
+6/19/17,2,95,FALSE,silver,14.46,5,12.Flash drives
+6/26/17,2,95,TRUE,silver,14.27,5,12.Flash drives
+7/3/17,2,103,FALSE,silver,14.24,5,12.Flash drives
+7/10/17,2,116,TRUE,silver,14.19,5,12.Flash drives
+7/17/17,2,120,FALSE,silver,12,5,12.Flash drives
+7/24/17,2,82,TRUE,silver,16.21,5,12.Flash drives
+7/31/17,2,119,FALSE,silver,12.32,5,12.Flash drives
+8/7/17,2,83,TRUE,silver,19.79,5,12.Flash drives
+8/14/17,2,103,TRUE,silver,17.11,5,12.Flash drives
+8/21/17,2,176,FALSE,silver,11.6,5,12.Flash drives
+8/28/17,2,151,FALSE,silver,12.66,5,12.Flash drives
+9/4/17,2,29,TRUE,silver,14.13,5,12.Flash drives
+9/11/17,2,84,TRUE,silver,15.11,5,12.Flash drives
+9/18/17,2,107,FALSE,silver,12.44,5,12.Flash drives
+9/25/17,2,98,FALSE,silver,10.4,5,12.Flash drives
+10/2/17,2,99,TRUE,silver,14.21,5,12.Flash drives
+10/9/17,2,264,TRUE,silver,16.52,5,12.Flash drives
+10/16/17,2,106,FALSE,silver,19.26,5,12.Flash drives
+10/23/17,2,58,FALSE,silver,19.63,5,12.Flash drives
+10/30/17,2,50,FALSE,silver,19.99,5,12.Flash drives
+11/6/17,2,70,FALSE,silver,13.39,5,12.Flash drives
+11/13/17,2,75,FALSE,silver,15.55,5,12.Flash drives
+11/20/17,2,82,FALSE,silver,20.92,5,12.Flash drives
+11/27/17,2,124,FALSE,silver,13.5,5,12.Flash drives
+12/4/17,2,52,FALSE,silver,20.07,5,12.Flash drives
+12/11/17,2,78,FALSE,silver,14.36,5,12.Flash drives
+12/18/17,2,57,FALSE,silver,20.67,5,12.Flash drives
+12/25/17,2,78,FALSE,silver,15.48,5,12.Flash drives
+1/1/18,2,71,FALSE,silver,19.49,5,12.Flash drives
+1/8/18,2,135,FALSE,silver,14.47,5,12.Flash drives
+1/15/18,2,71,FALSE,silver,20.83,5,12.Flash drives
+1/22/18,2,105,FALSE,silver,14.42,5,12.Flash drives
+1/29/18,2,141,FALSE,silver,16.02,5,12.Flash drives
+2/5/18,2,252,FALSE,silver,12.36,5,12.Flash drives
+2/12/18,2,121,FALSE,silver,16.84,5,12.Flash drives
+2/19/18,2,120,FALSE,silver,13.74,5,12.Flash drives
+2/26/18,2,57,FALSE,silver,21.71,5,12.Flash drives
+3/5/18,2,105,FALSE,silver,14.54,5,12.Flash drives
+3/12/18,2,83,FALSE,silver,21.81,5,12.Flash drives
+3/19/18,2,105,FALSE,silver,15.89,5,12.Flash drives
+3/26/18,2,87,FALSE,silver,19,5,12.Flash drives
+4/2/18,2,94,TRUE,silver,13.28,5,12.Flash drives
+4/9/18,2,68,FALSE,silver,19.85,5,12.Flash drives
+4/16/18,2,136,FALSE,silver,14.29,5,12.Flash drives
+4/23/18,2,89,TRUE,silver,21.67,5,12.Flash drives
+4/30/18,2,103,FALSE,silver,12.33,5,12.Flash drives
+5/7/18,2,92,FALSE,silver,21.39,5,12.Flash drives
+5/14/18,2,98,FALSE,silver,12.19,5,12.Flash drives
+5/21/18,2,89,FALSE,silver,20.72,5,12.Flash drives
+5/28/18,2,91,FALSE,silver,19.89,5,12.Flash drives
+6/4/18,2,135,FALSE,silver,13.36,5,12.Flash drives
+6/11/18,2,75,FALSE,silver,20.99,5,12.Flash drives
+6/18/18,2,96,FALSE,silver,19.93,5,12.Flash drives
+6/25/18,2,129,FALSE,silver,12.31,5,12.Flash drives
+7/2/18,2,84,TRUE,silver,19.99,5,12.Flash drives
+7/9/18,2,82,FALSE,silver,20.46,5,12.Flash drives
+7/16/18,2,100,FALSE,silver,12.52,5,12.Flash drives
+7/23/18,2,62,FALSE,silver,19.65,5,12.Flash drives
+7/30/18,2,70,FALSE,silver,21.71,5,12.Flash drives
+8/6/18,2,72,TRUE,silver,21.33,5,12.Flash drives
+8/13/18,2,88,FALSE,silver,20.63,5,12.Flash drives
+8/20/18,2,102,FALSE,silver,20.37,5,12.Flash drives
+8/27/18,2,99,FALSE,silver,12.63,5,12.Flash drives
+9/3/18,2,65,FALSE,silver,13.42,5,12.Flash drives
+9/10/18,2,98,FALSE,silver,21.93,5,12.Flash drives
+9/17/18,2,110,FALSE,silver,20.65,5,12.Flash drives
+9/24/18,2,110,FALSE,silver,20.95,5,12.Flash drives
+10/31/16,2,3,FALSE,green,29.89,8,Fuso
+11/7/16,2,3,FALSE,green,4.88,8,Fuso
+11/14/16,2,15,FALSE,green,29.89,8,Fuso
+11/21/16,2,3,FALSE,green,10,8,Fuso
+11/28/16,2,3,FALSE,green,30.89,8,Fuso
+12/5/16,2,4,FALSE,green,29.89,8,Fuso
+12/12/16,2,4,FALSE,green,30.89,8,Fuso
+12/19/16,2,1,FALSE,green,31.89,8,Fuso
+12/26/16,2,3,FALSE,green,30.89,8,Fuso
+1/2/17,2,3,FALSE,green,29.89,8,Fuso
+1/9/17,2,5,FALSE,green,29.89,8,Fuso
+1/16/17,2,6,FALSE,green,30.89,8,Fuso
+1/23/17,2,15,FALSE,green,29.89,8,Fuso
+1/30/17,2,7,FALSE,green,29.89,8,Fuso
+2/6/17,2,6,FALSE,green,31.89,8,Fuso
+2/13/17,2,1,FALSE,green,31.89,8,Fuso
+2/20/17,2,4,FALSE,green,29.89,8,Fuso
+2/27/17,2,9,FALSE,green,31.89,8,Fuso
+3/6/17,2,4,FALSE,green,28.23,8,Fuso
+3/13/17,2,3,FALSE,green,31.89,8,Fuso
+3/20/17,2,19,FALSE,green,30.47,8,Fuso
+3/27/17,2,1,FALSE,green,23.92,8,Fuso
+4/3/17,2,1,FALSE,green,29.89,8,Fuso
+4/10/17,2,6,FALSE,green,26.57,8,Fuso
+4/17/17,2,14,FALSE,green,29.89,8,Fuso
+4/24/17,2,2,FALSE,green,30.89,8,Fuso
+5/1/17,2,10,FALSE,green,31.89,8,Fuso
+5/8/17,2,4,FALSE,green,30.89,8,Fuso
+5/15/17,2,12,FALSE,green,29.89,8,Fuso
+5/22/17,2,4,FALSE,green,31.89,8,Fuso
+5/29/17,2,6,FALSE,green,29.03,8,Fuso
+6/5/17,2,38,TRUE,green,17.59,8,Fuso
+6/12/17,2,20,TRUE,green,16.59,8,Fuso
+6/19/17,2,26,TRUE,green,16.59,8,Fuso
+6/26/17,2,30,TRUE,green,16.59,8,Fuso
+7/3/17,2,24,TRUE,green,15.59,8,Fuso
+7/10/17,2,10,FALSE,green,30.89,8,Fuso
+7/17/17,2,2,FALSE,green,30.89,8,Fuso
+7/24/17,2,17,FALSE,green,31.89,8,Fuso
+7/31/17,2,17,FALSE,green,29.89,8,Fuso
+8/7/17,2,7,FALSE,green,29.89,8,Fuso
+8/14/17,2,18,FALSE,green,31.89,8,Fuso
+8/21/17,2,7,FALSE,green,30.89,8,Fuso
+8/28/17,2,8,FALSE,green,31.89,8,Fuso
+9/4/17,2,16,FALSE,green,31.89,8,Fuso
+9/11/17,2,11,FALSE,green,31.89,8,Fuso
+9/18/17,2,3,FALSE,green,31.89,8,Fuso
+9/25/17,2,7,FALSE,green,25.33,8,Fuso
+10/2/17,2,6,FALSE,green,29.89,8,Fuso
+10/9/17,2,6,FALSE,green,25.51,8,Fuso
+10/16/17,2,16,FALSE,green,31.89,8,Fuso
+10/23/17,2,15,TRUE,green,10.25,8,Fuso
+10/30/17,2,81,TRUE,green,17.25,8,Fuso
+11/6/17,2,72,TRUE,green,18.85,8,Fuso
+11/13/17,2,127,TRUE,green,21.99,8,Fuso
+11/20/17,2,24,TRUE,green,20.99,8,Fuso
+11/27/17,2,22,FALSE,green,21.99,8,Fuso
+12/4/17,2,32,FALSE,green,21.99,8,Fuso
+12/11/17,2,13,FALSE,green,19.99,8,Fuso
+12/18/17,2,45,FALSE,green,22.21,8,Fuso
+12/25/17,2,9,FALSE,green,30.89,8,Fuso
+1/1/18,2,5,FALSE,green,29.89,8,Fuso
+1/8/18,2,7,FALSE,green,47.83,8,Fuso
+1/15/18,2,2,FALSE,green,30.89,8,Fuso
+1/22/18,2,20,FALSE,green,15.49,8,Fuso
+1/29/18,2,9,FALSE,green,29.89,8,Fuso
+2/5/18,2,18,FALSE,green,29.89,8,Fuso
+2/12/18,2,13,FALSE,green,30.89,8,Fuso
+2/19/18,2,15,FALSE,green,31.89,8,Fuso
+2/26/18,2,40,FALSE,green,25.32,8,Fuso
+3/5/18,2,51,FALSE,green,18.79,8,Fuso
+3/12/18,2,73,FALSE,green,18.58,8,Fuso
+3/19/18,2,98,TRUE,green,18.1,8,Fuso
+3/26/18,2,33,TRUE,green,30.73,8,Fuso
+4/2/18,2,36,FALSE,green,18.89,8,Fuso
+4/9/18,2,32,FALSE,green,18.89,8,Fuso
+4/16/18,2,49,FALSE,green,18.89,8,Fuso
+4/23/18,2,31,FALSE,green,19.89,8,Fuso
+4/30/18,2,8,FALSE,green,29.89,8,Fuso
+5/7/18,2,22,TRUE,green,30.89,8,Fuso
+5/14/18,2,12,FALSE,green,29.89,8,Fuso
+5/21/18,2,13,FALSE,green,29.89,8,Fuso
+5/28/18,2,12,FALSE,green,30.89,8,Fuso
+6/4/18,2,14,FALSE,green,31.89,8,Fuso
+6/11/18,2,18,FALSE,green,26.37,8,Fuso
+6/18/18,2,17,FALSE,green,27.49,8,Fuso
+6/25/18,2,22,FALSE,green,25.49,8,Fuso
+7/2/18,2,14,TRUE,green,25.49,8,Fuso
+7/9/18,2,11,FALSE,green,24.66,8,Fuso
+7/16/18,2,18,TRUE,green,27.49,8,Fuso
+7/23/18,2,13,FALSE,green,26.91,8,Fuso
+7/30/18,2,7,FALSE,green,26.39,8,Fuso
+8/6/18,2,13,FALSE,green,27.49,8,Fuso
+8/13/18,2,21,FALSE,green,25.49,8,Fuso
+8/20/18,2,23,TRUE,green,29.02,8,Fuso
+8/27/18,2,8,FALSE,green,31.56,8,Fuso
+9/3/18,2,8,FALSE,green,30.56,8,Fuso
+9/10/18,2,13,FALSE,green,27.49,8,Fuso
+9/17/18,2,12,FALSE,green,23.74,8,Fuso
+9/24/18,2,23,TRUE,green,25.01,8,Fuso
+10/31/16,2,73,FALSE,,16.23,2,Wingbox
+11/7/16,2,72,FALSE,,16.49,2,Wingbox
+11/14/16,2,93,FALSE,,14.49,2,Wingbox
+11/21/16,2,156,FALSE,,15.31,2,Wingbox
+11/28/16,2,87,FALSE,,14.42,2,Wingbox
+12/5/16,2,94,FALSE,,16.42,2,Wingbox
+12/12/16,2,100,FALSE,,15.32,2,Wingbox
+12/19/16,2,88,FALSE,,16.07,2,Wingbox
+12/26/16,2,116,FALSE,,16.42,2,Wingbox
+1/2/17,2,149,FALSE,,15.2,2,Wingbox
+1/9/17,2,102,FALSE,,15.15,2,Wingbox
+1/16/17,2,108,FALSE,,15.36,2,Wingbox
+1/23/17,2,112,FALSE,,14.26,2,Wingbox
+1/30/17,2,79,FALSE,,16.27,2,Wingbox
+2/6/17,2,112,FALSE,,15.94,2,Wingbox
+2/13/17,2,101,FALSE,,15.06,2,Wingbox
+2/20/17,2,89,FALSE,,14.33,2,Wingbox
+2/27/17,2,91,FALSE,,14.44,2,Wingbox
+3/6/17,2,111,FALSE,,13.83,2,Wingbox
+3/13/17,2,87,FALSE,,14.14,2,Wingbox
+3/20/17,2,123,FALSE,,14.38,2,Wingbox
+3/27/17,2,84,FALSE,,16.23,2,Wingbox
+4/3/17,2,84,FALSE,,16.14,2,Wingbox
+4/10/17,2,115,TRUE,,14.24,2,Wingbox
+4/17/17,2,78,TRUE,,14.49,2,Wingbox
+4/24/17,2,75,FALSE,,15.31,2,Wingbox
+5/1/17,2,138,FALSE,,12.25,2,Wingbox
+5/8/17,2,104,FALSE,,10.85,2,Wingbox
+5/15/17,2,102,TRUE,,12.3,2,Wingbox
+5/22/17,2,128,TRUE,,11.19,2,Wingbox
+5/29/17,2,128,TRUE,,13.19,2,Wingbox
+6/5/17,2,112,FALSE,,13.19,2,Wingbox
+6/12/17,2,114,FALSE,,11.19,2,Wingbox
+6/19/17,2,177,FALSE,,12.12,2,Wingbox
+6/26/17,2,122,FALSE,,11.19,2,Wingbox
+7/3/17,2,150,FALSE,,13.19,2,Wingbox
+7/10/17,2,114,FALSE,,13.09,2,Wingbox
+7/17/17,2,126,FALSE,,13.1,2,Wingbox
+7/24/17,2,125,FALSE,,12.19,2,Wingbox
+7/31/17,2,104,FALSE,,12.19,2,Wingbox
+8/7/17,2,142,FALSE,,12.1,2,Wingbox
+8/14/17,2,155,FALSE,,10.59,2,Wingbox
+8/21/17,2,181,FALSE,,13.14,2,Wingbox
+8/28/17,2,79,FALSE,,10.09,2,Wingbox
+9/4/17,2,55,FALSE,,10.09,2,Wingbox
+9/11/17,2,132,FALSE,,9.53,2,Wingbox
+9/18/17,2,129,FALSE,,12.17,2,Wingbox
+9/25/17,2,151,FALSE,,9.95,2,Wingbox
+10/2/17,2,84,FALSE,,12.09,2,Wingbox
+10/9/17,2,109,FALSE,,12.09,2,Wingbox
+10/16/17,2,142,FALSE,,10.09,2,Wingbox
+10/23/17,2,128,FALSE,,10.92,2,Wingbox
+10/30/17,2,152,FALSE,,12.02,2,Wingbox
+11/6/17,2,155,FALSE,,11.09,2,Wingbox
+11/13/17,2,59,FALSE,,11.09,2,Wingbox
+11/20/17,2,92,FALSE,,10.09,2,Wingbox
+11/27/17,2,133,FALSE,,10.05,2,Wingbox
+12/4/17,2,106,FALSE,,9.99,2,Wingbox
+12/11/17,2,120,FALSE,,10.09,2,Wingbox
+12/18/17,2,116,FALSE,,11.09,2,Wingbox
+12/25/17,2,111,FALSE,,11.06,2,Wingbox
+1/1/18,2,97,FALSE,,11.09,2,Wingbox
+1/8/18,2,128,FALSE,,10.96,2,Wingbox
+1/15/18,2,89,FALSE,,10.09,2,Wingbox
+1/22/18,2,119,FALSE,,12.09,2,Wingbox
+1/29/18,2,110,FALSE,,10.09,2,Wingbox
+2/5/18,2,102,FALSE,,11.09,2,Wingbox
+2/12/18,2,107,FALSE,,10.09,2,Wingbox
+2/19/18,2,76,FALSE,,12.09,2,Wingbox
+2/26/18,2,59,FALSE,,11.87,2,Wingbox
+3/5/18,2,83,FALSE,,11.57,2,Wingbox
+3/12/18,2,72,FALSE,,11.96,2,Wingbox
+3/19/18,2,85,TRUE,,11.48,2,Wingbox
+3/26/18,2,114,FALSE,,10.83,2,Wingbox
+4/2/18,2,73,FALSE,,12.09,2,Wingbox
+4/9/18,2,80,FALSE,,10.09,2,Wingbox
+4/16/18,2,84,FALSE,,11.05,2,Wingbox
+4/23/18,2,99,FALSE,,10.08,2,Wingbox
+4/30/18,2,113,FALSE,,10.09,2,Wingbox
+5/7/18,2,105,FALSE,,12,2,Wingbox
+5/14/18,2,94,FALSE,,12,2,Wingbox
+5/21/18,2,80,FALSE,,9.86,2,Wingbox
+5/28/18,2,70,FALSE,,9.24,2,Wingbox
+6/4/18,2,160,FALSE,,7.51,2,Wingbox
+6/11/18,2,144,FALSE,,8.31,2,Wingbox
+6/18/18,2,106,FALSE,,10.12,2,Wingbox
+6/25/18,2,118,FALSE,,9.98,2,Wingbox
+7/2/18,2,121,FALSE,,7.03,2,Wingbox
+7/9/18,2,185,FALSE,,6.49,2,Wingbox
+7/16/18,2,160,FALSE,,4.51,2,Wingbox
+7/23/18,2,119,FALSE,,7.72,2,Wingbox
+7/30/18,2,89,FALSE,,12.03,2,Wingbox
+8/6/18,2,95,FALSE,,10.15,2,Wingbox
+8/13/18,2,84,FALSE,,12.16,2,Wingbox
+8/20/18,2,135,FALSE,,11.28,2,Wingbox
+8/27/18,2,74,FALSE,,10.25,2,Wingbox
+9/3/18,2,53,FALSE,,10.26,2,Wingbox
+9/10/18,2,69,TRUE,,10.23,2,Wingbox
+9/17/18,2,82,FALSE,,10.55,2,Wingbox
+9/24/18,2,117,FALSE,,10.08,2,Wingbox
+10/31/16,2,4,FALSE,green,12.09,4,Fuso
+11/7/16,2,4,FALSE,green,12.09,4,Fuso
+11/14/16,2,11,FALSE,green,11.09,4,Fuso
+11/21/16,2,39,FALSE,green,11.09,4,Fuso
+11/28/16,2,97,FALSE,green,11.09,4,Fuso
+12/5/16,2,191,FALSE,green,11.14,4,Fuso
+12/12/16,2,106,FALSE,green,10.09,4,Fuso
+12/19/16,2,221,FALSE,green,10.04,4,Fuso
+12/26/16,2,95,FALSE,green,10.2,4,Fuso
+1/2/17,2,97,TRUE,green,12.09,4,Fuso
+1/9/17,2,134,TRUE,green,12.09,4,Fuso
+1/16/17,2,62,FALSE,green,14,4,Fuso
+1/23/17,2,63,FALSE,green,14.49,4,Fuso
+1/30/17,2,69,FALSE,green,15.26,4,Fuso
+2/6/17,2,86,FALSE,green,15.49,4,Fuso
+2/13/17,2,132,FALSE,green,15.49,4,Fuso
+2/20/17,2,269,FALSE,green,14.66,4,Fuso
+2/27/17,2,256,TRUE,green,10.04,4,Fuso
+3/6/17,2,161,TRUE,green,10.99,4,Fuso
+3/13/17,2,403,TRUE,green,10.01,4,Fuso
+3/20/17,2,327,TRUE,green,9.07,4,Fuso
+3/27/17,2,192,FALSE,green,14.34,4,Fuso
+4/3/17,2,114,FALSE,green,15.49,4,Fuso
+4/10/17,2,216,FALSE,green,14.49,4,Fuso
+4/17/17,2,234,FALSE,green,16.36,4,Fuso
+4/24/17,2,226,FALSE,green,16.38,4,Fuso
+5/1/17,2,297,TRUE,green,12.38,4,Fuso
+5/8/17,2,319,TRUE,green,14.41,4,Fuso
+5/15/17,2,213,TRUE,green,14.23,4,Fuso
+5/22/17,2,228,TRUE,green,14.48,4,Fuso
+5/29/17,2,96,FALSE,green,19.84,4,Fuso
+6/5/17,2,106,FALSE,green,19.89,4,Fuso
+6/12/17,2,95,FALSE,green,20.15,4,Fuso
+6/19/17,2,105,FALSE,green,21.12,4,Fuso
+6/26/17,2,230,TRUE,green,18.06,4,Fuso
+7/3/17,2,249,TRUE,green,17.73,4,Fuso
+7/10/17,2,331,TRUE,green,18.63,4,Fuso
+7/17/17,2,224,TRUE,green,17.7,4,Fuso
+7/24/17,2,220,TRUE,green,17.67,4,Fuso
+7/31/17,2,124,FALSE,green,19.93,4,Fuso
+8/7/17,2,138,FALSE,green,21.72,4,Fuso
+8/14/17,2,147,FALSE,green,20.56,4,Fuso
+8/21/17,2,135,FALSE,green,21.21,4,Fuso
+8/28/17,2,153,FALSE,green,19.88,4,Fuso
+9/4/17,2,208,TRUE,green,17.95,4,Fuso
+9/11/17,2,166,FALSE,green,21.96,4,Fuso
+9/18/17,2,102,FALSE,green,21.15,4,Fuso
+9/25/17,2,66,FALSE,green,20.36,4,Fuso
+10/2/17,2,249,TRUE,green,12.76,4,Fuso
+10/9/17,2,7,TRUE,green,13.29,4,Fuso
+10/16/17,2,229,TRUE,green,13.55,4,Fuso
+10/23/17,2,72,TRUE,green,13.38,4,Fuso
+10/30/17,2,47,FALSE,green,21.95,4,Fuso
+11/6/17,2,41,FALSE,green,21.51,4,Fuso
+11/13/17,2,63,FALSE,green,20.99,4,Fuso
+11/20/17,2,74,FALSE,green,20.99,4,Fuso
+11/27/17,2,67,FALSE,green,19.99,4,Fuso
+12/4/17,2,44,FALSE,green,18.49,4,Fuso
+12/11/17,2,20,FALSE,green,20.99,4,Fuso
+12/18/17,2,4,FALSE,green,19.99,4,Fuso
+12/25/17,2,6,FALSE,green,19.99,4,Fuso
+1/1/18,2,12,FALSE,green,19.99,4,Fuso
+1/8/18,2,25,FALSE,green,18.35,4,Fuso
+1/15/18,2,8,TRUE,green,15.49,4,Fuso
+1/22/18,2,18,TRUE,green,14.66,4,Fuso
+1/29/18,2,10,TRUE,green,14.49,4,Fuso
+2/5/18,2,25,TRUE,green,16.49,4,Fuso
+2/12/18,2,20,TRUE,green,14.81,4,Fuso
+2/19/18,2,11,FALSE,green,20.99,4,Fuso
+2/26/18,2,3,FALSE,green,21.99,4,Fuso
+3/5/18,2,35,FALSE,green,20.99,4,Fuso
+3/12/18,2,43,TRUE,green,20.99,4,Fuso
+3/19/18,2,47,TRUE,green,19.99,4,Fuso
+3/26/18,2,51,TRUE,green,15.43,4,Fuso
+4/2/18,2,40,FALSE,green,13.99,4,Fuso
+4/9/18,2,53,TRUE,green,15.33,4,Fuso
+4/16/18,2,33,FALSE,green,19.99,4,Fuso
+4/23/18,2,40,FALSE,green,19.99,4,Fuso
+4/30/18,2,40,FALSE,green,19.99,4,Fuso
+5/7/18,2,54,TRUE,green,21.99,4,Fuso
+5/14/18,2,61,TRUE,green,17.4,4,Fuso
+5/21/18,2,55,TRUE,green,14.49,4,Fuso
+5/28/18,2,41,FALSE,green,16.49,4,Fuso
+6/4/18,2,47,FALSE,green,16.5,4,Fuso
+6/11/18,2,45,FALSE,green,15.76,4,Fuso
+6/18/18,2,52,TRUE,green,15.49,4,Fuso
+6/25/18,2,48,TRUE,green,21.99,4,Fuso
+7/2/18,2,24,FALSE,green,21.99,4,Fuso
+7/9/18,2,32,FALSE,green,21.99,4,Fuso
+7/16/18,2,42,TRUE,green,20.99,4,Fuso
+7/23/18,2,29,FALSE,green,24.29,4,Fuso
+7/30/18,2,29,FALSE,green,23.29,4,Fuso
+8/6/18,2,36,FALSE,green,25.29,4,Fuso
+8/13/18,2,35,FALSE,green,24.29,4,Fuso
+8/20/18,2,45,FALSE,green,23.29,4,Fuso
+8/27/18,2,49,TRUE,green,24.29,4,Fuso
+9/3/18,2,43,FALSE,green,25.29,4,Fuso
+9/10/18,2,59,FALSE,green,20.99,4,Fuso
+9/17/18,2,70,TRUE,green,19.99,4,Fuso
+9/24/18,2,50,FALSE,green,20.99,4,Fuso
+10/31/16,2,33,FALSE,silver,15.39,5,12.Flash drives
+11/7/16,2,40,FALSE,silver,14.39,5,12.Flash drives
+11/14/16,2,38,FALSE,silver,13.39,5,12.Flash drives
+11/21/16,2,42,FALSE,silver,14.39,5,12.Flash drives
+11/28/16,2,27,FALSE,silver,12.89,5,12.Flash drives
+12/5/16,2,36,FALSE,silver,12.99,5,12.Flash drives
+12/12/16,2,43,FALSE,silver,13.07,5,12.Flash drives
+12/19/16,2,47,FALSE,silver,12.63,5,12.Flash drives
+12/26/16,2,52,FALSE,silver,12.62,5,12.Flash drives
+1/2/17,2,54,FALSE,silver,13.19,5,12.Flash drives
+1/9/17,2,45,FALSE,silver,13.02,5,12.Flash drives
+1/16/17,2,42,FALSE,silver,13.79,5,12.Flash drives
+1/23/17,2,38,FALSE,silver,13.9,5,12.Flash drives
+1/30/17,2,42,FALSE,silver,12.63,5,12.Flash drives
+2/6/17,2,48,FALSE,silver,14.8,5,12.Flash drives
+2/13/17,2,35,FALSE,silver,13.3,5,12.Flash drives
+2/20/17,2,35,FALSE,silver,14.89,5,12.Flash drives
+2/27/17,2,39,FALSE,silver,13.26,5,12.Flash drives
+3/6/17,2,54,FALSE,silver,13.65,5,12.Flash drives
+3/13/17,2,34,FALSE,silver,14.94,5,12.Flash drives
+3/20/17,2,44,FALSE,silver,14.02,5,12.Flash drives
+3/27/17,2,50,FALSE,silver,14.13,5,12.Flash drives
+4/3/17,2,54,FALSE,silver,13.22,5,12.Flash drives
+4/10/17,2,44,FALSE,silver,15.26,5,12.Flash drives
+4/17/17,2,36,FALSE,silver,13.16,5,12.Flash drives
+4/24/17,2,49,FALSE,silver,12.27,5,12.Flash drives
+5/1/17,2,41,FALSE,silver,14.39,5,12.Flash drives
+5/8/17,2,25,FALSE,silver,14.39,5,12.Flash drives
+5/15/17,2,38,FALSE,silver,12.95,5,12.Flash drives
+5/22/17,2,33,FALSE,silver,13.22,5,12.Flash drives
+5/29/17,2,32,FALSE,silver,12.88,5,12.Flash drives
+6/5/17,2,46,FALSE,silver,15.39,5,12.Flash drives
+6/12/17,2,26,FALSE,silver,12.72,5,12.Flash drives
+6/19/17,2,27,FALSE,silver,15.18,5,12.Flash drives
+6/26/17,2,21,TRUE,silver,19.33,5,12.Flash drives
+7/3/17,2,25,FALSE,silver,15.21,5,12.Flash drives
+7/10/17,2,12,TRUE,silver,21.05,5,12.Flash drives
+7/17/17,2,22,FALSE,silver,16.06,5,12.Flash drives
+7/24/17,2,23,TRUE,silver,17.79,5,12.Flash drives
+7/31/17,2,10,FALSE,silver,28.9,5,12.Flash drives
+8/7/17,2,10,TRUE,silver,20.98,5,12.Flash drives
+8/14/17,2,8,FALSE,silver,26.59,5,12.Flash drives
+8/21/17,2,21,TRUE,silver,20.99,5,12.Flash drives
+8/28/17,2,10,TRUE,silver,20.99,5,12.Flash drives
+9/4/17,2,8,FALSE,silver,30.89,5,12.Flash drives
+9/11/17,2,7,FALSE,silver,28.16,5,12.Flash drives
+9/18/17,2,5,TRUE,silver,19.79,5,12.Flash drives
+9/25/17,2,7,TRUE,silver,21.99,5,12.Flash drives
+10/2/17,2,7,FALSE,silver,31.89,5,12.Flash drives
+10/9/17,2,7,FALSE,silver,30.89,5,12.Flash drives
+10/16/17,2,11,TRUE,silver,20.99,5,12.Flash drives
+10/23/17,2,8,FALSE,silver,29.89,5,12.Flash drives
+10/30/17,2,6,FALSE,silver,28.41,5,12.Flash drives
+11/6/17,2,8,FALSE,silver,21.99,5,12.Flash drives
+11/13/17,2,9,FALSE,silver,19.99,5,12.Flash drives
+11/20/17,2,11,FALSE,silver,29.89,5,12.Flash drives
+11/27/17,2,12,FALSE,silver,20.99,5,12.Flash drives
+12/4/17,2,6,FALSE,silver,21.92,5,12.Flash drives
+12/11/17,2,10,FALSE,silver,21.99,5,12.Flash drives
+12/18/17,2,8,FALSE,silver,31.89,5,12.Flash drives
+12/25/17,2,11,FALSE,silver,20.99,5,12.Flash drives
+1/1/18,2,4,FALSE,silver,29.89,5,12.Flash drives
+1/8/18,2,16,FALSE,silver,19.99,5,12.Flash drives
+1/15/18,2,12,FALSE,silver,30.9,5,12.Flash drives
+1/22/18,2,10,FALSE,silver,19.99,5,12.Flash drives
+1/29/18,2,7,FALSE,silver,31.89,5,12.Flash drives
+2/5/18,2,17,TRUE,silver,21.99,5,12.Flash drives
+2/12/18,2,4,FALSE,silver,27.41,5,12.Flash drives
+2/19/18,2,10,FALSE,silver,18.01,5,12.Flash drives
+2/26/18,2,8,FALSE,silver,29.89,5,12.Flash drives
+3/5/18,2,15,FALSE,silver,21.36,5,12.Flash drives
+3/12/18,2,14,FALSE,silver,28.37,5,12.Flash drives
+3/19/18,2,17,FALSE,silver,21.21,5,12.Flash drives
+3/26/18,2,16,FALSE,silver,26.65,5,12.Flash drives
+4/2/18,2,19,FALSE,silver,20.99,5,12.Flash drives
+4/9/18,2,10,FALSE,silver,27.59,5,12.Flash drives
+4/16/18,2,20,FALSE,silver,21.99,5,12.Flash drives
+4/23/18,2,11,FALSE,silver,31.89,5,12.Flash drives
+4/30/18,2,28,FALSE,silver,19.99,5,12.Flash drives
+5/7/18,2,15,FALSE,silver,31.89,5,12.Flash drives
+5/14/18,2,22,FALSE,silver,20.99,5,12.Flash drives
+5/21/18,2,19,FALSE,silver,29.89,5,12.Flash drives
+5/28/18,2,24,TRUE,silver,25.93,5,12.Flash drives
+6/4/18,2,21,FALSE,silver,19.99,5,12.Flash drives
+6/11/18,2,19,FALSE,silver,30.89,5,12.Flash drives
+6/18/18,2,23,FALSE,silver,28.24,5,12.Flash drives
+6/25/18,2,22,FALSE,silver,21.99,5,12.Flash drives
+7/2/18,2,9,FALSE,silver,30.89,5,12.Flash drives
+7/9/18,2,14,FALSE,silver,33.74,5,12.Flash drives
+7/16/18,2,30,FALSE,silver,20.5,5,12.Flash drives
+7/23/18,2,15,FALSE,silver,29.89,5,12.Flash drives
+7/30/18,2,16,FALSE,silver,30.89,5,12.Flash drives
+8/6/18,2,18,FALSE,silver,27.98,5,12.Flash drives
+8/13/18,2,17,FALSE,silver,31.89,5,12.Flash drives
+8/20/18,2,25,FALSE,silver,28.58,5,12.Flash drives
+8/27/18,2,32,FALSE,silver,21.46,5,12.Flash drives
+9/3/18,2,27,FALSE,silver,20.99,5,12.Flash drives
+9/10/18,2,26,FALSE,silver,27.86,5,12.Flash drives
+9/17/18,2,33,FALSE,silver,24.38,5,12.Flash drives
+9/24/18,2,678,FALSE,silver,17.77,5,12.Flash drives
+10/31/16,2,639,FALSE,green,6.66,8,Fuso
+11/7/16,2,772,FALSE,green,7.68,8,Fuso
+11/14/16,2,653,FALSE,green,7.45,8,Fuso
+11/21/16,2,535,FALSE,green,9.96,8,Fuso
+11/28/16,2,602,FALSE,green,8.31,8,Fuso
+12/5/16,2,626,FALSE,green,8.05,8,Fuso
+12/12/16,2,2467,TRUE,green,5.66,8,Fuso
+12/19/16,2,1984,TRUE,green,4.89,8,Fuso
+12/26/16,2,815,FALSE,green,7.59,8,Fuso
+1/2/17,2,1930,TRUE,green,3.87,8,Fuso
+1/9/17,2,635,FALSE,green,9.12,8,Fuso
+1/16/17,2,1595,TRUE,green,3.99,8,Fuso
+1/23/17,2,645,FALSE,green,8.23,8,Fuso
+1/30/17,2,1318,TRUE,green,3.9,8,Fuso
+2/6/17,2,400,FALSE,green,8.85,8,Fuso
+2/13/17,2,471,FALSE,green,7.89,8,Fuso
+2/20/17,2,462,FALSE,green,7.89,8,Fuso
+2/27/17,2,405,FALSE,green,9.82,8,Fuso
+3/6/17,2,462,FALSE,green,9.85,8,Fuso
+3/13/17,2,426,FALSE,green,9.85,8,Fuso
+3/20/17,2,329,FALSE,green,7.89,8,Fuso
+3/27/17,2,480,FALSE,green,7.77,8,Fuso
+4/3/17,2,540,FALSE,green,7.87,8,Fuso
+4/10/17,2,658,FALSE,green,9.82,8,Fuso
+4/17/17,2,749,FALSE,green,8.82,8,Fuso
+4/24/17,2,452,FALSE,green,10.07,8,Fuso
+5/1/17,2,1093,TRUE,green,9.89,8,Fuso
+5/8/17,2,538,TRUE,green,8.73,8,Fuso
+5/15/17,2,1022,TRUE,green,5.4,8,Fuso
+5/22/17,2,3968,TRUE,green,4.43,8,Fuso
+5/29/17,2,3066,TRUE,green,5.49,8,Fuso
+6/5/17,2,3467,TRUE,green,3.95,8,Fuso
+6/12/17,2,2794,TRUE,green,4.02,8,Fuso
+6/19/17,2,2995,TRUE,green,6.02,8,Fuso
+6/26/17,2,2930,TRUE,green,4.02,8,Fuso
+7/3/17,2,851,FALSE,green,7.07,8,Fuso
+7/10/17,2,2287,TRUE,green,3.95,8,Fuso
+7/17/17,2,668,TRUE,green,9.82,8,Fuso
+7/24/17,2,245,TRUE,green,8.89,8,Fuso
+7/31/17,2,5,FALSE,green,8.89,8,Fuso
+8/7/17,2,747,FALSE,green,7.58,8,Fuso
+8/14/17,2,715,FALSE,green,7.89,8,Fuso
+8/21/17,2,763,FALSE,green,8.87,8,Fuso
+8/28/17,2,278,FALSE,green,8.88,8,Fuso
+9/4/17,2,153,FALSE,green,9.76,8,Fuso
+9/11/17,2,1375,TRUE,green,5.69,8,Fuso
+9/18/17,2,296,TRUE,green,7.87,8,Fuso
+9/25/17,2,117,FALSE,green,10.63,8,Fuso
+10/2/17,2,49,FALSE,green,11.97,8,Fuso
+10/9/17,2,187,FALSE,green,10.74,8,Fuso
+10/16/17,2,285,FALSE,green,9.54,8,Fuso
+10/23/17,2,1723,TRUE,green,4.57,8,Fuso
+10/30/17,2,7512,FALSE,green,2.39,8,Fuso
+11/6/17,2,94,FALSE,green,10.75,8,Fuso
+11/13/17,2,227,FALSE,green,11,8,Fuso
+11/20/17,2,90,FALSE,green,11.55,8,Fuso
+11/27/17,2,106,FALSE,green,11.45,8,Fuso
+12/4/17,2,97,FALSE,green,10.07,8,Fuso
+12/11/17,2,72,FALSE,green,9.71,8,Fuso
+12/18/17,2,114,FALSE,green,11.59,8,Fuso
+12/25/17,2,48,FALSE,green,9.92,8,Fuso
+1/1/18,2,119,FALSE,green,9.95,8,Fuso
+1/8/18,2,126,FALSE,green,10.8,8,Fuso
+1/15/18,2,156,FALSE,green,10.82,8,Fuso
+1/22/18,2,153,FALSE,green,11.49,8,Fuso
+1/29/18,2,122,FALSE,green,11.93,8,Fuso
+2/5/18,2,74,FALSE,green,11.62,8,Fuso
+2/12/18,2,103,FALSE,green,10.01,8,Fuso
+2/19/18,2,139,FALSE,green,9.63,8,Fuso
+2/26/18,2,93,TRUE,green,9.29,8,Fuso
+3/5/18,2,208,FALSE,green,9.64,8,Fuso
+3/12/18,2,120,FALSE,green,10.5,8,Fuso
+3/19/18,2,215,TRUE,green,9.36,8,Fuso
+3/26/18,2,149,TRUE,green,10.01,8,Fuso
+4/2/18,2,137,FALSE,green,10.11,8,Fuso
+4/9/18,2,78,FALSE,green,10.39,8,Fuso
+4/16/18,2,50,FALSE,green,11.53,8,Fuso
+4/23/18,2,168,FALSE,green,10.17,8,Fuso
+4/30/18,2,163,FALSE,green,9.98,8,Fuso
+5/7/18,2,5,FALSE,green,11.42,8,Fuso
+5/14/18,2,486,FALSE,green,8.89,8,Fuso
+5/21/18,2,561,FALSE,green,9.48,8,Fuso
+5/28/18,2,134,FALSE,green,10.87,8,Fuso
+6/4/18,2,386,FALSE,green,11.1,8,Fuso
+6/11/18,2,2820,FALSE,green,6.65,8,Fuso
+6/18/18,2,3504,TRUE,green,5.25,8,Fuso
+6/25/18,2,2235,TRUE,green,7.7,8,Fuso
+7/2/18,2,1394,TRUE,green,6.58,8,Fuso
+7/9/18,2,6656,TRUE,green,4.36,8,Fuso
+7/16/18,2,2175,FALSE,green,7.17,8,Fuso
+7/23/18,2,295,FALSE,green,9.87,8,Fuso
+7/30/18,2,1929,FALSE,green,4.77,8,Fuso
+8/6/18,2,2869,TRUE,green,7.7,8,Fuso
+8/13/18,2,495,FALSE,green,12.23,8,Fuso
+8/20/18,2,922,TRUE,green,7.72,8,Fuso
+8/27/18,2,2642,FALSE,green,6.47,8,Fuso
+9/3/18,2,1133,FALSE,green,6.51,8,Fuso
+9/10/18,2,3357,TRUE,green,5.4,8,Fuso
+9/17/18,2,2077,TRUE,green,7.64,8,Fuso
+9/24/18,2,364,FALSE,green,10.24,8,Fuso
+10/31/16,2,33,FALSE,white,42.99,6,Flatbed
+11/7/16,2,78,FALSE,white,37.79,6,Flatbed
+11/14/16,2,52,FALSE,white,41.01,6,Flatbed
+11/21/16,2,78,TRUE,white,32.86,6,Flatbed
+11/28/16,2,79,TRUE,white,32.36,6,Flatbed
+12/5/16,2,75,FALSE,white,43.4,6,Flatbed
+12/12/16,2,64,FALSE,white,41.64,6,Flatbed
+12/19/16,2,58,FALSE,white,42.67,6,Flatbed
+12/26/16,2,64,FALSE,white,40.22,6,Flatbed
+1/2/17,2,62,FALSE,white,41.37,6,Flatbed
+1/9/17,2,54,FALSE,white,39.57,6,Flatbed
+1/16/17,2,50,FALSE,white,42.63,6,Flatbed
+1/23/17,2,48,FALSE,white,41.26,6,Flatbed
+1/30/17,2,56,FALSE,white,39.22,6,Flatbed
+2/6/17,2,41,FALSE,white,36.25,6,Flatbed
+2/13/17,2,79,TRUE,white,31.95,6,Flatbed
+2/20/17,2,27,FALSE,white,35.85,6,Flatbed
+2/27/17,2,46,FALSE,white,31.87,6,Flatbed
+3/6/17,2,37,FALSE,white,32.92,6,Flatbed
+3/13/17,2,144,FALSE,white,33.9,6,Flatbed
+3/20/17,2,56,FALSE,white,32.91,6,Flatbed
+3/27/17,2,45,FALSE,white,34.06,6,Flatbed
+4/3/17,2,41,FALSE,white,33.26,6,Flatbed
+4/10/17,2,132,FALSE,white,30.45,6,Flatbed
+4/17/17,2,37,FALSE,white,33.19,6,Flatbed
+4/24/17,2,97,FALSE,white,32.99,6,Flatbed
+5/1/17,2,44,FALSE,white,31.93,6,Flatbed
+5/8/17,2,64,FALSE,white,32.51,6,Flatbed
+5/15/17,2,41,FALSE,white,33.58,6,Flatbed
+5/22/17,2,35,FALSE,white,33.52,6,Flatbed
+5/29/17,2,61,FALSE,white,32.82,6,Flatbed
+6/5/17,2,37,FALSE,white,34.85,6,Flatbed
+6/12/17,2,71,FALSE,white,33.98,6,Flatbed
+6/19/17,2,63,TRUE,white,34.37,6,Flatbed
+6/26/17,2,42,FALSE,white,38.46,6,Flatbed
+7/3/17,2,96,TRUE,white,32.16,6,Flatbed
+7/10/17,2,42,FALSE,white,31.21,6,Flatbed
+7/17/17,2,66,FALSE,white,30.25,6,Flatbed
+7/24/17,2,56,FALSE,white,33.12,6,Flatbed
+7/31/17,2,75,TRUE,white,33.31,6,Flatbed
+8/7/17,2,111,FALSE,white,25.65,6,Flatbed
+8/14/17,2,165,FALSE,white,26.97,6,Flatbed
+8/21/17,2,87,FALSE,white,27.82,6,Flatbed
+8/28/17,2,75,FALSE,white,26.71,6,Flatbed
+9/4/17,2,22,FALSE,white,26.82,6,Flatbed
+9/11/17,2,64,FALSE,white,27.05,6,Flatbed
+9/18/17,2,53,FALSE,white,29.98,6,Flatbed
+9/25/17,2,36,FALSE,white,40.05,6,Flatbed
+10/2/17,2,26,FALSE,white,42.55,6,Flatbed
+10/9/17,2,30,FALSE,white,36.83,6,Flatbed
+10/16/17,2,35,FALSE,white,40.08,6,Flatbed
+10/23/17,2,54,FALSE,white,41.41,6,Flatbed
+10/30/17,2,36,FALSE,white,40.44,6,Flatbed
+11/6/17,2,41,FALSE,white,40.69,6,Flatbed
+11/13/17,2,30,FALSE,white,37.49,6,Flatbed
+11/20/17,2,80,FALSE,white,38.24,6,Flatbed
+11/27/17,2,105,FALSE,white,34.58,6,Flatbed
+12/4/17,2,24,FALSE,white,42.52,6,Flatbed
+12/11/17,2,48,FALSE,white,38.99,6,Flatbed
+12/18/17,2,19,FALSE,white,37.59,6,Flatbed
+12/25/17,2,72,FALSE,white,43.82,6,Flatbed
+1/1/18,2,42,FALSE,white,42.31,6,Flatbed
+1/8/18,2,26,FALSE,white,41.74,6,Flatbed
+1/15/18,2,42,FALSE,white,42.51,6,Flatbed
+1/22/18,2,35,FALSE,white,37.97,6,Flatbed
+1/29/18,2,41,FALSE,white,38.74,6,Flatbed
+2/5/18,2,45,FALSE,white,32.99,6,Flatbed
+2/12/18,2,53,FALSE,white,35.09,6,Flatbed
+2/19/18,2,21,FALSE,white,42.71,6,Flatbed
+2/26/18,2,26,FALSE,white,41.99,6,Flatbed
+3/5/18,2,33,FALSE,white,41.29,6,Flatbed
+3/12/18,2,58,FALSE,white,32.28,6,Flatbed
+3/19/18,2,40,FALSE,white,43.92,6,Flatbed
+3/26/18,2,62,TRUE,white,41.8,6,Flatbed
+4/2/18,2,27,FALSE,white,41.07,6,Flatbed
+4/9/18,2,82,FALSE,white,31.88,6,Flatbed
+4/16/18,2,26,FALSE,white,43.68,6,Flatbed
+4/23/18,2,36,FALSE,white,41.92,6,Flatbed
+4/30/18,2,40,FALSE,white,42.97,6,Flatbed
+5/7/18,2,29,FALSE,white,49.76,6,Flatbed
+5/14/18,2,59,FALSE,white,40.79,6,Flatbed
+5/21/18,2,33,FALSE,white,41.99,6,Flatbed
+5/28/18,2,57,FALSE,white,42.95,6,Flatbed
+6/4/18,2,81,FALSE,white,28.86,6,Flatbed
+6/11/18,2,44,FALSE,white,29.72,6,Flatbed
+6/18/18,2,225,FALSE,white,23.5,6,Flatbed
+6/25/18,2,89,FALSE,white,32.01,6,Flatbed
+7/2/18,2,54,FALSE,white,27.87,6,Flatbed
+7/9/18,2,58,FALSE,white,29.38,6,Flatbed
+7/16/18,2,53,FALSE,white,27.26,6,Flatbed
+7/23/18,2,43,FALSE,white,35.64,6,Flatbed
+7/30/18,2,52,FALSE,white,43.83,6,Flatbed
+8/6/18,2,34,FALSE,white,44.68,6,Flatbed
+8/13/18,2,32,FALSE,white,41.99,6,Flatbed
+8/20/18,2,45,FALSE,white,40.08,6,Flatbed
+8/27/18,2,23,FALSE,white,41.99,6,Flatbed
+9/3/18,2,24,FALSE,white,41.99,6,Flatbed
+9/10/18,2,30,FALSE,white,41.79,6,Flatbed
+9/17/18,2,43,FALSE,white,37.15,6,Flatbed
+9/24/18,2,46,FALSE,white,43.62,6,Flatbed
+10/31/16,2,12,FALSE,grey,14.49,8,Pick Up
+11/7/16,2,21,FALSE,grey,15.49,8,Pick Up
+11/14/16,2,23,FALSE,grey,16.49,8,Pick Up
+11/21/16,2,18,FALSE,grey,14.49,8,Pick Up
+11/28/16,2,38,FALSE,grey,14.33,8,Pick Up
+12/5/16,2,22,FALSE,grey,13.96,8,Pick Up
+12/12/16,2,34,FALSE,grey,15.41,8,Pick Up
+12/19/16,2,24,FALSE,grey,14.16,8,Pick Up
+12/26/16,2,37,FALSE,grey,14.27,8,Pick Up
+1/2/17,2,38,FALSE,grey,16.22,8,Pick Up
+1/9/17,2,31,FALSE,grey,15.26,8,Pick Up
+1/16/17,2,33,FALSE,grey,16.49,8,Pick Up
+1/23/17,2,29,FALSE,grey,15.35,8,Pick Up
+1/30/17,2,49,FALSE,grey,15.39,8,Pick Up
+2/6/17,2,29,FALSE,grey,14.49,8,Pick Up
+2/13/17,2,32,FALSE,grey,14,8,Pick Up
+2/20/17,2,29,FALSE,grey,16.73,8,Pick Up
+2/27/17,2,39,FALSE,grey,15.28,8,Pick Up
+3/6/17,2,31,FALSE,grey,14.49,8,Pick Up
+3/13/17,2,30,FALSE,grey,16.38,8,Pick Up
+3/20/17,2,40,FALSE,grey,16.37,8,Pick Up
+3/27/17,2,42,FALSE,grey,15.38,8,Pick Up
+4/3/17,2,44,FALSE,grey,16.39,8,Pick Up
+4/10/17,2,63,FALSE,grey,15.49,8,Pick Up
+4/17/17,2,47,FALSE,grey,14.49,8,Pick Up
+4/24/17,2,53,FALSE,grey,13.33,8,Pick Up
+5/1/17,2,321,TRUE,grey,5.65,8,Pick Up
+5/8/17,2,389,TRUE,grey,5.67,8,Pick Up
+5/15/17,2,180,TRUE,grey,5.65,8,Pick Up
+5/22/17,2,227,TRUE,grey,7.68,8,Pick Up
+5/29/17,2,187,TRUE,grey,6.73,8,Pick Up
+6/5/17,2,233,TRUE,grey,7.14,8,Pick Up
+6/12/17,2,221,TRUE,grey,8.24,8,Pick Up
+6/19/17,2,151,TRUE,grey,7.24,8,Pick Up
+6/26/17,2,156,TRUE,grey,6.24,8,Pick Up
+7/3/17,2,254,TRUE,grey,8.2,8,Pick Up
+7/10/17,2,182,TRUE,grey,6.11,8,Pick Up
+7/17/17,2,132,TRUE,grey,8.89,8,Pick Up
+7/24/17,2,87,TRUE,grey,8.79,8,Pick Up
+7/31/17,2,124,TRUE,grey,9.63,8,Pick Up
+8/7/17,2,91,TRUE,grey,7.79,8,Pick Up
+8/14/17,2,76,TRUE,grey,9.89,8,Pick Up
+8/21/17,2,85,TRUE,grey,8.89,8,Pick Up
+8/28/17,2,58,TRUE,grey,9.89,8,Pick Up
+9/4/17,2,27,TRUE,grey,9.45,8,Pick Up
+9/11/17,2,54,TRUE,grey,10.45,8,Pick Up
+9/18/17,2,98,TRUE,grey,10.01,8,Pick Up
+9/25/17,2,68,FALSE,grey,14.49,8,Pick Up
+10/2/17,2,12,FALSE,grey,13.22,8,Pick Up
+10/9/17,2,65,TRUE,grey,14.02,8,Pick Up
+10/16/17,2,22,FALSE,grey,16.49,8,Pick Up
+10/23/17,2,41,FALSE,grey,14.49,8,Pick Up
+10/30/17,2,43,FALSE,grey,16.49,8,Pick Up
+11/6/17,2,31,FALSE,grey,15.49,8,Pick Up
+11/13/17,2,41,FALSE,grey,15.49,8,Pick Up
+11/20/17,2,25,FALSE,grey,16.25,8,Pick Up
+11/27/17,2,50,FALSE,grey,13.69,8,Pick Up
+12/4/17,2,60,FALSE,grey,14.7,8,Pick Up
+12/11/17,2,57,FALSE,grey,16.49,8,Pick Up
+12/18/17,2,46,FALSE,grey,15.53,8,Pick Up
+12/25/17,2,33,FALSE,grey,15.49,8,Pick Up
+1/1/18,2,48,FALSE,grey,14.49,8,Pick Up
+1/8/18,2,30,FALSE,grey,16.26,8,Pick Up
+1/15/18,2,27,FALSE,grey,15.49,8,Pick Up
+1/22/18,2,41,FALSE,grey,14.49,8,Pick Up
+1/29/18,2,37,FALSE,grey,16.07,8,Pick Up
+2/5/18,2,33,FALSE,grey,16.49,8,Pick Up
+2/12/18,2,38,FALSE,grey,16.49,8,Pick Up
+2/19/18,2,41,FALSE,grey,15.49,8,Pick Up
+2/26/18,2,24,FALSE,grey,16.49,8,Pick Up
+3/5/18,2,38,TRUE,grey,16.81,8,Pick Up
+3/12/18,2,38,TRUE,grey,18.02,8,Pick Up
+3/19/18,2,38,TRUE,grey,16.72,8,Pick Up
+3/26/18,2,41,TRUE,grey,18.42,8,Pick Up
+4/2/18,2,22,TRUE,grey,31.99,8,Pick Up
+4/9/18,2,25,FALSE,grey,32.99,8,Pick Up
+4/16/18,2,43,FALSE,grey,31.99,8,Pick Up
+4/23/18,2,45,FALSE,grey,30.99,8,Pick Up
+4/30/18,2,51,FALSE,grey,31.99,8,Pick Up
+5/7/18,2,47,FALSE,grey,31.99,8,Pick Up
+5/14/18,2,50,FALSE,grey,32.99,8,Pick Up
+5/21/18,2,55,TRUE,grey,31.99,8,Pick Up
+5/28/18,2,64,FALSE,grey,31.61,8,Pick Up
+6/4/18,2,142,TRUE,grey,10.02,8,Pick Up
+6/11/18,2,199,TRUE,grey,6.85,8,Pick Up
+6/18/18,2,159,FALSE,grey,5.69,8,Pick Up
+6/25/18,2,87,TRUE,grey,6.69,8,Pick Up
+7/2/18,2,202,FALSE,grey,6.69,8,Pick Up
+7/9/18,2,217,FALSE,grey,6.61,8,Pick Up
+7/16/18,2,109,FALSE,grey,6.69,8,Pick Up
+7/23/18,2,18,FALSE,grey,30.99,8,Pick Up
+7/30/18,2,14,FALSE,grey,22.74,8,Pick Up
+8/6/18,2,55,FALSE,grey,30.99,8,Pick Up
+8/13/18,2,40,FALSE,grey,32.99,8,Pick Up
+8/20/18,2,67,TRUE,grey,29.98,8,Pick Up
+8/27/18,2,56,FALSE,grey,52.67,8,Pick Up
+9/3/18,2,53,TRUE,grey,17.79,8,Pick Up
+9/10/18,2,93,FALSE,grey,25.11,8,Pick Up
+9/17/18,2,67,FALSE,grey,16.65,8,Pick Up
+9/24/18,2,3342,FALSE,grey,5.84,8,Pick Up
+10/31/16,2,119,FALSE,white,16.69,10,Trailer
+11/7/16,2,57,FALSE,white,17.59,10,Trailer
+11/14/16,2,138,TRUE,white,14.21,10,Trailer
+11/21/16,2,66,FALSE,white,16.42,10,Trailer
+11/28/16,2,121,TRUE,white,12.23,10,Trailer
+12/5/16,2,88,FALSE,white,15.68,10,Trailer
+12/12/16,2,143,TRUE,white,13.46,10,Trailer
+12/19/16,2,126,TRUE,white,11.94,10,Trailer
+12/26/16,2,88,TRUE,white,12.18,10,Trailer
+1/2/17,2,67,TRUE,white,14.42,10,Trailer
+1/9/17,2,83,TRUE,white,14.4,10,Trailer
+1/16/17,2,84,TRUE,white,13.26,10,Trailer
+1/23/17,2,56,TRUE,white,11.49,10,Trailer
+1/30/17,2,79,TRUE,white,12.31,10,Trailer
+2/6/17,2,59,TRUE,white,12.38,10,Trailer
+2/13/17,2,107,TRUE,white,14.13,10,Trailer
+2/20/17,2,133,TRUE,white,12.25,10,Trailer
+2/27/17,2,34,FALSE,white,18.3,10,Trailer
+3/6/17,2,55,TRUE,white,11.67,10,Trailer
+3/13/17,2,26,FALSE,white,17.91,10,Trailer
+3/20/17,2,20,FALSE,white,18.07,10,Trailer
+3/27/17,2,37,FALSE,white,15.17,10,Trailer
+4/3/17,2,36,FALSE,white,18.13,10,Trailer
+4/10/17,2,92,FALSE,white,17.69,10,Trailer
+4/17/17,2,40,FALSE,white,18.58,10,Trailer
+4/24/17,2,42,FALSE,white,16.47,10,Trailer
+5/1/17,2,32,FALSE,white,16.69,10,Trailer
+5/8/17,2,46,FALSE,white,16.69,10,Trailer
+5/15/17,2,43,FALSE,white,17.26,10,Trailer
+5/22/17,2,40,FALSE,white,16.63,10,Trailer
+5/29/17,2,24,FALSE,white,16.69,10,Trailer
+6/5/17,2,22,FALSE,white,15.88,10,Trailer
+6/12/17,2,69,TRUE,white,11.09,10,Trailer
+6/19/17,2,28,TRUE,white,10.17,10,Trailer
+6/26/17,2,10,FALSE,white,17.69,10,Trailer
+7/3/17,2,29,TRUE,white,10.09,10,Trailer
+7/10/17,2,130,TRUE,white,11.05,10,Trailer
+7/17/17,2,80,TRUE,white,10.16,10,Trailer
+7/24/17,2,51,FALSE,white,16.71,10,Trailer
+7/31/17,2,75,TRUE,white,12.05,10,Trailer
+8/7/17,2,199,TRUE,white,11.93,10,Trailer
+8/14/17,2,195,TRUE,white,10.23,10,Trailer
+8/21/17,2,100,FALSE,white,17.57,10,Trailer
+8/28/17,2,73,FALSE,white,16.69,10,Trailer
+9/4/17,2,40,FALSE,white,17.62,10,Trailer
+9/11/17,2,105,TRUE,white,12.05,10,Trailer
+9/18/17,2,104,FALSE,white,17.23,10,Trailer
+9/25/17,2,154,TRUE,white,13.09,10,Trailer
+10/2/17,2,80,FALSE,white,18.47,10,Trailer
+10/9/17,2,108,FALSE,white,17.06,10,Trailer
+10/16/17,2,133,TRUE,white,13.63,10,Trailer
+10/23/17,2,137,FALSE,white,18.53,10,Trailer
+10/30/17,2,142,FALSE,white,11.87,10,Trailer
+11/6/17,2,83,FALSE,white,11.05,10,Trailer
+11/13/17,2,99,FALSE,white,12.07,10,Trailer
+11/20/17,2,110,FALSE,white,11.19,10,Trailer
+11/27/17,2,89,FALSE,white,14.11,10,Trailer
+12/4/17,2,100,FALSE,white,17.25,10,Trailer
+12/11/17,2,96,FALSE,white,17.34,10,Trailer
+12/18/17,2,78,FALSE,white,18.46,10,Trailer
+12/25/17,2,95,FALSE,white,16.45,10,Trailer
+1/1/18,2,126,FALSE,white,18.33,10,Trailer
+1/8/18,2,192,FALSE,white,13.57,10,Trailer
+1/15/18,2,85,FALSE,white,15.67,10,Trailer
+1/22/18,2,125,FALSE,white,12.91,10,Trailer
+1/29/18,2,122,TRUE,white,13.38,10,Trailer
+2/5/18,2,82,FALSE,white,16.1,10,Trailer
+2/12/18,2,132,TRUE,white,12.22,10,Trailer
+2/19/18,2,133,FALSE,white,12.53,10,Trailer
+2/26/18,2,53,FALSE,white,19.01,10,Trailer
+3/5/18,2,86,FALSE,white,17.35,10,Trailer
+3/12/18,2,140,TRUE,white,11.31,10,Trailer
+3/19/18,2,199,TRUE,white,11.55,10,Trailer
+3/26/18,2,96,FALSE,white,16.35,10,Trailer
+4/2/18,2,83,FALSE,white,14.07,10,Trailer
+4/9/18,2,218,FALSE,white,10.6,10,Trailer
+4/16/18,2,156,TRUE,white,9.21,10,Trailer
+4/23/18,2,88,FALSE,white,16.4,10,Trailer
+4/30/18,2,124,FALSE,white,12.32,10,Trailer
+5/7/18,2,102,FALSE,white,19.34,10,Trailer
+5/14/18,2,105,FALSE,white,13.18,10,Trailer
+5/21/18,2,98,FALSE,white,13.33,10,Trailer
+5/28/18,2,63,TRUE,white,20.34,10,Trailer
+6/4/18,2,95,TRUE,white,18.48,10,Trailer
+6/11/18,2,80,FALSE,white,16.5,10,Trailer
+6/18/18,2,77,TRUE,white,16.19,10,Trailer
+6/25/18,2,68,FALSE,white,17.04,10,Trailer
+7/2/18,2,65,FALSE,white,16.07,10,Trailer
+7/9/18,2,62,FALSE,white,17.02,10,Trailer
+7/16/18,2,67,FALSE,white,16.36,10,Trailer
+7/23/18,2,61,FALSE,white,16.41,10,Trailer
+7/30/18,2,67,FALSE,white,18.43,10,Trailer
+8/6/18,2,83,TRUE,white,16.23,10,Trailer
+8/13/18,2,85,TRUE,white,16.32,10,Trailer
+8/20/18,2,53,FALSE,white,16.63,10,Trailer
+8/27/18,2,33,FALSE,white,18.69,10,Trailer
+9/3/18,2,51,FALSE,white,18.69,10,Trailer
+9/10/18,2,54,FALSE,white,18.4,10,Trailer
+9/17/18,2,66,FALSE,white,17.68,10,Trailer
+9/24/18,2,52,FALSE,white,18.71,10,Trailer
+10/31/16,2,11,FALSE,yellow,70.59,6,Container
+11/7/16,2,18,FALSE,yellow,66.36,6,Container
+11/14/16,2,14,FALSE,yellow,71.59,6,Container
+11/21/16,2,21,FALSE,yellow,70.59,6,Container
+11/28/16,2,10,FALSE,yellow,67.57,6,Container
+12/5/16,2,35,FALSE,yellow,67.23,6,Container
+12/12/16,2,11,FALSE,yellow,71.59,6,Container
+12/19/16,2,7,FALSE,yellow,59.04,6,Container
+12/26/16,2,60,FALSE,yellow,60.9,6,Container
+1/2/17,2,16,FALSE,yellow,66.85,6,Container
+1/9/17,2,24,FALSE,yellow,63.4,6,Container
+1/16/17,2,25,FALSE,yellow,71.06,6,Container
+1/23/17,2,31,FALSE,yellow,68.07,6,Container
+1/30/17,2,7,FALSE,yellow,71.14,6,Container
+2/6/17,2,7,FALSE,yellow,67.67,6,Container
+2/13/17,2,15,FALSE,yellow,64.66,6,Container
+2/20/17,2,13,FALSE,yellow,71.36,6,Container
+2/27/17,2,12,FALSE,yellow,66.43,6,Container
+3/6/17,2,16,FALSE,yellow,64.8,6,Container
+3/13/17,2,8,FALSE,yellow,70.3,6,Container
+3/20/17,2,15,FALSE,yellow,72.59,6,Container
+3/27/17,2,19,FALSE,yellow,73.13,6,Container
+4/3/17,2,12,FALSE,yellow,69.8,6,Container
+4/10/17,2,17,FALSE,yellow,68.69,6,Container
+4/17/17,2,14,FALSE,yellow,75.25,6,Container
+4/24/17,2,14,FALSE,yellow,43.28,6,Container
+5/1/17,2,575,TRUE,yellow,33.06,6,Container
+5/8/17,2,12,FALSE,yellow,47.73,6,Container
+5/15/17,2,26,FALSE,yellow,57.17,6,Container
+5/22/17,2,17,FALSE,yellow,62.52,6,Container
+5/29/17,2,19,FALSE,yellow,72.59,6,Container
+6/5/17,2,14,FALSE,yellow,70.59,6,Container
+6/12/17,2,8,FALSE,yellow,70.59,6,Container
+6/19/17,2,23,FALSE,yellow,66.13,6,Container
+6/26/17,2,49,TRUE,yellow,43.99,6,Container
+7/3/17,2,14,FALSE,yellow,72.59,6,Container
+7/10/17,2,11,FALSE,yellow,54.39,6,Container
+7/17/17,2,40,TRUE,yellow,42.9,6,Container
+7/24/17,2,19,FALSE,yellow,71.59,6,Container
+7/31/17,2,12,FALSE,yellow,80.96,6,Container
+8/7/17,2,20,FALSE,yellow,67.32,6,Container
+8/14/17,2,40,FALSE,yellow,71.59,6,Container
+8/21/17,2,25,FALSE,yellow,71.59,6,Container
+8/28/17,2,11,FALSE,yellow,74.67,6,Container
+9/4/17,2,15,FALSE,yellow,60.88,6,Container
+9/11/17,2,41,TRUE,yellow,44.26,6,Container
+9/18/17,2,36,TRUE,yellow,45.09,6,Container
+9/25/17,2,41,TRUE,yellow,49.41,6,Container
+10/2/17,2,31,TRUE,yellow,42.94,6,Container
+10/9/17,2,8,FALSE,yellow,72.59,6,Container
+10/16/17,2,16,FALSE,yellow,70.59,6,Container
+10/23/17,2,21,FALSE,yellow,60.75,6,Container
+10/30/17,2,199,FALSE,yellow,42.17,6,Container
+11/6/17,2,15,FALSE,yellow,72.59,6,Container
+11/13/17,2,13,FALSE,yellow,79.43,6,Container
+11/20/17,2,22,FALSE,yellow,49.75,6,Container
+11/27/17,2,66,FALSE,yellow,42.84,6,Container
+12/4/17,2,13,FALSE,yellow,72.59,6,Container
+12/11/17,2,8,FALSE,yellow,70.59,6,Container
+12/18/17,2,18,FALSE,yellow,79.91,6,Container
+12/25/17,2,18,FALSE,yellow,33.87,6,Container
+1/1/18,2,28,FALSE,yellow,51.16,6,Container
+1/8/18,2,3,FALSE,yellow,151.79,6,Container
+1/15/18,2,11,FALSE,yellow,170.76,6,Container
+1/22/18,2,955,FALSE,yellow,33.38,6,Container
+1/29/18,2,61,FALSE,yellow,44.4,6,Container
+2/5/18,2,18,FALSE,yellow,64.81,6,Container
+2/12/18,2,31,FALSE,yellow,54.5,6,Container
+2/19/18,2,32,FALSE,yellow,49.57,6,Container
+2/26/18,2,20,FALSE,yellow,69.78,6,Container
+3/5/18,2,8,FALSE,yellow,70.59,6,Container
+3/12/18,2,30,FALSE,yellow,62.58,6,Container
+3/19/18,2,26,FALSE,yellow,55.68,6,Container
+3/26/18,2,18,FALSE,yellow,71.59,6,Container
+4/2/18,2,6,FALSE,yellow,66.09,6,Container
+4/9/18,2,26,FALSE,yellow,66.54,6,Container
+4/16/18,2,21,FALSE,yellow,64.49,6,Container
+4/23/18,2,29,FALSE,yellow,48,6,Container
+4/30/18,2,104,FALSE,yellow,44.34,6,Container
+5/7/18,2,43,TRUE,yellow,53.22,6,Container
+5/14/18,2,36,FALSE,yellow,41.34,6,Container
+5/21/18,2,57,FALSE,yellow,44.06,6,Container
+5/28/18,2,46,FALSE,yellow,42.41,6,Container
+6/4/18,2,71,TRUE,yellow,44.32,6,Container
+6/11/18,2,62,FALSE,yellow,43.65,6,Container
+6/18/18,2,8,FALSE,yellow,43.59,6,Container
+6/25/18,2,27,FALSE,yellow,45.2,6,Container
+7/2/18,2,45,FALSE,yellow,42.86,6,Container
+7/9/18,2,71,FALSE,yellow,42.36,6,Container
+7/16/18,2,7,FALSE,yellow,51.46,6,Container
+7/23/18,2,0,FALSE,yellow,58.4,6,Container
+7/30/18,2,1,FALSE,yellow,64.99,6,Container
+8/6/18,2,12,FALSE,yellow,59.18,6,Container
+8/13/18,2,24,FALSE,yellow,64.92,6,Container
+8/20/18,2,20,FALSE,yellow,64.99,6,Container
+8/27/18,2,20,FALSE,yellow,65.99,6,Container
+9/3/18,2,25,FALSE,yellow,61.79,6,Container
+9/10/18,2,33,FALSE,yellow,64.82,6,Container
+9/17/18,2,43,TRUE,yellow,59.66,6,Container
+9/24/18,2,30,FALSE,yellow,62.01,6,Container
+10/31/16,2,607,TRUE,yellow,15.35,6,Container
+11/7/16,2,512,TRUE,yellow,16.7,6,Container
+11/14/16,2,675,TRUE,yellow,13.67,6,Container
+11/21/16,2,435,TRUE,yellow,19.85,6,Container
+11/28/16,2,470,TRUE,yellow,15.01,6,Container
+12/5/16,2,229,TRUE,yellow,15.53,6,Container
+12/12/16,2,623,TRUE,yellow,15.39,6,Container
+12/19/16,2,451,TRUE,yellow,15.76,6,Container
+12/26/16,2,548,TRUE,yellow,15.65,6,Container
+1/2/17,2,578,TRUE,yellow,14.5,6,Container
+1/9/17,2,511,TRUE,yellow,17.14,6,Container
+1/16/17,2,504,TRUE,yellow,14.77,6,Container
+1/23/17,2,472,TRUE,yellow,15.97,6,Container
+1/30/17,2,362,TRUE,yellow,20.38,6,Container
+2/6/17,2,397,TRUE,yellow,20.73,6,Container
+2/13/17,2,491,TRUE,yellow,16.19,6,Container
+2/20/17,2,396,TRUE,yellow,20.43,6,Container
+2/27/17,2,117,TRUE,yellow,14.78,6,Container
+3/6/17,2,2323,TRUE,yellow,7.57,6,Container
+3/13/17,2,581,TRUE,yellow,13.68,6,Container
+3/20/17,2,328,TRUE,yellow,19.99,6,Container
+3/27/17,2,308,TRUE,yellow,16.42,6,Container
+4/3/17,2,1110,TRUE,yellow,12.47,6,Container
+4/10/17,2,301,TRUE,yellow,17.77,6,Container
+4/17/17,2,658,TRUE,yellow,17.18,6,Container
+4/24/17,2,237,TRUE,yellow,15.51,6,Container
+5/1/17,2,1375,TRUE,yellow,14.87,6,Container
+5/8/17,2,1320,TRUE,yellow,16.65,6,Container
+5/15/17,2,217,TRUE,yellow,20.33,6,Container
+5/22/17,2,742,TRUE,yellow,15.56,6,Container
+5/29/17,2,184,TRUE,yellow,22.03,6,Container
+6/5/17,2,213,TRUE,yellow,21.15,6,Container
+6/12/17,2,165,TRUE,yellow,20.78,6,Container
+6/19/17,2,151,TRUE,yellow,22.19,6,Container
+6/26/17,2,458,TRUE,yellow,16.61,6,Container
+7/3/17,2,429,TRUE,yellow,13.92,6,Container
+7/10/17,2,312,TRUE,yellow,14.34,6,Container
+7/17/17,2,205,TRUE,yellow,15.63,6,Container
+7/24/17,2,187,TRUE,yellow,20.98,6,Container
+7/31/17,2,272,TRUE,yellow,15.81,6,Container
+8/7/17,2,265,TRUE,yellow,15.37,6,Container
+8/14/17,2,486,TRUE,yellow,12.57,6,Container
+8/21/17,2,315,TRUE,yellow,22.02,6,Container
+8/28/17,2,209,TRUE,yellow,16.22,6,Container
+9/4/17,2,136,TRUE,yellow,15.41,6,Container
+9/11/17,2,417,TRUE,yellow,14.08,6,Container
+9/18/17,2,679,TRUE,yellow,9.98,6,Container
+9/25/17,2,916,TRUE,yellow,14.45,6,Container
+10/2/17,2,329,TRUE,yellow,13.5,6,Container
+10/9/17,2,176,TRUE,yellow,21.48,6,Container
+10/16/17,2,159,TRUE,yellow,19.98,6,Container
+10/23/17,2,280,TRUE,yellow,14.67,6,Container
+10/30/17,2,177,FALSE,yellow,21.84,6,Container
+11/6/17,2,214,FALSE,yellow,21,6,Container
+11/13/17,2,458,FALSE,yellow,13.39,6,Container
+11/20/17,2,125,FALSE,yellow,21.29,6,Container
+11/27/17,2,117,FALSE,yellow,20.8,6,Container
+12/4/17,2,165,FALSE,yellow,22.1,6,Container
+12/11/17,2,198,FALSE,yellow,19.91,6,Container
+12/18/17,2,274,FALSE,yellow,14.79,6,Container
+12/25/17,2,138,FALSE,yellow,19.13,6,Container
+1/1/18,2,295,FALSE,yellow,13.26,6,Container
+1/8/18,2,274,FALSE,yellow,15.52,6,Container
+1/15/18,2,302,FALSE,yellow,14.54,6,Container
+1/22/18,2,233,FALSE,yellow,14.6,6,Container
+1/29/18,2,325,TRUE,yellow,15.89,6,Container
+2/5/18,2,193,TRUE,yellow,22.01,6,Container
+2/12/18,2,153,TRUE,yellow,21.69,6,Container
+2/19/18,2,191,TRUE,yellow,22.12,6,Container
+2/26/18,2,147,TRUE,yellow,21.3,6,Container
+3/5/18,2,47,FALSE,yellow,31.65,6,Container
+3/12/18,2,12,TRUE,yellow,29.31,6,Container
+3/19/18,2,446,FALSE,yellow,12.51,6,Container
+3/26/18,2,558,FALSE,yellow,14.49,6,Container
+4/2/18,2,187,TRUE,yellow,20.46,6,Container
+4/9/18,2,194,TRUE,yellow,20.56,6,Container
+4/16/18,2,15,TRUE,yellow,32.86,6,Container
+4/23/18,2,22,TRUE,yellow,31.65,6,Container
+4/30/18,2,135,TRUE,yellow,24.33,6,Container
+5/7/18,2,411,TRUE,yellow,14.78,6,Container
+5/14/18,2,354,TRUE,yellow,15.64,6,Container
+5/21/18,2,444,FALSE,yellow,14.99,6,Container
+5/28/18,2,43,TRUE,yellow,27.98,6,Container
+6/4/18,2,62,TRUE,yellow,29.22,6,Container
+6/11/18,2,229,TRUE,yellow,21.99,6,Container
+6/18/18,2,228,TRUE,yellow,21.13,6,Container
+6/25/18,2,284,TRUE,yellow,22.16,6,Container
+7/2/18,2,238,TRUE,yellow,21.02,6,Container
+7/9/18,2,289,TRUE,yellow,15.71,6,Container
+7/16/18,2,42,FALSE,yellow,30.83,6,Container
+7/23/18,2,58,FALSE,yellow,30.42,6,Container
+7/30/18,2,51,FALSE,yellow,31.75,6,Container
+8/6/18,2,1,TRUE,yellow,30.96,6,Container
+8/13/18,2,4,TRUE,yellow,32.14,6,Container
+8/20/18,2,42,TRUE,yellow,29.09,6,Container
+8/27/18,2,27,TRUE,yellow,29.07,6,Container
+9/3/18,2,206,TRUE,yellow,17.13,6,Container
+9/10/18,2,147,TRUE,yellow,23.62,6,Container
+9/17/18,2,2075,TRUE,yellow,10.5,6,Container
+9/24/18,2,1281,TRUE,yellow,14.32,6,Container
+10/31/16,3,46,FALSE,white,52.67,6,Container
+11/7/16,3,76,TRUE,white,43.86,6,Container
+11/14/16,3,74,TRUE,white,42.81,6,Container
+11/21/16,3,48,FALSE,white,52.96,6,Container
+11/28/16,3,60,FALSE,white,51.62,6,Container
+12/5/16,3,49,FALSE,white,53.58,6,Container
+12/12/16,3,61,FALSE,white,51.95,6,Container
+12/19/16,3,47,FALSE,white,53.74,6,Container
+12/26/16,3,66,FALSE,white,51.86,6,Container
+1/2/17,3,53,FALSE,white,53.38,6,Container
+1/9/17,3,57,TRUE,white,43.55,6,Container
+1/16/17,3,65,TRUE,white,42.59,6,Container
+1/23/17,3,58,FALSE,white,49.69,6,Container
+1/30/17,3,60,FALSE,white,42.4,6,Container
+2/6/17,3,68,TRUE,white,43.91,6,Container
+2/13/17,3,54,FALSE,white,53.23,6,Container
+2/20/17,3,32,FALSE,white,56.64,6,Container
+2/27/17,3,46,FALSE,white,54.25,6,Container
+3/6/17,3,52,FALSE,white,51,6,Container
+3/13/17,3,67,FALSE,white,51.2,6,Container
+3/20/17,3,59,TRUE,white,42.86,6,Container
+3/27/17,3,56,FALSE,white,53.54,6,Container
+4/3/17,3,57,TRUE,white,42.5,6,Container
+4/10/17,3,50,FALSE,white,53.5,6,Container
+4/17/17,3,51,FALSE,white,54.18,6,Container
+4/24/17,3,35,FALSE,white,54.22,6,Container
+5/1/17,3,62,FALSE,white,54.52,6,Container
+5/8/17,3,49,FALSE,white,52.86,6,Container
+5/15/17,3,51,FALSE,white,52.13,6,Container
+5/22/17,3,62,FALSE,white,52.71,6,Container
+5/29/17,3,79,TRUE,white,43.3,6,Container
+6/5/17,3,47,FALSE,white,53.43,6,Container
+6/12/17,3,69,FALSE,white,51.52,6,Container
+6/19/17,3,57,FALSE,white,52.02,6,Container
+6/26/17,3,100,TRUE,white,43.69,6,Container
+7/3/17,3,64,FALSE,white,50.06,6,Container
+7/10/17,3,61,FALSE,white,50.84,6,Container
+7/17/17,3,62,FALSE,white,53,6,Container
+7/24/17,3,71,TRUE,white,44.1,6,Container
+7/31/17,3,77,FALSE,white,53.32,6,Container
+8/7/17,3,59,FALSE,white,52.44,6,Container
+8/14/17,3,80,FALSE,white,46.29,6,Container
+8/21/17,3,104,TRUE,white,42.33,6,Container
+8/28/17,3,57,TRUE,white,43.18,6,Container
+9/4/17,3,54,FALSE,white,38.16,6,Container
+9/11/17,3,121,FALSE,white,36.36,6,Container
+9/18/17,3,120,FALSE,white,36.02,6,Container
+9/25/17,3,129,FALSE,white,33.97,6,Container
+10/2/17,3,61,FALSE,white,34.29,6,Container
+10/9/17,3,90,FALSE,white,35.42,6,Container
+10/16/17,3,96,TRUE,white,44,6,Container
+10/23/17,3,70,FALSE,white,43.41,6,Container
+10/30/17,3,62,FALSE,white,42.02,6,Container
+11/6/17,3,77,FALSE,white,43.73,6,Container
+11/13/17,3,83,FALSE,white,42.57,6,Container
+11/20/17,3,92,FALSE,white,37.72,6,Container
+11/27/17,3,105,FALSE,white,35.29,6,Container
+12/4/17,3,91,FALSE,white,37.67,6,Container
+12/11/17,3,117,FALSE,white,36.97,6,Container
+12/18/17,3,103,FALSE,white,42.23,6,Container
+12/25/17,3,58,FALSE,white,47.13,6,Container
+1/1/18,3,106,FALSE,white,37.15,6,Container
+1/8/18,3,114,FALSE,white,32.96,6,Container
+1/15/18,3,126,FALSE,white,42.31,6,Container
+1/22/18,3,78,FALSE,white,37.7,6,Container
+1/29/18,3,78,FALSE,white,44.11,6,Container
+2/5/18,3,82,FALSE,white,42.95,6,Container
+2/12/18,3,75,TRUE,white,36.71,6,Container
+2/19/18,3,81,FALSE,white,37.19,6,Container
+2/26/18,3,45,FALSE,white,42.24,6,Container
+3/5/18,3,62,FALSE,white,50.79,6,Container
+3/12/18,3,87,FALSE,white,43.02,6,Container
+3/19/18,3,100,FALSE,white,41.66,6,Container
+3/26/18,3,78,FALSE,white,41.21,6,Container
+4/2/18,3,70,FALSE,white,41.69,6,Container
+4/9/18,3,68,FALSE,white,43.42,6,Container
+4/16/18,3,51,FALSE,white,52.51,6,Container
+4/23/18,3,50,TRUE,white,54.99,6,Container
+4/30/18,3,57,TRUE,white,52.99,6,Container
+5/7/18,3,61,FALSE,white,53.67,6,Container
+5/14/18,3,54,FALSE,white,52.49,6,Container
+5/21/18,3,62,FALSE,white,54.99,6,Container
+5/28/18,3,51,FALSE,white,56.3,6,Container
+6/4/18,3,65,FALSE,white,53.09,6,Container
+6/11/18,3,43,FALSE,white,52.61,6,Container
+6/18/18,3,718,FALSE,white,35.95,6,Container
+6/25/18,3,85,FALSE,white,41.87,6,Container
+7/2/18,3,78,FALSE,white,41.88,6,Container
+7/9/18,3,84,FALSE,white,42.88,6,Container
+7/16/18,3,74,TRUE,white,41.88,6,Container
+7/23/18,3,86,TRUE,white,42.7,6,Container
+7/30/18,3,76,FALSE,white,42.7,6,Container
+8/6/18,3,78,FALSE,white,40.94,6,Container
+8/13/18,3,88,FALSE,white,41.77,6,Container
+8/20/18,3,94,TRUE,white,44.07,6,Container
+8/27/18,3,63,FALSE,white,43.18,6,Container
+9/3/18,3,34,FALSE,white,43.88,6,Container
+9/10/18,3,93,FALSE,white,42.63,6,Container
+9/17/18,3,89,FALSE,white,43.58,6,Container
+9/24/18,3,134,FALSE,white,42.36,6,Container
+10/31/16,3,7,FALSE,white,109.99,10,Colt Diesel
+11/7/16,3,4,FALSE,white,78.66,10,Colt Diesel
+11/14/16,3,12,TRUE,white,64.99,10,Colt Diesel
+11/21/16,3,12,TRUE,white,72.76,10,Colt Diesel
+11/28/16,3,25,TRUE,white,64.99,10,Colt Diesel
+12/5/16,3,7,FALSE,white,97.99,10,Colt Diesel
+12/12/16,3,19,TRUE,white,74.99,10,Colt Diesel
+12/19/16,3,9,TRUE,white,74.99,10,Colt Diesel
+12/26/16,3,2,FALSE,white,108.99,10,Colt Diesel
+1/2/17,3,5,TRUE,white,76.99,10,Colt Diesel
+1/9/17,3,17,TRUE,white,74.99,10,Colt Diesel
+1/16/17,3,18,TRUE,white,77.02,10,Colt Diesel
+1/23/17,3,5,TRUE,white,75.99,10,Colt Diesel
+1/30/17,3,6,FALSE,white,108.99,10,Colt Diesel
+2/6/17,3,11,TRUE,white,77.36,10,Colt Diesel
+2/13/17,3,13,TRUE,white,78.49,10,Colt Diesel
+2/20/17,3,3,FALSE,white,107.99,10,Colt Diesel
+2/27/17,3,14,TRUE,white,74.99,10,Colt Diesel
+3/6/17,3,7,TRUE,white,75.99,10,Colt Diesel
+3/13/17,3,2,FALSE,white,109.99,10,Colt Diesel
+3/20/17,3,7,FALSE,white,88.82,10,Colt Diesel
+3/27/17,3,12,TRUE,white,63.99,10,Colt Diesel
+4/3/17,3,7,FALSE,white,109.99,10,Colt Diesel
+4/10/17,3,14,TRUE,white,63.99,10,Colt Diesel
+4/17/17,3,18,FALSE,white,77.16,10,Colt Diesel
+4/24/17,3,11,TRUE,white,63.99,10,Colt Diesel
+5/1/17,3,15,TRUE,white,68.87,10,Colt Diesel
+5/8/17,3,8,FALSE,white,103.1,10,Colt Diesel
+5/15/17,3,39,TRUE,white,63.86,10,Colt Diesel
+5/22/17,3,13,FALSE,white,82.74,10,Colt Diesel
+5/29/17,3,8,TRUE,white,63.99,10,Colt Diesel
+6/5/17,3,9,FALSE,white,102.7,10,Colt Diesel
+6/12/17,3,32,TRUE,white,65.46,10,Colt Diesel
+6/19/17,3,13,FALSE,white,101.99,10,Colt Diesel
+6/26/17,3,68,TRUE,white,63.99,10,Colt Diesel
+7/3/17,3,30,TRUE,white,64.99,10,Colt Diesel
+7/10/17,3,31,TRUE,white,65.71,10,Colt Diesel
+7/17/17,3,19,TRUE,white,64.99,10,Colt Diesel
+7/24/17,3,22,TRUE,white,63.99,10,Colt Diesel
+7/31/17,3,30,TRUE,white,62.86,10,Colt Diesel
+8/7/17,3,9,FALSE,white,100.19,10,Colt Diesel
+8/14/17,3,26,TRUE,white,67.82,10,Colt Diesel
+8/21/17,3,24,TRUE,white,76.31,10,Colt Diesel
+8/28/17,3,14,TRUE,white,76.99,10,Colt Diesel
+9/4/17,3,6,TRUE,white,74.99,10,Colt Diesel
+9/11/17,3,4,FALSE,white,117.79,10,Colt Diesel
+9/18/17,3,13,TRUE,white,75.99,10,Colt Diesel
+9/25/17,3,6,TRUE,white,70.02,10,Colt Diesel
+10/2/17,3,7,FALSE,white,117.79,10,Colt Diesel
+10/9/17,3,3,FALSE,white,90.39,10,Colt Diesel
+10/16/17,3,19,TRUE,white,66.09,10,Colt Diesel
+10/23/17,3,9,TRUE,white,75.99,10,Colt Diesel
+10/30/17,3,5,FALSE,white,116.79,10,Colt Diesel
+11/6/17,3,5,FALSE,white,118.79,10,Colt Diesel
+11/13/17,3,21,FALSE,white,116.63,10,Colt Diesel
+11/20/17,3,12,FALSE,white,65.99,10,Colt Diesel
+11/27/17,3,14,FALSE,white,79.17,10,Colt Diesel
+12/4/17,3,5,FALSE,white,116.79,10,Colt Diesel
+12/11/17,3,13,FALSE,white,113.31,10,Colt Diesel
+12/18/17,3,15,FALSE,white,74.99,10,Colt Diesel
+12/25/17,3,11,FALSE,white,76.99,10,Colt Diesel
+1/1/18,3,24,FALSE,white,109.79,10,Colt Diesel
+1/8/18,3,19,FALSE,white,74.99,10,Colt Diesel
+1/15/18,3,6,FALSE,white,103.86,10,Colt Diesel
+1/22/18,3,7,FALSE,white,75.99,10,Colt Diesel
+1/29/18,3,6,TRUE,white,74.99,10,Colt Diesel
+2/5/18,3,2,TRUE,white,116.79,10,Colt Diesel
+2/12/18,3,7,FALSE,white,118.79,10,Colt Diesel
+2/19/18,3,7,FALSE,white,117.79,10,Colt Diesel
+2/26/18,3,7,TRUE,white,117.79,10,Colt Diesel
+3/5/18,3,12,TRUE,white,118.79,10,Colt Diesel
+3/12/18,3,5,FALSE,white,116.79,10,Colt Diesel
+3/19/18,3,8,TRUE,white,116.79,10,Colt Diesel
+3/26/18,3,12,TRUE,white,117.79,10,Colt Diesel
+4/2/18,3,1,FALSE,white,118.79,10,Colt Diesel
+4/9/18,3,0,FALSE,white,117.79,10,Colt Diesel
+4/16/18,3,10,TRUE,white,109.99,10,Colt Diesel
+4/23/18,3,9,FALSE,white,107.99,10,Colt Diesel
+4/30/18,3,9,FALSE,white,107.99,10,Colt Diesel
+5/7/18,3,15,TRUE,white,107.99,10,Colt Diesel
+5/14/18,3,17,TRUE,white,99.19,10,Colt Diesel
+5/21/18,3,9,FALSE,white,108.99,10,Colt Diesel
+5/28/18,3,3,FALSE,white,125.49,10,Colt Diesel
+6/4/18,3,16,TRUE,white,115.37,10,Colt Diesel
+6/11/18,3,12,TRUE,white,116.85,10,Colt Diesel
+6/18/18,3,14,TRUE,white,109.99,10,Colt Diesel
+6/25/18,3,10,FALSE,white,107.99,10,Colt Diesel
+7/2/18,3,5,TRUE,white,108.99,10,Colt Diesel
+7/9/18,3,42,TRUE,white,49.83,10,Colt Diesel
+7/16/18,3,20,FALSE,white,50.56,10,Colt Diesel
+7/23/18,3,133,FALSE,white,39.95,10,Colt Diesel
+7/30/18,3,22,FALSE,white,49.78,10,Colt Diesel
+8/6/18,3,287,TRUE,white,20.36,10,Colt Diesel
+8/13/18,3,28,FALSE,white,77.13,10,Colt Diesel
+8/20/18,3,106,FALSE,white,49.58,10,Colt Diesel
+8/27/18,3,43,FALSE,white,54.7,10,Colt Diesel
+9/3/18,3,19,TRUE,white,54.99,10,Colt Diesel
+9/10/18,3,10,FALSE,white,75.99,10,Colt Diesel
+9/17/18,3,47,FALSE,white,44.14,10,Colt Diesel
+9/24/18,3,83,TRUE,white,46.95,10,Colt Diesel
+10/31/16,3,10,FALSE,green,11.54,8,Fuso
+11/7/16,3,9,FALSE,green,11.54,8,Fuso
+11/14/16,3,12,FALSE,green,10.54,8,Fuso
+11/21/16,3,10,FALSE,green,11.54,8,Fuso
+11/28/16,3,17,FALSE,green,10.54,8,Fuso
+12/5/16,3,7,FALSE,green,9.54,8,Fuso
+12/12/16,3,16,FALSE,green,10.54,8,Fuso
+12/19/16,3,19,FALSE,green,11.38,8,Fuso
+12/26/16,3,14,FALSE,green,9.54,8,Fuso
+1/2/17,3,49,FALSE,green,9.54,8,Fuso
+1/9/17,3,19,FALSE,green,11.54,8,Fuso
+1/16/17,3,33,FALSE,green,10.54,8,Fuso
+1/23/17,3,23,FALSE,green,11.54,8,Fuso
+1/30/17,3,6,FALSE,green,10.54,8,Fuso
+2/6/17,3,14,FALSE,green,11.54,8,Fuso
+2/13/17,3,16,FALSE,green,10.54,8,Fuso
+2/20/17,3,20,FALSE,green,11.54,8,Fuso
+2/27/17,3,4,FALSE,green,9.54,8,Fuso
+3/6/17,3,13,FALSE,green,10.54,8,Fuso
+3/13/17,3,7,FALSE,green,10.54,8,Fuso
+3/20/17,3,24,FALSE,green,9.54,8,Fuso
+3/27/17,3,9,FALSE,green,11.54,8,Fuso
+4/3/17,3,18,FALSE,green,10.54,8,Fuso
+4/10/17,3,14,FALSE,green,9.54,8,Fuso
+4/17/17,3,13,FALSE,green,9.49,8,Fuso
+4/24/17,3,17,FALSE,green,9.54,8,Fuso
+5/1/17,3,11,TRUE,green,11.54,8,Fuso
+5/8/17,3,13,TRUE,green,7.52,8,Fuso
+5/15/17,3,64,TRUE,green,4.33,8,Fuso
+5/22/17,3,258,TRUE,green,4.49,8,Fuso
+5/29/17,3,457,TRUE,green,4.49,8,Fuso
+6/5/17,3,27,FALSE,green,11.54,8,Fuso
+6/12/17,3,9,FALSE,green,11.54,8,Fuso
+6/19/17,3,47,FALSE,green,10.54,8,Fuso
+6/26/17,3,26,FALSE,green,9.54,8,Fuso
+7/3/17,3,14,FALSE,green,11.54,8,Fuso
+7/10/17,3,13,FALSE,green,9.54,8,Fuso
+7/17/17,3,12,FALSE,green,7.62,8,Fuso
+7/24/17,3,48,FALSE,green,11.54,8,Fuso
+7/31/17,3,61,FALSE,green,9.54,8,Fuso
+8/7/17,3,9,FALSE,green,9.54,8,Fuso
+8/14/17,3,72,FALSE,green,5.3,8,Fuso
+8/21/17,3,2955,TRUE,green,3.46,8,Fuso
+8/28/17,3,660,TRUE,green,3.49,8,Fuso
+9/4/17,3,13,FALSE,green,10.99,8,Fuso
+9/11/17,3,71,FALSE,green,9.99,8,Fuso
+9/18/17,3,39,FALSE,green,8.87,8,Fuso
+9/25/17,3,126,FALSE,green,10.57,8,Fuso
+10/2/17,3,632,TRUE,green,7.73,8,Fuso
+10/9/17,3,375,TRUE,green,6.68,8,Fuso
+10/16/17,3,42,TRUE,green,10.94,8,Fuso
+10/23/17,3,27,TRUE,green,8.19,8,Fuso
+10/30/17,3,29,FALSE,green,7.69,8,Fuso
+11/6/17,3,337,FALSE,green,6.17,8,Fuso
+11/13/17,3,1442,FALSE,green,4.49,8,Fuso
+11/20/17,3,284,FALSE,green,5.56,8,Fuso
+11/27/17,3,148,FALSE,green,7.69,8,Fuso
+12/4/17,3,29,FALSE,green,10.99,8,Fuso
+12/11/17,3,46,FALSE,green,10.01,8,Fuso
+12/18/17,3,358,FALSE,green,4.19,8,Fuso
+12/25/17,3,1289,FALSE,green,4.48,8,Fuso
+1/1/18,3,18,FALSE,green,10.99,8,Fuso
+1/8/18,3,94,FALSE,green,9.96,8,Fuso
+1/15/18,3,85,FALSE,green,10.99,8,Fuso
+1/22/18,3,40,FALSE,green,8.99,8,Fuso
+1/29/18,3,96,FALSE,green,8.66,8,Fuso
+2/5/18,3,265,FALSE,green,6.61,8,Fuso
+2/12/18,3,527,FALSE,green,5.65,8,Fuso
+2/19/18,3,522,TRUE,green,7.72,8,Fuso
+2/26/18,3,94,FALSE,green,10.83,8,Fuso
+3/5/18,3,356,FALSE,green,7.68,8,Fuso
+3/12/18,3,554,FALSE,green,6.69,8,Fuso
+3/19/18,3,344,FALSE,green,5.69,8,Fuso
+3/26/18,3,271,FALSE,green,6.69,8,Fuso
+4/2/18,3,64,FALSE,green,8.99,8,Fuso
+4/9/18,3,9,FALSE,green,10.99,8,Fuso
+4/16/18,3,54,FALSE,green,8.99,8,Fuso
+4/23/18,3,38,TRUE,green,8.99,8,Fuso
+4/30/18,3,32,FALSE,green,10.99,8,Fuso
+5/7/18,3,92,TRUE,green,8.99,8,Fuso
+5/14/18,3,101,TRUE,green,8.99,8,Fuso
+5/21/18,3,92,TRUE,green,9.99,8,Fuso
+5/28/18,3,84,FALSE,green,9.99,8,Fuso
+6/4/18,3,161,FALSE,green,7.23,8,Fuso
+6/11/18,3,156,FALSE,green,7.66,8,Fuso
+6/18/18,3,53,TRUE,green,8.77,8,Fuso
+6/25/18,3,81,FALSE,green,9.41,8,Fuso
+7/2/18,3,250,FALSE,green,8.46,8,Fuso
+7/9/18,3,132,FALSE,green,6.42,8,Fuso
+7/16/18,3,63,FALSE,green,9.53,8,Fuso
+7/23/18,3,37,TRUE,green,12.64,8,Fuso
+7/30/18,3,7,TRUE,green,10.59,8,Fuso
+8/6/18,3,29,TRUE,green,12.31,8,Fuso
+8/13/18,3,21,FALSE,green,10.56,8,Fuso
+8/20/18,3,8,TRUE,green,12.64,8,Fuso
+8/27/18,3,26,FALSE,green,12.64,8,Fuso
+9/3/18,3,11,FALSE,green,11.64,8,Fuso
+9/10/18,3,57,FALSE,green,8.99,8,Fuso
+9/17/18,3,78,FALSE,green,9.99,8,Fuso
+9/24/18,3,38,FALSE,green,10.93,8,Fuso
+10/31/16,3,92,TRUE,yellow,15.58,8,Pick Up
+11/7/16,3,61,TRUE,yellow,16.17,8,Pick Up
+11/14/16,3,17,FALSE,yellow,32.02,8,Pick Up
+11/21/16,3,84,TRUE,yellow,17.45,8,Pick Up
+11/28/16,3,36,FALSE,yellow,27.62,8,Pick Up
+12/5/16,3,60,TRUE,yellow,13.63,8,Pick Up
+12/12/16,3,11,FALSE,yellow,38.74,8,Pick Up
+12/19/16,3,7,FALSE,yellow,36.29,8,Pick Up
+12/26/16,3,37,FALSE,yellow,25.51,8,Pick Up
+1/2/17,3,126,TRUE,yellow,15.3,8,Pick Up
+1/9/17,3,4,FALSE,yellow,40.24,8,Pick Up
+1/16/17,3,106,TRUE,yellow,31.41,8,Pick Up
+1/23/17,3,109,TRUE,yellow,18.23,8,Pick Up
+1/30/17,3,106,TRUE,yellow,15.9,8,Pick Up
+2/6/17,3,76,TRUE,yellow,15.09,8,Pick Up
+2/13/17,3,101,TRUE,yellow,16.2,8,Pick Up
+2/20/17,3,108,TRUE,yellow,17.1,8,Pick Up
+2/27/17,3,84,TRUE,yellow,17.69,8,Pick Up
+3/6/17,3,67,TRUE,yellow,17.33,8,Pick Up
+3/13/17,3,67,TRUE,yellow,16.69,8,Pick Up
+3/20/17,3,34,TRUE,yellow,19,8,Pick Up
+3/27/17,3,98,TRUE,yellow,18.18,8,Pick Up
+4/3/17,3,41,TRUE,yellow,21.01,8,Pick Up
+4/10/17,3,79,TRUE,yellow,17.08,8,Pick Up
+4/17/17,3,49,TRUE,yellow,19.3,8,Pick Up
+4/24/17,3,47,TRUE,yellow,15.62,8,Pick Up
+5/1/17,3,33,TRUE,yellow,22.68,8,Pick Up
+5/8/17,3,49,TRUE,yellow,19.79,8,Pick Up
+5/15/17,3,58,TRUE,yellow,19.79,8,Pick Up
+5/22/17,3,64,TRUE,yellow,19.69,8,Pick Up
+5/29/17,3,76,TRUE,yellow,16.49,8,Pick Up
+6/5/17,3,55,TRUE,yellow,15.49,8,Pick Up
+6/12/17,3,98,TRUE,yellow,14.49,8,Pick Up
+6/19/17,3,61,TRUE,yellow,16.25,8,Pick Up
+6/26/17,3,102,TRUE,yellow,15.35,8,Pick Up
+7/3/17,3,151,TRUE,yellow,15.39,8,Pick Up
+7/10/17,3,94,TRUE,yellow,15.04,8,Pick Up
+7/17/17,3,198,TRUE,yellow,16.33,8,Pick Up
+7/24/17,3,170,TRUE,yellow,15.49,8,Pick Up
+7/31/17,3,136,TRUE,yellow,14.47,8,Pick Up
+8/7/17,3,132,TRUE,yellow,15.49,8,Pick Up
+8/14/17,3,204,TRUE,yellow,15.56,8,Pick Up
+8/21/17,3,208,TRUE,yellow,17.79,8,Pick Up
+8/28/17,3,193,TRUE,yellow,17.84,8,Pick Up
+9/4/17,3,138,TRUE,yellow,16.37,8,Pick Up
+9/11/17,3,225,TRUE,yellow,14.52,8,Pick Up
+9/18/17,3,280,TRUE,yellow,17.52,8,Pick Up
+9/25/17,3,1522,TRUE,yellow,14.62,8,Pick Up
+10/2/17,3,1035,TRUE,yellow,12.11,8,Pick Up
+10/9/17,3,90,TRUE,yellow,21.49,8,Pick Up
+10/16/17,3,85,TRUE,yellow,18.58,8,Pick Up
+10/23/17,3,100,TRUE,yellow,18.66,8,Pick Up
+10/30/17,3,89,FALSE,yellow,21.97,8,Pick Up
+11/6/17,3,108,FALSE,yellow,21.51,8,Pick Up
+11/13/17,3,112,FALSE,yellow,21.29,8,Pick Up
+11/20/17,3,137,FALSE,yellow,19.99,8,Pick Up
+11/27/17,3,149,FALSE,yellow,21.81,8,Pick Up
+12/4/17,3,86,FALSE,yellow,20.84,8,Pick Up
+12/11/17,3,112,FALSE,yellow,20.99,8,Pick Up
+12/18/17,3,142,FALSE,yellow,19.56,8,Pick Up
+12/25/17,3,124,FALSE,yellow,20.99,8,Pick Up
+1/1/18,3,128,FALSE,yellow,19.99,8,Pick Up
+1/8/18,3,128,FALSE,yellow,19.99,8,Pick Up
+1/15/18,3,142,FALSE,yellow,21.79,8,Pick Up
+1/22/18,3,120,FALSE,yellow,21.66,8,Pick Up
+1/29/18,3,138,TRUE,yellow,20.98,8,Pick Up
+2/5/18,3,123,FALSE,yellow,20.29,8,Pick Up
+2/12/18,3,95,TRUE,yellow,19.99,8,Pick Up
+2/19/18,3,124,TRUE,yellow,19.29,8,Pick Up
+2/26/18,3,118,TRUE,yellow,20.99,8,Pick Up
+3/5/18,3,132,TRUE,yellow,20.99,8,Pick Up
+3/12/18,3,145,TRUE,yellow,21.96,8,Pick Up
+3/19/18,3,155,TRUE,yellow,20.99,8,Pick Up
+3/26/18,3,163,TRUE,yellow,21.99,8,Pick Up
+4/2/18,3,90,FALSE,yellow,21.99,8,Pick Up
+4/9/18,3,113,TRUE,yellow,20.99,8,Pick Up
+4/16/18,3,109,TRUE,yellow,19.47,8,Pick Up
+4/23/18,3,140,TRUE,yellow,20.93,8,Pick Up
+4/30/18,3,146,FALSE,yellow,20.99,8,Pick Up
+5/7/18,3,133,TRUE,yellow,19.87,8,Pick Up
+5/14/18,3,161,TRUE,yellow,19.94,8,Pick Up
+5/21/18,3,200,TRUE,yellow,20.99,8,Pick Up
+5/28/18,3,192,TRUE,yellow,19.89,8,Pick Up
+6/4/18,3,107,FALSE,yellow,21.55,8,Pick Up
+6/11/18,3,135,TRUE,yellow,22.02,8,Pick Up
+6/18/18,3,120,FALSE,yellow,22.56,8,Pick Up
+6/25/18,3,149,TRUE,yellow,20.77,8,Pick Up
+7/2/18,3,115,TRUE,yellow,19.81,8,Pick Up
+7/9/18,3,111,TRUE,yellow,20.6,8,Pick Up
+7/16/18,3,128,TRUE,yellow,17.77,8,Pick Up
+7/23/18,3,134,TRUE,yellow,19.26,8,Pick Up
+7/30/18,3,168,TRUE,yellow,17.81,8,Pick Up
+8/6/18,3,117,TRUE,yellow,17.55,8,Pick Up
+8/13/18,3,138,TRUE,yellow,19.56,8,Pick Up
+8/20/18,3,145,TRUE,yellow,20.49,8,Pick Up
+8/27/18,3,321,FALSE,yellow,18.84,8,Pick Up
+9/3/18,3,64,TRUE,yellow,21.13,8,Pick Up
+9/10/18,3,200,TRUE,yellow,19.67,8,Pick Up
+9/17/18,3,196,FALSE,yellow,18.34,8,Pick Up
+9/24/18,3,90,FALSE,yellow,20.81,8,Pick Up
+10/31/16,3,24,TRUE,red,17.87,8,Pick Up
+11/7/16,3,40,TRUE,red,15.49,8,Pick Up
+11/14/16,3,7,FALSE,red,21.82,8,Pick Up
+11/21/16,3,26,TRUE,red,15.68,8,Pick Up
+11/28/16,3,8,FALSE,red,19.38,8,Pick Up
+12/5/16,3,32,TRUE,red,14.49,8,Pick Up
+12/12/16,3,8,FALSE,red,36.49,8,Pick Up
+12/19/16,3,12,FALSE,red,36.74,8,Pick Up
+12/26/16,3,17,FALSE,red,22.84,8,Pick Up
+1/2/17,3,81,TRUE,red,15.82,8,Pick Up
+1/9/17,3,11,FALSE,red,33.05,8,Pick Up
+1/16/17,3,40,TRUE,red,16.1,8,Pick Up
+1/23/17,3,47,TRUE,red,14.49,8,Pick Up
+1/30/17,3,30,TRUE,red,16.94,8,Pick Up
+2/6/17,3,44,TRUE,red,15.49,8,Pick Up
+2/13/17,3,33,TRUE,red,13.52,8,Pick Up
+2/20/17,3,55,TRUE,red,16.33,8,Pick Up
+2/27/17,3,29,TRUE,red,16.51,8,Pick Up
+3/6/17,3,19,TRUE,red,19.78,8,Pick Up
+3/13/17,3,19,TRUE,red,19.38,8,Pick Up
+3/20/17,3,30,TRUE,red,17.77,8,Pick Up
+3/27/17,3,26,TRUE,red,18.79,8,Pick Up
+4/3/17,3,21,TRUE,red,18.79,8,Pick Up
+4/10/17,3,31,TRUE,red,18.79,8,Pick Up
+4/17/17,3,39,TRUE,red,17.53,8,Pick Up
+4/24/17,3,22,TRUE,red,16.32,8,Pick Up
+5/1/17,3,36,TRUE,red,18.79,8,Pick Up
+5/8/17,3,21,TRUE,red,18.79,8,Pick Up
+5/15/17,3,20,TRUE,red,18.79,8,Pick Up
+5/22/17,3,17,TRUE,red,18.51,8,Pick Up
+5/29/17,3,40,TRUE,red,16.49,8,Pick Up
+6/5/17,3,22,TRUE,red,16.49,8,Pick Up
+6/12/17,3,45,TRUE,red,14.49,8,Pick Up
+6/19/17,3,116,TRUE,red,15.49,8,Pick Up
+6/26/17,3,55,TRUE,red,14.49,8,Pick Up
+7/3/17,3,88,TRUE,red,14.49,8,Pick Up
+7/10/17,3,59,TRUE,red,14.95,8,Pick Up
+7/17/17,3,33,TRUE,red,16.49,8,Pick Up
+7/24/17,3,53,TRUE,red,16.49,8,Pick Up
+7/31/17,3,42,TRUE,red,15.31,8,Pick Up
+8/7/17,3,68,TRUE,red,16.39,8,Pick Up
+8/14/17,3,44,TRUE,red,16.82,8,Pick Up
+8/21/17,3,68,TRUE,red,19.75,8,Pick Up
+8/28/17,3,49,TRUE,red,16.95,8,Pick Up
+9/4/17,3,63,TRUE,red,14.44,8,Pick Up
+9/11/17,3,80,TRUE,red,16.4,8,Pick Up
+9/18/17,3,38,TRUE,red,13.88,8,Pick Up
+9/25/17,3,107,TRUE,red,11.9,8,Pick Up
+10/2/17,3,160,TRUE,red,11.14,8,Pick Up
+10/9/17,3,17,TRUE,red,21.99,8,Pick Up
+10/16/17,3,7,TRUE,red,18.79,8,Pick Up
+10/23/17,3,19,TRUE,red,19.64,8,Pick Up
+10/30/17,3,9,FALSE,red,16.32,8,Pick Up
+11/6/17,3,11,FALSE,red,19.83,8,Pick Up
+11/13/17,3,6,FALSE,red,20.99,8,Pick Up
+11/20/17,3,9,FALSE,red,19.99,8,Pick Up
+11/27/17,3,1,FALSE,red,20.99,8,Pick Up
+12/4/17,3,7,FALSE,red,20.99,8,Pick Up
+12/11/17,3,16,FALSE,red,20.99,8,Pick Up
+12/18/17,3,13,FALSE,red,21.99,8,Pick Up
+12/25/17,3,17,FALSE,red,19.99,8,Pick Up
+1/1/18,3,13,FALSE,red,19.55,8,Pick Up
+1/8/18,3,12,FALSE,red,20.99,8,Pick Up
+1/15/18,3,10,FALSE,red,19.99,8,Pick Up
+1/22/18,3,6,FALSE,red,19.99,8,Pick Up
+1/29/18,3,12,TRUE,red,20.99,8,Pick Up
+2/5/18,3,11,FALSE,red,21.99,8,Pick Up
+2/12/18,3,14,TRUE,red,21.99,8,Pick Up
+2/19/18,3,7,TRUE,red,20.99,8,Pick Up
+2/26/18,3,10,TRUE,red,20.99,8,Pick Up
+3/5/18,3,20,FALSE,red,20.99,8,Pick Up
+3/12/18,3,23,FALSE,red,19.99,8,Pick Up
+3/19/18,3,21,TRUE,red,20.99,8,Pick Up
+3/26/18,3,22,TRUE,red,20.99,8,Pick Up
+4/2/18,3,22,FALSE,red,20.99,8,Pick Up
+4/9/18,3,19,FALSE,red,19.99,8,Pick Up
+4/16/18,3,22,TRUE,red,18.88,8,Pick Up
+4/23/18,3,24,FALSE,red,20.99,8,Pick Up
+4/30/18,3,21,TRUE,red,20.99,8,Pick Up
+5/7/18,3,33,TRUE,red,19.99,8,Pick Up
+5/14/18,3,33,TRUE,red,18.16,8,Pick Up
+5/21/18,3,24,TRUE,red,19.99,8,Pick Up
+5/28/18,3,29,TRUE,red,17.87,8,Pick Up
+6/4/18,3,19,FALSE,red,21.51,8,Pick Up
+6/11/18,3,24,TRUE,red,19.08,8,Pick Up
+6/18/18,3,39,FALSE,red,17.38,8,Pick Up
+6/25/18,3,27,FALSE,red,21.99,8,Pick Up
+7/2/18,3,23,TRUE,red,19.99,8,Pick Up
+7/9/18,3,23,TRUE,red,20.41,8,Pick Up
+7/16/18,3,31,TRUE,red,18.79,8,Pick Up
+7/23/18,3,24,TRUE,red,18.47,8,Pick Up
+7/30/18,3,30,FALSE,red,17.79,8,Pick Up
+8/6/18,3,31,FALSE,red,20.11,8,Pick Up
+8/13/18,3,35,TRUE,red,20.22,8,Pick Up
+8/20/18,3,36,FALSE,red,18.89,8,Pick Up
+8/27/18,3,38,TRUE,red,20.69,8,Pick Up
+9/3/18,3,22,TRUE,red,19.89,8,Pick Up
+9/10/18,3,37,TRUE,red,19.89,8,Pick Up
+9/17/18,3,23,TRUE,red,14.28,8,Pick Up
+9/24/18,3,43,TRUE,red,10.99,8,Pick Up
+10/31/16,3,33,TRUE,red,47.42,8,Pick Up
+11/7/16,3,30,TRUE,red,50.24,8,Pick Up
+11/14/16,3,19,FALSE,red,61.71,8,Pick Up
+11/21/16,3,26,TRUE,red,54.16,8,Pick Up
+11/28/16,3,28,TRUE,red,65.43,8,Pick Up
+12/5/16,3,19,TRUE,red,45.96,8,Pick Up
+12/12/16,3,38,FALSE,red,71.49,8,Pick Up
+12/19/16,3,16,FALSE,red,63.44,8,Pick Up
+12/26/16,3,20,FALSE,red,67.55,8,Pick Up
+1/2/17,3,4,FALSE,red,102.76,8,Pick Up
+1/9/17,3,10,FALSE,red,71.69,8,Pick Up
+1/16/17,3,39,TRUE,red,48.49,8,Pick Up
+1/23/17,3,35,TRUE,red,50.59,8,Pick Up
+1/30/17,3,33,TRUE,red,53.26,8,Pick Up
+2/6/17,3,39,TRUE,red,49.08,8,Pick Up
+2/13/17,3,33,TRUE,red,47.49,8,Pick Up
+2/20/17,3,23,TRUE,red,49.49,8,Pick Up
+2/27/17,3,25,TRUE,red,46.39,8,Pick Up
+3/6/17,3,33,TRUE,red,52.29,8,Pick Up
+3/13/17,3,22,TRUE,red,48.59,8,Pick Up
+3/20/17,3,24,TRUE,red,50.73,8,Pick Up
+3/27/17,3,22,TRUE,red,52.19,8,Pick Up
+4/3/17,3,16,TRUE,red,58.39,8,Pick Up
+4/10/17,3,23,TRUE,red,55.96,8,Pick Up
+4/17/17,3,16,TRUE,red,69.23,8,Pick Up
+4/24/17,3,18,TRUE,red,49.31,8,Pick Up
+5/1/17,3,8,TRUE,red,50.9,8,Pick Up
+5/8/17,3,8,TRUE,red,52.79,8,Pick Up
+5/15/17,3,16,TRUE,red,55.85,8,Pick Up
+5/22/17,3,25,TRUE,red,55.22,8,Pick Up
+5/29/17,3,25,TRUE,red,48.49,8,Pick Up
+6/5/17,3,29,TRUE,red,48.49,8,Pick Up
+6/12/17,3,23,TRUE,red,49.86,8,Pick Up
+6/19/17,3,21,TRUE,red,48.49,8,Pick Up
+6/26/17,3,35,TRUE,red,48.02,8,Pick Up
+7/3/17,3,48,TRUE,red,47.08,8,Pick Up
+7/10/17,3,70,TRUE,red,45.42,8,Pick Up
+7/17/17,3,69,TRUE,red,47.84,8,Pick Up
+7/24/17,3,67,TRUE,red,49.43,8,Pick Up
+7/31/17,3,65,TRUE,red,46.48,8,Pick Up
+8/7/17,3,49,TRUE,red,49.01,8,Pick Up
+8/14/17,3,59,TRUE,red,52.16,8,Pick Up
+8/21/17,3,74,TRUE,red,53.75,8,Pick Up
+8/28/17,3,80,TRUE,red,53.99,8,Pick Up
+9/4/17,3,65,TRUE,red,54.99,8,Pick Up
+9/11/17,3,69,TRUE,red,52.13,8,Pick Up
+9/18/17,3,65,TRUE,red,47.43,8,Pick Up
+9/25/17,3,362,TRUE,red,43.35,8,Pick Up
+10/2/17,3,556,TRUE,red,33.2,8,Pick Up
+10/9/17,3,16,TRUE,red,73.05,8,Pick Up
+10/16/17,3,36,TRUE,red,54.79,8,Pick Up
+10/23/17,3,11,TRUE,red,57.88,8,Pick Up
+10/30/17,3,26,FALSE,red,74.99,8,Pick Up
+11/6/17,3,21,FALSE,red,76.99,8,Pick Up
+11/13/17,3,19,FALSE,red,72.46,8,Pick Up
+11/20/17,3,21,FALSE,red,75.99,8,Pick Up
+11/27/17,3,17,FALSE,red,75.99,8,Pick Up
+12/4/17,3,13,FALSE,red,75.99,8,Pick Up
+12/11/17,3,24,FALSE,red,75.99,8,Pick Up
+12/18/17,3,24,FALSE,red,71.44,8,Pick Up
+12/25/17,3,12,FALSE,red,74.99,8,Pick Up
+1/1/18,3,26,FALSE,red,74.99,8,Pick Up
+1/8/18,3,19,FALSE,red,74.99,8,Pick Up
+1/15/18,3,24,FALSE,red,76.99,8,Pick Up
+1/22/18,3,28,FALSE,red,76.99,8,Pick Up
+1/29/18,3,27,TRUE,red,76.99,8,Pick Up
+2/5/18,3,21,TRUE,red,73.49,8,Pick Up
+2/12/18,3,28,TRUE,red,74.65,8,Pick Up
+2/19/18,3,23,TRUE,red,75.45,8,Pick Up
+2/26/18,3,13,TRUE,red,69.54,8,Pick Up
+3/5/18,3,37,TRUE,red,74.99,8,Pick Up
+3/12/18,3,27,TRUE,red,76.99,8,Pick Up
+3/19/18,3,25,TRUE,red,73.32,8,Pick Up
+3/26/18,3,30,TRUE,red,76.99,8,Pick Up
+4/2/18,3,34,TRUE,red,74.17,8,Pick Up
+4/9/18,3,33,TRUE,red,73.47,8,Pick Up
+4/16/18,3,33,TRUE,red,73.43,8,Pick Up
+4/23/18,3,26,TRUE,red,75.99,8,Pick Up
+4/30/18,3,23,TRUE,red,71.1,8,Pick Up
+5/7/18,3,26,FALSE,red,74.99,8,Pick Up
+5/14/18,3,41,TRUE,red,70.97,8,Pick Up
+5/21/18,3,35,TRUE,red,74.99,8,Pick Up
+5/28/18,3,34,TRUE,red,71.01,8,Pick Up
+6/4/18,3,42,TRUE,red,74.99,8,Pick Up
+6/11/18,3,36,TRUE,red,74.99,8,Pick Up
+6/18/18,3,36,TRUE,red,75.99,8,Pick Up
+6/25/18,3,34,TRUE,red,76.99,8,Pick Up
+7/2/18,3,24,TRUE,red,76.03,8,Pick Up
+7/9/18,3,36,TRUE,red,69.45,8,Pick Up
+7/16/18,3,39,FALSE,red,70.39,8,Pick Up
+7/23/18,3,37,TRUE,red,67.32,8,Pick Up
+7/30/18,3,33,FALSE,red,64.73,8,Pick Up
+8/6/18,3,44,TRUE,red,64.59,8,Pick Up
+8/13/18,3,83,FALSE,red,58.39,8,Pick Up
+8/20/18,3,46,FALSE,red,56.23,8,Pick Up
+8/27/18,3,24,FALSE,red,57.09,8,Pick Up
+9/3/18,3,75,TRUE,red,56.65,8,Pick Up
+9/10/18,3,73,TRUE,red,58.39,8,Pick Up
+9/17/18,3,56,FALSE,red,60.29,8,Pick Up
+9/24/18,3,75,FALSE,red,64.42,8,Pick Up
+10/31/16,3,7,FALSE,silver,16.49,7,Fuso
+11/7/16,3,13,TRUE,silver,13.29,7,Fuso
+11/14/16,3,9,TRUE,silver,14.73,7,Fuso
+11/21/16,3,10,FALSE,silver,16.49,7,Fuso
+11/28/16,3,6,FALSE,silver,16.49,7,Fuso
+12/5/16,3,5,FALSE,silver,15.49,7,Fuso
+12/12/16,3,9,FALSE,silver,15.49,7,Fuso
+12/19/16,3,8,FALSE,silver,15.49,7,Fuso
+12/26/16,3,27,FALSE,silver,14.49,7,Fuso
+1/2/17,3,7,FALSE,silver,14.49,7,Fuso
+1/9/17,3,3,FALSE,silver,16.49,7,Fuso
+1/16/17,3,9,FALSE,silver,18.97,7,Fuso
+1/23/17,3,4,FALSE,silver,17.79,7,Fuso
+1/30/17,3,5,FALSE,silver,19.79,7,Fuso
+2/6/17,3,8,FALSE,silver,19.79,7,Fuso
+2/13/17,3,4,FALSE,silver,18.24,7,Fuso
+2/20/17,3,13,FALSE,silver,19.79,7,Fuso
+2/27/17,3,6,FALSE,silver,17.59,7,Fuso
+3/6/17,3,4,FALSE,silver,16.59,7,Fuso
+3/13/17,3,9,FALSE,silver,17.59,7,Fuso
+3/20/17,3,16,FALSE,silver,16.24,7,Fuso
+3/27/17,3,11,FALSE,silver,15.59,7,Fuso
+4/3/17,3,17,FALSE,silver,15.54,7,Fuso
+4/10/17,3,9,FALSE,silver,15.59,7,Fuso
+4/17/17,3,14,FALSE,silver,16.59,7,Fuso
+4/24/17,3,22,FALSE,silver,16.59,7,Fuso
+5/1/17,3,8,FALSE,silver,16.59,7,Fuso
+5/8/17,3,18,FALSE,silver,17.59,7,Fuso
+5/15/17,3,14,FALSE,silver,17.59,7,Fuso
+5/22/17,3,8,FALSE,silver,16.18,7,Fuso
+5/29/17,3,9,FALSE,silver,15.59,7,Fuso
+6/5/17,3,5,FALSE,silver,16.59,7,Fuso
+6/12/17,3,9,FALSE,silver,23.74,7,Fuso
+6/19/17,3,4,FALSE,silver,24.74,7,Fuso
+6/26/17,3,3,FALSE,silver,24.74,7,Fuso
+7/3/17,3,9,FALSE,silver,22.74,7,Fuso
+7/10/17,3,17,FALSE,silver,24.74,7,Fuso
+7/17/17,3,6,FALSE,silver,23.74,7,Fuso
+7/24/17,3,4,FALSE,silver,22.74,7,Fuso
+7/31/17,3,11,FALSE,silver,23.74,7,Fuso
+8/7/17,3,4,FALSE,silver,24.74,7,Fuso
+8/14/17,3,2,FALSE,silver,24.74,7,Fuso
+8/21/17,3,7,FALSE,silver,20.03,7,Fuso
+8/28/17,3,7,FALSE,silver,19.79,7,Fuso
+9/4/17,3,8,FALSE,silver,19.79,7,Fuso
+9/11/17,3,20,FALSE,silver,18.79,7,Fuso
+9/18/17,3,9,FALSE,silver,17.79,7,Fuso
+9/25/17,3,29,FALSE,silver,17.79,7,Fuso
+10/2/17,3,16,FALSE,silver,18.79,7,Fuso
+10/9/17,3,14,FALSE,silver,16.14,7,Fuso
+10/16/17,3,15,FALSE,silver,19.79,7,Fuso
+10/23/17,3,12,FALSE,silver,17.32,7,Fuso
+10/30/17,3,17,FALSE,silver,19.79,7,Fuso
+11/6/17,3,10,FALSE,silver,18.79,7,Fuso
+11/13/17,3,39,FALSE,silver,19.79,7,Fuso
+11/20/17,3,17,FALSE,silver,17.79,7,Fuso
+11/27/17,3,14,FALSE,silver,17.79,7,Fuso
+12/4/17,3,10,FALSE,silver,17.79,7,Fuso
+12/11/17,3,14,FALSE,silver,20.21,7,Fuso
+12/18/17,3,12,FALSE,silver,19.77,7,Fuso
+12/25/17,3,9,FALSE,silver,18.98,7,Fuso
+1/1/18,3,19,FALSE,silver,16.81,7,Fuso
+1/8/18,3,5,FALSE,silver,18.79,7,Fuso
+1/15/18,3,19,FALSE,silver,18.79,7,Fuso
+1/22/18,3,14,FALSE,silver,17.79,7,Fuso
+1/29/18,3,11,FALSE,silver,19.79,7,Fuso
+2/5/18,3,18,FALSE,silver,18.79,7,Fuso
+2/12/18,3,14,FALSE,silver,22.54,7,Fuso
+2/19/18,3,3,FALSE,silver,29.79,7,Fuso
+2/26/18,3,21,FALSE,silver,29.79,7,Fuso
+3/5/18,3,6,FALSE,silver,45.09,7,Fuso
+3/12/18,3,18,FALSE,silver,25.02,7,Fuso
+3/19/18,3,47,FALSE,silver,15.49,7,Fuso
+3/26/18,3,11,FALSE,silver,16.49,7,Fuso
+4/2/18,3,54,FALSE,silver,16.18,7,Fuso
+4/9/18,3,71,FALSE,silver,15.31,7,Fuso
+4/16/18,3,81,FALSE,silver,16.49,7,Fuso
+4/23/18,3,45,FALSE,silver,15.24,7,Fuso
+4/30/18,3,28,FALSE,silver,19.79,7,Fuso
+5/7/18,3,37,FALSE,silver,17.79,7,Fuso
+5/14/18,3,40,FALSE,silver,19.79,7,Fuso
+5/21/18,3,19,FALSE,silver,21.79,7,Fuso
+5/28/18,3,15,FALSE,silver,29.79,7,Fuso
+6/4/18,3,19,FALSE,silver,28.79,7,Fuso
+6/11/18,3,20,FALSE,silver,31.13,7,Fuso
+6/18/18,3,26,FALSE,silver,25.29,7,Fuso
+6/25/18,3,23,FALSE,silver,23.29,7,Fuso
+7/2/18,3,12,FALSE,silver,28.34,7,Fuso
+7/9/18,3,10,FALSE,silver,25.73,7,Fuso
+7/16/18,3,26,FALSE,silver,25.29,7,Fuso
+7/23/18,3,27,FALSE,silver,24.13,7,Fuso
+7/30/18,3,19,FALSE,silver,19.37,7,Fuso
+8/6/18,3,13,FALSE,silver,29.4,7,Fuso
+8/13/18,3,19,FALSE,silver,30.96,7,Fuso
+8/20/18,3,32,FALSE,silver,25.2,7,Fuso
+8/27/18,3,17,FALSE,silver,26.49,7,Fuso
+9/3/18,3,30,FALSE,silver,25.29,7,Fuso
+9/10/18,3,14,FALSE,silver,32.36,7,Fuso
+9/17/18,3,33,FALSE,silver,23.67,7,Fuso
+9/24/18,3,38,FALSE,silver,23.75,7,Fuso
+10/31/16,3,2,FALSE,grey,16.69,10,Container
+11/7/16,3,5,FALSE,grey,17.69,10,Container
+11/14/16,3,6,FALSE,grey,18.69,10,Container
+11/21/16,3,4,FALSE,grey,16.69,10,Container
+11/28/16,3,6,FALSE,grey,18.69,10,Container
+12/5/16,3,33,FALSE,grey,18.69,10,Container
+12/12/16,3,10,FALSE,grey,14.61,10,Container
+12/19/16,3,10,FALSE,grey,18.69,10,Container
+12/26/16,3,12,FALSE,grey,16.5,10,Container
+1/2/17,3,15,FALSE,grey,18.38,10,Container
+1/9/17,3,10,FALSE,grey,20.52,10,Container
+1/16/17,3,5,FALSE,grey,21.99,10,Container
+1/23/17,3,4,FALSE,grey,19.99,10,Container
+1/30/17,3,7,FALSE,grey,20.99,10,Container
+2/6/17,3,4,FALSE,grey,20.99,10,Container
+2/13/17,3,5,FALSE,grey,21.99,10,Container
+2/20/17,3,8,FALSE,grey,21.99,10,Container
+2/27/17,3,7,FALSE,grey,19.99,10,Container
+3/6/17,3,7,FALSE,grey,21.99,10,Container
+3/13/17,3,5,FALSE,grey,53.99,10,Container
+3/20/17,3,6,FALSE,grey,53.99,10,Container
+3/27/17,3,3,FALSE,grey,52.99,10,Container
+4/3/17,3,5,FALSE,grey,54.99,10,Container
+4/10/17,3,2,FALSE,grey,53.99,10,Container
+4/17/17,3,6,FALSE,grey,50.24,10,Container
+4/24/17,3,6,FALSE,grey,54.99,10,Container
+5/1/17,3,6,FALSE,grey,54.99,10,Container
+5/8/17,3,6,FALSE,grey,53.99,10,Container
+5/15/17,3,5,FALSE,grey,54.99,10,Container
+5/22/17,3,4,FALSE,grey,14.85,10,Container
+5/29/17,3,4,FALSE,grey,52.99,10,Container
+6/5/17,3,2,FALSE,grey,54.99,10,Container
+6/12/17,3,6,FALSE,grey,54.99,10,Container
+6/19/17,3,4,FALSE,grey,53.99,10,Container
+6/26/17,3,4,FALSE,grey,52.99,10,Container
+7/3/17,3,6,FALSE,grey,54.99,10,Container
+7/10/17,3,6,FALSE,grey,52.99,10,Container
+7/17/17,3,7,FALSE,grey,53.99,10,Container
+7/24/17,3,2,FALSE,grey,52.99,10,Container
+7/31/17,3,1,FALSE,grey,53.99,10,Container
+8/7/17,3,4,FALSE,grey,63.99,10,Container
+8/14/17,3,14,FALSE,grey,34.99,10,Container
+8/21/17,3,44,TRUE,grey,19.99,10,Container
+8/28/17,3,46,TRUE,grey,22.36,10,Container
+9/4/17,3,38,TRUE,grey,22.81,10,Container
+9/11/17,3,73,TRUE,grey,22.27,10,Container
+9/18/17,3,35,TRUE,grey,21.99,10,Container
+9/25/17,3,21,TRUE,grey,22.25,10,Container
+10/2/17,3,3,FALSE,grey,52.99,10,Container
+10/9/17,3,6,FALSE,grey,48.94,10,Container
+10/16/17,3,7,FALSE,grey,49.86,10,Container
+10/23/17,3,9,FALSE,grey,52.99,10,Container
+10/30/17,3,3,FALSE,grey,54.99,10,Container
+11/6/17,3,5,FALSE,grey,54.99,10,Container
+11/13/17,3,1,FALSE,grey,54.99,10,Container
+11/20/17,3,2,FALSE,grey,53.99,10,Container
+11/27/17,3,5,FALSE,grey,54.99,10,Container
+12/4/17,3,6,FALSE,grey,53.99,10,Container
+12/11/17,3,1,FALSE,grey,53.99,10,Container
+12/18/17,3,4,FALSE,grey,53.99,10,Container
+12/25/17,3,6,FALSE,grey,53.99,10,Container
+1/1/18,3,4,FALSE,grey,31.77,10,Container
+1/8/18,3,6,FALSE,grey,54.99,10,Container
+1/15/18,3,6,FALSE,grey,53.99,10,Container
+1/22/18,3,4,FALSE,grey,52.99,10,Container
+1/29/18,3,3,FALSE,grey,54.99,10,Container
+2/5/18,3,1,FALSE,grey,53.99,10,Container
+2/12/18,3,4,FALSE,grey,54.99,10,Container
+2/19/18,3,5,FALSE,grey,54.99,10,Container
+2/26/18,3,3,FALSE,grey,39.78,10,Container
+3/5/18,3,10,FALSE,grey,54.99,10,Container
+3/12/18,3,22,TRUE,grey,52.99,10,Container
+3/19/18,3,10,FALSE,grey,52.99,10,Container
+3/26/18,3,8,FALSE,grey,54.99,10,Container
+4/2/18,3,10,FALSE,grey,53.99,10,Container
+4/9/18,3,6,FALSE,grey,54.99,10,Container
+4/16/18,3,8,FALSE,grey,37.31,10,Container
+4/23/18,3,5,FALSE,grey,53.99,10,Container
+4/30/18,3,9,FALSE,grey,53.99,10,Container
+5/7/18,3,14,FALSE,grey,52.99,10,Container
+5/14/18,3,13,FALSE,grey,53.99,10,Container
+5/21/18,3,15,FALSE,grey,34.96,10,Container
+5/28/18,3,10,FALSE,grey,53.99,10,Container
+6/4/18,3,15,FALSE,grey,45.84,10,Container
+6/11/18,3,19,FALSE,grey,31.99,10,Container
+6/18/18,3,18,FALSE,grey,29.97,10,Container
+6/25/18,3,14,FALSE,grey,36.49,10,Container
+7/2/18,3,8,FALSE,grey,37.49,10,Container
+7/9/18,3,8,FALSE,grey,32.53,10,Container
+7/16/18,3,7,FALSE,grey,32.99,10,Container
+7/23/18,3,3,FALSE,grey,36.49,10,Container
+7/30/18,3,6,FALSE,grey,52.99,10,Container
+8/6/18,3,12,FALSE,grey,36.49,10,Container
+8/13/18,3,8,FALSE,grey,41.24,10,Container
+8/20/18,3,16,TRUE,grey,53.99,10,Container
+8/27/18,3,8,FALSE,grey,54.99,10,Container
+9/3/18,3,12,FALSE,grey,45.74,10,Container
+9/10/18,3,11,FALSE,grey,37.49,10,Container
+9/17/18,3,8,FALSE,grey,38.49,10,Container
+9/24/18,3,12,FALSE,grey,53.99,10,Container
+10/31/16,3,19,TRUE,silver,19.99,10,Container
+11/7/16,3,13,TRUE,silver,20.99,10,Container
+11/14/16,3,18,TRUE,silver,21.99,10,Container
+11/21/16,3,11,TRUE,silver,19.99,10,Container
+11/28/16,3,11,TRUE,silver,20.99,10,Container
+12/5/16,3,7,FALSE,silver,29.79,10,Container
+12/12/16,3,8,TRUE,silver,19.99,10,Container
+12/19/16,3,18,TRUE,silver,21.38,10,Container
+12/26/16,3,13,TRUE,silver,22.26,10,Container
+1/2/17,3,11,TRUE,silver,16.18,10,Container
+1/9/17,3,12,TRUE,silver,14.99,10,Container
+1/16/17,3,8,TRUE,silver,21.99,10,Container
+1/23/17,3,9,TRUE,silver,20.99,10,Container
+1/30/17,3,12,TRUE,silver,20.41,10,Container
+2/6/17,3,9,TRUE,silver,21.99,10,Container
+2/13/17,3,12,TRUE,silver,20.99,10,Container
+2/20/17,3,17,TRUE,silver,20.99,10,Container
+2/27/17,3,8,TRUE,silver,20.99,10,Container
+3/6/17,3,15,TRUE,silver,21.91,10,Container
+3/13/17,3,6,FALSE,silver,27.32,10,Container
+3/20/17,3,11,TRUE,silver,21.99,10,Container
+3/27/17,3,13,TRUE,silver,16.49,10,Container
+4/3/17,3,23,TRUE,silver,15.9,10,Container
+4/10/17,3,19,TRUE,silver,16.76,10,Container
+4/17/17,3,8,TRUE,silver,21.99,10,Container
+4/24/17,3,21,TRUE,silver,20.99,10,Container
+5/1/17,3,14,TRUE,silver,20.62,10,Container
+5/8/17,3,9,TRUE,silver,15.49,10,Container
+5/15/17,3,15,TRUE,silver,18.06,10,Container
+5/22/17,3,15,TRUE,silver,15.08,10,Container
+5/29/17,3,16,TRUE,silver,19.99,10,Container
+6/5/17,3,22,TRUE,silver,15.75,10,Container
+6/12/17,3,17,TRUE,silver,21.34,10,Container
+6/19/17,3,16,FALSE,silver,15.49,10,Container
+6/26/17,3,18,FALSE,silver,14.49,10,Container
+7/3/17,3,15,FALSE,silver,16.49,10,Container
+7/10/17,3,10,FALSE,silver,15.49,10,Container
+7/17/17,3,29,TRUE,silver,14.26,10,Container
+7/24/17,3,19,TRUE,silver,14.94,10,Container
+7/31/17,3,11,TRUE,silver,16.49,10,Container
+8/7/17,3,21,TRUE,silver,15.49,10,Container
+8/14/17,3,9,TRUE,silver,14.49,10,Container
+8/21/17,3,13,TRUE,silver,14.49,10,Container
+8/28/17,3,18,TRUE,silver,15.49,10,Container
+9/4/17,3,27,TRUE,silver,14.49,10,Container
+9/11/17,3,13,TRUE,silver,17.18,10,Container
+9/18/17,3,19,TRUE,silver,15.49,10,Container
+9/25/17,3,17,TRUE,silver,14.39,10,Container
+10/2/17,3,19,TRUE,silver,13.39,10,Container
+10/9/17,3,34,TRUE,silver,14.49,10,Container
+10/16/17,3,28,TRUE,silver,19.05,10,Container
+10/23/17,3,24,TRUE,silver,17.27,10,Container
+10/30/17,3,9,FALSE,silver,31.99,10,Container
+11/6/17,3,13,FALSE,silver,31.16,10,Container
+11/13/17,3,25,FALSE,silver,15.85,10,Container
+11/20/17,3,29,FALSE,silver,16.78,10,Container
+11/27/17,3,21,FALSE,silver,14.49,10,Container
+12/4/17,3,20,FALSE,silver,15.52,10,Container
+12/11/17,3,5,FALSE,silver,30.99,10,Container
+12/18/17,3,8,FALSE,silver,32.99,10,Container
+12/25/17,3,7,FALSE,silver,30.99,10,Container
+1/1/18,3,8,FALSE,silver,32.99,10,Container
+1/8/18,3,6,FALSE,silver,27.7,10,Container
+1/15/18,3,10,FALSE,silver,20.99,10,Container
+1/22/18,3,14,FALSE,silver,20.99,10,Container
+1/29/18,3,8,TRUE,silver,21.99,10,Container
+2/5/18,3,9,TRUE,silver,30.99,10,Container
+2/12/18,3,3,TRUE,silver,32.99,10,Container
+2/19/18,3,9,TRUE,silver,31.99,10,Container
+2/26/18,3,12,TRUE,silver,32.99,10,Container
+3/5/18,3,9,FALSE,silver,31.99,10,Container
+3/12/18,3,10,TRUE,silver,31.99,10,Container
+3/19/18,3,11,FALSE,silver,30.99,10,Container
+3/26/18,3,15,TRUE,silver,31.98,10,Container
+4/2/18,3,10,FALSE,silver,28.32,10,Container
+4/9/18,3,13,TRUE,silver,35.11,10,Container
+4/16/18,3,15,FALSE,silver,22.64,10,Container
+4/23/18,3,50,TRUE,silver,15.63,10,Container
+4/30/18,3,21,TRUE,silver,22.23,10,Container
+5/7/18,3,15,TRUE,silver,31.99,10,Container
+5/14/18,3,358,FALSE,silver,10.03,10,Container
+5/21/18,3,14,FALSE,silver,30.99,10,Container
+5/28/18,3,15,TRUE,silver,21.99,10,Container
+6/4/18,3,12,FALSE,silver,14.49,10,Container
+6/11/18,3,23,FALSE,silver,15.03,10,Container
+6/18/18,3,16,FALSE,silver,26.04,10,Container
+6/25/18,3,31,TRUE,silver,16.9,10,Container
+7/2/18,3,20,FALSE,silver,18.64,10,Container
+7/9/18,3,38,TRUE,silver,15.36,10,Container
+7/16/18,3,64,TRUE,silver,14.29,10,Container
+7/23/18,3,23,FALSE,silver,17.41,10,Container
+7/30/18,3,18,FALSE,silver,17.36,10,Container
+8/6/18,3,13,TRUE,silver,28.27,10,Container
+8/13/18,3,30,FALSE,silver,16.57,10,Container
+8/20/18,3,12,TRUE,silver,27.85,10,Container
+8/27/18,3,15,TRUE,silver,29.63,10,Container
+9/3/18,3,12,TRUE,silver,19.61,10,Container
+9/10/18,3,15,TRUE,silver,19.07,10,Container
+9/17/18,3,19,TRUE,silver,21.45,10,Container
+9/24/18,3,26,FALSE,silver,20.93,10,Container
+10/31/16,3,140,FALSE,white,6.99,5,Container
+11/7/16,3,106,FALSE,white,6.87,5,Container
+11/14/16,3,102,FALSE,white,9.01,5,Container
+11/21/16,3,138,FALSE,white,8.1,5,Container
+11/28/16,3,151,FALSE,white,8.81,5,Container
+12/5/16,3,153,FALSE,white,10.27,5,Container
+12/12/16,3,168,FALSE,white,8.81,5,Container
+12/19/16,3,164,FALSE,white,8.78,5,Container
+12/26/16,3,241,FALSE,white,6.8,5,Container
+1/2/17,3,157,FALSE,white,7.58,5,Container
+1/9/17,3,162,FALSE,white,8.78,5,Container
+1/16/17,3,157,FALSE,white,8.95,5,Container
+1/23/17,3,133,FALSE,white,6.77,5,Container
+1/30/17,3,132,FALSE,white,6.74,5,Container
+2/6/17,3,128,FALSE,white,8.71,5,Container
+2/13/17,3,165,FALSE,white,8.8,5,Container
+2/20/17,3,133,FALSE,white,7.37,5,Container
+2/27/17,3,138,FALSE,white,7.81,5,Container
+3/6/17,3,117,FALSE,white,8.04,5,Container
+3/13/17,3,232,FALSE,white,5.9,5,Container
+3/20/17,3,135,FALSE,white,6.66,5,Container
+3/27/17,3,193,FALSE,white,7.44,5,Container
+4/3/17,3,210,FALSE,white,5.65,5,Container
+4/10/17,3,176,FALSE,white,6.58,5,Container
+4/17/17,3,155,FALSE,white,5.63,5,Container
+4/24/17,3,163,FALSE,white,5.39,5,Container
+5/1/17,3,293,FALSE,white,5.35,5,Container
+5/8/17,3,225,FALSE,white,6.37,5,Container
+5/15/17,3,337,FALSE,white,5.42,5,Container
+5/22/17,3,312,FALSE,white,7.66,5,Container
+5/29/17,3,364,FALSE,white,7.62,5,Container
+6/5/17,3,373,FALSE,white,7.45,5,Container
+6/12/17,3,289,FALSE,white,6.67,5,Container
+6/19/17,3,231,FALSE,white,7.35,5,Container
+6/26/17,3,153,FALSE,white,6.29,5,Container
+7/3/17,3,12,FALSE,white,7.17,5,Container
+7/10/17,3,28,TRUE,white,10.59,5,Container
+7/17/17,3,172,FALSE,white,7.04,5,Container
+7/24/17,3,217,FALSE,white,5.38,5,Container
+7/31/17,3,178,FALSE,white,5.57,5,Container
+8/7/17,3,248,FALSE,white,5.55,5,Container
+8/14/17,3,241,FALSE,white,7.6,5,Container
+8/21/17,3,177,FALSE,white,6.18,5,Container
+8/28/17,3,101,FALSE,white,6.43,5,Container
+9/4/17,3,54,FALSE,white,5.38,5,Container
+9/11/17,3,63,FALSE,white,7.51,5,Container
+9/18/17,3,109,FALSE,white,7.64,5,Container
+9/25/17,3,205,FALSE,white,6.76,5,Container
+10/2/17,3,51,TRUE,white,8.86,5,Container
+10/9/17,3,183,FALSE,white,6.21,5,Container
+10/16/17,3,201,FALSE,white,5.56,5,Container
+10/23/17,3,214,FALSE,white,7.37,5,Container
+10/30/17,3,215,FALSE,white,5.47,5,Container
+11/6/17,3,191,FALSE,white,5.62,5,Container
+11/13/17,3,158,FALSE,white,5.69,5,Container
+11/20/17,3,163,FALSE,white,5.61,5,Container
+11/27/17,3,206,FALSE,white,6.47,5,Container
+12/4/17,3,148,FALSE,white,7.56,5,Container
+12/11/17,3,156,FALSE,white,7.52,5,Container
+12/18/17,3,152,FALSE,white,5.44,5,Container
+12/25/17,3,93,FALSE,white,7.48,5,Container
+1/1/18,3,65,FALSE,white,7.31,5,Container
+1/8/18,3,130,FALSE,white,6.66,5,Container
+1/15/18,3,141,FALSE,white,6.37,5,Container
+1/22/18,3,50,FALSE,white,6.83,5,Container
+1/29/18,3,62,FALSE,white,6.58,5,Container
+2/5/18,3,47,FALSE,white,7.67,5,Container
+2/12/18,3,77,FALSE,white,5.67,5,Container
+2/19/18,3,69,FALSE,white,6.66,5,Container
+2/26/18,3,64,FALSE,white,5.69,5,Container
+3/5/18,3,112,FALSE,white,5.68,5,Container
+3/12/18,3,100,FALSE,white,7.5,5,Container
+3/19/18,3,115,FALSE,white,7.65,5,Container
+3/26/18,3,91,FALSE,white,6.65,5,Container
+4/2/18,3,71,FALSE,white,6.69,5,Container
+4/9/18,3,97,FALSE,white,6.69,5,Container
+4/16/18,3,92,FALSE,white,5.69,5,Container
+4/23/18,3,105,FALSE,white,6.69,5,Container
+4/30/18,3,70,FALSE,white,6.69,5,Container
+5/7/18,3,103,TRUE,white,5.69,5,Container
+5/14/18,3,115,FALSE,white,7.69,5,Container
+5/21/18,3,159,FALSE,white,7.69,5,Container
+5/28/18,3,63,FALSE,white,13.41,5,Container
+6/4/18,3,151,FALSE,white,4.4,5,Container
+6/11/18,3,73,FALSE,white,7.69,5,Container
+6/18/18,3,76,FALSE,white,7.34,5,Container
+6/25/18,3,47,FALSE,white,15.04,5,Container
+7/2/18,3,52,FALSE,white,16.04,5,Container
+7/9/18,3,56,FALSE,white,16.68,5,Container
+7/16/18,3,57,FALSE,white,16.02,5,Container
+7/23/18,3,55,FALSE,white,14.96,5,Container
+7/30/18,3,62,FALSE,white,14.61,5,Container
+8/6/18,3,51,FALSE,white,33.08,5,Container
+8/13/18,3,83,FALSE,white,17.95,5,Container
+8/20/18,3,67,FALSE,white,17.04,5,Container
+8/27/18,3,56,FALSE,white,16.04,5,Container
+9/3/18,3,61,FALSE,white,15.04,5,Container
+9/10/18,3,58,FALSE,white,17.04,5,Container
+9/17/18,3,66,FALSE,white,10.86,5,Container
+9/24/18,3,69,FALSE,white,10.2,5,Container
+10/31/16,3,72,FALSE,white,12.44,5,Trailer
+11/7/16,3,94,FALSE,white,14.48,5,Trailer
+11/14/16,3,66,FALSE,white,13.3,5,Trailer
+11/21/16,3,85,FALSE,white,11.84,5,Trailer
+11/28/16,3,84,FALSE,white,11.78,5,Trailer
+12/5/16,3,73,FALSE,white,11.71,5,Trailer
+12/12/16,3,100,FALSE,white,12.23,5,Trailer
+12/19/16,3,111,FALSE,white,13.37,5,Trailer
+12/26/16,3,79,FALSE,white,12.28,5,Trailer
+1/2/17,3,108,FALSE,white,13.73,5,Trailer
+1/9/17,3,92,FALSE,white,12.03,5,Trailer
+1/16/17,3,92,FALSE,white,11.76,5,Trailer
+1/23/17,3,117,FALSE,white,12.06,5,Trailer
+1/30/17,3,85,FALSE,white,12.3,5,Trailer
+2/6/17,3,72,FALSE,white,13.93,5,Trailer
+2/13/17,3,99,FALSE,white,13.26,5,Trailer
+2/20/17,3,127,FALSE,white,12.87,5,Trailer
+2/27/17,3,88,FALSE,white,12.32,5,Trailer
+3/6/17,3,95,FALSE,white,10.58,5,Trailer
+3/13/17,3,77,FALSE,white,15.76,5,Trailer
+3/20/17,3,65,FALSE,white,16.7,5,Trailer
+3/27/17,3,89,FALSE,white,16.42,5,Trailer
+4/3/17,3,52,FALSE,white,15.29,5,Trailer
+4/10/17,3,54,FALSE,white,15.34,5,Trailer
+4/17/17,3,60,TRUE,white,17.12,5,Trailer
+4/24/17,3,74,FALSE,white,10.9,5,Trailer
+5/1/17,3,126,TRUE,white,10.97,5,Trailer
+5/8/17,3,96,TRUE,white,10.83,5,Trailer
+5/15/17,3,76,TRUE,white,8.79,5,Trailer
+5/22/17,3,74,TRUE,white,8.92,5,Trailer
+5/29/17,3,116,TRUE,white,8.78,5,Trailer
+6/5/17,3,72,FALSE,white,9.41,5,Trailer
+6/12/17,3,78,FALSE,white,9.91,5,Trailer
+6/19/17,3,74,FALSE,white,8.51,5,Trailer
+6/26/17,3,89,FALSE,white,11.01,5,Trailer
+7/3/17,3,77,FALSE,white,11.64,5,Trailer
+7/10/17,3,44,TRUE,white,10.58,5,Trailer
+7/17/17,3,47,FALSE,white,11.25,5,Trailer
+7/24/17,3,16,FALSE,white,11.53,5,Trailer
+7/31/17,3,22,FALSE,white,14.22,5,Trailer
+8/7/17,3,21,FALSE,white,14.39,5,Trailer
+8/14/17,3,23,FALSE,white,13.93,5,Trailer
+8/21/17,3,46,FALSE,white,15.45,5,Trailer
+8/28/17,3,12,FALSE,white,15.68,5,Trailer
+9/4/17,3,8,FALSE,white,15.84,5,Trailer
+9/11/17,3,17,TRUE,white,13.42,5,Trailer
+9/18/17,3,27,TRUE,white,16.65,5,Trailer
+9/25/17,3,23,FALSE,white,13.5,5,Trailer
+10/2/17,3,28,TRUE,white,12.59,5,Trailer
+10/9/17,3,45,FALSE,white,11.64,5,Trailer
+10/16/17,3,60,FALSE,white,11.37,5,Trailer
+10/23/17,3,52,FALSE,white,14.3,5,Trailer
+10/30/17,3,46,FALSE,white,13.52,5,Trailer
+11/6/17,3,39,FALSE,white,13.47,5,Trailer
+11/13/17,3,27,FALSE,white,13.21,5,Trailer
+11/20/17,3,43,FALSE,white,13.54,5,Trailer
+11/27/17,3,30,FALSE,white,12.97,5,Trailer
+12/4/17,3,57,FALSE,white,15.09,5,Trailer
+12/11/17,3,39,FALSE,white,14.85,5,Trailer
+12/18/17,3,42,FALSE,white,14.95,5,Trailer
+12/25/17,3,14,FALSE,white,13.42,5,Trailer
+1/1/18,3,27,FALSE,white,14.17,5,Trailer
+1/8/18,3,33,FALSE,white,13.69,5,Trailer
+1/15/18,3,127,FALSE,white,7.43,5,Trailer
+1/22/18,3,24,FALSE,white,13.03,5,Trailer
+1/29/18,3,27,FALSE,white,9.01,5,Trailer
+2/5/18,3,26,FALSE,white,13.72,5,Trailer
+2/12/18,3,12,FALSE,white,12.64,5,Trailer
+2/19/18,3,27,FALSE,white,9.64,5,Trailer
+2/26/18,3,22,TRUE,white,10.64,5,Trailer
+3/5/18,3,46,TRUE,white,12.27,5,Trailer
+3/12/18,3,43,FALSE,white,10.72,5,Trailer
+3/19/18,3,46,TRUE,white,10.52,5,Trailer
+3/26/18,3,30,FALSE,white,10.47,5,Trailer
+4/2/18,3,35,FALSE,white,10.64,5,Trailer
+4/9/18,3,22,FALSE,white,12.64,5,Trailer
+4/16/18,3,23,FALSE,white,9.83,5,Trailer
+4/23/18,3,23,FALSE,white,10.64,5,Trailer
+4/30/18,3,27,TRUE,white,11.64,5,Trailer
+5/7/18,3,31,FALSE,white,12.64,5,Trailer
+5/14/18,3,29,FALSE,white,10.38,5,Trailer
+5/21/18,3,28,FALSE,white,11.64,5,Trailer
+5/28/18,3,31,FALSE,white,12.64,5,Trailer
+6/4/18,3,36,FALSE,white,11.64,5,Trailer
+6/11/18,3,31,FALSE,white,10.64,5,Trailer
+6/18/18,3,35,FALSE,white,11.67,5,Trailer
+6/25/18,3,30,FALSE,white,19.79,5,Trailer
+7/2/18,3,25,FALSE,white,17.89,5,Trailer
+7/9/18,3,29,TRUE,white,17.6,5,Trailer
+7/16/18,3,24,FALSE,white,14.39,5,Trailer
+7/23/18,3,27,FALSE,white,17.79,5,Trailer
+7/30/18,3,32,FALSE,white,17.77,5,Trailer
+8/6/18,3,30,TRUE,white,17.8,5,Trailer
+8/13/18,3,34,FALSE,white,18.79,5,Trailer
+8/20/18,3,47,FALSE,white,11.32,5,Trailer
+8/27/18,3,28,FALSE,white,8.99,5,Trailer
+9/3/18,3,23,FALSE,white,14.84,5,Trailer
+9/10/18,3,24,FALSE,white,18.79,5,Trailer
+9/17/18,3,32,FALSE,white,13.05,5,Trailer
+9/24/18,3,85,FALSE,white,11.36,5,Trailer
+10/31/16,3,9,FALSE,white,41.99,10,Trailer
+11/7/16,3,6,FALSE,white,41.99,10,Trailer
+11/14/16,3,3,FALSE,white,41.99,10,Trailer
+11/21/16,3,2,FALSE,white,42.99,10,Trailer
+11/28/16,3,5,FALSE,white,42.52,10,Trailer
+12/5/16,3,5,FALSE,white,38.59,10,Trailer
+12/12/16,3,8,TRUE,white,34.09,10,Trailer
+12/19/16,3,6,FALSE,white,42.99,10,Trailer
+12/26/16,3,1,FALSE,white,43.99,10,Trailer
+1/2/17,3,5,FALSE,white,43.99,10,Trailer
+1/9/17,3,5,FALSE,white,43.99,10,Trailer
+1/16/17,3,4,TRUE,white,32.99,10,Trailer
+1/23/17,3,4,FALSE,white,43.99,10,Trailer
+1/30/17,3,5,FALSE,white,43.99,10,Trailer
+2/6/17,3,3,FALSE,white,41.99,10,Trailer
+2/13/17,3,1,FALSE,white,41.99,10,Trailer
+2/20/17,3,4,FALSE,white,41.99,10,Trailer
+2/27/17,3,3,FALSE,white,57.39,10,Trailer
+3/6/17,3,8,FALSE,white,42.99,10,Trailer
+3/13/17,3,10,FALSE,white,43.99,10,Trailer
+3/20/17,3,5,FALSE,white,41.99,10,Trailer
+3/27/17,3,7,FALSE,white,42.99,10,Trailer
+4/3/17,3,5,FALSE,white,38.45,10,Trailer
+4/10/17,3,6,FALSE,white,41.99,10,Trailer
+4/17/17,3,6,FALSE,white,41.99,10,Trailer
+4/24/17,3,8,FALSE,white,39.59,10,Trailer
+5/1/17,3,7,FALSE,white,43.99,10,Trailer
+5/8/17,3,7,FALSE,white,43.99,10,Trailer
+5/15/17,3,7,FALSE,white,43.99,10,Trailer
+5/22/17,3,11,FALSE,white,43.99,10,Trailer
+5/29/17,3,7,FALSE,white,41.99,10,Trailer
+6/5/17,3,2,FALSE,white,41.99,10,Trailer
+6/12/17,3,3,FALSE,white,87.98,10,Trailer
+6/19/17,3,4,FALSE,,27.33,10,Trailer
+6/26/17,3,8,FALSE,white,38.3,10,Trailer
+7/3/17,3,3,FALSE,white,41.99,10,Trailer
+7/10/17,3,8,FALSE,white,25.58,10,Trailer
+7/17/17,3,23,TRUE,white,31.99,10,Trailer
+7/24/17,3,13,TRUE,white,31.99,10,Trailer
+7/31/17,3,9,TRUE,white,31.99,10,Trailer
+8/7/17,3,4,TRUE,white,32.99,10,Trailer
+8/14/17,3,8,TRUE,white,32.99,10,Trailer
+8/21/17,3,9,TRUE,white,30.99,10,Trailer
+8/28/17,3,13,TRUE,white,33.77,10,Trailer
+9/4/17,3,9,TRUE,white,31.99,10,Trailer
+9/11/17,3,3,TRUE,white,31.99,10,Trailer
+9/18/17,3,10,TRUE,white,30.99,10,Trailer
+9/25/17,3,8,TRUE,white,31.99,10,Trailer
+10/2/17,3,7,TRUE,white,31.99,10,Trailer
+10/9/17,3,10,TRUE,white,30.99,10,Trailer
+10/16/17,3,3,TRUE,white,32.99,10,Trailer
+10/23/17,3,6,TRUE,white,30,10,Trailer
+10/30/17,3,11,TRUE,white,31.99,10,Trailer
+11/6/17,3,5,TRUE,white,31.99,10,Trailer
+11/13/17,3,9,TRUE,white,30.99,10,Trailer
+11/20/17,3,5,TRUE,white,31.99,10,Trailer
+11/27/17,3,4,TRUE,white,32.99,10,Trailer
+12/4/17,3,3,FALSE,white,42.99,10,Trailer
+12/11/17,3,4,FALSE,white,37.39,10,Trailer
+12/18/17,3,6,FALSE,white,38.59,10,Trailer
+12/25/17,3,4,FALSE,white,43.99,10,Trailer
+1/1/18,3,4,TRUE,white,31.99,10,Trailer
+1/8/18,3,6,FALSE,white,41.99,10,Trailer
+1/15/18,3,3,FALSE,white,42.99,10,Trailer
+1/22/18,3,5,FALSE,white,42.99,10,Trailer
+1/29/18,3,5,TRUE,white,43.99,10,Trailer
+2/5/18,3,3,FALSE,white,43.99,10,Trailer
+2/12/18,3,4,TRUE,white,42.99,10,Trailer
+2/19/18,3,7,TRUE,white,43.99,10,Trailer
+2/26/18,3,6,TRUE,white,43.99,10,Trailer
+3/5/18,3,10,FALSE,white,42.99,10,Trailer
+3/12/18,3,9,TRUE,white,41.99,10,Trailer
+3/19/18,3,8,TRUE,white,42.99,10,Trailer
+3/26/18,3,15,TRUE,white,26.4,10,Trailer
+4/2/18,3,4,FALSE,white,43.99,10,Trailer
+4/9/18,3,7,FALSE,white,39.24,10,Trailer
+4/16/18,3,19,TRUE,white,29.08,10,Trailer
+4/23/18,3,6,FALSE,white,41.99,10,Trailer
+4/30/18,3,11,TRUE,white,43.99,10,Trailer
+5/7/18,3,9,FALSE,white,42.99,10,Trailer
+5/14/18,3,12,TRUE,white,42.99,10,Trailer
+5/21/18,3,16,TRUE,white,32.99,10,Trailer
+5/28/18,3,14,TRUE,white,31.99,10,Trailer
+6/4/18,3,15,TRUE,white,32.99,10,Trailer
+6/11/18,3,13,FALSE,white,27.49,10,Trailer
+6/18/18,3,21,TRUE,white,27.49,10,Trailer
+6/25/18,3,15,TRUE,white,30.99,10,Trailer
+7/2/18,3,6,FALSE,white,32.99,10,Trailer
+7/9/18,3,11,TRUE,white,26.49,10,Trailer
+7/16/18,3,5,FALSE,white,26.49,10,Trailer
+7/23/18,3,4,FALSE,white,42.99,10,Trailer
+7/30/18,3,11,FALSE,white,31.94,10,Trailer
+8/6/18,3,17,TRUE,white,32.99,10,Trailer
+8/13/18,3,8,FALSE,white,33.74,10,Trailer
+8/20/18,3,9,FALSE,white,30.59,10,Trailer
+8/27/18,3,15,FALSE,white,27.44,10,Trailer
+9/3/18,3,8,FALSE,,42.99,10,Trailer
+9/10/18,3,14,TRUE,,42.99,10,Trailer
+9/17/18,3,10,FALSE,white,31.99,10,Trailer
+9/24/18,3,14,FALSE,white,32.94,10,Trailer
+10/31/16,3,5,TRUE,,109.99,9,Colt Diesel Double
+11/7/16,3,7,TRUE,silver,82.49,9,Colt Diesel Double
+11/14/16,3,3,TRUE,silver,108.99,9,Colt Diesel Double
+11/21/16,3,8,TRUE,silver,108.99,9,Colt Diesel Double
+11/28/16,3,1,TRUE,silver,109.99,9,Colt Diesel Double
+12/5/16,3,6,TRUE,silver,118.99,9,Colt Diesel Double
+12/12/16,3,9,TRUE,silver,131.99,9,Colt Diesel Double
+12/19/16,3,5,TRUE,silver,108.99,9,Colt Diesel Double
+12/26/16,3,9,TRUE,silver,111.19,9,Colt Diesel Double
+1/2/17,3,3,TRUE,silver,108.99,9,Colt Diesel Double
+1/9/17,3,2,FALSE,silver,152.99,9,Colt Diesel Double
+1/16/17,3,7,FALSE,silver,130.99,9,Colt Diesel Double
+1/23/17,3,9,TRUE,silver,107.99,9,Colt Diesel Double
+1/30/17,3,12,TRUE,silver,107.99,9,Colt Diesel Double
+2/6/17,3,16,TRUE,silver,107.99,9,Colt Diesel Double
+2/13/17,3,10,TRUE,silver,101.7,9,Colt Diesel Double
+2/20/17,3,4,TRUE,silver,109.99,9,Colt Diesel Double
+2/27/17,3,9,FALSE,silver,134.39,9,Colt Diesel Double
+3/6/17,3,7,TRUE,silver,107.99,9,Colt Diesel Double
+3/13/17,3,8,TRUE,silver,107.99,9,Colt Diesel Double
+3/20/17,3,6,TRUE,silver,108.99,9,Colt Diesel Double
+3/27/17,3,8,TRUE,silver,108.99,9,Colt Diesel Double
+4/3/17,3,9,TRUE,silver,108.99,9,Colt Diesel Double
+4/10/17,3,23,TRUE,silver,107.99,9,Colt Diesel Double
+4/17/17,3,17,TRUE,silver,107.99,9,Colt Diesel Double
+4/24/17,3,10,TRUE,silver,109.99,9,Colt Diesel Double
+5/1/17,3,9,TRUE,silver,107.99,9,Colt Diesel Double
+5/8/17,3,12,TRUE,silver,109.99,9,Colt Diesel Double
+5/15/17,3,13,TRUE,silver,109.99,9,Colt Diesel Double
+5/22/17,3,6,TRUE,silver,107.99,9,Colt Diesel Double
+5/29/17,3,12,TRUE,silver,109.99,9,Colt Diesel Double
+6/5/17,3,12,TRUE,silver,107.99,9,Colt Diesel Double
+6/12/17,3,10,TRUE,silver,108.99,9,Colt Diesel Double
+6/19/17,3,12,TRUE,silver,109.99,9,Colt Diesel Double
+6/26/17,3,8,TRUE,silver,108.99,9,Colt Diesel Double
+7/3/17,3,27,TRUE,silver,112.29,9,Colt Diesel Double
+7/10/17,3,8,TRUE,silver,107.99,9,Colt Diesel Double
+7/17/17,3,12,TRUE,silver,118.99,9,Colt Diesel Double
+7/24/17,3,7,FALSE,silver,74.99,9,Colt Diesel Double
+7/31/17,3,15,TRUE,silver,106.51,9,Colt Diesel Double
+8/7/17,3,6,TRUE,silver,153.99,9,Colt Diesel Double
+8/14/17,3,5,TRUE,silver,152.99,9,Colt Diesel Double
+8/21/17,3,5,FALSE,silver,142.99,9,Colt Diesel Double
+8/28/17,3,10,TRUE,silver,107.99,9,Colt Diesel Double
+9/4/17,3,7,TRUE,silver,140.99,9,Colt Diesel Double
+9/11/17,3,3,TRUE,silver,119.99,9,Colt Diesel Double
+9/18/17,3,11,TRUE,silver,135.01,9,Colt Diesel Double
+9/25/17,3,11,TRUE,silver,120.99,9,Colt Diesel Double
+10/2/17,3,3,TRUE,silver,118.99,9,Colt Diesel Double
+10/9/17,3,10,TRUE,silver,120.7,9,Colt Diesel Double
+10/16/17,3,8,TRUE,silver,119.99,9,Colt Diesel Double
+10/23/17,3,5,TRUE,silver,118.99,9,Colt Diesel Double
+10/30/17,3,8,TRUE,silver,118.99,9,Colt Diesel Double
+11/6/17,3,5,TRUE,silver,119.99,9,Colt Diesel Double
+11/13/17,3,4,TRUE,silver,118.99,9,Colt Diesel Double
+11/20/17,3,11,TRUE,silver,119.99,9,Colt Diesel Double
+11/27/17,3,10,TRUE,silver,120.99,9,Colt Diesel Double
+12/4/17,3,12,TRUE,silver,118.99,9,Colt Diesel Double
+12/11/17,3,12,TRUE,silver,119.99,9,Colt Diesel Double
+12/18/17,3,6,TRUE,silver,120.99,9,Colt Diesel Double
+12/25/17,3,6,TRUE,silver,119.99,9,Colt Diesel Double
+1/1/18,3,8,TRUE,silver,119.99,9,Colt Diesel Double
+1/8/18,3,9,TRUE,silver,119.99,9,Colt Diesel Double
+1/15/18,3,8,TRUE,silver,119.99,9,Colt Diesel Double
+1/22/18,3,10,TRUE,silver,120.99,9,Colt Diesel Double
+1/29/18,3,13,TRUE,silver,119.99,9,Colt Diesel Double
+2/5/18,3,17,TRUE,silver,120.99,9,Colt Diesel Double
+2/12/18,3,12,TRUE,silver,108.99,9,Colt Diesel Double
+2/19/18,3,31,TRUE,silver,119.99,9,Colt Diesel Double
+2/26/18,3,12,TRUE,silver,120.99,9,Colt Diesel Double
+3/5/18,3,19,TRUE,silver,122.55,9,Colt Diesel Double
+3/12/18,3,28,TRUE,silver,118.99,9,Colt Diesel Double
+3/19/18,3,18,TRUE,silver,111.68,9,Colt Diesel Double
+3/26/18,3,14,TRUE,silver,120.99,9,Colt Diesel Double
+4/2/18,3,22,TRUE,silver,119.99,9,Colt Diesel Double
+4/9/18,3,17,TRUE,silver,112.79,9,Colt Diesel Double
+4/16/18,3,10,TRUE,silver,118.99,9,Colt Diesel Double
+4/23/18,3,4,FALSE,silver,138.69,9,Colt Diesel Double
+4/30/18,3,21,TRUE,silver,120.99,9,Colt Diesel Double
+5/7/18,3,21,TRUE,silver,120.74,9,Colt Diesel Double
+5/14/18,3,16,TRUE,silver,118.99,9,Colt Diesel Double
+5/21/18,3,23,TRUE,silver,118.99,9,Colt Diesel Double
+5/28/18,3,21,TRUE,silver,118.99,9,Colt Diesel Double
+6/4/18,3,19,TRUE,silver,120.99,9,Colt Diesel Double
+6/11/18,3,20,TRUE,silver,118.99,9,Colt Diesel Double
+6/18/18,3,17,TRUE,silver,120.99,9,Colt Diesel Double
+6/25/18,3,20,TRUE,silver,107.16,9,Colt Diesel Double
+7/2/18,3,8,TRUE,silver,113.66,9,Colt Diesel Double
+7/9/18,3,5,TRUE,silver,164.99,9,Colt Diesel Double
+7/16/18,3,6,TRUE,silver,138.14,9,Colt Diesel Double
+7/23/18,3,11,TRUE,silver,131.99,9,Colt Diesel Double
+7/30/18,3,25,TRUE,silver,130.99,9,Colt Diesel Double
+8/6/18,3,27,TRUE,silver,131.99,9,Colt Diesel Double
+8/13/18,3,0,TRUE,silver,162.99,9,Colt Diesel Double
+8/20/18,3,2,TRUE,silver,164.99,9,Colt Diesel Double
+8/27/18,3,9,TRUE,silver,131.99,9,Colt Diesel Double
+9/3/18,3,2,FALSE,silver,164.99,9,Colt Diesel Double
+9/10/18,3,5,TRUE,silver,163.99,9,Colt Diesel Double
+9/17/18,3,3,TRUE,silver,164.99,9,Colt Diesel Double
+9/24/18,3,5,TRUE,silver,162.99,9,Colt Diesel Double
+10/31/16,3,10,FALSE,white,46.85,6,Trailer
+11/7/16,3,10,TRUE,white,41.99,6,Trailer
+11/14/16,3,10,FALSE,white,53.99,6,Trailer
+11/21/16,3,1,FALSE,white,53.99,6,Trailer
+11/28/16,3,1,TRUE,white,42.99,6,Trailer
+12/5/16,3,9,FALSE,white,52.99,6,Trailer
+12/12/16,3,10,FALSE,white,53.99,6,Trailer
+12/19/16,3,9,FALSE,white,52.99,6,Trailer
+12/26/16,3,6,FALSE,white,48.33,6,Trailer
+1/2/17,3,13,TRUE,white,41.77,6,Trailer
+1/9/17,3,10,TRUE,white,30.6,6,Trailer
+1/16/17,3,10,TRUE,white,53.99,6,Trailer
+1/23/17,3,7,FALSE,white,41.24,6,Trailer
+1/30/17,3,7,FALSE,white,52.99,6,Trailer
+2/6/17,3,5,FALSE,,53.99,6,Trailer
+2/13/17,3,5,FALSE,white,54.99,6,Trailer
+2/20/17,3,7,FALSE,white,54.99,6,Trailer
+2/27/17,3,12,FALSE,white,52.99,6,Trailer
+3/6/17,3,3,FALSE,white,54.99,6,Trailer
+3/13/17,3,9,FALSE,white,54.99,6,Trailer
+3/20/17,3,3,FALSE,white,54.99,6,Trailer
+3/27/17,3,11,FALSE,white,52.99,6,Trailer
+4/3/17,3,10,FALSE,white,53.99,6,Trailer
+4/10/17,3,6,FALSE,white,52.99,6,Trailer
+4/17/17,3,5,FALSE,white,54.99,6,Trailer
+4/24/17,3,11,FALSE,white,52.99,6,Trailer
+5/1/17,3,4,FALSE,white,53.99,6,Trailer
+5/8/17,3,9,FALSE,white,54.99,6,Trailer
+5/15/17,3,7,FALSE,white,54.99,6,Trailer
+5/22/17,3,12,FALSE,white,54.35,6,Trailer
+5/29/17,3,10,FALSE,white,52.71,6,Trailer
+6/5/17,3,3,FALSE,white,54.07,6,Trailer
+6/12/17,3,10,FALSE,white,53.99,6,Trailer
+6/19/17,3,12,FALSE,white,53.99,6,Trailer
+6/26/17,3,3,FALSE,white,53.99,6,Trailer
+7/3/17,3,9,FALSE,white,54.99,6,Trailer
+7/10/17,3,12,FALSE,white,51.57,6,Trailer
+7/17/17,3,8,FALSE,white,53.99,6,Trailer
+7/24/17,3,9,FALSE,white,53.99,6,Trailer
+7/31/17,3,8,FALSE,white,52.99,6,Trailer
+8/7/17,3,11,FALSE,white,47.88,6,Trailer
+8/14/17,3,16,TRUE,white,42.69,6,Trailer
+8/21/17,3,12,FALSE,white,53.99,6,Trailer
+8/28/17,3,11,FALSE,white,53.77,6,Trailer
+9/4/17,3,15,FALSE,white,52.73,6,Trailer
+9/11/17,3,10,FALSE,white,51.79,6,Trailer
+9/18/17,3,15,TRUE,white,40.99,6,Trailer
+9/25/17,3,16,TRUE,white,42.72,6,Trailer
+10/2/17,3,9,FALSE,white,54.99,6,Trailer
+10/9/17,3,10,FALSE,white,53.99,6,Trailer
+10/16/17,3,2,FALSE,white,54.99,6,Trailer
+10/23/17,3,12,FALSE,white,50.1,6,Trailer
+10/30/17,3,16,TRUE,white,40.66,6,Trailer
+11/6/17,3,21,TRUE,white,43.1,6,Trailer
+11/13/17,3,7,FALSE,white,54.27,6,Trailer
+11/20/17,3,18,TRUE,white,41.41,6,Trailer
+11/27/17,3,18,TRUE,white,44.28,6,Trailer
+12/4/17,3,18,FALSE,white,53.37,6,Trailer
+12/11/17,3,9,FALSE,white,52.32,6,Trailer
+12/18/17,3,10,FALSE,white,42.44,6,Trailer
+12/25/17,3,7,FALSE,white,52.67,6,Trailer
+1/1/18,3,11,FALSE,white,52.99,6,Trailer
+1/8/18,3,9,FALSE,white,52.16,6,Trailer
+1/15/18,3,7,FALSE,white,53.67,6,Trailer
+1/22/18,3,7,FALSE,white,52.34,6,Trailer
+1/29/18,3,44,FALSE,white,54.39,6,Trailer
+2/5/18,3,13,FALSE,white,53.57,6,Trailer
+2/12/18,3,9,TRUE,white,52.82,6,Trailer
+2/19/18,3,10,FALSE,white,52.89,6,Trailer
+2/26/18,3,3,FALSE,white,52.99,6,Trailer
+3/5/18,3,17,FALSE,white,54.48,6,Trailer
+3/12/18,3,10,FALSE,white,53.99,6,Trailer
+3/19/18,3,9,FALSE,white,51.78,6,Trailer
+3/26/18,3,10,TRUE,white,52.99,6,Trailer
+4/2/18,3,5,FALSE,white,52.99,6,Trailer
+4/9/18,3,9,FALSE,white,54.99,6,Trailer
+4/16/18,3,2,TRUE,white,112.83,6,Trailer
+4/23/18,3,20,TRUE,white,48.88,6,Trailer
+4/30/18,3,6,FALSE,white,63.22,6,Trailer
+5/7/18,3,18,TRUE,white,54.99,6,Trailer
+5/14/18,3,22,TRUE,white,53.99,6,Trailer
+5/21/18,3,13,TRUE,white,54.99,6,Trailer
+5/28/18,3,15,FALSE,white,53.99,6,Trailer
+6/4/18,3,17,FALSE,white,51.79,6,Trailer
+6/11/18,3,15,FALSE,white,54.99,6,Trailer
+6/18/18,3,14,FALSE,white,52.99,6,Trailer
+6/25/18,3,18,FALSE,white,50.86,6,Trailer
+7/2/18,3,21,TRUE,white,43.99,6,Trailer
+7/9/18,3,2,FALSE,white,83.23,6,Trailer
+7/16/18,3,28,FALSE,white,42.18,6,Trailer
+7/23/18,3,18,FALSE,white,50.23,6,Trailer
+7/30/18,3,34,TRUE,,41.99,6,Trailer
+8/6/18,3,10,FALSE,white,48.59,6,Trailer
+8/13/18,3,52,TRUE,white,43.99,6,Trailer
+8/20/18,3,29,TRUE,white,42.38,6,Trailer
+8/27/18,3,20,FALSE,white,53.99,6,Trailer
+9/3/18,3,14,FALSE,,52.99,6,Trailer
+9/10/18,3,22,TRUE,white,44.99,6,Trailer
+9/17/18,3,28,TRUE,,42.99,6,Trailer
+9/24/18,3,26,TRUE,white,43.45,6,Trailer

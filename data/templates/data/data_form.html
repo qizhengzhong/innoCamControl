@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Add Data{% endblock title %}
+
+{% block sidenav %}
+        <h1>  </h1>
+        <h1>  </h1>
+        <h1>  </h1>
+        {% load static %}
+
+        <img src="{% static 'logo.png' %}" class="card-img-bottom" alt="My image">
+
+        <li><i class="bi bi bi-coin"></i> <a href="/evaluation">Overview</a></li>
+        <li><i class="bi bi-table"></i> <a href="/">Data Collection</a></li>
+        <li><i class="bi bi-ui-checks"> </i><a href="/add">Add Data</a></li>
+        <li><i class="bi bi-bar-chart"></i> <a href="/prediction">Prediction</a></li>
+        <li><i class="bi bi-speedometer"></i> <a href="/prescription">Prescription</a></li>
+        <li><i class="bi bi-speedometer"></i> <a href="/evaluation">Evaluation</a></li>     
+        <li><i class="bi bi-speedometer"></i> <a href="/map">Map</a></li>   
+{% endblock sidenav %}
+
+{% block content %}
+
+<section id="main">
+    <h1>Add Data</h1>
+
+
+    <form method="POST" enctype="multipart/form-data">
+     
+        <!-- Security token -->
+        {% csrf_token %}
+     
+        <!-- Using the formset -->
+        {{ form.as_p }}
+         
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+{% endblock content %}

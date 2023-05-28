@@ -1,0 +1,282 @@
+{% extends "data/data_form.html" %}
+
+{% block title %}All Data{% endblock title %}
+
+
+{% block content %}
+
+
+<h2>{{page_title}}</h2>
+
+<div class="container">
+ 
+  <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-header" style="color:black;font-size:25px;text-align: center;">Business model</div>
+          <div class="card-body">
+            <div class="container">
+              <div class="row gy-4">
+                    
+                
+                    <div class="col col-4 d-flex justify-content-center">
+                      <a href="#" class="btn btn-primary btn-lg px-4">Manufacturing flexibility</a>
+                    </div>
+
+
+                    <div class="col col-4 d-flex justify-content-center">
+                      <a href="#" class="btn btn-primary btn-lg px-4">Supply chain resilience</a>
+                    </div>
+
+
+                    <div class="col col-4 d-flex justify-content-center">
+                      <a href="#" class="btn btn-primary btn-lg px-4">Marketing effectiveness</a>
+                    </div>
+
+                    <div class="col col-4 d-flex justify-content-center">
+                      <a href="#" class="btn btn-success btn-lg px-4">OEE index prediction</a>
+                    </div>
+
+
+                    <div class="col col-4 d-flex justify-content-center">
+                      <a href="#" class="btn btn-success btn-lg px-4">Logistic management</a>
+                    </div>
+
+
+                    <div class="col col-4 d-flex justify-content-center">
+                      <a href="http://localhost:8000" class="btn btn-success btn-lg px-4">Sales prediction</a>
+                    </div>
+
+                    <div class="col col-4 d-flex justify-content-center">
+                      <a href="#" class="btn btn-success btn-lg px-4">Maintenance predictive</a>
+                    </div>
+
+
+                    <div class="col col-4 d-flex justify-content-center">
+                      <a href="#" class="btn btn-success btn-lg px-4">Inventory management</a>
+                    </div>
+
+
+                    <div class="col col-4 d-flex justify-content-center">
+                      <a href="#" class="btn btn-success btn-lg px-4">Blue ocean dynamics</a>
+                    </div>         
+
+                    <div class="col col-4 d-flex justify-content-center">
+                      <a href="#" class="btn btn-success btn-lg px-4">Asset management</a>
+                    </div>
+
+
+                    <div class="col col-4 d-flex justify-content-center">
+                      <a href="#" class="btn btn-success btn-lg px-4">Whip effect index</a>
+                    </div>
+
+
+                    <div class="col col-4 d-flex justify-content-center">
+                      <a href="#" class="btn btn-success btn-lg px-4">Churn prediction</a>
+                    </div>  
+
+              </div>
+            </div>
+          </div>
+        </div>      
+      </div>
+
+         <div class="col-sm">
+          <div class="card ">
+            <div class="card-header" style="color:black;font-size:25px;text-align: center;">Enterprise Health Index</div>
+            <div class="card-body">
+              <label style="color:blue;font-size:30px;" id="gauge-value"></label>           
+              <canvas style="width:100%; height:100%" id="gauge"></canvas>
+            </div>
+            <style>
+              canvas#gauge {
+                width: 100% !important;
+                height: 100% !important;
+              }
+            </style>
+          </div>
+        </div>
+
+  
+     </div>
+
+    <div class="row">
+
+       <div class="col col-sm">
+          <div class="card">
+            <div class="card-header" style="color:black;font-size:25px;text-align: center;">Diagnostics and Prescription</div>
+            <div class="card-body">
+
+              <table id="dictionary" class="table table-sm my-0 middle-border">
+
+                <tr>
+                  <th style="font-size:27px;" >Status a:</th>
+                  <td style="font-size:27px;" >Material rate declining</td>
+                </tr>
+
+                <tr>
+                  <th style="font-size:27px;" >Status b:</th>
+                  <td style="font-size:27px;" >Revenue rate declining</td>
+                </tr>
+
+                <tr>
+                  <th style="font-size:27px;" >Status c:</th>
+                  <td style="font-size:27px;" >High lead time</td>
+                </tr>
+
+                <tr>
+                  <th style="font-size:27px;" >Suggestion a</th>
+                  <td style="font-size:27px;" >Maintenance given</td>
+                </tr>
+
+                <tr>
+                  <th style="font-size:27px;" >Suggestion b</th>
+                  <td style="font-size:27px;" >Provide offer</td>
+                </tr>
+
+                <tr>
+                  <th style="font-size:27px;" >Suggestion c</th>
+                  <td style="font-size:27px;" >Improve labour skill</td>
+                </tr>
+
+
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header" style="color:black;font-size:25px;text-align: center;">Index Radar Chart</div>
+              <div class="card-body">
+                <canvas id="radarChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+        
+
+   </div>  
+ 
+</div>
+
+<script>
+
+  const radarChart = new Chart(document.getElementById('radarChart'), {
+    data: {
+      labels: [
+        'OEE index',
+        'Maintenance predictive',
+        'Asset management',
+        'Logistic management',
+        'Inventory management',
+        'Whip effect index',
+        'Sales prediction',        
+        'Blue ocean dynamics',
+        'Churn prediction'
+      ],
+      datasets: [{
+        label: 'previous business model',
+        data: [75, 85, 70, 70, 70, 65, 70, 70, 75],
+        fill: true,
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: 'rgb(255, 99, 132)',
+        pointBackgroundColor: 'rgb(255, 99, 132)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(255, 99, 132)'
+      }, {
+        label: 'current business model',
+        data: [85, 85, 75, 90, 75, 70, 90, 75,80],
+        fill: true,
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        borderColor: 'rgb(54, 162, 235)',
+        pointBackgroundColor: 'rgb(54, 162, 235)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(54, 162, 235)'
+      }]
+    },
+    type: 'radar',
+    options: {
+      elements: {
+        line: {
+          borderWidth: 3
+        }
+      }
+    },
+  })
+
+
+ var opts = {
+    angle: -0.2, // The span of the gauge arc
+    lineWidth: 0.1, // The line thickness
+    radiusScale: 0.7, // Relative radius
+    pointer: {
+      length: 0.6, // // Relative to gauge radius
+      strokeWidth: 0.035, // The thickness
+      color: '#000000' // Fill color
+    },
+    limitMax: false, // If false, max value increases automatically if value > maxValue
+    limitMin: false, // If true, the min value of the gauge will be fixed
+    colorStart: '#6F6EA0', // Colors
+    colorStop: '#C0C0DB', // just experiment with them
+    strokeColor: '#EEEEEE', // to see which ones work best for you
+    generateGradient: true,
+    highDpiSupport: true, // High resolution support
+    // renderTicks is Optional
+    renderTicks: {
+      divisions: 4,
+      divWidth: 1.1,
+      divLength: 0.7,
+      divColor: '#333333',
+      subDivisions: 5,
+      subLength: 0.5,
+      subWidth: 0.6,
+      subColor: '#666666'
+    },
+    staticLabels: {
+      font: "18px sans-serif", // Specifies font
+      labels: [0,50,75,100], // Print labels at these values
+      color: "#000000", // Optional: Label text color
+      fractionDigits: 1 // Optional: Numerical precision. 0=round off.
+    },
+    staticZones: [
+      {
+        strokeStyle: "#F03E3E",
+        min: 0,
+        max: 50
+      }, // Green
+      {
+        strokeStyle: "#FFDD00",
+        min: 50,
+        max: 75
+      }, // Yellow
+      {
+        strokeStyle: "#30B32D",
+        min: 75,
+        max: 100
+      } // Red
+    ],
+
+  };
+  var target = document.getElementById('gauge'); // your canvas element
+  var gauge = new Gauge(target).setOptions(opts); // create sexy gauge!
+  gauge.maxValue = 100; // set max gauge value
+  gauge.setMinValue(0); // Prefer setter over gauge.minValue = 0
+  gauge.animationSpeed = 32; // set animation speed (32 is default value)
+  gauge.set(85); // set actual value
+  //target.title = gauge.value;
+  gauge.setTextField(document.getElementById('gauge-value'));
+
+</script>
+
+{% endblock %}
+
+
+
+
+
+
+

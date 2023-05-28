@@ -1,0 +1,293 @@
+{% extends "data/data_form.html" %}
+{% load static %}
+{% block title %}All Data{% endblock title %}
+
+{% block content %}
+
+    <script src="{% static 'gauge.min.js' %}"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="{% static 'jquery-3.1.0.min.js' %}"></script>
+    <script src="{% static 'bootstrap.min.js' %}"></script>
+    <script src="{% static 'angular.min.js' %}"></script>
+    <script src="{% static 'd3.v4.min.js' %}"></script>
+
+    <!-- shim is needed to support non-HTML5 FormData browsers (IE8-9)-->
+    <script src="{% static 'ng-file-upload-shim.min.js' %}"></script>
+    <script src="{% static 'ng-file-upload.min.js' %}"></script>
+
+    <!-- app.js should be imported last-->
+    <script src="{% static 'spin.min.js' %}"></script>
+    <script src="{% static 'angular-spinner.min.js' %}"></script>
+    <!--script src="{% static 'graph.js' %}"></script-->
+    <!--script src="{% static 'app.js' %}"></script-->
+
+
+    <script src="{% static 'moment.js' %}"></script>
+    <script src="{% static 'frappe-gantt.min.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'frappe-gantt.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+
+
+
+    <body ng-app="visualNetx" onload="init()">
+
+
+      <div class="row">
+
+
+        <div class="col-sm-4">
+          <div class="card" style="height: 700px;">
+            <div class="card-header" style="color: black; font-size: 25px; text-align: center;">Machine</div>
+
+            <div style="text-align: center;">
+              <img src="{% static 'machine.png' %}" alt="My image" style="width: 250px; height: auto;">
+            </div>
+
+            <div style="text-align: center; ">
+              <svg width="600" height="400" id="svgGen1"></svg>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-4">
+          <div class="card" style="height: 700px;">
+            <div class="card-header" style="color: black; font-size: 25px; text-align: center;">Buffer</div>
+
+            <div style="text-align: center;">
+              <img src="{% static 'buffer3.png' %}" alt="My image" style="width: 250px; height: auto;">
+            </div>
+
+            <div style="text-align: center; ">
+              <svg width="600" height="400" id="svgGen2"></svg>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-4">
+          <div class="card" style="height: 700px;">
+            <div class="card-header" style="color: black; font-size: 25px; text-align: center;">Robot</div>
+
+            <div style="text-align: center;">
+              <img src="{% static 'robot.png' %}" alt="My image" style="width: 250px; height: auto;">
+            </div>
+
+            <div style="text-align: center; ">
+              <svg width="600" height="400" id="svgGen3"></svg>
+            </div>
+          </div>
+        </div> 
+
+
+      </div>    
+
+
+
+    </body>
+            
+
+
+<script>
+  function init() {
+     
+     createGraph({{ graph|safe }},'#svgGen1');
+     createGraph({{ graph1|safe }},'#svgGen2');
+     createGraph({{ graph2|safe }},'#svgGen3');
+     createGraph({{ graph3|safe }},'#svgGen4');
+     //console.log('finish')
+
+
+  }  
+
+
+
+var clearGraph = function(curSvg){
+  var svg = d3.select(curSvg);
+  svg.selectAll("*").remove();
+};
+
+var createGraph = function(graph, curSvg){
+  var svg = d3.select(curSvg)
+      width = +svg.attr("width"),
+      height = +svg.attr("height");
+
+   
+
+  var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+  var simulation = d3.forceSimulation()
+      .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(200))
+      .force("charge", d3.forceManyBody().strength(-200))
+      //.strength(-20) // Increase the repulsion between nodes
+      .force("center", d3.forceCenter(width / 2, height / 2));
+
+  // Define the arrowhead marker
+  svg.append("defs")
+    .append("marker")
+    .attr("id", "arrowhead")
+    .attr("viewBox", "-10 -10 20 20")
+    .attr("refX", 15)
+    .attr("refY", 0)
+    .attr("orient", "auto")
+    .attr("markerWidth", 30)
+    .attr("markerHeight", 30)
+    .append("path")
+    .attr("d", "M0,-5L10,0L0,5")
+    .attr("fill", "#ccc");
+
+
+  //var link = svg.append("g")
+  //    .attr("class", "links")
+  //    .selectAll("line")
+  //    .data(graph.links)
+  //    .enter().append("line")
+  //    .attr("stroke-width", function(d) { return Math.sqrt(d.value); })
+  //    .attr("stroke", "#ccc")
+  //    .attr("marker-end", "url(#arrowhead)"); // Add arrowhead marker
+
+var link = svg.append("g")
+      .attr("class", "links")
+      .selectAll("path")
+      .data(graph.links, function(d) { return d.source + "-" + d.target; })
+      .enter().append("path")
+      .attr("stroke-width", function(d) { return Math.sqrt(d.value); })
+      .attr("stroke", "#ccc")
+      .attr("fill", "none")
+      .attr("marker-end", "url(#arrowhead)");
+
+
+  var node = svg.append("g")
+      .attr("class", "nodes")
+      .selectAll("circle")
+      .data(graph.nodes)
+      .enter().append("circle")
+      .attr("r", 15)
+      .attr("fill", function(d) { return color(d.group); })
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+  //node.append("title")
+  //    .text(function(d) { return d.id; });
+
+  // Add node names as text elements
+  var nodeName = svg.append("g")
+    .attr("class", "node-names")
+    .selectAll("text")
+    .data(graph.nodes)
+    .enter().append("text")
+    .text(function(d) { return d.name; })
+    .attr("dx", 12)
+    .attr("dy", 4);   
+
+  // Add edge names as text elements
+  //var linkName = svg.append("g")
+  //  .attr("class", "link-names")
+  //  .selectAll("text")
+  //  .data(graph.links)
+  //  .enter().append("text")
+  //  .text(function(d) { return d.name; })
+  //  .attr("dx", 5)
+  //  .attr("dy", -5);   
+
+
+var linkName = svg.append("g")
+  .attr("class", "link-names")
+  .selectAll("text")
+  .data(graph.links)
+  .enter().append("text")
+  .text(function(d) { return d.name; })
+  .attr("dx", function(d) {
+    var dx = d.target.x - d.source.x;
+    var dy = d.target.y - d.source.y;
+    var angle = Math.atan2(dy, dx);
+    var distance = 20;
+    var offsetX = Math.cos(angle) * distance;
+    return d.target.x - offsetX;
+  })
+  .attr("dy", function(d) {
+    var dx = d.target.x - d.source.x;
+    var dy = d.target.y - d.source.y;
+    var angle = Math.atan2(dy, dx);
+    var distance = 20;
+    var offsetY = Math.sin(angle) * distance;
+    return d.target.y - offsetY;
+  });
+  //.style("display", function(d, i) {
+  //  return i === 4 ? "block" : "none"; // Display the name for the first edge only
+  //});
+
+
+
+  simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
+
+  simulation.force("link")
+      .links(graph.links)
+
+
+  function ticked() {
+    //link
+        //.attr("x1", function(d) { return d.source.x; })
+        //.attr("y1", function(d) { return d.source.y; })
+        //.attr("x2", function(d) { return d.target.x; })
+        //.attr("y2", function(d) { return d.target.y; });
+
+link.attr("d", function(d) {
+        if (d.source === d.target) {
+            var r = 50; // Radius of the circle
+            var x = d.source.x;
+            var y = d.source.y-60;
+            return "M" + x + "," + y + "m" + (-r) + ",0a" + r + "," + r + " 0 1,0 " + (r * 2) + ",0a" + r + "," + r + " 0 1,0 " + (-r * 2) + ",0";
+        } else {
+            var dx = d.target.x - d.source.x,
+                dy = d.target.y - d.source.y,
+                dr = Math.sqrt(dx * dx + dy * dy);
+            return "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 0,1 " + d.target.x + "," + d.target.y;
+        }
+    });
+
+    node
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+
+        // Position node names at the same coordinates as nodes
+    nodeName
+      .attr("x", function(d) { return d.x; })
+      .attr("y", function(d) { return d.y; });
+
+    // Position edge names at the midpoint of the corresponding edges
+    linkName
+      .attr("x", function(d) { return (d.source.x + d.target.x) / 2; })
+      .attr("y", function(d) { return (d.source.y + d.target.y) / 2; });    
+  }
+
+  function dragstarted(d) {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  }
+
+  function dragged(d) {
+    d.fx = d3.event.x;
+    d.fy = d3.event.y;
+  }
+
+  function dragended(d) {
+    if (!d3.event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
+};
+
+var scaleNodeSize = function(){
+
+};
+
+
+</script>
+
+{% endblock content %}

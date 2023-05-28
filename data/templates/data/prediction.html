@@ -1,0 +1,223 @@
+{% extends "data/data_form.html" %}
+
+{% block title %}All Data{% endblock title %}
+
+{% block content %}
+
+
+<div class="container">
+ 
+   
+       
+      <div class="row">
+
+           <div class="col-sm">
+            <div class="card">
+              <div class="card-header" style="color:black;font-size:25px;text-align: center;">Sales Prediction Chart</div>
+              <div class="card-body">
+                <canvas id="multi_lineChart"></canvas>
+              </div>
+            </div>
+          </div>
+      </div>
+       
+      <div class="row">
+
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header" style="color:black;font-size:25px;text-align: center;">Algorithms Comparison</div>
+              <div class="card-body">
+                <canvas id="barChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header" style="color:black;font-size:25px;text-align: center;" >Revenue history</div>
+              <div class="card-body">
+                <canvas id="lineChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+</div>
+
+
+
+<script>
+  
+  const barChart = new Chart(document.getElementById('barChart').getContext('2d'), {
+    type: 'bar',
+    data: {
+      labels: {{ bar_labels|safe }},
+      datasets: [{
+        label: '# RMSE',
+        data: {{ bar_data|safe }},
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.5)',
+          'rgba(54, 162, 235, 0.5)',
+          'rgba(255, 206, 86, 0.5)',
+          'rgba(75, 192, 192, 0.5)',
+          'rgba(153, 102, 255, 0.5)',
+          'rgba(255, 159, 64, 0.5)',
+
+          'rgba(25, 199, 132, 0.5)',
+          'rgba(154, 162, 135, 0.5)',
+          'rgba(155, 206, 186, 0.5)',
+          'rgba(175, 92, 125, 0.5)',
+          'rgba(53, 102, 255, 0.5)',
+          'rgba(134, 159, 64, 0.5)',
+          'rgba(120, 99, 90, 0.5)',
+          'rgba(54, 162, 135, 0.5)',
+          'rgba(255, 206, 86, 0.5)'
+
+        ],
+        borderColor: [
+          'rgba(255, 99, 132, 1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(153, 102, 255, 1)',
+          'rgba(255, 159, 64, 1)',
+          'rgba(25, 199, 132, 1)',
+          'rgba(154, 162, 135, 1)',
+          'rgba(155, 206, 186, 1)',
+          'rgba(175, 92, 125, 1)',
+          'rgba(53, 102, 255, 1)',
+          'rgba(134, 159, 64, 1)',
+          'rgba(120, 99, 90, 1)',
+          'rgba(54, 162, 135, 1)',
+          'rgba(255, 206, 86, 1)'
+        ],
+        borderWidth: 1
+      }]
+    },
+  })
+
+
+
+
+  const lineChart = new Chart(document.getElementById('lineChart').getContext('2d'), {
+    type: 'line',
+    data: {
+      labels: {{ line_labels|safe }},
+      datasets: [{
+        label: 'Revenue history',
+        data: {{ line_data|safe }},
+        fill: false,
+        borderColor: 'rgb(75, 192, 192)',
+        tension: 0.1
+      }]
+    },
+
+    options: {
+                responsive: true,
+                legend: {
+                    position: 'bottom',
+                },
+                hover: {
+                    mode: 'label'
+                },
+                scales: {
+                    xAxes: [{
+                            display: true,
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'week'
+                            }
+                        }],
+                    yAxes: [{
+                            display: true,
+                            ticks: {
+                                beginAtZero: true,
+                                steps: 10,
+                                stepValue: 5,
+                                max: 400,
+                                min:0
+                            }
+                        }]
+                }
+               // title: {
+               //     display: true,
+               //     text: 'Chart.js Line Chart - Legend'
+               // }
+              }
+
+
+  })
+
+
+  const multi_lineChart = new Chart(document.getElementById('multi_lineChart').getContext('2d'), {
+    type: "line",
+    data: {
+      labels: {{ line0_labels|safe }},
+      datasets: [{
+        label: 'Actual Sales (Training)',
+        data: {{ line1_data|safe }},
+        borderColor: "red",
+        fill: false
+      },{
+        label: 'Actual Sales (Testing)',
+        data: {{ line2_data|safe }},
+        borderColor: "green",
+        fill: false
+      },{
+        label: 'Predicted Sales',
+        data: {{ line3_data|safe }},
+        borderColor: "blue",
+        fill: false
+      }]
+    },
+
+    options: {
+                responsive: true,
+                legend: {
+                    position: 'bottom',
+                },
+                hover: {
+                    mode: 'label'
+                },
+                scales: {
+                    xAxes: [{
+                            display: true,
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'Month'
+                            }
+                        }],
+                    yAxes: [{
+                            display: true,
+                            ticks: {
+                                beginAtZero: true,
+                                steps: 10,
+                                stepValue: 5,
+                                max: 350,
+                                min:0
+                            }
+                        }]
+                }
+
+              }
+
+
+  });
+
+ 
+ 
+
+
+</script>
+
+{% endblock content %}
+
+
+
+
+
+
+

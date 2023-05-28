@@ -1,0 +1,175 @@
+
+{% extends "data/data_form.html" %}
+{% load static %}
+{% block title %}All Data Test{% endblock title %}
+
+{% block content %}
+
+
+    <script src="{% static 'gauge.min.js' %}"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="{% static 'jquery-3.1.0.min.js' %}"></script>
+    <script src="{% static 'bootstrap.min.js' %}"></script>
+    <script src="{% static 'angular.min.js' %}"></script>
+    <script src="{% static 'd3.v4.min.js' %}"></script>
+
+    <!-- shim is needed to support non-HTML5 FormData browsers (IE8-9)-->
+    <script src="{% static 'ng-file-upload-shim.min.js' %}"></script>
+    <script src="{% static 'ng-file-upload.min.js' %}"></script>
+
+    <!-- app.js should be imported last-->
+    <script src="{% static 'spin.min.js' %}"></script>
+    <script src="{% static 'angular-spinner.min.js' %}"></script>
+    <script src="{% static 'graph.js' %}"></script>
+    <!--script src="{% static 'app.js' %}"></script-->
+
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+
+
+    <body ng-app="visualNetx">
+    	<div class="container" ng-controller="netCtrl">
+		    <div class="row">
+		      <div class="col-md-8">
+		        <input id="txtUserAction" type="text" class="form-control input-normal" placeholder="circular_ladder_graph(10)" ng-model="action"/>
+		      </div>
+		      <div class="col-md-4">
+		        <button class="btn btn-primary" id="btnSubmit">Generate Graph</button> <b id="error" style="color:red"></b>
+		      </div>
+		    </div>
+		    <svg width="960" height="600" id="svgGen"></svg>
+        </div>
+    </body>
+
+<script>
+	console.log('hello!')
+
+var app = angular.module("visualNetx", ['angularSpinner', 'ngFileUpload']);
+
+console.log(app)
+
+app.controller("netCtrl", function($scope, $http, usSpinnerService, Upload, $timeout) {
+  $('#btnSubmit').click(function(){
+    //add a spinner and disable button and text input
+
+    console.log('helloAAAA!')
+    usSpinnerService.spin('spinner-1');
+    $("#txtUserAction").prop("disabled",true);
+    $("#btnSubmit").prop("disabled",true);
+
+    // make a request to generate graph
+    $http({
+      method: 'POST',
+      url: 'evaluation',
+      headers: {'Content-Type': 'application/json'},
+      data: { 'userAction': $scope.action }
+    }).then(function(response) {
+      // clear the graph using method from graph.js
+      clearGraph('#svgGen');
+      if(response.data !="error"){
+        // create a new graph using method from graph.js
+        console.log(response.data)
+        createGraph(response.data, '#svgGen');
+        $('#error').text("");
+        $('#divExport').css('visibility', 'visible');
+      }else{
+        $('#error').text(" You have an error!");
+        $('#divExport').css('visibility', 'hidden');
+      }
+
+      //stop spinner and enable input and button
+      usSpinnerService.stop('spinner-1');
+      $("#txtUserAction").prop("disabled",false);
+      $("#btnSubmit").prop("disabled",false);
+    });
+  });
+
+  $('#btnExport').click(function(){
+    $http({
+      method: 'POST',
+      url: 'exportGraph',
+      headers: {'Content-Type': 'application/json'},
+      data: { 'fmat': $('#selectFmat').val() }
+    }).then(function(response) {
+      if(response.data !="error"){
+        //a neat way to open up a download window
+        window.location.assign(response.data);
+      }
+    });
+  });
+
+  $("#btnSaveImg").click(function(){
+    var doctype = '<?xml version="1.0" standalone="no"?>'
+      + '<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">';
+
+    // serialize our SVG XML to a string.
+    var source = (new XMLSerializer()).serializeToString(d3.select('svg').node());
+
+    // create a file blob of our SVG.
+    var blob = new Blob([ doctype + source], { type: 'image/svg+xml;charset=utf-8' });
+
+    var url = window.URL.createObjectURL(blob);
+
+    // Put the svg into an image tag so that the Canvas element can read it in.
+    var img = d3.select('body').append('img')
+     .attr('width', 960)
+     .attr('height', 600)
+     .node();
+
+    img.onload = function(){
+      // Now that the image has loaded, put the image into a canvas element.
+      var canvas = d3.select('body').append('canvas').node();
+      canvas.width = 960;
+      canvas.height = 600;
+      var ctx = canvas.getContext('2d');
+      ctx.drawImage(img, 0, 0);
+      var a = document.createElement("a");
+      var d = new Date();
+      a.download = "export_"+d.getTime()+".png";
+      a.href = canvas.toDataURL("image/png");
+      a.click();
+      //remove the temporily created elements
+      $(a).remove();
+      $(canvas).remove();
+    }
+    // start loading the image.
+    img.src = url;
+    $(img).remove();
+  });
+
+  $scope.uploadFiles = function(file, errFiles) {
+    clearGraph('#svgImp');
+    $scope.f = file;
+    $scope.errFile = errFiles && errFiles[0];
+    if (file) {
+      //try upload the file to the server, also handles possible errors
+      file.upload = Upload.upload({
+          url: 'uploadGraph',
+          data: {file: file}
+      });
+
+      file.upload.then(function (response) {
+          $timeout(function () {
+            if(response.data !="error"){
+              // create a new graph using method from graph.js
+              createGraph(response.data, '#svgImp');
+            }else{
+              console.log("error");
+            }
+          });
+      }, function (response) {
+          if (response.status > 0)
+              $scope.errorMsg = response.status + ': ' + response.data;
+      }, function (evt) {
+          file.progress = Math.min(100, parseInt(100.0 *
+                                   evt.loaded / evt.total));
+      });
+    }
+  }
+
+});
+
+</script>
+
+
+
+{% endblock content %}

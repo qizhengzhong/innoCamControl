@@ -1,0 +1,4 @@
+scipy
+numpy
+paho-mqtt
+Flask-RESTful

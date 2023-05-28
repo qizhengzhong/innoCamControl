@@ -1,0 +1,178 @@
+{% extends "data/data_form.html" %}
+{% block title %}           Truck Body Sales Data{% endblock title %}
+{% block content %}
+<h1>Truck_Body_Sales_Data</h1>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+    <link href="https://nightly.datatables.net/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
+    <script src="https://nightly.datatables.net/js/jquery.dataTables.js"></script>
+
+
+
+<div class="container">
+    <div class="col">
+      <div class="card">
+        <div class="card-header">Datatable</div>
+        <div class="card-body">
+          <table id="example" class="display" style="width:100%">
+            <thead>
+                <th>ID</th>
+                <th id='input'>week</th>
+                <th id='input'>sku</th>
+                <th id='input'>weekly_sales</th>
+                <th id='input'>EV</th>
+                <th id='input'>color</th>
+                <th id='input'>price</th>
+                <th id='input'>vendor</th>
+                <th id='input'>functionality</th>
+            </thead>
+            <tbody>
+                 {% for data in all_data reversed %}
+                    <tr >
+                        <td id={{ data.number}}>{{ data.number}}</td>                      
+                        <td id='input'>{{ data.week}}</td>
+                        <td id='input'>{{ data.sku}}</td>
+                        <td id='input'>{{ data.weekly_sales}}</td>
+                        <td id='input'>{{ data.EV}}</td>
+                        <td id='input'>{{ data.color}}</td>
+                        <td id='input'>{{ data.price}}</td>
+                        <td id='input'>{{ data.vendor}}</td>
+                        <td id='input'>{{ data.functionality}}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>ID</th>
+                <th id='input'>week</th>
+                <th id='input'>sku</th>
+                <th id='input'>weekly_sales</th>
+                <th id='input'>EV</th>
+                <th id='input'>color</th>
+                <th id='input'>price</th>
+                <th id='input'>vendor</th>
+                <th id='input'>functionality</th>
+              </tr>
+            </tfoot>
+
+          </table>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+
+
+
+<div id="chat">
+</div>
+<div id="chat-input">
+  <input id="chat-message-input" type="text">
+  <input id="chat-message-submit" type="submit" value="Send">
+</div>
+
+
+<script>
+    var t
+    window.onload = function() {
+
+        $(document).ready(function () {
+              t=$('#example').DataTable({
+              order: [[0, 'desc']],
+              "pageLength": 25,
+              pagingType: 'full_numbers',
+
+              //deferRender: true, // Renders only the rows that are visible
+              //dom: 'frtiS', // Additional parameters. See docs. 
+              //scrollCollapse: true, // Collapses table if there are few results
+              //scrollY: 700, // Height of the container
+              "columnDefs": [{
+                "render": function(data, type, row) {
+                  return '<a href="show/' + data + '">' + data + '</a>';
+                },
+                "targets": 0
+              }]
+
+          });
+
+
+
+        });
+
+        
+    };
+
+
+
+
+    var url = 'ws://' + window.location.host +
+                '/ws/stateupdates';
+      var chatSocket = new WebSocket(url);
+
+      chatSocket.onmessage = function(e) {
+        var data = JSON.parse(e.data);
+        var message = data.message;
+
+        var dateOptions = {hour: 'numeric', minute: 'numeric', hour12: true};
+        var datetime = new Date(data.datetime).toLocaleString('en', dateOptions);
+
+        //var isMe = data.user === '{{ request.user }}';
+        var source = 'me';
+        var name = 'Me';
+
+        var $chat = $('#chat');
+        $chat.append('<div class="message ' + source + '">' +
+                     '<strong>' + name + '</strong> ' +
+                     '<span class="date">' + datetime + '</span><br>' +
+                     message +
+                     '</div>');
+        $chat.scrollTop($chat[0].scrollHeight);
+
+
+   
+
+        //t.row.add(['10000','12/12/2012',22,22,'22','33',44,55,'sssss']).draw();
+        //console. log($("#input111"))
+        t.row($("#4729").parents('tr')).remove().draw();
+
+
+        //t.row.add(message).draw();
+      };
+
+
+
+      chatSocket.onclose = function(e) {
+        console.error('Chat socket closed unexpectedly');
+      };
+
+      var $input = $('#chat-message-input');
+      var $submit = $('#chat-message-submit');
+
+      $submit.click(function() {
+        var message = $input.val();
+        if(message) {
+          // send message in JSON format
+          chatSocket.send(JSON.stringify({'message': message}));
+
+          // clear input
+          $input.val('');
+
+          // return focus
+          $input.focus();
+        }
+      });
+
+      $input.focus();
+      $input.keyup(function(e) {
+        if (e.which === 13) {
+          // submit with enter / return key
+          $submit.click();
+        }
+      });
+
+
+</script>
+
+{% endblock  %}

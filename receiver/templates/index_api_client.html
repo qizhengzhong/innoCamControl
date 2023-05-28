@@ -1,0 +1,184 @@
+<!-- chapter03/templates/inde.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Service1_Service1_Datastorageandmanagement Service Restful API </title>
+    <script src="/static/jquery.min.js"></script>                             
+    <script type="text/javascript">
+
+ 
+    var bbs = JSON.parse('{{ bbs | tojson | safe}}');
+    //console.log(bbs)
+    // GET request to server to retrieve LED state.
+    function getState(url) {
+        $.get(url, function(serverResponse, status) {                       
+           console.log(serverResponse)
+           updateControls(url,serverResponse)                                      
+        });
+    }
+
+
+    // POST Request to server 
+    function postUpdate(url,payload) {                                             
+        $.post(url, payload, function(serverResponse, status) {
+            console.log(serverResponse)
+            updateControls(url,serverResponse);                                   
+        });
+    }
+
+
+    function updateControls(url,data) {
+
+      //if(url=='/params'){      
+        for(var key in data){
+          //$('input[name="videoInput"]').val(data['videoInput']);                
+        
+          $('input[name="'+key+'"]').val(data[key]);   
+
+
+          if(key.includes('_image')){
+              var img = new Image();
+              var binary = ""
+              img.src = 'data:image/jpeg;base64,' +  data[key];
+
+              //console.log(img.src)
+              $('#'+key).attr("src",img.src);   
+          }          
+
+        }
+
+      //}
+      //else if(url=='/msgs'){
+
+
+      //}
+    }
+
+
+//add button funtions 
+    $(document).ready(function() {
+        // Event listener for Slider value changes.
+        // .on('input', ...) will fire as the slider changes (= lots of network traffic). Change to
+        // .on('change', ...) to fire only after mouse button is released.
+        var new_bbs = {};
+        $('button').click(function() {       
+               
+              if (this.id == 'submit') {
+              for(var key in bbs){
+                //$('input[name="videoInput"]').val(data['videoInput']);               
+
+                var new_val= $('input[name="'+key+'"]').val();
+                new_bbs[key]=new_val
+
+              }
+
+
+               payload = JSON.stringify(new_bbs);                        
+               postUpdate('/params',payload);
+             }
+              else if (this.id == 'start') {
+                      payload = JSON.stringify({'control':'on'});   
+                      postUpdate('/control',payload);
+                  }
+              else if (this.id == 'stop') {
+                      payload = JSON.stringify({'control':'off'});   
+                      postUpdate('/control',payload);
+                  }
+              else if (this.id == 'run') {
+                      payload = JSON.stringify({'control':'run'});   
+                      postUpdate('/control',payload);
+                  }    
+              else if (this.id == 'close') {
+                      payload = JSON.stringify({'control':'close'});   
+                      postUpdate('/control',payload);
+                  }        
+
+            });
+
+ 
+        // Initialise slider value form state on server.
+        getState('/params')        
+        getState('/control')                                                      
+    });
+
+
+
+
+
+setInterval( function() { getState('/topic'); }, 500 );
+
+
+    </script>
+</head>
+<body>
+    <h1>Shoestring Service Module API </h1>
+
+<div class="container">
+    <form>
+    {%for bb in bbs%}  
+      <label>{{bb}}</label>
+      <input type="text" name={{bb}}><br />                                  
+    {% endfor%}
+    </form>
+  </div>
+
+<button type="button" id="submit">Set params</button>
+
+<div class="container">
+    <form>
+    {% if msgi|length > 0 %}  
+      {%for topic in msgi%}  
+        <label>{{topic}}</label>
+        {%for msg in msgi[topic]%}  
+          <label>{{msg}}</label>
+
+          {%if '_image' in msg %}  
+            <img id={{msg}} src=''>  
+          {% else %}
+            <input type="text" name={{msg}}><br />      
+          {% endif%}    
+
+        {% endfor%}
+      {% endfor%}
+    {% endif%}  
+    </form>
+  </div>
+
+
+<div class="container">
+    <form>
+    {% if msgo|length > 0 %}  
+      {%for topic in msgo%}  
+        <label>{{topic}}</label>
+        {%for msg in msgo[topic]%}  
+          <label>{{msg}}</label>
+
+          {%if '_image' in msg %}  
+            <img id={{msg}} src=''>  
+          {% else %}
+            <input type="text" name={{msg}}><br />      
+          {% endif%}                          
+          
+        {% endfor%}
+      {% endfor%}
+    {% endif%}  
+    </form>
+  </div>
+
+
+
+
+<div class="container">
+    {%for msg in cond%}  
+      <label>{{msg}}</label>
+      <input type="text" name={{msg}}><br />                                  
+    {% endfor%}
+    
+  <button type="start" id="start">start</button>
+  <button type="stop" id="stop">stop</button>
+  <button type="run" id="run">run</button>
+  <button type="close" id="close">Please stop all services before close</button>  
+</div>
+
+</body>
+</html>

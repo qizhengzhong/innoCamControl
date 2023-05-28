@@ -1,0 +1,39 @@
+{% extends "data/data_form.html" %}
+{% block title %}Truck_Body_Sales_Data{% endblock title %}
+{% block content %}
+<h1>Truck_Body_Sales_Data</h1>
+
+<table>
+<style type="text/css">
+table {border:ridge 1px black;}
+table th#input  {background-color:green; color:white; font-size: 1.2em; padding: 8px 5px;}
+table th#output  {background-color:red; color:white; font-size: 1.2em; padding: 8px 5px;}
+table td#input {border:inset 0.1px #000;color:green;font-size: 1.3em;text-align: center;}
+table td#output {border:inset 0.1px #000;color:red;font-size: 1.3em;text-align: center;}
+</style>
+    <tr>
+        <th>ID</th>
+        <th id='input'>week</th>
+        <th id='input'>sku</th>
+        <th id='input'>weekly_sales</th>
+        <th id='input'>EV</th>
+        <th id='input'>color</th>
+        <th id='input'>price</th>
+        <th id='input'>vendor</th>
+        <th id='input'>functionality</th>
+    </tr>
+    {% for data in all_data %}
+        <tr class="quoterow {% cycle '' 'altrow' %}">
+            <td><a href="show/{{ data.id }}">{{ data.id }}</a></td>
+            <td id='input'>{{ data.week}}</td>
+            <td id='input'>{{ data.sku}}</td>
+            <td id='input'>{{ data.weekly_sales}}</td>
+            <td id='input'>{{ data.EV}}</td>
+            <td id='input'>{{ data.color}}</td>
+            <td id='input'>{{ data.price}}</td>
+            <td id='input'>{{ data.vendor}}</td>
+            <td id='input'>{{ data.functionality}}</td>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock content %}

@@ -1,0 +1,51 @@
+:root {
+    --full-height: calc(100vh - 40px - 32px);
+}
+
+.card {
+    height: calc(calc(var(--full-height) +150px)/2 );
+    box-shadow: -3px 3px 4px #EEE;
+}
+
+.card-body {
+    overflow-y: auto;
+}
+
+
+.stfixed {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: scroll;
+    width: 100%;
+    width: -moz-available;
+    /* For Mozilla */
+    width: -webkit-fill-available;
+    /* For Chrome */
+    width: stretch;
+    /* Unprefixed */
+}
+
+
+
+
+.card.card-full {
+    height: var(--full-height);
+}
+
+.card.card-half {
+    height: calc(calc(var(--full-height) - 16px) / 2);
+}
+
+.card.card-third {
+    height: calc(calc(var(--full-height) - 32px) / 3);
+}
+
+.card.card-quarter {
+    height: calc(calc(var(--full-height) - 48px) / 4);
+}
+
+.card.card-sixth {
+    height: calc(calc(var(--full-height) - 80px) / 6);
+}

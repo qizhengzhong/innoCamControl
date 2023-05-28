@@ -1,0 +1,324 @@
+{% extends "data/data_form.html" %}
+
+{% block title %}All Data{% endblock title %}
+
+{% block content %}
+
+
+    <h2>{{page_title}}</h2>
+
+
+<div class="container">
+ 
+        <div class="row">
+
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header">Bar Chart</div>
+              <div class="card-body">
+                <canvas id="barChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="row">
+
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header">Histogram</div>
+              <div class="card-body">
+                <canvas id="histogram"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header">Radar Chart</div>
+              <div class="card-body">
+                <canvas id="radarChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+         </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header">Pie Chart</div>
+              <div class="card-body">
+                <canvas id="pieChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+      
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header">Line Chart</div>
+              <div class="card-body">
+                <canvas id="lineChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header">Scatter Chart</div>
+              <div class="card-body">
+                <canvas id="scatterChart"></canvas>
+              </div>
+            </div>
+          </div>
+     
+        </div>
+
+
+
+</div>
+
+
+
+<script>
+  
+  const barChart = new Chart(document.getElementById('barChart').getContext('2d'), {
+    type: 'bar',
+    data: {
+      labels: {{ bar_labels|safe }},
+      datasets: [{
+        label: '# of Votes',
+        data: {{ bar_data|safe }},
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(153, 102, 255, 0.2)',
+          'rgba(255, 159, 64, 0.2)'
+        ],
+        borderColor: [
+          'rgba(255, 99, 132, 1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(153, 102, 255, 1)',
+          'rgba(255, 159, 64, 1)'
+        ],
+        borderWidth: 1
+      }]
+    },
+  })
+
+
+  const pieChart = new Chart(document.getElementById('pieChart').getContext('2d'), {
+    type: 'pie',
+    data: {
+      labels: [
+        'Red',
+        'Blue',
+        'Yellow'
+      ],
+      datasets: [{
+        label: 'My First Dataset',
+        data: [300, 50, 100],
+        backgroundColor: [
+          'rgb(255, 99, 132)',
+          'rgb(54, 162, 235)',
+          'rgb(255, 205, 86)'
+        ],
+        hoverOffset: 4
+      }]
+    },
+
+  })
+
+  const lineChart = new Chart(document.getElementById('lineChart').getContext('2d'), {
+    type: 'line',
+    data: {
+      labels: {{ line_labels|safe }},
+      datasets: [{
+        label: 'Example Dataset',
+        data: {{ line_data|safe }},
+        fill: false,
+        borderColor: 'rgb(75, 192, 192)',
+        tension: 0.1
+      }]
+    },
+
+    options: {
+                responsive: true,
+                legend: {
+                    position: 'bottom',
+                },
+                hover: {
+                    mode: 'label'
+                },
+                scales: {
+                    xAxes: [{
+                            display: true,
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'Month'
+                            }
+                        }],
+                    yAxes: [{
+                            display: true,
+                            ticks: {
+                                beginAtZero: true,
+                                steps: 10,
+                                stepValue: 5,
+                                max: 100
+                            }
+                        }]
+                },
+                title: {
+                    display: true,
+                    text: 'Chart.js Line Chart - Legend'
+                }
+              }
+
+
+  })
+
+
+
+  const histogram = new Chart(document.getElementById('histogram').getContext('2d'), {
+    type: 'bar',
+    data: {
+      labels: {{ bar_labels|safe }},
+      datasets: [{
+        label: 'Number of Arrivals',
+        data: {{ bar_data|safe }},
+        backgroundColor: 'green',
+      }]
+    },
+    options: {
+      scales: {
+        x1: {
+          display: false,
+          barPercentage: 1.3,
+          ticks: {
+            max: 3
+          },
+          position: 'bottom'
+        },
+        x2: {
+          display: true,
+          ticks: {
+            autoSkip: false,
+            max: 4,
+          },
+          position: 'bottom'
+        },
+        y: {
+          ticks: {
+            beginAtZero: true
+          },
+          position: 'left'
+        },
+      }
+    }
+  });
+
+  const scatterChart = new Chart(document.getElementById('scatterChart'), {
+    data: {
+      datasets: [{
+        label: 'Scatter Dataset',
+        data: [{
+          x: -10,
+          y: 0
+        }, {
+          x: 0,
+          y: 10
+        }, {
+          x: 10,
+          y: 5
+        }, {
+          x: 0.5,
+          y: 5.5
+        }],
+        backgroundColor: 'rgb(255, 99, 132)'
+      }],
+    },
+    type: 'scatter',
+    options: {
+      scales: {
+        x: {
+          type: 'linear',
+          position: 'bottom'
+        }
+      }
+    }
+  })
+
+  const radarChart = new Chart(document.getElementById('radarChart'), {
+    data: {
+      labels: [
+        'Eating',
+        'Drinking',
+        'Sleeping',
+        'Designing',
+        'Coding',
+        'Cycling',
+        'Running'
+      ],
+      datasets: [{
+        label: 'My First Dataset',
+        data: [65, 59, 90, 81, 56, 55, 40],
+        fill: true,
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: 'rgb(255, 99, 132)',
+        pointBackgroundColor: 'rgb(255, 99, 132)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(255, 99, 132)'
+      }, {
+        label: 'My Second Dataset',
+        data: [28, 48, 40, 19, 96, 27, 100],
+        fill: true,
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        borderColor: 'rgb(54, 162, 235)',
+        pointBackgroundColor: 'rgb(54, 162, 235)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(54, 162, 235)'
+      }]
+    },
+    type: 'radar',
+    options: {
+      elements: {
+        line: {
+          borderWidth: 3
+        }
+      }
+    },
+  })
+
+
+
+window.onload = function(){
+    var ctx = document.getElementById("canvas").getContext("2d");
+    window.myLine = new Chart(ctx).Line(lineChartData, {
+        scaleOverride : true,
+        scaleSteps : 10,
+        scaleStepWidth : 50,
+        scaleStartValue : 0 
+    });
+}
+
+</script>
+
+{% endblock content %}
+
+
+
+
+
+
+

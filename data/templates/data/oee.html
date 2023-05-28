@@ -1,0 +1,370 @@
+{% extends "data/data_form.html" %}
+
+{% block title %}All Data{% endblock title %}
+
+
+{% block content %}
+
+
+    <h2>{{page_title}}</h2>
+
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-sm">
+          <div class="card ">
+            <div class="card-header">Simple Gauge - gauge.js</div>
+            <div class="card-body">
+              <label style="color:blue;font-size:30px;" id="gauge-value"></label>           
+              <canvas style="width:100%; height:100%" id="gauge"></canvas>
+
+
+            </div>
+            <style>
+              canvas#gauge {
+                width: 100% !important;
+                height: 100% !important;
+              }
+            </style>
+          </div>
+        </div>
+
+
+        <div class="col-sm">
+            <div class="card">
+              <div class="card-header">Multi_Line Chart</div>
+              <div class="card-body">
+                <canvas id="multi_lineChart"></canvas>
+              </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm">
+          <div class="card ">
+            <div class="card-header">Simple Gauge - gauge.js</div>
+            <div class="card-body">
+              <label style="color:blue;font-size:30px;" id="gauge1-value"></label>  
+              <canvas style="width:100%; height:100%" id="gauge1"></canvas>
+               
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="card ">
+            <div class="card-header">Simple Gauge - gauge.js</div>
+            <div class="card-body">
+            <label style="color:blue;font-size:30px;" id="gauge2-value"></label>  
+              <canvas style="width:100%; height:100%" id="gauge2"></canvas>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-sm">
+          <div class="card ">
+            <div class="card-header">Simple Gauge - gauge.js</div>
+            <div class="card-body">
+            <label style="color:blue;font-size:30px;" id="gauge3-value"></label>  
+              <canvas style="width:100%; height:100%" id="gauge3"></canvas>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+
+    <div class="col-sm">
+            <div class="card">
+              <div class="card-header">Multi_Line Chart</div>
+              <div class="card-body">
+                <canvas id="utilization"></canvas>
+              </div>
+            </div>
+    </div>
+</div>
+
+<script>
+//https://bernii.github.io/gauge.js/
+
+  var opts = {
+    angle: -0.2, // The span of the gauge arc
+    lineWidth: 0.15, // The line thickness
+    radiusScale: 0.8, // Relative radius
+    pointer: {
+      length: 0.6, // // Relative to gauge radius
+      strokeWidth: 0.035, // The thickness
+      color: '#000000' // Fill color
+    },
+    limitMax: false, // If false, max value increases automatically if value > maxValue
+    limitMin: false, // If true, the min value of the gauge will be fixed
+    colorStart: '#6F6EA0', // Colors
+    colorStop: '#C0C0DB', // just experiment with them
+    strokeColor: '#EEEEEE', // to see which ones work best for you
+    generateGradient: true,
+    highDpiSupport: true, // High resolution support
+    // renderTicks is Optional
+    renderTicks: {
+      divisions: 4,
+      divWidth: 1.1,
+      divLength: 0.7,
+      divColor: '#333333',
+      subDivisions: 5,
+      subLength: 0.5,
+      subWidth: 0.6,
+      subColor: '#666666'
+    },
+    staticLabels: {
+      font: "18px sans-serif", // Specifies font
+      labels: [0,50,75,100], // Print labels at these values
+      color: "#000000", // Optional: Label text color
+      fractionDigits: 1 // Optional: Numerical precision. 0=round off.
+    },
+    staticZones: [
+      {
+        strokeStyle: "#F03E3E",
+        min: 0,
+        max: 50
+      }, // Green
+      {
+        strokeStyle: "#FFDD00",
+        min: 50,
+        max: 75
+      }, // Yellow
+      {
+        strokeStyle: "#30B32D",
+        min: 75,
+        max: 100
+      } // Red
+    ],
+
+  };
+  var target = document.getElementById('gauge'); // your canvas element
+  var gauge = new Gauge(target).setOptions(opts); // create sexy gauge!
+  gauge.maxValue = 100; // set max gauge value
+  gauge.setMinValue(0); // Prefer setter over gauge.minValue = 0
+  gauge.animationSpeed = 32; // set animation speed (32 is default value)
+  gauge.set(55); // set actual value
+  //target.title = gauge.value;
+  gauge.setTextField(document.getElementById('gauge-value'));
+</script>
+
+<script>
+
+
+var opts = {
+  angle: 0.01, // The span of the gauge arc
+  lineWidth: 0.32, // The line thickness
+  radiusScale: 1, // Relative radius
+  pointer: {
+    length: 0.63, // // Relative to gauge radius
+    strokeWidth: 0.044, // The thickness
+    color: '#000000' // Fill color
+  },
+  limitMax: false,     // If false, max value increases automatically if value > maxValue
+  limitMin: false,     // If true, the min value of the gauge will be fixed
+  colorStart: '#6FADCF',   // Colors
+  colorStop: '#F03E3E',    // just experiment with them
+  strokeColor: '#E0E0E0',  // to see which ones work best for you
+  generateGradient: true,
+  highDpiSupport: true,     // High resolution support
+  
+};
+var target = document.getElementById('gauge1'); // your canvas element
+var gauge = new Gauge(target).setOptions(opts); // create sexy gauge!
+gauge.maxValue = 100; // set max gauge value
+gauge.setMinValue(0);  // Prefer setter over gauge.minValue = 0
+gauge.animationSpeed = 55; // set animation speed (32 is default value)
+gauge.set(60); // set actual value
+gauge.setTextField(document.getElementById('gauge1-value'));
+
+
+var opts = {
+  angle: 0.01, // The span of the gauge arc
+  lineWidth: 0.32, // The line thickness
+  radiusScale: 1, // Relative radius
+  pointer: {
+    length: 0.63, // // Relative to gauge radius
+    strokeWidth: 0.044, // The thickness
+    color: '#000000' // Fill color
+  },
+  limitMax: false,     // If false, max value increases automatically if value > maxValue
+  limitMin: false,     // If true, the min value of the gauge will be fixed
+  colorStart: '#6FADCF',   // Colors
+  colorStop: '#FFDD00',    // just experiment with them
+  strokeColor: '#E0E0E0',  // to see which ones work best for you
+  generateGradient: true,
+  highDpiSupport: true,     // High resolution support
+  
+};
+var target = document.getElementById('gauge2'); // your canvas element
+var gauge = new Gauge(target).setOptions(opts); // create sexy gauge!
+gauge.maxValue = 100; // set max gauge value
+gauge.setMinValue(0);  // Prefer setter over gauge.minValue = 0
+gauge.animationSpeed = 55; // set animation speed (32 is default value)
+gauge.set(70); // set actual value
+gauge.setTextField(document.getElementById('gauge2-value'));
+
+
+var opts = {
+  angle: 0.01, // The span of the gauge arc
+  lineWidth: 0.32, // The line thickness
+  radiusScale: 1, // Relative radius
+  pointer: {
+    length: 0.63, // // Relative to gauge radius
+    strokeWidth: 0.044, // The thickness
+    color: '#000000' // Fill color
+  },
+  limitMax: false,     // If false, max value increases automatically if value > maxValue
+  limitMin: false,     // If true, the min value of the gauge will be fixed
+  colorStart: '#6FADCF',   // Colors
+  colorStop: '#30B32D',    // just experiment with them
+  strokeColor: '#E0E0E0',  // to see which ones work best for you
+  generateGradient: true,
+  highDpiSupport: true,     // High resolution support
+  
+};
+var target = document.getElementById('gauge3'); // your canvas element
+var gauge = new Gauge(target).setOptions(opts); // create sexy gauge!
+gauge.maxValue = 100; // set max gauge value
+gauge.setMinValue(0);  // Prefer setter over gauge.minValue = 0
+gauge.animationSpeed = 55; // set animation speed (32 is default value)
+gauge.set(60); // set actual value
+gauge.setTextField(document.getElementById('gauge3-value'));
+
+  const multi_lineChart = new Chart(document.getElementById('multi_lineChart').getContext('2d'), {
+    type: "line",
+    data: {
+      labels: [0,1,2,3,4,5],
+      datasets: [{
+        label: 'Actual Sales (Training)',
+        data: [0,1,2,3,4,5],
+        borderColor: "red",
+        fill: false
+      },{
+        label: 'Actual Sales (Testing)',
+        data: [0,1,2,3,4,5],
+        borderColor: "green",
+        fill: false
+      },{
+        label: 'Predicted Sales',
+        data: [0,1,2,3,4,5],
+        borderColor: "blue",
+        fill: false
+      }]
+    },
+
+    options: {
+                responsive: true,
+                legend: {
+                    position: 'bottom',
+                },
+                hover: {
+                    mode: 'label'
+                },
+                scales: {
+                    xAxes: [{
+                            display: true,
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'Month'
+                            }
+                        }],
+                    yAxes: [{
+                            display: true,
+                            ticks: {
+                                beginAtZero: true,
+                                steps: 10,
+                                stepValue: 5,
+                                max: 100,
+                                min:0
+                            }
+                        }]
+                },
+                title: {
+                    display: true,
+                    text: 'Chart.js Line Chart - Legend'
+                }
+              }
+
+
+  });
+
+var green = "rgba(52,191,158,1)";
+var lightgreen = "rgba(45, 204, 170, 1)";
+var blue = "rgba(0,147,214,1)";
+var lightblue = "rgba(0, 157, 230, 1)";
+var orange = "rgba(239,141,54,1)";
+var yellow = "rgba(255,232,124,1)";
+var red = "#FF4242";
+var transparent = "rgba(0,0,0,0)";
+
+var utilizationCtx = document.getElementById("utilization");
+var utilization = new Chart(utilizationCtx, {
+  type: 'line',
+  data: {
+    labels: ["Jan", "Feb", "Mar", "Apr", "Maj", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"],
+    datasets: [{
+      label: 'Beläggningsgrad Vunna Uppdrag, Procent',
+      data: [85, 80, 75, 73, 76, 65, 60, 55, 40, 38, 20, 16],
+      fill: true,
+      backgroundColor: lightgreen,
+      borderColor: green,
+      borderWidth: 3
+    }, {
+      label: 'Beläggningsgrad inkl Prospekt, Procent',
+      data: [105, 90, 85, 83, 80, 69, 62, 60, 50, 40, 38, 30],
+      fill: true,
+      backgroundColor: lightblue,
+      borderColor: blue,
+      borderWidth: 3,
+      cubicInterpolationMode: "monotone"
+    }]
+  },
+  options: {
+    layout: {padding: {right:10}},
+    maintainAspectRatio: false,
+    legend: {
+      display: false
+    },
+    scales: {
+      display:false,
+      xAxes: [{
+        gridLines: {
+          display: false,
+          drawBorder: false
+        },
+        ticks: {
+          display: false
+        }
+      }],
+      yAxes: [{
+        ticks: {
+          display: false,
+          beginAtZero: false
+        },
+        gridLines: {
+          display: false,
+          drawBorder: false
+        }
+      }]
+    }
+  }
+});
+
+
+</script>
+
+{% endblock %}
+
+
+
+
+
+
+

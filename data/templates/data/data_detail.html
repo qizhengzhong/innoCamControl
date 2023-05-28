@@ -1,0 +1,22 @@
+{% extends "data/data_form.html" %}
+{% block title %}   Truck Body Sales Data{% endblock title %}
+{% block content %}
+<h1>Data Detail</h1>
+<table>
+<style type="text/css">
+table td#input {color:green;font-size: 1.3em;text-align: left;}
+table td#output {color:red;font-size: 1.3em;text-align: left;}
+</style>
+<tr><td id='input'>week:</td><td id='input'>{{data.week}}</td></tr>
+<tr><td id='input'>sku:</td><td id='input'>{{data.sku}}</td></tr>
+<tr><td id='input'>weekly_sales:</td><td id='input'>{{data.weekly_sales}}</td></tr>
+<tr><td id='input'>EV:</td><td id='input'>{{data.EV}}</td></tr>
+<tr><td id='input'>color:</td><td id='input'>{{data.color}}</td></tr>
+<tr><td id='input'>price:</td><td id='input'>{{data.price}}</td></tr>
+<tr><td id='input'>vendor:</td><td id='input'>{{data.vendor}}</td></tr>
+<tr><td id='input'>functionality:</td><td id='input'>{{data.functionality}}</td></tr>
+</table>
+<p><a href="../">Back to the list</a></p>
+<input type="button" onclick="location.href='../update/{{ data.number }}';" value="Edit" />
+<input type="button" onclick="location.href='../delete/{{ data.number }}';" value="Delete" />
+{% endblock content %}

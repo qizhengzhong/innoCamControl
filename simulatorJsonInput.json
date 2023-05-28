@@ -1,0 +1,59 @@
+{
+
+    "machineNames": [
+        "TA"
+    ],
+
+    "machineLocations": [
+        [30,100]
+
+    ],
+    "machineTimes": [
+        "150,-1,-1,-1, 170,-1"
+
+    ],
+
+
+    "bufferNames": [
+        "EnterBuffer", 
+        "ExitBuffer"
+
+    ],
+    
+    "bufferLocations": [
+        [18,60],
+        [142,60]
+    ],
+
+    "bufferEnterName": [
+        ["exitPoint"],
+        ["depositB1PointEnter","depositB1PointExit"]
+    ],
+
+    "bufferEnterLocations":[
+        [[20,60]],
+        [[140,60],[40,72]]
+    ],
+
+    "robotNames": [
+        "RobotB1"
+    ],
+
+    "robotLocations": [
+        [40,90]
+    ],
+
+    "robotNeighborLocations":[
+        ["depositB1PointExit", "TA", "exitPoint"]
+ 
+    ],
+
+    "robotMachineNeighborIndices": [
+        [0]
+    ],
+    "robotBufferNeighborIndices": [
+        [0]
+    ]
+
+
+}
