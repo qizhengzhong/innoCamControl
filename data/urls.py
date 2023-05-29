@@ -1,7 +1,7 @@
 from django.urls import path
 
 from . import views
-from .views import DataList, DataView, DataCreate, DataUpdateView, DataDeleteView, Prediction, Prescription, Evaluation, GenerateGraphView,Map
+from .views import DataList, DataView, DataCreate, DataUpdateView, DataDeleteView, Prediction, Prescription, Evaluation, GenerateGraphView,Map, Chatbot
 
 
 urlpatterns = [
@@ -14,5 +14,6 @@ urlpatterns = [
     path('prediction', Prediction.as_view(), name='data-prediction'),     
     path('prescription', Prescription.as_view(), name='data-prescription'),   
     path('evaluation', GenerateGraphView.as_view(), name='data-evaluation'), 
-    path('map', Map.as_view(), name='data-map'),     
+    path('map', Map.as_view(), name='data-map'),
+    path('chatbot', Chatbot.as_view(), name='data-chatbot'),
 ]

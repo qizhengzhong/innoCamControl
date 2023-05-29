@@ -7,7 +7,6 @@ sys.path.append('')
 from .. baseblock.code_base_class import Blockbase,Args,checkArgsType
 
 import numpy as np
-import scipy
 
 
 class SignalImpy():

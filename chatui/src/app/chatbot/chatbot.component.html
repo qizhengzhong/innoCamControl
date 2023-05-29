@@ -1,0 +1,14 @@
+<div class="chat-container">
+  <div class="messages-container" #messagesContainer>
+    <div *ngFor="let message of messages" [ngClass]="{'user-message': message.fromUser, 'bot-message': !message.fromUser}">
+      <div>
+        <img [src]="message.fromUser ? './assets/user-icon.png' : './assets/bot-icon.png'" alt="Icon" class="message-icon"><p [innerHTML]="message.content"></p>
+      </div>
+    </div>
+    <img *ngIf="showImage" src="./assets/ganntchat.png" class="message-image" alt="Image" />
+  </div>
+  <div class="input-container">
+    <input type="text" [(ngModel)]="question" placeholder="Enter your question" (keyup.enter)="sendMessage()" autofocus>
+    <button (click)="sendMessage()">Send</button>
+  </div>
+</div>
