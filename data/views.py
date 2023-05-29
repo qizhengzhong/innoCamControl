@@ -206,31 +206,31 @@ class Map(View):
         #    date.append(str(getattr(orders, 'week')))
         #    price.append(str(getattr(orders, 'price')))
 
-
-
         machineX,machineY,robotX,robotY,listMachineAgent,listBufferAgent,listRobotAgent,productHistory,environmentModel=setupAgents()
 
         #robot
         scatter1=[1]
         scatter2=[1]     
 
+        print("Hello world")
         #machine
         G0 = nx.DiGraph()
         state2num={}
         for i, vertice in enumerate(listMachineAgent[0].machineCapabilities.vertices):
-            print(vertice.processCompleted.processCompleted)
+            print("processCompleted" + vertice.processCompleted.processCompleted)
 
             state2num[vertice.processCompleted.processCompleted]=i
 
             G0.add_node(i, name=vertice.processCompleted.processCompleted)
 
+        print("state2num")
         print(state2num)
 
         for edge in listMachineAgent[0].machineCapabilities.edges:
 
             print(edge.parent.processCompleted.processCompleted,'->',edge.activeMethod,'->',edge.child.processCompleted.processCompleted)
 
-            G0.add_edge(state2num[edge.parent.processCompleted.processCompleted], state2num[edge.child.processCompleted.processCompleted], name=edge.activeMethod,arrowstyle='->')
+            G0.add_edge(state2num[edge.parent.processCompleted.processCompleted], state2num[edge.child.processCompleted.processCompleted], name=edge.activeMethod, arrowstyle='->')
         
      
         #G = eval('nx.circular_ladder_graph(10)')
@@ -238,6 +238,8 @@ class Map(View):
         data = json_graph.node_link_data(G0)
         data= json.dumps(data)
 
+        print(G0)
+        print(data)
 
         #buffer
         print('buffer')
