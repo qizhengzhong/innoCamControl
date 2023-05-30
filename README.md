@@ -11,4 +11,5 @@
 - python -m pip install -U channels
 - pip3 install paho-mqtt python-etcd
 - pip3 install pandas
+- pip3 install statsmodels
 - python3 manage.py runserver
