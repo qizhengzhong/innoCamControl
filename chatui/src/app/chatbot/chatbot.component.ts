@@ -42,21 +42,21 @@ export class ChatbotComponent implements OnInit {
       if (this.question.trim() === '') {
         return;
       }
-      
+
       const message: Message = {
         content: this.question,
         fromUser: true
       };
-  
+
       this.messages.push(message);
       this.scrollToBottom();
-  
+
       const botResponse = this.response[this.counter];
       const botMessage: Message = {
         content: botResponse,
         fromUser: false
       };
-  
+
       this.messages.push(botMessage);
       this.scrollToBottom();
       this.counter ++;
@@ -72,32 +72,32 @@ export class ChatbotComponent implements OnInit {
 
       const predefinedMessages: Message[] = [];
       var botResponse = "Line Task Workers Assigned Total TimeSpent(days) Cost<br>1 T1,B1 W1,W2,W3 20 20<br>1 T2+B1 W1,W2,W3 15 15<br>1 T3a/T3b+B1 W1,W2,W3,W10-15 15 15<br>1 T4a/T4b+B1 W1,W2,W3,W10-15 15 15<br>1 T5+B1 W1,W2,W3 30 30<br>2 T1+B1 W4,W5,W6 20 20<br>2 T2+B1+T1+B2 W4,W5,W6 15 20<br>2 T3a/T3b+B1+T2+B2 W4,W5,W6,W10-15 5 20<br>2 T4a/T4b+B1+T3a+B2 W4,W5,W6,W10-15 5 20<br>2 T5+B1+T4b+B2 W4,W5,W6 30 30<br>2 T6+B2 W4,W5,W6,W19,W20 60 60<br>3 T1+B1+T5+B3 W7,W8,W9,W10-15,W19,W20 20 25<br>3 T2+B1+T6+B3 W7,W8,W9,W10-15,W19,W20 60 75<br>3 T3a+B1+T1+B3 W7,W8,W9,W10-15 5 20<br>3 T4b+B3 W7,W8,W9,W10-15,W19,W20 20 20<br>3 T5+B3+T3a+B4 W7,W8,W9,W10-15,W19,W20 30 30<br>3 T6+B3+T4b+B4 W7,W8,W9,W10-15,W19,W20 60 60";
-      // for (const question of allQuestions)
-      // {
-      //   const message: Message = {
-      //     content: question,
-      //     fromUser: true
-      //   };
-    
-      //   predefinedMessages.push(message);
-      //   this.scrollToBottom();
-      //   try {
-      //     const response = await axios.post(this.apiUrl, {
-      //       model: "gpt-3.5-turbo",
-      //       messages : predefinedMessages.map(msg => ({ role: msg.fromUser ? 'user' : 'assistant', content: msg.content }))
-      //     }, {
-      //       headers: {
-      //         'Authorization': `Bearer ${this.apiKey}`,
-      //         'Content-Type': 'application/json',
-      //       },
-      //     });
-    
-      //     botResponse = response.data.choices[0].message.content;
-      //     console.log(botResponse);
-      //   } catch (error) {
-      //     console.error('Error:', error);
-      //   }
-      // }
+//       for (const question of allQuestions)
+//       {
+//         const message: Message = {
+//           content: question,
+//           fromUser: true
+//         };
+//
+//         predefinedMessages.push(message);
+//         this.scrollToBottom();
+//         try {
+//           const response = await axios.post(this.apiUrl, {
+//             model: "gpt-3.5-turbo",
+//             messages : predefinedMessages.map(msg => ({ role: msg.fromUser ? 'user' : 'assistant', content: msg.content }))
+//           }, {
+//             headers: {
+//               'Authorization': `Bearer ${this.apiKey}`,
+//               'Content-Type': 'application/json',
+//             },
+//           });
+//
+//           botResponse = response.data.choices[0].message.content;
+//           console.log(botResponse);
+//         } catch (error) {
+//           console.error('Error:', error);
+//         }
+//       }
       botResponse = botResponse.replaceAll("\n", "<br>");
       const botMessage: Message = {
         content: botResponse,
@@ -109,22 +109,21 @@ export class ChatbotComponent implements OnInit {
       this.question = '';
       this.showImage = true;
     }
-    
-    // if (this.counter > this.response.length)
-    if (this.counter > 20)
+
+    if (this.counter > this.response.length)
     {
       if (this.question.trim() === '') {
         return;
       }
-      
+
       const message: Message = {
         content: this.question,
         fromUser: true
       };
-  
+
       this.messages.push(message);
       this.scrollToBottom();
-  
+
       try {
         const response = await axios.post(this.apiUrl, {
           model: "gpt-3.5-turbo",
@@ -135,13 +134,13 @@ export class ChatbotComponent implements OnInit {
             'Content-Type': 'application/json',
           },
         });
-  
+
         const botResponse = response.data.choices[0].message.content;
         const botMessage: Message = {
           content: botResponse,
           fromUser: false
         };
-  
+
         this.messages.push(botMessage);
         this.scrollToBottom();
       } catch (error) {
@@ -150,7 +149,7 @@ export class ChatbotComponent implements OnInit {
       this.question = '';
     }
   }
-  
+
 
   private scrollToBottom(): void {
     setTimeout(() => {

@@ -4,53 +4,30 @@
 
 {% block content %}
 
-
 <div class="container">
- 
-   
-       
-      <div class="row">
-
-           <div class="col-sm">
-            <div class="card">
-              <div class="card-header" style="color:black;font-size:25px;text-align: center;">Sales Prediction Chart</div>
-              <div class="card-body">
-                <canvas id="multi_lineChart"></canvas>
-              </div>
-            </div>
+    <div class="row">
+       <div class="col-sm2">
+        <div class="card">
+          <div class="card-header" style="color:black;font-size:25px;text-align: center;">Sales Prediction Chart</div>
+          <div class="card-body">
+            <canvas id="multi_lineChart"></canvas>
           </div>
-      </div>
-       
-      <div class="row">
-
-          <div class="col-sm">
-            <div class="card">
-              <div class="card-header" style="color:black;font-size:25px;text-align: center;">Algorithms Comparison</div>
-              <div class="card-body">
-                <canvas id="barChart"></canvas>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm">
-            <div class="card">
-              <div class="card-header" style="color:black;font-size:25px;text-align: center;" >Revenue history</div>
-              <div class="card-body">
-                <canvas id="lineChart"></canvas>
-              </div>
-            </div>
-          </div>
-
         </div>
-
-
-
+      </div>
+      <div class="col-sm2">
+        <div class="card">
+          <div class="card-header" style="color:black;font-size:25px;text-align: center;">Algorithms Comparison</div>
+          <div class="card-body">
+            <canvas id="barChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
 
 
 
 <script>
-  
   const barChart = new Chart(document.getElementById('barChart').getContext('2d'), {
     type: 'bar',
     data: {
@@ -98,59 +75,6 @@
       }]
     },
   })
-
-
-
-
-  const lineChart = new Chart(document.getElementById('lineChart').getContext('2d'), {
-    type: 'line',
-    data: {
-      labels: {{ line_labels|safe }},
-      datasets: [{
-        label: 'Revenue history',
-        data: {{ line_data|safe }},
-        fill: false,
-        borderColor: 'rgb(75, 192, 192)',
-        tension: 0.1
-      }]
-    },
-
-    options: {
-                responsive: true,
-                legend: {
-                    position: 'bottom',
-                },
-                hover: {
-                    mode: 'label'
-                },
-                scales: {
-                    xAxes: [{
-                            display: true,
-                            scaleLabel: {
-                                display: true,
-                                labelString: 'week'
-                            }
-                        }],
-                    yAxes: [{
-                            display: true,
-                            ticks: {
-                                beginAtZero: true,
-                                steps: 10,
-                                stepValue: 5,
-                                max: 400,
-                                min:0
-                            }
-                        }]
-                }
-               // title: {
-               //     display: true,
-               //     text: 'Chart.js Line Chart - Legend'
-               // }
-              }
-
-
-  })
-
 
   const multi_lineChart = new Chart(document.getElementById('multi_lineChart').getContext('2d'), {
     type: "line",
@@ -206,11 +130,6 @@
 
 
   });
-
- 
- 
-
-
 </script>
 
 {% endblock content %}
