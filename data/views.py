@@ -248,7 +248,35 @@ class FloorPlan(View):
             return JsonResponse(data, safe=False)
         except:
             return JsonResponse({'error': 'An error occurred'}, status=500)
+class GanntChart(View):
+    template_name = 'data/ganntchart.html'  # Replace 'generate_graph.html' with your actual template file
 
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template_name)
+
+    def post(self, request):
+        try:
+            print('received!!!')
+            print(request.body)
+            action = json.loads(request.body.decode('utf-8'))['userAction']
+
+            print(action)
+            # G = eval('nx.' + action)
+            G = eval('nx.circular_ladder_graph(10)')
+
+            # Convert non-serializable parts of the graph to serializable formats
+            G_serializable = nx.DiGraph(G)  # Convert the graph to a serializable format (e.g., DiGraph)
+
+            request.session['GENERATED_GRAPH'] = json_graph.node_link_data(G_serializable)
+
+            data = json_graph.node_link_data(G_serializable)
+            return JsonResponse(data, safe=False)
+        except:
+            return JsonResponse({'error': 'An error occurred'}, status=500)
 class GenerateGraphView(View):
     template_name = 'data/agentMonitor.html'  # Replace 'generate_graph.html' with your actual template file
 

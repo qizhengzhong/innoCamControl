@@ -10,7 +10,7 @@
 
           <div class="col-sm3">
             <div class="card" style="height: 750px">
-              <div class="card-header" style="color:black;font-size:25px;text-align: center;">Customer Distribution</div>
+              <div class="card-header" style="color:black;font-size:25px;text-align: center;">Cost Monitoring Distribution</div>
               <div class="card-body">
                 <canvas id="pieChart"></canvas>
               </div>
@@ -19,7 +19,7 @@
     
         <div class="col-sm3">
             <div class="card">
-              <div class="card-header" style="color:black;font-size:25px;text-align: center;">Incoming Material Index</div>
+              <div class="card-header" style="color:black;font-size:25px;text-align: center;">Cost Optimization</div>
               <div class="card-body">
                 <canvas id="utilization"></canvas>
               </div>
@@ -45,14 +45,14 @@
     type: 'pie',
     data: {
       labels: [
-        'UK',
-        'CHina',
-        'Germany',
-        'France',
-        'Italy',
-        'Greece',
-        'Spain',
-        'Swinden',
+        'Energy',
+        'Labor',
+        'Materials',
+        'Machinery',
+        'Logistics',
+        'Administration',
+        'Water',
+        'Others',
       ],
       datasets: [{
         label: 'My First Dataset',
@@ -90,15 +90,15 @@ var utilization = new Chart(utilizationCtx, {
   data: {
     labels: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],
     datasets: [{
-      label: 'Raw material index 1',
-      data: [50,32,30,32,34,49,41,56,53,43,51,41,44,44,40,43,46,46,61,76,44,48,51,24,35,55,30,46,26,45,28],
+      label: 'Post Optimization',
+      data: [50,32,30,32,34,49,41,56,53,43,51,41,44,44,40,43,46,46,61,76,44,48,51,50,35,55,30,46,26,45,28],
       fill: true,
       backgroundColor: lightgreen,
       borderColor: green,
       borderWidth: 3
     }, {
-      label: 'Raw material index 2',
-      data: [89,60,71,83,86,87,85,63,66,86,71,46,53,69,83,77,60,80,70,78,82,75,78,81,99,76,71,70,88,86,76],
+      label: 'Pre Optimization',
+      data: [60,60,71,83,60,67,50,63,66,86,71,46,53,69,83,77,60,80,70,78,82,75,78,81,70,76,71,70,75,75,76],
       fill: true,
       backgroundColor: lightblue,
       borderColor: blue,

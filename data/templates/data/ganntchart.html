@@ -1,0 +1,28 @@
+{% extends "data/data_form.html" %}
+{% load static %}
+{% block title %}All Data Test{% endblock title %}
+
+{% block content %}
+
+<script src="{% static 'ganntchart/frappe-gantt.min.js' %}"></script>
+<link rel="stylesheet" href="{% static 'ganntchart/frappe-gantt.min.css' %}">
+
+<div class="container">
+
+  <div class="row">
+      <div class="col">
+        <div class="card" style="height: 800px;">
+          <div class="card-header" style="color:black;font-size:25px;text-align: center;">Gannt Chart (demo)</div>
+          <div class="card-body">
+            <div class="container">
+                <svg id="gantt"></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<script src="{% static 'ganntchart/script.js' %}"></script>
+
+{% endblock content %}

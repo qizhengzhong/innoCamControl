@@ -1,7 +1,7 @@
 from django.urls import path
 
 from . import views
-from .views import DataList, FloorPlan, DataView, DataCreate, DataUpdateView, DataDeleteView, Prediction, Prescription, Evaluation, GenerateGraphView,Map, Chatbot, ProdAgent, Overview, CoAgent
+from .views import DataList, FloorPlan,GanntChart, DataView, DataCreate, DataUpdateView, DataDeleteView, Prediction, Prescription, Evaluation, GenerateGraphView,Map, Chatbot, ProdAgent, Overview, CoAgent
 
 
 urlpatterns = [
@@ -21,4 +21,5 @@ urlpatterns = [
     path('dataagent', DataList.as_view(), name='data-dataAgent'),
     path('coagent', CoAgent.as_view(), name='data-coAgent'),
     path('floorplan', FloorPlan.as_view(), name='data-coAgent'),
+    path('ganntchart', GanntChart.as_view(), name='data-ganntChart'),
 ]
