@@ -1,8 +1,6 @@
 {% extends "data/data_form.html" %}
 {% block title %}           Truck Body Sales Data{% endblock title %}
 {% block content %}
-<h1>Truck_Body_Sales_Data</h1>
-
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 
     <link href="https://nightly.datatables.net/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
@@ -11,7 +9,8 @@
 <div class="container">
     <div class="col">
       <div class="card">
-        <div class="card-header">Datatable</div>
+      <div class="card-header" style="color:black;font-size:25px;text-align: center;">Sales Data</div>
+
         <div class="card-body">
           <table id="example" class="display" style="width:100%">
             <thead>
@@ -61,7 +60,7 @@
 </div>
 
 <div>
-    <div class="button" id="button1"  style="position: absolute; top: 340px; right: 120px;">
+    <div class="button" id="button1"  style="position: absolute; top: 340px; right: 300px;">
       <a href="add">Add Data</a>
     </div>
 </div>

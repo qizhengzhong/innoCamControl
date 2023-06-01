@@ -4,14 +4,13 @@
 {% block title %}All Data Test{% endblock title %}
 
 {% block content %}
-
 <style>
     .blue-arrow {
-      color: blue;
-      font-size: 3rem;
+      color: red;
+      font-size: 4rem;
     }
     .size1 {
-      font-size: 3rem;
+      font-size: 4rem;
     }
 </style>
 <div class="container">
@@ -19,45 +18,41 @@
   <div class="row">
       <div class="col">
         <div class="card" style="height: 800px;">
-          <div class="card-header" style="color:black;font-size:25px;text-align: center;">Overview</div>
+          <div class="card-header" style="color:black;font-size:25px;text-align: center;">智能制造决策系统（demo)</div>
           <div class="card-body">
             <div class="container">
               <div class="row gy-4">
-                    <div class="col col-4 justify-content-center" style="position: absolute; top: 350px; left: 0px;">
-                      <a href="/chatbot" class="btn btn-primary btn-lg px-4">Chatbot Agent</a>
+                    <i class="bi bi-arrow-up-left blue-arrow size1" style="position: absolute; top: 300px; left: 500px;"></i>
+                    <i class="bi bi-arrow-up-right blue-arrow size1" style="position: absolute; top: 300px; left: 660px;"></i>
+                    <i class="bi bi-arrow-down-left blue-arrow size1" style="position: absolute; top: 450px; left: 500px;"></i>
+                    <i class="bi bi-arrow-down-right blue-arrow size1" style="position: absolute; top: 450px; left: 700px;"></i>
+                    <i class="bi bi-arrow-down-left blue-arrow size1" style="position: absolute; top: 450px; left: 300px;"></i>
+                    <i class="bi bi-arrow-down-right blue-arrow size1" style="position: absolute; top: 450px; left: 900px;"></i>
+                    <div class="col col-4 justify-content-center" style="position: absolute; top: 100px; left: 550px;">
+                      <img src="{% static 'user.png' %}" class="card-img-bottom" style="width: 100px; height: auto;">
                     </div>
-                    <i class="bi bi-arrow-right blue-arrow size1" style="position: absolute; top: 340px; left: 190px;"></i>
-                    <i class="bi bi-arrow-right blue-arrow size1" style="position: absolute; top: 340px; left: 500px;"></i>
-                    <i class="bi bi-arrow-right blue-arrow size1" style="position: absolute; top: 340px; left: 800px;"></i>
-                    <i class="bi bi-arrow-up blue-arrow size1" style="position: absolute; top: 280px; left: 680px;"></i>
-                    <i class="bi bi-arrow-up-left blue-arrow size1" style="position: absolute; top: 280px; left: 580px;"></i>
-                    <i class="bi bi-arrow-up-right blue-arrow size1" style="position: absolute; top: 280px; left: 780px;"></i>
-                    <i class="bi bi-arrow-down blue-arrow size1" style="position: absolute; top: 450px; left: 380px;"></i>
-                    <i class="bi bi-arrow-down-right blue-arrow size1" style="position: absolute; top: 420px; left: 480px;"></i>
-                    <div class="col col-4 justify-content-center" style="position: absolute; top: 350px; left: 250px;">
-                      <a href="/add" class="btn btn-primary btn-lg px-4">Coordinate Agent</a>
+                    <div class="col col-4 justify-content-center" style="position: absolute; top: 250px; left: 430px;">
+                      <a href="/chatbot" class="btn btn-success btn-lg px-4">UI Agent</a>
                     </div>
-                    <div class="col col-4 justify-content-center" style="position: absolute; top: 550px; left: 350px;">
-                      <a href="#" class="btn btn-primary btn-lg px-4">Human Agent</a>
+                    <div class="col col-4 justify-content-center" style="position: absolute; top: 250px; left: 650px;">
+                      <a href="/prescription" class="btn btn-success btn-lg px-4">Cost Monitoring Agent</a>
                     </div>
-                    <div class="col col-4 justify-content-center" style="position: absolute; top: 500px; left: 600px;">
+                    <div class="col col-4 justify-content-center" style="position: absolute; top: 390px; left: 500px;">
+                      <a href="/coagent" class="btn btn-danger btn-lg px-4">Coordinate Agent</a>
+                    </div>
+                    <div class="col col-4 justify-content-center" style="position: absolute; top: 550px; left: 150px;">
+                      <a href="/prodagent" class="btn btn-primary btn-lg px-4">Product Agent</a>
+                    </div>
+                    <div class="col col-4 justify-content-center" style="position: absolute; top: 550px; left: 380px;">
+                      <a href="/dataagent" class="btn btn-primary btn-lg px-4">Human Agent</a>
+                    </div>
+                    <div class="col col-4 justify-content-center" style="position: absolute; top: 550px; left: 600px;">
                       <a href="/prediction" class="btn btn-primary btn-lg px-4">Demand predictive Agent</a>
                     </div>
-                    <div class="col col-4 justify-content-center" style="position: absolute; top: 350px; left: 600px;">
-                      <a href="/prodAgent" class="btn btn-primary btn-lg px-4">Product Agent</a>
+                    <div class="col col-4 justify-content-center" style="position: absolute; top: 550px; left: 900px;">
+                      <a href="/resourceagent" class="btn btn-primary btn-lg px-4">Resource Agent</a>
                     </div>
-                    <div class="col col-4 justify-content-center" style="position: absolute; top: 200px; left: 400px;">
-                      <a href="/map" class="btn btn-primary btn-lg px-4">Resource Agent</a>
-                    </div>
-                    <div class="col col-4 justify-content-center" style="position: absolute; top: 200px; left: 600px;">
-                      <a href="/map" class="btn btn-primary btn-lg px-4">Resource Agent</a>
-                    </div>
-                    <div class="col col-4 justify-content-center" style="position: absolute; top: 200px; left: 800px;">
-                      <a href="/map" class="btn btn-primary btn-lg px-4">Resource Agent</a>
-                    </div>
-                    <div class="col col-4 justify-content-center" style="position: absolute; top: 350px; left: 900px;">
-                      <a href="/" class="btn btn-primary btn-lg px-4">Cost Monitoring Agent</a>
-                    </div>
+
               </div>
             </div>
           </div>

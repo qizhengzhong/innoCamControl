@@ -1,21 +1,14 @@
 {% extends "data/data_form.html" %}
 {% load static %}
-{% block title %}All Data{% endblock title %}
+{% block title %}All Data Test{% endblock title %}
 
 {% block content %}
-
 <style>
-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .container {
   z-index: 0;
   position: relative;
+  top: 150px;
+  left: -50px;
   display: flex;
   align-items: center;
   width: 1080px;
@@ -493,7 +486,7 @@ body {
   width: 100px;
 }
 </style>
-<body>
+
 <div class="container">
       <div class="logos">
         <div class="logos-wrap logos-1">
@@ -592,7 +585,7 @@ body {
       </div>
     </div>
   </div>
-</body>
+
 <script>
     const logosWrap = document.querySelectorAll(".logos-wrap");
 const line3 = document.querySelector("#line-3");

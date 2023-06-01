@@ -24,12 +24,10 @@
 
     <script src="{% static 'moment.js' %}"></script>
     <script src="{% static 'frappe-gantt.min.js' %}"></script>
-    <link rel="stylesheet" type="text/css" href="{% static 'frappe-gantt.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
 
 <body ng-app="visualNetx" onload="init()">
     <div class="row">
-        <div class="col-sm">
+        <div class="col-sm-6">
             <div class="card" style="height: 700px;">
                 <div class="card-header" style="color: black; font-size: 25px; text-align: center;">Environment model</div>
 
@@ -38,12 +36,16 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm">
-          <div class="card" style="height: 700px;">
-            <video src="simulation.mp4" controls>
-              Your browser does not support the video tag.
-            </video>
-          </div>
+        <div class="col-sm-6">
+              <div class="card">
+                <div class="card-header" style="color: black; font-size: 25px; text-align: center;">Background Simulation</div>
+                <video controls autoplay muted>
+                    <source src="{% static 'jsimulation.mp4' %}" type="video/mp4">
+                </video>
+              </div>
+              <div >
+                   <img src="{% static 'understandsimulation.png' %}" class="card-img-bottom">
+              </div>
         </div>
     </div>
 </body>
@@ -52,7 +54,6 @@
 
 <script>
   function init() {
-
      createGraph({{ graph3|safe }},'#svgGen3');
      //console.log('finish')
   }  
@@ -91,16 +92,26 @@ var createGraph = function(graph, curSvg){
     .attr("d", "M0,-5L10,0L0,5")
     .attr("fill", "#ccc");
 
+var linkRedSources = ["move01","move16","move69"];
+
 var link = svg.append("g")
       .attr("class", "links")
       .selectAll("path")
       .data(graph.links, function(d) { return d.source + "-" + d.target; })
       .enter().append("path")
       .attr("stroke-width", function(d) { return Math.sqrt(d.value); })
-      .attr("stroke", "#ccc")
+      .attr("stroke", function(d) {
+            if (linkRedSources.includes(d.name)) {
+              return "red";
+            } else {
+              return "#ccc";
+            }
+        })
       .attr("fill", "none")
       .attr("marker-end", "url(#arrowhead)");
 
+var nodeGreenSources = [0];
+var nodeRedSources = [9];
 
   var node = svg.append("g")
       .attr("class", "nodes")
@@ -108,7 +119,13 @@ var link = svg.append("g")
       .data(graph.nodes)
       .enter().append("circle")
       .attr("r", 15)
-      .attr("fill", function(d) { return color(d.group); })
+      .attr("fill", function(d) {
+            if (nodeGreenSources.includes(d.id)) {
+              return "green";
+            } else if (nodeRedSources.includes(d.id)) {
+              return "red";
+            }
+        })
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)

@@ -9,16 +9,7 @@
     <div class="row">
 
           <div class="col-sm3">
-            <div class="card">
-              <div class="card-header" style="color:black;font-size:25px;text-align: center;"> Prescription Scatter Chart</div>
-              <div class="card-body">
-                <canvas id="scatterChart"></canvas>
-              </div>
-            </div>
-          </div>     
- 
-          <div class="col-sm3">
-            <div class="card">
+            <div class="card" style="height: 750px">
               <div class="card-header" style="color:black;font-size:25px;text-align: center;">Customer Distribution</div>
               <div class="card-body">
                 <canvas id="pieChart"></canvas>
@@ -49,50 +40,6 @@
   count2={{ scatter3|safe }}
   volume2={{ scatter4|safe }}
   const data2 = count2.map((x, index) => ({x, y: volume2[index]}));
-
-  const scatterChart = new Chart(document.getElementById('scatterChart'), {
-    data: {
-      datasets: [{
-        label: 'With maintenance',
-        data:data1,
-        backgroundColor: 'rgb(255, 99, 132)'
-      },
-      
-      {
-        label: 'No maintenance',
-        data: data2,
-        backgroundColor: 'rgb(0, 99, 132)'
-      },
-
-      ],
-    },
-    type: 'scatter',
-    options: {
-      scales: {
-        x: {
-          type: 'linear',
-          position: 'bottom'
-        },
-
-          xAxes: [{
-            display: true,
-            scaleLabel: {
-                display: true,
-                labelString: 'sales prescription score'
-            }
-        }],  
-
-          yAxes: [{
-            display: true,
-            scaleLabel: {
-                display: true,
-                labelString: 'revenue'
-            }
-        }],  
-      }
-    }
-  })
-
 
   const pieChart = new Chart(document.getElementById('pieChart').getContext('2d'), {
     type: 'pie',
