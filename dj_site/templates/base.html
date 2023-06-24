@@ -36,7 +36,22 @@
     <nav id="nav">
       <ul>
         {% block sidenav %} 
- 
+         <h1>  </h1>
+        <h1>  </h1>
+        <h1>  </h1>
+        {% load static %}
+
+        <img src="{% static 'innocam.png' %}" class="card-img-bottom" alt="My image">
+
+        <li><i class="bi bi bi-coin"></i> <a href="/overview">Overview</a></li>
+        <li><i class="bi bi-chat-left-text-fill"></i> <a href="/chatbot">UI Agent</a></li>
+        <li><i class="bi bi bi-android2"></i> <a href="/coagent">LLM Agent</a></li>
+        <li><i class="bi bi-bar-chart"></i> <a href="/prediction">Demand Agent</a></li>
+        <li><i class="bi bi-person-fill"></i> <a href="/humanagent">Human Agent</a></li>
+        <li><i class="bi bi-speedometer"></i> <a href="/resourceagent">Resource Agent</a></li>
+        <li><i class="bi bi-puzzle-fill"></i> <a href="/prodagent">Product Agent</a></li>
+        <li><i class="bi bi-coin"></i> <a href="/prescription">Cost Result</a></li>
+        <li><i class="bi bi-gear-fill"></i> <a href="/floorplan">Configuration</a></li>
         {% endblock sidenav %}
       </ul>
     </nav>
