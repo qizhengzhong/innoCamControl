@@ -1,0 +1,220 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "name": "pos0",
+      "id": 0
+    },
+    {
+      "name": "pos1",
+      "id": 1
+    },
+    {
+      "name": "pos2",
+      "id": 2
+    },
+    {
+      "name": "",
+      "id": 3
+    },
+    {
+      "name": "S1",
+      "id": 4
+    },
+    {
+      "name": "S2",
+      "id": 5
+    },
+    {
+      "name": "",
+      "id": 6
+    },
+    {
+      "name": "S1",
+      "id": 7
+    },
+    {
+      "name": "S3",
+      "id": 8
+    },
+    {
+      "name": "S4",
+      "id": 9
+    },
+    {
+      "name": "",
+      "id": 10
+    },
+    {
+      "name": "S4",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "name": "move01",
+      "arrowstyle": "->",
+      "source": 0,
+      "target": 1,
+      "color": "red"
+    },
+    {
+      "name": "move02",
+      "arrowstyle": "->",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "name": "move10",
+      "arrowstyle": "->",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "name": "move12",
+      "arrowstyle": "->",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "name": "move20",
+      "arrowstyle": "->",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "name": "move21",
+      "arrowstyle": "->",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "name": "Storage1",
+      "arrowstyle": "->",
+      "source": 3,
+      "target": 3
+    },
+    {
+      "name": "move03",
+      "arrowstyle": "->",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "name": "move30",
+      "arrowstyle": "->",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "name": "move34",
+      "arrowstyle": "->",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "name": "move43",
+      "arrowstyle": "->",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "name": "move35",
+      "arrowstyle": "->",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "name": "move53",
+      "arrowstyle": "->",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "name": "Storage2",
+      "arrowstyle": "->",
+      "source": 6,
+      "target": 6
+    },
+    {
+      "name": "move16",
+      "arrowstyle": "->",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "name": "move61",
+      "arrowstyle": "->",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "name": "move67",
+      "arrowstyle": "->",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "name": "move76",
+      "arrowstyle": "->",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "name": "move68",
+      "arrowstyle": "->",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "name": "move86",
+      "arrowstyle": "->",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "name": "move69",
+      "arrowstyle": "->",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "name": "move96",
+      "arrowstyle": "->",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "name": "Storage3",
+      "arrowstyle": "->",
+      "source": 10,
+      "target": 10
+    },
+    {
+      "name": "move210",
+      "arrowstyle": "->",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "name": "move102",
+      "arrowstyle": "->",
+      "source": 10,
+      "target": 2
+    },
+    {
+      "name": "move1011",
+      "arrowstyle": "->",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "name": "move1110",
+      "arrowstyle": "->",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

@@ -9,23 +9,12 @@ https://docs.djangoproject.com/en/3.1/howto/deployment/asgi/
 
 import os
 
-#from django.core.asgi import get_asgi_application
-
-#os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dj_site.settings')
-
-#application = get_asgi_application()
-
-
-import os
-from channels.routing import get_default_application
 import django
-from channels.layers import get_channel_layer
-import shoestring_wrapper.wrapper
+from channels.http import AsgiHandler
+from channels.routing import ProtocolTypeRouter,get_default_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dj_site.settings')
 django.setup()
-application = get_default_application()
 
-shoestring_wrapper.wrapper.Wrapper.start({'channel_layer':get_channel_layer()})
-
+application=get_default_application()
 print('asgi start')

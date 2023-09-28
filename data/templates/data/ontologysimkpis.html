@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}All Data{% endblock title %}
+
+{% block content %}
+    <body ng-app="visualNetx">
+    <div class="row justify-content-center h-100">
+        <script>
+          function resizeIframe() {
+            var iframe = document.getElementById('myIframe');
+            iframe.style.width = '100%';
+            iframe.style.height = window.innerHeight + 'px';
+          }
+          window.onresize = resizeIframe;
+        </script>
+        <iframe id="myIframe" src="http://localhost:3000/simulation/kpis" width="100%" height="700"></iframe>
+    </div>
+  </body>
+
+{% endblock content %}

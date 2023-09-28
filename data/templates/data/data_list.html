@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Truck Body Sales Data{% endblock title %}
+{% block title %}工位信息{% endblock title %}
 {% block content %}
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 
@@ -9,7 +9,7 @@
 <div class="container">
     <div class="col">
       <div class="card">
-      <div class="card-header" style="color:black;font-size:25px;text-align: center;">Labour</div>
+      <div class="card-header" style="color:black;font-size:25px;text-align: center;">工位详情</div>
 
         <div class="card-body">
           <table id="example" class="display" style="width:100%">
@@ -27,7 +27,7 @@
             <tbody>
                  {% for data in all_data reversed %}
                     <tr >
-                        <td id={{ data.number}}>{{ data.number}}</td>                      
+                        <td>{{ data.number}}</td>
                         <td id='input'>{{ data.week}}</td>
                         <td id='input'>{{ data.sku}}</td>
                         <td id='input'>{{ data.weekly_sales}}</td>
@@ -39,19 +39,19 @@
                     </tr>
                 {% endfor %}
             </tbody>
-            <tfoot>
-              <tr>
-                <th>ID</th>
-                <th id='input'>week</th>
-                <th id='input'>sku</th>
-                <th id='input'>work_hour</th>
-                <th id='input'>EV</th>
-                <th id='input'>color</th>
-                <th id='input'>wage</th>
-                <th id='input'>vendor</th>
-                <th id='input'>functionality</th>
-              </tr>
-            </tfoot>
+<!--            <tfoot>-->
+<!--              <tr>-->
+<!--                <th>ID</th>-->
+<!--                <th id='input'>week</th>-->
+<!--                <th id='input'>sku</th>-->
+<!--                <th id='input'>work_hour</th>-->
+<!--                <th id='input'>EV</th>-->
+<!--                <th id='input'>color</th>-->
+<!--                <th id='input'>wage</th>-->
+<!--                <th id='input'>vendor</th>-->
+<!--                <th id='input'>functionality</th>-->
+<!--              </tr>-->
+<!--            </tfoot>-->
           </table>
         </div>
       </div>
@@ -73,11 +73,11 @@
         $(document).ready(function () {
               t=$('#example').DataTable({
               order: [[0, 'desc']],
-              "pageLength": 25,
+              "pageLength": 10,
               pagingType: 'full_numbers',
 
               //deferRender: true, // Renders only the rows that are visible
-              //dom: 'frtiS', // Additional parameters. See docs. 
+              //dom: 'frtiS', // Additional parameters. See docs.
               //scrollCollapse: true, // Collapses table if there are few results
               //scrollY: 700, // Height of the container
               "columnDefs": [{
@@ -86,18 +86,9 @@
                 },
                 "targets": 0
               }]
-
           });
-
-
-
         });
-
-        
     };
-
-
-
 
     var url = 'ws://' + window.location.host +
                 '/ws/stateupdates';

@@ -27,36 +27,20 @@
 
 <body ng-app="visualNetx" onload="init()">
     <div class="row">
-        <div class="col-sm-6">
-            <div class="card" style="height: 700px;">
-                <div class="card-header" style="color: black; font-size: 25px; text-align: center;">Environment model</div>
-
+                <div class="card-header" style="color: black; font-size: 25px; text-align: center;">Ontology Architecture</div>
                 <div style="text-align: center; ">
-                  <svg width="600" height="700" id="svgGen3"></svg>
+                  <svg width="1000" height="1000" id="svgGen3"></svg>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-              <div class="card">
-                <div class="card-header" style="color: black; font-size: 25px; text-align: center;">Background Simulation</div>
-                <video controls autoplay muted>
-                    <source src="{% static 'jsimulation.mp4' %}" type="video/mp4">
-                </video>
-              </div>
-              <div >
-                   <img src="{% static 'understandsimulation.png' %}" class="card-img-bottom">
-              </div>
-        </div>
     </div>
 </body>
-            
+
 
 
 <script>
   function init() {
      createGraph({{ graph3|safe }},'#svgGen3');
      //console.log('finish')
-  }  
+  }
 
 var clearGraph = function(curSvg){
   var svg = d3.select(curSvg);
@@ -68,7 +52,7 @@ var createGraph = function(graph, curSvg){
       width = +svg.attr("width"),
       height = +svg.attr("height");
 
-   
+
 
   var color = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -92,11 +76,11 @@ var createGraph = function(graph, curSvg){
     .attr("d", "M0,-5L10,0L0,5")
     .attr("fill", "#ccc");
 
-var linkRedSources = ["move01","move16","move69"];
-var linkGreenSources = ["加工1","复位1"];
+var linkRedSources = [];
+var linkGreenSources = [];
 
 var link = svg.append("g")
-      .attr("class", "links")
+      .attr("class", "link")
       .selectAll("path")
       .data(graph.links, function(d) { return d.source + "-" + d.target; })
       .enter().append("path")
@@ -111,8 +95,8 @@ var link = svg.append("g")
       .attr("fill", "none")
       .attr("marker-end", "url(#arrowhead)");
 
-var nodeGreenSources = [0,4];
-var nodeRedSources = [9];
+var nodeGreenSources = [];
+var nodeRedSources = [];
 
   var node = svg.append("g")
       .attr("class", "nodes")

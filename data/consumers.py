@@ -6,15 +6,15 @@ from django.utils import timezone
 
 import sqlite3
 conn = sqlite3.connect('db.sqlite3')
-c = conn.cursor()
-
+cursor = conn.cursor()
 
 
 class ChatConsumer(AsyncWebsocketConsumer):
     async def connect(self):
+        print('connect')
         #self.user = self.scope['user']
         #self.id = self.scope['url_route']['kwargs']['course_id']
-        self.room_group_name = 'chat_1' 
+        self.room_group_name = 'chat_1'
         # join room group
         await self.channel_layer.group_add(
             self.room_group_name,
@@ -38,21 +38,21 @@ class ChatConsumer(AsyncWebsocketConsumer):
 
         print('message',message)
 
-        #write to database 
+        #write to database
 
-        c.execute('''SELECT number FROM data_data''')
+        cursor.execute('''SELECT number FROM data_data''')
         conn.commit()
-        number_list = [int(list(i)[0]) for i in c.fetchall()]
+        number_list = [int(list(i)[0]) for i in cursor.fetchall()]
 
-        
-        num=4400
+
+        num=1
 
         if num in number_list:
             print('number exists')
             num=max(number_list)+1
 
         num=str(num)
-        week='2016'+'-'+str(3)+'-'+str(3)
+        week='2017'+'-'+str(3)+'-'+str(3)
         sku=str(33)
         weekly_sales=str(33)
         EV='white'
@@ -60,11 +60,12 @@ class ChatConsumer(AsyncWebsocketConsumer):
         price=str(33)
         vendor=str(33)
         function='car'
-   
+
         sql = ''' INSERT INTO data_data(number,week,sku,weekly_sales,EV,color,price,vendor,functionality)
                      VALUES('''+'"'+num+'"'+''','''+'"'+week+'"'+''','''+sku+''','''+weekly_sales+''','''+'"' +EV+'"'+''','''+'"'+color+'"'+''','''+price+''','''+vendor+''','''+'"'+function+'"'+''') '''
 
-        c.execute(sql)
+        cursor.execute(sql)
+        print(cursor.fetchall())
         conn.commit()
 
         # send message to room group

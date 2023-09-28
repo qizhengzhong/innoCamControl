@@ -137,7 +137,7 @@ STATICFILES_DIRS = [
 ]
 
 
-ASGI_APPLICATION = 'dj_site.routing.application'
+# ASGI_APPLICATION = 'dj_site.routing.application'
 
 CHANNEL_LAYERS = {
         'default': {
