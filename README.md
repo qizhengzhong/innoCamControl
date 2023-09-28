@@ -1,4 +1,5 @@
 # innoCamControl
+nvm use 16.16.0
 
 # How to run
 1. Run chat ui
@@ -8,7 +9,8 @@
 
 2. Run the control
 - pip3 install django
-- python -m pip install -U channels
+- python3 -m pip install -U channels
+- pip3 install networkx
 - pip3 install paho-mqtt python-etcd
 - pip3 install pandas
 - pip3 install statsmodels
