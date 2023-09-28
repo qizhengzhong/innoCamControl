@@ -1,4 +1,5 @@
 # innoCamControl
+nvm use 16.16.0
 
 # How to run
 1. Run chat ui
