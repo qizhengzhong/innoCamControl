@@ -14,6 +14,32 @@
   <link rel="stylesheet" type="text/css" href="{% static 'layout.css' %}">
   <link rel="stylesheet" type="text/css" href="{% static 'cardconfig.css' %}">
 
+  <style>
+        .sales-parent {
+            cursor: pointer;
+        }
+        .sales-child {
+            display: none; /* Initially hide the child list */
+            margin-left: 18px; /* Indent child list */
+        }
+        .inventory-parent {
+            cursor: pointer;
+        }
+        .inventory-child {
+            display: none; /* Initially hide the child list */
+            margin-left: 18px; /* Indent child list */
+        }
+        .manufacturing-parent {
+            cursor: pointer;
+        }
+        .manufacturing-child {
+            display: none; /* Initially hide the child list */
+            margin-left: 18px; /* Indent child list */
+        }
+        .st-font {
+          font-size: 16px;
+        }
+  </style>
 </head>
 
 <body>
@@ -38,6 +64,34 @@
         <li><i class="bi bi-gear-fill"></i> <a href="/ontologydesign">Ontology Design</a></li>
         <li><i class="bi bi-gear-fill"></i> <a href="/ontologysim">Simulation</a></li>
         <li><i class="bi bi-gear-fill"></i> <a href="/ontologysimkpis">Simulation KPIs</a></li>
+        <li class="sales-parent bi bi-caret-right">Sales
+            <ul class="sales-child">
+                <li><a href="/salesorders" class="st-font">Sales Orders</a></li>
+                <li><a href="/salesordersitems" class="st-font">Items</a></li>
+                <li><a href="/salesorderslocations" class="st-font">Locations</a></li>
+                <li><a href="/salesorderscustomers" class="st-font">Customers</a></li>
+            </ul>
+        </li>
+        <li class="inventory-parent bi bi-caret-right">Inventory
+            <ul class="inventory-child">
+                <li><a href="/inventorybuffer" class="st-font">Buffer</a></li>
+                <li><a href="/inventorydistributionorders" class="st-font">Distribution Orders</a></li>
+                <li><a href="/inventorydistributionordersummary" class="st-font">Distribution Orders Summary</a></li>
+                <li><a href="/inventorydetails" class="st-font">Inventory Details</a></li>
+                <li><a href="/inventoryitemdistribution" class="st-font">Item Distribution</a></li>
+            </ul>
+        </li>
+        <li class="manufacturing-parent bi bi-caret-right">Manufacturing
+            <ul class="manufacturing-child">
+                <li><a href="/manufacturingcalendars" class="st-font">Calendars</a></li>
+                <li><a href="/manufacturingorders" class="st-font">Manufacturing Orders</a></li>
+                <li><a href="/manufacturingorderssummary" class="st-font">Manufacturing Orders Summary</a></li>
+                <li><a href="/manufacturingoperationsdependencies" class="st-font">Operation Dependencies</a></li>
+                <li><a href="/manufacturingoperationmaterials" class="st-font">Operation Materials</a></li>
+                <li><a href="/manufacturingoperations" class="st-font">Operations</a></li>
+                <li><a href="/manufacturingsuboperations" class="st-font">Sub Operations</a></li>
+            </ul>
+        </li>
         {% endblock sidenav %}
       </ul>
     </nav>
@@ -48,5 +102,36 @@
 
     {% endblock content %}
 </div>
+<script>
+        // JavaScript to toggle the visibility of the sales list
+        const salesParent = document.querySelector('.sales-parent');
+        const salesChild = document.querySelector('.sales-child');
+
+        salesParent.addEventListener('click', () => {
+            salesChild.style.display = (salesChild.style.display === 'none' || salesChild.style.display === '') ? 'block' : 'none';
+            salesParent.classList.toggle('bi-caret-right');
+            salesParent.classList.toggle('bi-caret-down');
+        });
+
+        // JavaScript to toggle the visibility of the inventory list
+        const inventoryParent = document.querySelector('.inventory-parent');
+        const inventoryChild = document.querySelector('.inventory-child');
+
+        inventoryParent.addEventListener('click', () => {
+            inventoryChild.style.display = (inventoryChild.style.display === 'none' || inventoryChild.style.display === '') ? 'block' : 'none';
+            inventoryParent.classList.toggle('bi-caret-right');
+            inventoryParent.classList.toggle('bi-caret-down');
+        });
+
+        // JavaScript to toggle the visibility of the manufacturing list
+        const manufacturingParent = document.querySelector('.manufacturing-parent');
+        const manufacturingChild = document.querySelector('.manufacturing-child');
+
+        manufacturingParent.addEventListener('click', () => {
+            manufacturingChild.style.display = (manufacturingChild.style.display === 'none' || manufacturingChild.style.display === '') ? 'block' : 'none';
+            manufacturingParent.classList.toggle('bi-caret-right');
+            manufacturingParent.classList.toggle('bi-caret-down');
+        });
+</script>
 </body>
 </html>

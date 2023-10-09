@@ -1,7 +1,7 @@
 from django.urls import path
 
 from . import views
-from .views import OntologyDesign, OntologySimKpis, OntologySim, DataList, FloorPlan,GanntChart, DataView, DataCreate, DataUpdateView, DataDeleteView, Prediction, Prescription, Evaluation, GenerateGraphView,Map, Chatbot, ProdAgent, Overview, CoAgent
+from .views import *
 
 
 urlpatterns = [
@@ -25,4 +25,21 @@ urlpatterns = [
     path('ontologysim', OntologySim.as_view(), name='data-ontologySim'),
     path('ontologysimkpis', OntologySimKpis.as_view(), name='data-ontologySimKpis'),
     path('ontologydesign', OntologyDesign.as_view(), name='data-ontologyDesign'),
+    path('salesorders', SalesOrders.as_view(), name='data-SalesOrders'),
+    path('salesordersitems', SalesOrdersItems.as_view(), name='data-SalesOrdersItems'),
+    path('salesorderslocations', SalesOrdersLocations.as_view(), name='data-SalesOrdersLocations'),
+    path('salesorderscustomers', SalesOrdersCustomers.as_view(), name='data-SalesOrdersCustomers'),
+    path('inventorybuffer', InventoryBuffer.as_view(), name='data-InventoryBuffer'),
+    path('inventorydistributionorders', InventoryDistributionOrders.as_view(), name='data-InventoryDistributionOrders'),
+    path('inventorydistributionordersummary', InventoryDistributionOrderSummary.as_view(), name='data-InventoryDistributionOrderSummary'),
+    path('inventorydetails', InventoryDetails.as_view(), name='data-InventoryDetails'),
+    path('inventoryitemdistribution', InventoryItemDistribution.as_view(), name='data-InventoryItemDistribution'),
+    path('manufacturingcalendars', ManufacturingCalendars.as_view(), name='data-ManufacturingCalendars'),
+    path('manufacturingorders', ManufacturingOrders.as_view(), name='data-ManufacturingOrders'),
+    path('manufacturingorderssummary', ManufacturingOrdersSummary.as_view(), name='data-ManufacturingOrdersSummary'),
+    path('manufacturingoperationsdependencies', ManufacturingOperationsDependencies.as_view(), name='data-ManufacturingOperationsDependencies'),
+    path('manufacturingoperationmaterials', ManufacturingOperationMaterials.as_view(), name='data-ManufacturingOperationMaterials'),
+    path('manufacturingoperations', ManufacturingOperations.as_view(), name='data-ManufacturingOperations'),
+    path('manufacturingsuboperations', ManufacturingSubOperations.as_view(), name='data-ManufacturingSubOperations'),
+
 ]
