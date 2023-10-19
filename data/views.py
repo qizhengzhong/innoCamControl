@@ -513,6 +513,110 @@ class SalesOrdersCustomers(View):
     def post(self, request):
         return null
 
+class SalesConstraint(View):
+    template = "data/frepple/sales/constraint.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class SalesDataForecastForecast(View):
+    template = "data/frepple/sales/data_forecast_forecast.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class SalesDeliveryOrder(View):
+    template = "data/frepple/sales/deliveryorder.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class SalesDemand(View):
+    template = "data/frepple/sales/demand.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class SalesForecastMeasure(View):
+    template = "data/frepple/sales/forecaset_measure.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class SalesForecast(View):
+    template = "data/frepple/sales/forecast.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class SalesForecastEditor(View):
+    template = "data/frepple/sales/forecasteditor.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class SalesProblem(View):
+    template = "data/frepple/sales/problem.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
 class InventoryBuffer(View):
     template = "data/frepple/inventory/buffer.html"
 
