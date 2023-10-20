@@ -630,6 +630,45 @@ class InventoryBuffer(View):
     def post(self, request):
         return null
 
+class InventoryBufferData(View):
+    template = "data/frepple/inventory/buffer_data.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class InventoryDistribution(View):
+    template = "data/frepple/inventory/distribution.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class InventoryProblem(View):
+    template = "data/frepple/inventory/problem.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
 class InventoryDistributionOrders(View):
     template = "data/frepple/inventory/distribution_orders.html"
 
