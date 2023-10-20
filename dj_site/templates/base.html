@@ -15,6 +15,13 @@
   <link rel="stylesheet" type="text/css" href="{% static 'cardconfig.css' %}">
 
   <style>
+        .dashboard-parent {
+            cursor: pointer;
+        }
+        .dashboard-child {
+            display: none; /* Initially hide the child list */
+            margin-left: 18px; /* Indent child list */
+        }
         .sales-parent {
             cursor: pointer;
         }
@@ -52,10 +59,15 @@
 
         <img src="{% static 'innocam.png' %}" class="card-img-bottom" alt="My image">
 
-        <li><i class="bi bi-chat-left-text-fill"></i> <a href="/chatbot">UI Agent</a></li>
-        <li><i class="bi bi-speedometer"></i> <a href="/resourceagent">Resource Agent</a></li>
-        <li><i class="bi bi-gear-fill"></i> <a href="/ontologysim">Simulation</a></li>
-        <li><i class="bi bi-gear-fill"></i> <a href="/ontologysimkpis">Simulation KPIs</a></li>
+        <li class="dashboard-parent bi bi-caret-right">Dashboard
+            <ul class="dashboard-child">
+                <li><a href="/chatbot" class="st-font">UI Agent</a></li>
+                <li><a href="/resourceagent" class="st-font">Resource Agent</a></li>
+                <li><a href="/ontologysim" class="st-font">Simulation</a></li>
+                <li><a href="/ontologysimkpis" class="st-font">Simulation KPIs</a></li>
+            </ul>
+        </li>
+
         <li class="sales-parent bi bi-caret-right">Sales
             <ul class="sales-child">
                 <li><a href="/salesorders" class="st-font">Sales Orders</a></li>
@@ -109,6 +121,16 @@
     {% endblock content %}
 </div>
 <script>
+        // JavaScript to toggle the visibility of the dashboard list
+        const dashboardParent = document.querySelector('.dashboard-parent');
+        const dashboardChild = document.querySelector('.dashboard-child');
+
+        dashboardParent.addEventListener('click', () => {
+            dashboardChild.style.display = (dashboardChild.style.display === 'none' || dashboardChild.style.display === '') ? 'block' : 'none';
+            dashboardParent.classList.toggle('bi-caret-right');
+            dashboardParent.classList.toggle('bi-caret-down');
+        });
+
         // JavaScript to toggle the visibility of the sales list
         const salesParent = document.querySelector('.sales-parent');
         const salesChild = document.querySelector('.sales-child');
