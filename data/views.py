@@ -810,3 +810,42 @@ class ManufacturingSubOperations(View):
 
     def post(self, request):
         return null
+
+class ManufacturingCalendarBucket(View):
+    template = "data/frepple/manufacturing/calendar_bucket.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class ManufacturingOperationResource(View):
+    template = "data/frepple/manufacturing/operation_resource.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class ManufacturingProblem(View):
+    template = "data/frepple/manufacturing/problem.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null

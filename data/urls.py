@@ -52,5 +52,7 @@ urlpatterns = [
     path('manufacturingoperationmaterials', ManufacturingOperationMaterials.as_view(), name='data-ManufacturingOperationMaterials'),
     path('manufacturingoperations', ManufacturingOperations.as_view(), name='data-ManufacturingOperations'),
     path('manufacturingsuboperations', ManufacturingSubOperations.as_view(), name='data-ManufacturingSubOperations'),
-
+    path('manufacturingcalendarbucket', ManufacturingCalendarBucket.as_view(), name='data-ManufacturingCalendarBucket'),
+    path('manufacturingoperationresource', ManufacturingOperationResource.as_view(), name='data-ManufacturingOperationResource'),
+    path('manufacturingproblem', ManufacturingProblem.as_view(), name='data-ManufacturingProblem'),
 ]
