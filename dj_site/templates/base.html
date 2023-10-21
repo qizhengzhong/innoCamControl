@@ -43,6 +43,13 @@
             display: none; /* Initially hide the child list */
             margin-left: 18px; /* Indent child list */
         }
+        .purchasing-parent {
+            cursor: pointer;
+        }
+        .purchasing-child {
+            display: none; /* Initially hide the child list */
+            margin-left: 18px; /* Indent child list */
+        }
         .capacity-parent {
             cursor: pointer;
         }
@@ -123,6 +130,14 @@
                 <li><a href="/manufacturingproblem" class="st-font">Problem</a></li>
             </ul>
         </li>
+        <li class="purchasing-parent bi bi-caret-right">Purchasing
+            <ul class="purchasing-child">
+                <li><a href="/purchasingitemsupplier" class="st-font">Item Supplier</a></li>
+                <li><a href="/purchasingsupplier" class="st-font">Supplier</a></li>
+                <li><a href="/purchasingorder" class="st-font">Order</a></li>
+                <li><a href="/purchasingordersummary" class="st-font">Order Summary</a></li>
+            </ul>
+        </li>
         <li class="capacity-parent bi bi-caret-right">Capacity
             <ul class="capacity-child">
                 <li><a href="/capacityresource" class="st-font">Resource</a></li>
@@ -197,6 +212,15 @@
             manufacturingChild.style.display = (manufacturingChild.style.display === 'none' || manufacturingChild.style.display === '') ? 'block' : 'none';
             manufacturingParent.classList.toggle('bi-caret-right');
             manufacturingParent.classList.toggle('bi-caret-down');
+        });
+        // JavaScript to toggle the visibility of the purchasing list
+        const purchasingParent = document.querySelector('.purchasing-parent');
+        const purchasingChild = document.querySelector('.purchasing-child');
+
+        purchasingParent.addEventListener('click', () => {
+            purchasingChild.style.display = (purchasingChild.style.display === 'none' || purchasingChild.style.display === '') ? 'block' : 'none';
+            purchasingParent.classList.toggle('bi-caret-right');
+            purchasingParent.classList.toggle('bi-caret-down');
         });
         // JavaScript to toggle the visibility of the capacity list
         const capacityParent = document.querySelector('.capacity-parent');

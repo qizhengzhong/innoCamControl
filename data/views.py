@@ -850,6 +850,57 @@ class ManufacturingProblem(View):
     def post(self, request):
         return null
 
+class PurchasingItemSupplier(View):
+    template = "data/frepple/purchasing/itemsupplier.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class PurchasingOrder(View):
+    template = "data/frepple/purchasing/purchaseorder.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class PurchasingOrderSummary(View):
+    template = "data/frepple/purchasing/purchaseordersummary.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class PurchasingSupplier(View):
+    template = "data/frepple/purchasing/supplier.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
 class CapacityProblem(View):
     template = "data/frepple/capacity/problem.html"
 
