@@ -889,7 +889,7 @@ class CapacityResourceDetail(View):
     def post(self, request):
         return null
 
-class CapacityResource(View):
+class CapacityResourceReport(View):
     template = "data/frepple/capacity/resourcereport.html"
 
     @method_decorator(csrf_exempt)
@@ -902,7 +902,7 @@ class CapacityResource(View):
     def post(self, request):
         return null
 
-class CapacityResource(View):
+class CapacityResourceSkill(View):
     template = "data/frepple/capacity/resourceskill.html"
 
     @method_decorator(csrf_exempt)
@@ -915,7 +915,7 @@ class CapacityResource(View):
     def post(self, request):
         return null
 
-class CapacitysSetupMatrix(View):
+class CapacitySetupMatrix(View):
     template = "data/frepple/capacity/setupmatrix.html"
 
     @method_decorator(csrf_exempt)
