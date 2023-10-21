@@ -43,6 +43,13 @@
             display: none; /* Initially hide the child list */
             margin-left: 18px; /* Indent child list */
         }
+        .capacity-parent {
+            cursor: pointer;
+        }
+        .capacity-child {
+            display: none; /* Initially hide the child list */
+            margin-left: 18px; /* Indent child list */
+        }
         .admin-parent {
             cursor: pointer;
         }
@@ -95,7 +102,6 @@
             <ul class="inventory-child">
                 <li><a href="/inventorybuffer" class="st-font">Buffer</a></li>
                 <li><a href="/inventorybufferdata" class="st-font">Buffer Data</a></li>
-                <li><a href="/inventorydistribution" class="st-font">Distribution</a></li>
                 <li><a href="/inventorydistributionorders" class="st-font">Distribution Orders</a></li>
                 <li><a href="/inventorydistributionordersummary" class="st-font">Distribution Orders Summary</a></li>
                 <li><a href="/inventorydetails" class="st-font">Inventory Details</a></li>
@@ -115,6 +121,17 @@
                 <li><a href="/manufacturingcalendarbucket" class="st-font">Calendar Bucket</a></li>
                 <li><a href="/manufacturingoperationresource" class="st-font">Operation Resource</a></li>
                 <li><a href="/manufacturingproblem" class="st-font">Problem</a></li>
+            </ul>
+        </li>
+        <li class="capacity-parent bi bi-caret-right">Admin
+            <ul class="capacity-child">
+                <li><a href="/capacityresource" class="st-font">Resource</a></li>
+                <li><a href="/capacityresourcedetail" class="st-font">Resource Detail</a></li>
+                <li><a href="/capacityresourcereport" class="st-font">Resource Report</a></li>
+                <li><a href="/capacityresourceskill" class="st-font">Resource Skill</a></li>
+                <li><a href="/capacitysetupmatrix" class="st-font">Setup Matrix</a></li>
+                <li><a href="/capacityskills" class="st-font">Skills</a></li>
+                <li><a href="/capacityproblem" class="st-font">Problem</a></li>
             </ul>
         </li>
         <li class="admin-parent bi bi-caret-right">Admin
@@ -180,6 +197,15 @@
             manufacturingChild.style.display = (manufacturingChild.style.display === 'none' || manufacturingChild.style.display === '') ? 'block' : 'none';
             manufacturingParent.classList.toggle('bi-caret-right');
             manufacturingParent.classList.toggle('bi-caret-down');
+        });
+        // JavaScript to toggle the visibility of the capacity list
+        const capacityParent = document.querySelector('.capacity-parent');
+        const capacityChild = document.querySelector('.capacity-child');
+
+        capacityParent.addEventListener('click', () => {
+            capacityChild.style.display = (capacityChild.style.display === 'none' || capacityChild.style.display === '') ? 'block' : 'none';
+            capacityParent.classList.toggle('bi-caret-right');
+            capacityParent.classList.toggle('bi-caret-down');
         });
         // JavaScript to toggle the visibility of the admin list
         const adminParent = document.querySelector('.admin-parent');

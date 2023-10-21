@@ -850,6 +850,96 @@ class ManufacturingProblem(View):
     def post(self, request):
         return null
 
+class CapacityProblem(View):
+    template = "data/frepple/capacity/problem.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class CapacityResource(View):
+    template = "data/frepple/capacity/resource.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class CapacityResourceDetail(View):
+    template = "data/frepple/capacity/resourcedetail.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class CapacityResource(View):
+    template = "data/frepple/capacity/resourcereport.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class CapacityResource(View):
+    template = "data/frepple/capacity/resourceskill.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class CapacitysSetupMatrix(View):
+    template = "data/frepple/capacity/setupmatrix.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class CapacitySkills(View):
+    template = "data/frepple/capacity/skills.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
 class AdminAttributes(View):
     template = "data/frepple/admin/attributes.html"
 
