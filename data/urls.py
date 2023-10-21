@@ -55,4 +55,15 @@ urlpatterns = [
     path('manufacturingcalendarbucket', ManufacturingCalendarBucket.as_view(), name='data-ManufacturingCalendarBucket'),
     path('manufacturingoperationresource', ManufacturingOperationResource.as_view(), name='data-ManufacturingOperationResource'),
     path('manufacturingproblem', ManufacturingProblem.as_view(), name='data-ManufacturingProblem'),
+    path('adminattributes', AdminAttributes.as_view(), name='data-AdminAttributes'),
+    path('adminbucketdetail', AdminBucketDetail.as_view(), name='data-AdminBucketDetail'),
+    path('adminbuckets', AdminBuckets.as_view(), name='data-AdminBuckets'),
+    path('adminexecute', AdminExecute.as_view(), name='data-AdminExecute'),
+    path('admingroups', AdminGroups.as_view(), name='data-AdminGroups'),
+    path('adminkpi', AdminKpi.as_view(), name='data-AdminKpi'),
+    path('adminmessages', AdminMessages.as_view(), name='data-AdminMessages'),
+    path('adminparameters', AdminParameters.as_view(), name='data-AdminParameters'),
+    path('adminproblem', AdminProblem.as_view(), name='data-AdminProblem'),
+    path('adminusers', AdminUsers.as_view(), name='data-AdminUsers'),
+
 ]

@@ -43,6 +43,13 @@
             display: none; /* Initially hide the child list */
             margin-left: 18px; /* Indent child list */
         }
+        .admin-parent {
+            cursor: pointer;
+        }
+        .admin-child {
+            display: none; /* Initially hide the child list */
+            margin-left: 18px; /* Indent child list */
+        }
         .st-font {
           font-size: 16px;
         }
@@ -110,6 +117,20 @@
                 <li><a href="/manufacturingproblem" class="st-font">Problem</a></li>
             </ul>
         </li>
+        <li class="admin-parent bi bi-caret-right">Admin
+            <ul class="admin-child">
+                <li><a href="/adminattributes" class="st-font">Attributes</a></li>
+                <li><a href="/adminbucketdetail" class="st-font">Bucket Details</a></li>
+                <li><a href="/adminbuckets" class="st-font">Buckets</a></li>
+                <li><a href="/adminexecute" class="st-font">Execute</a></li>
+                <li><a href="/admingroups" class="st-font">Groups</a></li>
+                <li><a href="/adminkpi" class="st-font">Kpi</a></li>
+                <li><a href="/adminmessages" class="st-font">Messages</a></li>
+                <li><a href="/adminparameters" class="st-font">Parameters</a></li>
+                <li><a href="/adminproblem" class="st-font">Problem</a></li>
+                <li><a href="/adminusers" class="st-font">Users</a></li>
+            </ul>
+        </li>
         {% endblock sidenav %}
       </ul>
     </nav>
@@ -159,6 +180,15 @@
             manufacturingChild.style.display = (manufacturingChild.style.display === 'none' || manufacturingChild.style.display === '') ? 'block' : 'none';
             manufacturingParent.classList.toggle('bi-caret-right');
             manufacturingParent.classList.toggle('bi-caret-down');
+        });
+        // JavaScript to toggle the visibility of the admin list
+        const adminParent = document.querySelector('.admin-parent');
+        const adminChild = document.querySelector('.admin-child');
+
+        adminParent.addEventListener('click', () => {
+            adminChild.style.display = (adminChild.style.display === 'none' || adminChild.style.display === '') ? 'block' : 'none';
+            adminParent.classList.toggle('bi-caret-right');
+            adminParent.classList.toggle('bi-caret-down');
         });
 </script>
 </body>

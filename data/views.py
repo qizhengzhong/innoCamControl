@@ -849,3 +849,132 @@ class ManufacturingProblem(View):
 
     def post(self, request):
         return null
+
+class AdminAttributes(View):
+    template = "data/frepple/admin/attributes.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class AdminBucketDetail(View):
+    template = "data/frepple/admin/bucketdetail.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class AdminBuckets(View):
+    template = "data/frepple/admin/buckets.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class AdminExecute(View):
+    template = "data/frepple/admin/execute.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class AdminGroups(View):
+    template = "data/frepple/admin/groups.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class AdminKpi(View):
+    template = "data/frepple/admin/kpi.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+class AdminMessages(View):
+    template = "data/frepple/admin/messages.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class AdminParameters(View):
+    template = "data/frepple/admin/parameters.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class AdminProblem(View):
+    template = "data/frepple/admin/problem.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
+
+class AdminUsers(View):
+    template = "data/frepple/admin/users.html"
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request):
+        return render(request, self.template)
+
+    def post(self, request):
+        return null
