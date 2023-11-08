@@ -1,4 +1,6 @@
 {% load static %}
+{% load i18n %}
+
 <html>
 <head>
   <meta charset="utf-8">
@@ -91,87 +93,87 @@
 
         <img src="{% static 'innocam.png' %}" class="card-img-bottom" alt="My image">
 
-        <li class="dashboard-parent bi bi-caret-right">Dashboard
+        <li class="dashboard-parent bi bi-caret-right">{% trans "Dashboard" %}
             <ul class="dashboard-child">
-                <li><a href="/ontologysim" class="st-font">Simulation</a></li>
-                <li><a href="/ontologysimkpis" class="st-font">Simulation KPIs</a></li>
-                <li><a href="/chatbot" class="st-font">UI Agent</a></li>
-                <li><a href="/resourceagent" class="st-font">Resource Agent</a></li>
+                <li><a href="/ontologysim" class="st-font">{% trans "Simulation" %}</a></li>
+                <li><a href="/ontologysimkpis" class="st-font">{% trans "Simulation KPIs" %}</a></li>
+                <li><a href="/chatbot" class="st-font">{% trans "UI Agent" %}</a></li>
+                <li><a href="/resourceagent" class="st-font">{% trans "Resource Agent" %}</a></li>
             </ul>
         </li>
 
-        <li class="sales-parent bi bi-caret-right">Sales
+        <li class="sales-parent bi bi-caret-right">{% trans "Sales" %}
             <ul class="sales-child">
-                <li><a href="/salesorders" class="st-font">Sales Orders</a></li>
-                <li><a href="/salesforecast" class="st-font">Forecast Report</a></li>
-                <li><a href="/salesforecasteditor" class="st-font">Forecast Editor</a></li>
-                <li><a href="/salesdemand" class="st-font">Demand Report</a></li>
-                <li><a href="/salesdeliveryorder" class="st-font">Delivery Orders</a></li>
-                <li><a href="/salesproblem" class="st-font">Problem Report</a></li>
-                <li><a href="/salesconstraint" class="st-font">Constraint</a></li>
-                <li><a href="/salesordersitems" class="st-font">Items</a></li>
-                <li><a href="/salesorderslocations" class="st-font">Locations</a></li>
-                <li><a href="/salesorderscustomers" class="st-font">Customers</a></li>
-                <li><a href="/salesdataforecastforecast" class="st-font">Forecast</a></li>
-                <li><a href="/salesforecastmeasure" class="st-font">Measures</a></li>
+                <li><a href="/salesorders" class="st-font">{% trans "Sales Orders" %}</a></li>
+                <li><a href="/salesforecast" class="st-font">{% trans "Forecast Report" %}</a></li>
+                <li><a href="/salesforecasteditor" class="st-font">{% trans "Forecast Editor" %}</a></li>
+                <li><a href="/salesdemand" class="st-font">{% trans "Demand Report" %}</a></li>
+                <li><a href="/salesdeliveryorder" class="st-font">{% trans "Delivery Orders" %}</a></li>
+                <li><a href="/salesproblem" class="st-font">{% trans "Problem Report" %}</a></li>
+                <li><a href="/salesconstraint" class="st-font">{% trans "Constraint" %}</a></li>
+                <li><a href="/salesordersitems" class="st-font">{% trans "Items" %}</a></li>
+                <li><a href="/salesorderslocations" class="st-font">{% trans "Locations" %}</a></li>
+                <li><a href="/salesorderscustomers" class="st-font">{% trans "Customers" %}</a></li>
+                <li><a href="/salesdataforecastforecast" class="st-font">{% trans "Forecast" %}</a></li>
+                <li><a href="/salesforecastmeasure" class="st-font">{% trans "Measures" %}</a></li>
             </ul>
         </li>
-        <li class="inventory-parent bi bi-caret-right">Inventory
+        <li class="inventory-parent bi bi-caret-right">{% trans "Inventory" %}
             <ul class="inventory-child">
-                <li><a href="/inventorydistributionorders" class="st-font">Distribution Orders</a></li>
-                <li><a href="/inventorydistributionordersummary" class="st-font">Distribution Orders Summary</a></li>
-                <li><a href="/inventorybuffer" class="st-font">Inventory Report</a></li>
-                <li><a href="/inventorydetails" class="st-font">Inventory Details</a></li>
-                <li><a href="/inventoryproblem" class="st-font">Problem Report</a></li>
-                <li><a href="/inventorybufferdata" class="st-font">Buffer Data</a></li>
-                <li><a href="/inventoryitemdistribution" class="st-font">Item Distributions</a></li>
+                <li><a href="/inventorydistributionorders" class="st-font">{% trans "Distribution Orders" %}</a></li>
+                <li><a href="/inventorydistributionordersummary" class="st-font">{% trans "Distribution Orders Summary" %}</a></li>
+                <li><a href="/inventorybuffer" class="st-font">{% trans "Inventory Report" %}</a></li>
+                <li><a href="/inventorydetails" class="st-font">{% trans "Inventory Details" %}</a></li>
+                <li><a href="/inventoryproblem" class="st-font">{% trans "Problem Report" %}</a></li>
+                <li><a href="/inventorybufferdata" class="st-font">{% trans "Buffer Data" %}</a></li>
+                <li><a href="/inventoryitemdistribution" class="st-font">{% trans "Item Distributions" %}</a></li>
             </ul>
         </li>
-        <li class="manufacturing-parent bi bi-caret-right">Product
+        <li class="manufacturing-parent bi bi-caret-right">{% trans "Product" %}
             <ul class="manufacturing-child">
-                <li><a href="/manufacturingorders" class="st-font">Manufacturing Orders</a></li>
-                <li><a href="/manufacturingorderssummary" class="st-font">Manufacturing Orders Summary</a></li>
-                <li><a href="/manufacturingproblem" class="st-font">Problem Report</a></li>
-                <li><a href="/manufacturingcalendars" class="st-font">Calendars</a></li>
-                <li><a href="/manufacturingcalendarbucket" class="st-font">Calendar Buckets</a></li>
-                <li><a href="/manufacturingoperations" class="st-font">Operations</a></li>
-                <li><a href="/manufacturingoperationmaterials" class="st-font">Operation Materials</a></li>
-                <li><a href="/manufacturingoperationresource" class="st-font">Operation Resources</a></li>
-                <li><a href="/manufacturingsuboperations" class="st-font">Suboperations</a></li>
-                <li><a href="/manufacturingoperationsdependencies" class="st-font">Operation Dependencies</a></li>
+                <li><a href="/manufacturingorders" class="st-font">{% trans "Manufacturing Orders" %}</a></li>
+                <li><a href="/manufacturingorderssummary" class="st-font">{% trans "Manufacturing Orders Summary" %}</a></li>
+                <li><a href="/manufacturingproblem" class="st-font">{% trans "Problem Report" %}</a></li>
+                <li><a href="/manufacturingcalendars" class="st-font">{% trans "Calendars" %}</a></li>
+                <li><a href="/manufacturingcalendarbucket" class="st-font">{% trans "Calendar Buckets" %}</a></li>
+                <li><a href="/manufacturingoperations" class="st-font">{% trans "Operations" %}</a></li>
+                <li><a href="/manufacturingoperationmaterials" class="st-font">{% trans "Operation Materials" %}</a></li>
+                <li><a href="/manufacturingoperationresource" class="st-font">{% trans "Operation Resources" %}</a></li>
+                <li><a href="/manufacturingsuboperations" class="st-font">{% trans "Suboperations" %}</a></li>
+                <li><a href="/manufacturingoperationsdependencies" class="st-font">{% trans "Operation Dependencies" %}</a></li>
             </ul>
         </li>
-        <li class="purchasing-parent bi bi-caret-right">Purchase
+        <li class="purchasing-parent bi bi-caret-right">{% trans "Purchase" %}
             <ul class="purchasing-child">
-                <li><a href="/purchasingorder" class="st-font">Purchase Orders</a></li>
-                <li><a href="/purchasingordersummary" class="st-font">Purchase Order Summary</a></li>
-                <li><a href="/purchasingsupplier" class="st-font">Suppliers</a></li>
-                <li><a href="/purchasingitemsupplier" class="st-font">Item Suppliers</a></li>
+                <li><a href="/purchasingorder" class="st-font">{% trans "Purchase Orders" %}</a></li>
+                <li><a href="/purchasingordersummary" class="st-font">{% trans "Purchase Order Summary" %}</a></li>
+                <li><a href="/purchasingsupplier" class="st-font">{% trans "Suppliers" %}</a></li>
+                <li><a href="/purchasingitemsupplier" class="st-font">{% trans "Item Suppliers" %}</a></li>
             </ul>
         </li>
-        <li class="capacity-parent bi bi-caret-right">Resource
+        <li class="capacity-parent bi bi-caret-right">{% trans "Resource" %}
             <ul class="capacity-child">
-                <li><a href="/capacityresourcereport" class="st-font">Resource Report</a></li>
-                <li><a href="/capacityresourcedetail" class="st-font">Resource Detail</a></li>
-                <li><a href="/capacityproblem" class="st-font">Problem Report</a></li>
-                <li><a href="/capacityresource" class="st-font">Resources</a></li>
-                <li><a href="/capacityskills" class="st-font">Skills</a></li>
-                <li><a href="/capacityresourceskill" class="st-font">Resource Skills</a></li>
-                <li><a href="/capacitysetupmatrix" class="st-font">Setup Matrices</a></li>
+                <li><a href="/capacityresourcereport" class="st-font">{% trans "Resource Report" %}</a></li>
+                <li><a href="/capacityresourcedetail" class="st-font">{% trans "Resource Detail" %}</a></li>
+                <li><a href="/capacityproblem" class="st-font">{% trans "Problem Report" %}</a></li>
+                <li><a href="/capacityresource" class="st-font">{% trans "Resources" %}</a></li>
+                <li><a href="/capacityskills" class="st-font">{% trans "Skills" %}</a></li>
+                <li><a href="/capacityresourceskill" class="st-font">{% trans "Resource Skills" %}</a></li>
+                <li><a href="/capacitysetupmatrix" class="st-font">{% trans "Setup Matrices" %}</a></li>
             </ul>
         </li>
-        <li class="admin-parent bi bi-caret-right">Execution
+        <li class="admin-parent bi bi-caret-right">{% trans "Execution" %}
             <ul class="admin-child">
-                <li><a href="/adminattributes" class="st-font">Attributes</a></li>
-                <li><a href="/adminbucketdetail" class="st-font">Bucket Details</a></li>
-                <li><a href="/adminbuckets" class="st-font">Buckets</a></li>
-                <li><a href="/adminexecute" class="st-font">Execute</a></li>
-                <li><a href="/admingroups" class="st-font">Groups</a></li>
-                <li><a href="/adminkpi" class="st-font">Kpi</a></li>
-                <li><a href="/adminmessages" class="st-font">Messages</a></li>
-                <li><a href="/adminparameters" class="st-font">Parameters</a></li>
-                <li><a href="/adminproblem" class="st-font">Problem</a></li>
-                <li><a href="/adminusers" class="st-font">Users</a></li>
+                <li><a href="/adminattributes" class="st-font">{% trans "Attributes" %}</a></li>
+                <li><a href="/adminbucketdetail" class="st-font">{% trans "Bucket Details" %}</a></li>
+                <li><a href="/adminbuckets" class="st-font">{% trans "Buckets" %}</a></li>
+                <li><a href="/adminexecute" class="st-font">{% trans "Execute" %}</a></li>
+                <li><a href="/admingroups" class="st-font">{% trans "Groups" %}</a></li>
+                <li><a href="/adminkpi" class="st-font">{% trans "Kpi" %}</a></li>
+                <li><a href="/adminmessages" class="st-font">{% trans "Messages" %}</a></li>
+                <li><a href="/adminparameters" class="st-font">{% trans "Parameters" %}</a></li>
+                <li><a href="/adminproblem" class="st-font">{% trans "Problem" %}</a></li>
+                <li><a href="/adminusers" class="st-font">{% trans "Users" %}</a></li>
             </ul>
         </li>
         {% endblock sidenav %}

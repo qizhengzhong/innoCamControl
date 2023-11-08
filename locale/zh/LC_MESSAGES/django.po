@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-07 09:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\settings.py:123
+msgid "English"
+msgstr ""
+
+#: .\settings.py:124
+msgid "Chinese"
+msgstr "中文"
+
+msgid "Dashboard"
+msgstr "仪表盘"
+
+msgid "Sales"
+msgstr "销售"
+
+msgid "Inventory"
+msgstr "库存"
+
+msgid "Product"
+msgstr "产品"
+
+msgid "Purchase"
+msgstr "采购"
+
+msgid "Resource"
+msgstr "资源"
+
+msgid "Execution"
+msgstr "执行"
+
+msgid "Simulation"
+msgstr "模拟"
+
+msgid "Simulation KPIs"
+msgstr "模拟指标"
+
+msgid "UI Agent"
+msgstr "用户界面代理"
+
+msgid "Resource Agent"
+msgstr "资源代理"
+
+msgid "Sales Orders"
+msgstr "销售订单"
+
+msgid "Forecast Report"
+msgstr "预测报告"
+
+msgid "Forecast Editor"
+msgstr "预测编辑"
+
+msgid "Demand Report"
+msgstr "需求报告"
+
+msgid "Delivery Orders"
+msgstr "交货单"
+
+msgid "Problem Report"
+msgstr "问题报告"
+
+msgid "Constraint"
+msgstr "约束"
+
+msgid "Items"
+msgstr "物品"
+
+msgid "Locations"
+msgstr "地点"
+
+msgid "Customers"
+msgstr "顾客"
+
+msgid "Forecast"
+msgstr "预测"
+
+msgid "Measures"
+msgstr "计量"
+
+msgid "Distribution Orders"
+msgstr "配送订单"
+
+msgid "Distribution Orders Summary"
+msgstr "配送订单汇总"
+
+msgid "Inventory Report"
+msgstr "库存报告"
+
+msgid "Inventory Details"
+msgstr "库存详情"
+
+msgid "Buffer Data"
+msgstr "缓冲数据"
+
+msgid "Item Distributions"
+msgstr "物品分布"
+
+msgid "Manufacturing Orders"
+msgstr "制造订单"
+
+msgid "Manufacturing Orders Summary"
+msgstr "制造订单汇总"
+
+msgid "Calendars"
+msgstr "日历"
+
+msgid "Calendar Buckets"
+msgstr "日历桶"
+
+msgid "Operations"
+msgstr "运营"
+
+msgid "Operation Materials"
+msgstr "操作材料"
+
+msgid "Operation Resources"
+msgstr "运营资源"
+
+msgid "Suboperations"
+msgstr "子操作"
+
+msgid "Operation Dependencies"
+msgstr "操作依赖"
+
+msgid "Purchase Orders"
+msgstr "采购订单"
+
+msgid "Purchase Order Summary"
+msgstr "采购订单摘要"
+
+msgid "Suppliers"
+msgstr "供应商"
+
+msgid "Item Suppliers"
+msgstr "物品供应商"
+
+msgid "Resource Report"
+msgstr "资源报告"
+
+msgid "Resource Detail"
+msgstr "资源详情"
+
+msgid "Resources"
+msgstr "资源"
+
+msgid "Skills"
+msgstr "技能"
+
+msgid "Resource Skills"
+msgstr "资源技能"
+
+msgid "Setup Matrices"
+msgstr "设置矩阵"
+
+msgid "Attributes"
+msgstr "属性"
+
+msgid "Bucket Details"
+msgstr "桶详情"
+
+msgid "Buckets"
+msgstr "桶"
+
+msgid "Execute"
+msgstr "执行"
+
+msgid "Groups"
+msgstr "组"
+
+msgid "Kpi"
+msgstr "关键绩效指标"
+
+msgid "Messages"
+msgstr "信息"
+
+msgid "Parameters"
+msgstr "参数"
+
+msgid "Problem"
+msgstr "问题"
+
+msgid "Users"
+msgstr "用户"
