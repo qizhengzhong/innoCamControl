@@ -187,72 +187,52 @@
     {% endblock content %}
 </div>
 <script>
-        // JavaScript to toggle the visibility of the dashboard list
-        const dashboardParent = document.querySelector('.dashboard-parent');
-        const dashboardChild = document.querySelector('.dashboard-child');
+function setupDropdown(parentClassName, childClassName) {
 
-        dashboardParent.addEventListener('click', () => {
-            dashboardChild.style.display = (dashboardChild.style.display === 'none' || dashboardChild.style.display === '') ? 'block' : 'none';
-            dashboardParent.classList.toggle('bi-caret-right');
-            dashboardParent.classList.toggle('bi-caret-down');
-        });
+const parentElement = document.querySelector(`.${parentClassName}`);
+const childElement = document.querySelector(`.${childClassName}`);
 
-        // JavaScript to toggle the visibility of the sales list
-        const salesParent = document.querySelector('.sales-parent');
-        const salesChild = document.querySelector('.sales-child');
+const getStoredState = (key, defaultValue) => {
+  const storedValue = localStorage.getItem(key);
+  return storedValue === null ? defaultValue : storedValue === 'true';
+};
 
-        salesParent.addEventListener('click', () => {
-            salesChild.style.display = (salesChild.style.display === 'none' || salesChild.style.display === '') ? 'block' : 'none';
-            salesParent.classList.toggle('bi-caret-right');
-            salesParent.classList.toggle('bi-caret-down');
-        });
+const isparentElementOpen = getStoredState(`is${parentClassName}Open`, false);
+const ischildElementOpen = getStoredState(`is${childClassName}Open`, false);
 
-        // JavaScript to toggle the visibility of the inventory list
-        const inventoryParent = document.querySelector('.inventory-parent');
-        const inventoryChild = document.querySelector('.inventory-child');
+parentElement.classList.toggle('bi-caret-right', !isparentElementOpen);
+parentElement.classList.toggle('bi-caret-down', isparentElementOpen);
+childElement.style.display = ischildElementOpen ? 'block' : 'none';
 
-        inventoryParent.addEventListener('click', () => {
-            inventoryChild.style.display = (inventoryChild.style.display === 'none' || inventoryChild.style.display === '') ? 'block' : 'none';
-            inventoryParent.classList.toggle('bi-caret-right');
-            inventoryParent.classList.toggle('bi-caret-down');
-        });
+parentElement.addEventListener('click', () => {
+  const isParentCurrentlyOpen = childElement.style.display === 'block';
+  const isChildCurrentlyOpen = getStoredState('ischildElementOpen', false);
 
-        // JavaScript to toggle the visibility of the manufacturing list
-        const manufacturingParent = document.querySelector('.manufacturing-parent');
-        const manufacturingChild = document.querySelector('.manufacturing-child');
+  childElement.style.display = isParentCurrentlyOpen ? 'none' : 'block';
 
-        manufacturingParent.addEventListener('click', () => {
-            manufacturingChild.style.display = (manufacturingChild.style.display === 'none' || manufacturingChild.style.display === '') ? 'block' : 'none';
-            manufacturingParent.classList.toggle('bi-caret-right');
-            manufacturingParent.classList.toggle('bi-caret-down');
-        });
-        // JavaScript to toggle the visibility of the purchasing list
-        const purchasingParent = document.querySelector('.purchasing-parent');
-        const purchasingChild = document.querySelector('.purchasing-child');
+  parentElement.classList.toggle('bi-caret-right', isParentCurrentlyOpen);
+  parentElement.classList.toggle('bi-caret-down', !isParentCurrentlyOpen);
 
-        purchasingParent.addEventListener('click', () => {
-            purchasingChild.style.display = (purchasingChild.style.display === 'none' || purchasingChild.style.display === '') ? 'block' : 'none';
-            purchasingParent.classList.toggle('bi-caret-right');
-            purchasingParent.classList.toggle('bi-caret-down');
-        });
-        // JavaScript to toggle the visibility of the capacity list
-        const capacityParent = document.querySelector('.capacity-parent');
-        const capacityChild = document.querySelector('.capacity-child');
+  localStorage.setItem(`is${parentClassName}Open`, !isParentCurrentlyOpen);
+  localStorage.setItem(`is${childClassName}Open`, !isParentCurrentlyOpen);
+});
 
-        capacityParent.addEventListener('click', () => {
-            capacityChild.style.display = (capacityChild.style.display === 'none' || capacityChild.style.display === '') ? 'block' : 'none';
-            capacityParent.classList.toggle('bi-caret-right');
-            capacityParent.classList.toggle('bi-caret-down');
-        });
-        // JavaScript to toggle the visibility of the admin list
-        const adminParent = document.querySelector('.admin-parent');
-        const adminChild = document.querySelector('.admin-child');
+childElement.addEventListener('click', () => {
+  const isChildCurrentlyOpen = childElement.style.display === 'block';
 
-        adminParent.addEventListener('click', () => {
-            adminChild.style.display = (adminChild.style.display === 'none' || adminChild.style.display === '') ? 'block' : 'none';
-            adminParent.classList.toggle('bi-caret-right');
-            adminParent.classList.toggle('bi-caret-down');
-        });
+  childElement.style.display = isChildCurrentlyOpen ? 'none' : 'block';
+
+  localStorage.setItem('ischildElementOpen', !isChildCurrentlyOpen);
+});
+
+}
+setupDropdown('dashboard-parent', 'dashboard-child');
+setupDropdown('sales-parent', 'sales-child');
+setupDropdown('inventory-parent', 'inventory-child');
+setupDropdown('manufacturing-parent', 'manufacturing-child');
+setupDropdown('purchasing-parent', 'purchasing-child');
+setupDropdown('capacity-parent', 'capacity-child');
+setupDropdown('admin-parent', 'admin-child');
 </script>
 </body>
 </html>
